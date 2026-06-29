@@ -1,0 +1,104 @@
+{
+  "quiz_id": "cambridge_igcse_physics_0625_demo_quiz_001",
+  "title": "Cambridge IGCSE Physics 0625 — Demo Quiz 001",
+  "description": "A short Quanta Aptus demo quiz using original generated MCQs.",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "physics",
+  "syllabus_code": "0625",
+  "question_count": 5,
+  "estimated_time_minutes": 8,
+  "status": "demo_internal",
+  "items": [
+    {
+      "quiz_question_number": 1,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_001",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "easy",
+      "stem": "Original question 001 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 001",
+        "B": "option beta 001",
+        "C": "option gamma 001",
+        "D": "option delta 001"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number."
+    },
+    {
+      "quiz_question_number": 2,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_002",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "easy",
+      "stem": "Original question 002 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 002",
+        "B": "option beta 002",
+        "C": "option gamma 002",
+        "D": "option delta 002"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number."
+    },
+    {
+      "quiz_question_number": 3,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_003",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "medium",
+      "stem": "Original question 003 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 003",
+        "B": "option beta 003",
+        "C": "option gamma 003",
+        "D": "option delta 003"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number."
+    },
+    {
+      "quiz_question_number": 4,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_004",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "medium",
+      "stem": "Original question 004 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 004",
+        "B": "option beta 004",
+        "C": "option gamma 004",
+        "D": "option delta 004"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number."
+    },
+    {
+      "quiz_question_number": 5,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_005",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "hard",
+      "stem": "Original question 005 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 005",
+        "B": "option beta 005",
+        "C": "option gamma 005",
+        "D": "option delta 005"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number."
+    }
+  ]
+}

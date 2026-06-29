@@ -1,0 +1,24 @@
+{
+  "package_id": "cambridge_igcse_physics_0625_publish_package_v0",
+  "source_quiz_id": "cambridge_igcse_physics_0625_demo_quiz_001",
+  "status": "passed",
+  "question_count": 5,
+  "answer_key_count": 5,
+  "topics": {
+    "Nuclear physics": 5
+  },
+  "skills": {
+    "Calculate neutron number from nucleon number": 5
+  },
+  "difficulties": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "placeholder_check": "passed",
+  "output_files": {
+    "publish_package": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\publish_package_v0.json",
+    "report": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\publish_package_report.json",
+    "manifest": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\publish_package_manifest.md"
+  }
+}

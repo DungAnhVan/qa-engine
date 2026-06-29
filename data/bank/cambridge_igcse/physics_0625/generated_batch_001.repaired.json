@@ -1,0 +1,875 @@
+{
+  "batch_id": "cambridge_igcse_physics_0625_authoring_batch_001",
+  "generated_items": [
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "An atom of silver is represented as having a nucleon number of 108 and a proton number of 47. How many neutrons are in the nucleus of this atom?",
+      "options": {
+        "A": "47",
+        "B": "61",
+        "C": "108",
+        "D": "155"
+      },
+      "correct_answer": "B",
+      "explanation": "The number of neutrons is found by subtracting the proton number from the nucleon number: 108 - 47 = 61.",
+      "common_misconception": "Students often confuse nucleon number with neutron number and give the nucleon number itself as the answer, forgetting that nucleon number = protons + neutrons.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "1",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "A nucleus has a proton number of 19 and contains 21 neutrons. What is the nucleon number of this nucleus?",
+      "options": {
+        "A": "2",
+        "B": "19",
+        "C": "21",
+        "D": "40"
+      },
+      "correct_answer": "D",
+      "explanation": "Nucleon number is the total of protons and neutrons: 19 + 21 = 40.",
+      "common_misconception": "Some students subtract the proton number from the neutron number instead of adding them, since they mix up which quantities should be combined.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "1",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "Two isotopes of an element X have nucleon numbers 63 and 65. Both isotopes have a proton number of 29. What is the difference in the number of neutrons between these two isotopes?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "29"
+      },
+      "correct_answer": "C",
+      "explanation": "Neutrons in isotope 1 = 63 - 29 = 34. Neutrons in isotope 2 = 65 - 29 = 36. The difference is 36 - 34 = 2.",
+      "common_misconception": "Students sometimes think isotopes differ in proton number rather than neutron number, leading them to answer 0 because they assume the nuclei are otherwise identical in every count.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "1",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "A neutral atom contains 34 electrons and has a nucleon number of 79. How many neutrons does this atom's nucleus contain?",
+      "options": {
+        "A": "34",
+        "B": "45",
+        "C": "68",
+        "D": "79"
+      },
+      "correct_answer": "B",
+      "explanation": "In a neutral atom, the number of electrons equals the number of protons, so the proton number is 34. Neutrons = nucleon number - proton number = 79 - 34 = 45.",
+      "common_misconception": "Students may forget that electron number equals proton number only in a neutral atom, and may instead try to use the electron number directly as a separate quantity unrelated to the proton count.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "1",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "A radioactive nucleus with proton number 84 decays by emitting one alpha particle, forming a new nucleus with nucleon number 206. What was the neutron number of the original nucleus before decay?",
+      "options": {
+        "A": "120",
+        "B": "122",
+        "C": "126",
+        "D": "128"
+      },
+      "correct_answer": "C",
+      "explanation": "An alpha particle carries away a nucleon number of 4, so the original nucleus had a nucleon number of 206 + 4 = 210. Its neutron number is therefore 210 - 84 = 126.",
+      "common_misconception": "Students often forget to add back the 4 nucleons lost as the alpha particle before subtracting the proton number, leading them to use the daughter nucleus's nucleon number directly.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "1",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "A technician must work near a sealed gamma source in a hospital scanning room. Which precaution is most effective at reducing the radiation dose the technician receives?",
+      "options": {
+        "A": "Wearing thick rubber gloves while handling the source container",
+        "B": "Standing as far away from the source as practical and minimising the time spent near it",
+        "C": "Holding the source briefly in a closed fist rather than with tools",
+        "D": "Covering the source container with a single sheet of paper"
+      },
+      "correct_answer": "B",
+      "explanation": "Because gamma radiation is highly penetrating and not effectively stopped by gloves or paper, the most effective precautions are increasing distance from the source and reducing exposure time, both of which reduce the dose received.",
+      "common_misconception": "Students often think any physical barrier, such as gloves or paper, gives meaningful protection against gamma rays, when in reality these materials barely reduce gamma intensity at all.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "2",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "Which material would be most suitable for substantially reducing the intensity of gamma radiation passing through a storage wall?",
+      "options": {
+        "A": "A thin sheet of aluminium foil",
+        "B": "A layer of cardboard",
+        "C": "A thick block of lead or concrete",
+        "D": "A sheet of ordinary glass"
+      },
+      "correct_answer": "C",
+      "explanation": "Gamma radiation is only significantly absorbed by dense materials with a large thickness, such as thick lead or concrete, due to its highly penetrating nature.",
+      "common_misconception": "Students sometimes assume that any solid material, regardless of density or thickness, will block gamma rays in the same way it would block alpha or beta particles.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "2",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "A research lab stores a gamma-emitting sample inside a thick lead-lined cabinet when it is not in use. Why does this practice reduce risk to staff in the lab?",
+      "options": {
+        "A": "It increases the half-life of the source, so it decays more slowly",
+        "B": "It converts gamma rays into harmless visible light before they leave the cabinet",
+        "C": "It absorbs much of the gamma radiation, lowering the dose received by anyone nearby",
+        "D": "It stops the source from emitting any radiation at all while enclosed"
+      },
+      "correct_answer": "C",
+      "explanation": "Thick lead absorbs a significant proportion of gamma radiation passing through it, reducing the intensity reaching anyone outside the cabinet, which lowers their radiation dose.",
+      "common_misconception": "Students sometimes believe that shielding a radioactive source completely stops its emissions, rather than understanding that shielding only absorbs a fraction of the radiation depending on thickness and material.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "2",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "A factory uses a gamma source to check welds inside metal pipes. Workers use long-handled tools to position the source rather than holding it directly. What is the main safety benefit of using long-handled tools?",
+      "options": {
+        "A": "The tools reduce the activity of the radioactive source",
+        "B": "The tools increase the distance between the source and the worker's body, reducing dose",
+        "C": "The tools absorb gamma rays before they can reach the worker",
+        "D": "The tools prevent the source from emitting gamma radiation while being moved"
+      },
+      "correct_answer": "B",
+      "explanation": "Using long-handled tools increases the distance between the radioactive source and the worker, and since radiation intensity decreases with distance, this reduces the dose the worker receives.",
+      "common_misconception": "Students sometimes think tools work by blocking or absorbing the radiation rather than by simply increasing the separation distance between source and person.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "2",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "A worker stands 1 m from an unshielded gamma source and receives a certain dose rate in one minute. Moving to 2 m away and staying for the same time period reduces the dose received. Which statement best explains why, and what additional precaution would further reduce risk for a longer task at this new distance?",
+      "options": {
+        "A": "The dose is lower because the worker is outside the room; wearing a lead apron is unnecessary at any distance",
+        "B": "The dose is lower because the radiation spreads out over a larger area at greater distance, and reducing the time spent there would lower it further",
+        "C": "The dose is lower because the gamma source's half-life increases with distance, so less radiation is emitted",
+        "D": "The dose is lower only because the air absorbs all gamma rays beyond 1 m, so no further precaution is needed"
+      },
+      "correct_answer": "B",
+      "explanation": "Radiation spreads out from a source so that its intensity decreases with increasing distance, lowering the dose rate. Reducing the time spent in the radiation field further decreases the total dose received during a task.",
+      "common_misconception": "Students sometimes think the source's emission rate itself changes with the observer's position, instead of understanding that it is the spreading of radiation over a larger area that lowers intensity at greater distances.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "2",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Light from a distant galaxy is analysed and its spectral lines are found to be shifted compared with the same lines measured from a source on Earth. Towards which end of the spectrum are the lines shifted if the galaxy is moving away from Earth?",
+      "options": {
+        "A": "Towards the blue end of the spectrum",
+        "B": "Towards the red end of the spectrum",
+        "C": "Towards the ultraviolet end of the spectrum",
+        "D": "The lines remain in exactly the same position"
+      },
+      "correct_answer": "B",
+      "explanation": "When a light source moves away from an observer, its wavelengths are stretched, shifting the observed spectral lines towards the red, longer-wavelength end of the spectrum. This is known as redshift.",
+      "common_misconception": "Students sometimes think a galaxy moving away would cause a blueshift, confusing the direction of motion with the direction of the wavelength shift.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "3",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Observations show that almost all distant galaxies show redshift in their light, and that more distant galaxies generally show greater redshift. What does this evidence support?",
+      "options": {
+        "A": "The Universe is shrinking and galaxies are moving closer together",
+        "B": "The Universe is expanding, with more distant galaxies moving away faster",
+        "C": "Galaxies are stationary and only the Earth is moving",
+        "D": "Light slows down as it travels further through space"
+      },
+      "correct_answer": "B",
+      "explanation": "Widespread redshift that increases with distance shows that galaxies are generally moving away from us, and that more distant galaxies are moving away faster, supporting the idea that the Universe is expanding.",
+      "common_misconception": "Students sometimes think redshift evidence shows the Earth is at a special, unmoving centre with everything else rushing away from it specifically, rather than understanding it as a general expansion of space affecting all galaxies.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "3",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Galaxy P shows a small redshift while galaxy Q, in a different direction, shows a much larger redshift. Based on the relationship between redshift and distance, what can be concluded about galaxies P and Q?",
+      "options": {
+        "A": "Galaxy P is further away than galaxy Q",
+        "B": "Galaxy Q is further away than galaxy P",
+        "C": "Both galaxies are the same distance away",
+        "D": "Redshift gives no information about distance"
+      },
+      "correct_answer": "B",
+      "explanation": "Since more distant galaxies generally show greater redshift, the galaxy with the larger redshift, galaxy Q, is concluded to be further away than galaxy P.",
+      "common_misconception": "Students sometimes think a larger redshift means a galaxy is closer, reversing the actual relationship between redshift size and distance.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "3",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Which observation about the early Universe is used as evidence to support the Big Bang model, alongside redshift data?",
+      "options": {
+        "A": "The discovery that all stars have exactly the same brightness",
+        "B": "The detection of faint microwave radiation arriving uniformly from all directions in space",
+        "C": "The observation that the Moon's orbit is slowly shrinking",
+        "D": "The measurement that sound travels faster in space than on Earth"
+      },
+      "correct_answer": "B",
+      "explanation": "Faint microwave radiation detected uniformly from all directions, known as the cosmic microwave background radiation, is considered strong evidence for a hot, dense early Universe consistent with the Big Bang model.",
+      "common_misconception": "Students sometimes confuse this background radiation with ordinary starlight or sunlight, rather than recognising it as a distinct, much cooler form of radiation filling the whole of space.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "3",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "A student claims that redshift proves galaxies are physically flying through pre-existing empty space away from the Earth, like debris from an explosion. Which statement most accurately describes why this is a misleading interpretation of the Big Bang model?",
+      "options": {
+        "A": "Redshift does not actually occur, so the claim is simply false",
+        "B": "It is space itself that is expanding, carrying galaxies apart, rather than galaxies moving through a fixed, unchanging space",
+        "C": "Only the Earth moves through space; all other galaxies remain stationary",
+        "D": "Galaxies move away from Earth specifically because Earth is the centre of the explosion"
+      },
+      "correct_answer": "B",
+      "explanation": "In the current scientific model, the expansion is understood as space itself stretching, carrying galaxies apart from one another, rather than galaxies moving through a static, pre-existing space as in an ordinary explosion.",
+      "common_misconception": "Students very commonly picture the Big Bang as an explosion in space with Earth or our galaxy at the centre, rather than understanding that space itself is expanding everywhere with no special central point.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "3",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "A shallow dish of liquid is left uncovered at room temperature, and its level slowly drops over several hours due to evaporation. Which particles are most likely to leave the liquid's surface first?",
+      "options": {
+        "A": "The slowest-moving particles, with the least kinetic energy",
+        "B": "The fastest-moving particles, with the most kinetic energy",
+        "C": "Only particles at the very bottom of the dish",
+        "D": "All particles leave the liquid at exactly the same speed"
+      },
+      "correct_answer": "B",
+      "explanation": "Evaporation occurs when the particles with the highest kinetic energy at the surface have enough energy to overcome the attractive forces holding them in the liquid and escape as vapour.",
+      "common_misconception": "Students often think that all particles in a liquid have the same energy and that evaporation removes a random, energy-independent sample, rather than understanding that it is specifically the most energetic particles that escape.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "4",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "After some liquid evaporates from an open container, what happens to the average kinetic energy of the particles remaining in the liquid?",
+      "options": {
+        "A": "It increases, because the slowest particles escaped",
+        "B": "It decreases, because the fastest particles escaped",
+        "C": "It stays exactly the same as before evaporation",
+        "D": "It becomes zero because the liquid loses all its energy"
+      },
+      "correct_answer": "B",
+      "explanation": "Because the particles that escape during evaporation are the ones with the most kinetic energy, the particles left behind have a lower average kinetic energy than before, which is why evaporation has a cooling effect.",
+      "common_misconception": "Students sometimes think the remaining liquid's average particle energy is unaffected by evaporation, missing the link between escaping high-energy particles and the resulting cooling effect.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "4",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "A bottle of perfume is left open in a warm room. Over time, the liquid perfume slowly disappears. In terms of particle behaviour, which statement correctly explains this process?",
+      "options": {
+        "A": "Particles throughout the entire bottle, not just at the surface, gain enough energy to break free at once",
+        "B": "Only particles near the surface that gain sufficient kinetic energy to overcome attractive forces escape into the air",
+        "C": "The liquid particles are destroyed and converted into gas particles of a different substance",
+        "D": "The perfume disappears because the container absorbs the liquid through its walls"
+      },
+      "correct_answer": "B",
+      "explanation": "Evaporation happens at the surface of a liquid, where particles with enough kinetic energy to overcome the attractive forces from neighbouring particles can escape into the surrounding air as vapour.",
+      "common_misconception": "Students sometimes think evaporation happens evenly throughout the whole volume of liquid rather than understanding that it is specifically a surface process.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "4",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "A swimmer steps out of a pool on a windy day and feels noticeably cold, even though the air temperature is mild. Which explanation correctly accounts for this cooling effect in terms of evaporation?",
+      "options": {
+        "A": "Wind always lowers air temperature directly, which cools the swimmer's skin",
+        "B": "Water on the skin evaporates, and since the escaping particles carry away above-average kinetic energy, the remaining water and skin are left cooler",
+        "C": "The swimmer feels cold because all water particles instantly turn to ice on contact with air",
+        "D": "Evaporation transfers heat energy from the air directly into the water, warming the water and cooling the air around the swimmer"
+      },
+      "correct_answer": "B",
+      "explanation": "As water evaporates from the skin, the particles that escape are those with the most kinetic energy, leaving behind water (and the skin in contact with it) with reduced average energy, producing a cooling sensation.",
+      "common_misconception": "Students sometimes attribute the cooling sensation directly to the wind itself rather than recognising that wind simply increases the rate of evaporation, which is the actual cause of the cooling.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "4",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "Two identical open dishes contain the same volume of the same liquid at the same starting temperature. Dish X is placed in a draughty area with moving air, while Dish Y is placed in a still, sealed-off corner. After ten minutes, which statement about the particles escaping from each dish is most accurate?",
+      "options": {
+        "A": "Dish X loses particles faster because moving air removes escaped vapour particles quickly, maintaining a higher rate of net evaporation at the surface",
+        "B": "Dish Y loses particles faster because still air allows particles to build up energy before escaping",
+        "C": "Both dishes lose particles at an identical rate regardless of air movement",
+        "D": "Neither dish loses any particles unless the liquid is heated above room temperature first"
+      },
+      "correct_answer": "A",
+      "explanation": "Moving air removes vapour particles from just above the liquid's surface, preventing them from returning to the liquid and re-condensing, which keeps the net rate of evaporation higher in the draughty location compared with the still corner.",
+      "common_misconception": "Students often think air movement has no effect on evaporation rate, since evaporation is just about particles 'escaping' the liquid, without considering that removed vapour reduces the chance of particles re-entering the liquid.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "4",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Which statement correctly defines the specific heat capacity of a material?",
+      "options": {
+        "A": "The total energy needed to melt one kilogram of the material",
+        "B": "The energy needed to raise the temperature of one kilogram of the material by one degree Celsius",
+        "C": "The energy released when one kilogram of the material cools to absolute zero",
+        "D": "The energy needed to raise the temperature of the entire object by ten degrees Celsius"
+      },
+      "correct_answer": "B",
+      "explanation": "Specific heat capacity is defined as the energy required to raise the temperature of one kilogram of a substance by one degree Celsius (or one kelvin).",
+      "common_misconception": "Students often confuse specific heat capacity with specific latent heat, thinking it refers to the energy needed to change state rather than to change temperature.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "5",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Block P has a much higher specific heat capacity than Block Q. Both blocks have the same mass and receive the same amount of thermal energy. What can be concluded about their temperature rises?",
+      "options": {
+        "A": "Block P will show a smaller temperature rise than Block Q",
+        "B": "Block P will show a larger temperature rise than Block Q",
+        "C": "Both blocks will show exactly the same temperature rise",
+        "D": "Neither block will show any temperature change"
+      },
+      "correct_answer": "A",
+      "explanation": "A higher specific heat capacity means more energy is needed to produce a given temperature rise, so for the same mass and the same energy supplied, the material with the higher specific heat capacity will heat up by a smaller amount.",
+      "common_misconception": "Students sometimes assume a higher specific heat capacity means a substance heats up faster or more, rather than understanding it means the substance resists temperature change more strongly.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "5",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "A 2 kg block of metal X requires 1800 J of energy to raise its temperature by 3°C. What is the specific heat capacity of metal X?",
+      "options": {
+        "A": "300 J/(kg°C)",
+        "B": "600 J/(kg°C)",
+        "C": "900 J/(kg°C)",
+        "D": "5400 J/(kg°C)"
+      },
+      "correct_answer": "A",
+      "explanation": "Using E = mc∆θ, c = E / (m∆θ) = 1800 / (2 × 3) = 1800 / 6 = 300 J/(kg°C).",
+      "common_misconception": "Students sometimes forget to divide by both the mass and the temperature change, dividing by only one of them and arriving at an answer several times too large.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "5",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "A student wants to measure the specific heat capacity of a liquid by supplying a known amount of electrical energy with an immersion heater and recording the temperature rise. Which of the following, if not accounted for, would most likely cause the student's calculated specific heat capacity to be too high?",
+      "options": {
+        "A": "Some thermal energy escaping to the surroundings instead of heating the liquid",
+        "B": "Using a thermometer with a smaller temperature range than needed",
+        "C": "Stirring the liquid continuously throughout the experiment",
+        "D": "Using a heater with a higher power rating than necessary"
+      },
+      "correct_answer": "A",
+      "explanation": "If thermal energy escapes to the surroundings, the measured temperature rise is smaller than it would be if all the energy had gone into the liquid. Since specific heat capacity is calculated as c = E/(m∆θ), a smaller measured ∆θ for the same energy input leads to a larger calculated value of c, making it appear too high.",
+      "common_misconception": "Students often assume that heat loss to the surroundings would make the calculated specific heat capacity too low, rather than recognising that a smaller temperature rise actually increases the calculated value.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "5",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Two separate experiments are performed using identical heaters. In experiment 1, 0.50 kg of liquid M rises in temperature from 20°C to 32°C after absorbing 9000 J. In experiment 2, 0.40 kg of liquid N rises from 20°C to 30°C after absorbing 8000 J. Which liquid has the greater specific heat capacity?",
+      "options": {
+        "A": "Liquid M, with a specific heat capacity of about 1500 J/(kg°C)",
+        "B": "Liquid N, with a specific heat capacity of about 2000 J/(kg°C)",
+        "C": "Liquid M, with a specific heat capacity of about 2000 J/(kg°C)",
+        "D": "Both liquids have an identical specific heat capacity of about 1750 J/(kg°C)"
+      },
+      "correct_answer": "B",
+      "explanation": "For liquid M: c = 9000 / (0.50 × 12) = 9000 / 6 = 1500 J/(kg°C). For liquid N: c = 8000 / (0.40 × 10) = 8000 / 4 = 2000 J/(kg°C). Since 2000 is greater than 1500, liquid N has the greater specific heat capacity.",
+      "common_misconception": "Students sometimes compare only the energy absorbed or only the temperature rise between two substances, without correctly combining mass and temperature change together to find specific heat capacity.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "5",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "A ray of light travels from air into a transparent block. The angle of incidence in air is measured as 40°, and the angle of refraction inside the block is measured as 25°. Which equation correctly gives the refractive index, n, of the block?",
+      "options": {
+        "A": "n = sin(25°) / sin(40°)",
+        "B": "n = sin(40°) / sin(25°)",
+        "C": "n = sin(40°) × sin(25°)",
+        "D": "n = 40° / 25°"
+      },
+      "correct_answer": "B",
+      "explanation": "Refractive index is calculated as n = sin(angle of incidence) / sin(angle of refraction), so here n = sin(40°) / sin(25°).",
+      "common_misconception": "Students often invert the formula, dividing the sine of the angle of refraction by the sine of the angle of incidence instead of the other way round.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "6",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "Light travels from air into a glass block with an angle of incidence of 50° and an angle of refraction of 30°. What is the refractive index of the glass, to two significant figures? (sin 50° = 0.77, sin 30° = 0.50)",
+      "options": {
+        "A": "0.65",
+        "B": "1.0",
+        "C": "1.5",
+        "D": "1.9"
+      },
+      "correct_answer": "C",
+      "explanation": "n = sin(50°) / sin(30°) = 0.77 / 0.50 = 1.54, which rounds to 1.5 to two significant figures.",
+      "common_misconception": "Students sometimes divide the angles directly instead of their sine values, or divide the sine values in the wrong order, giving an answer less than 1.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "6",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "A transparent material has a refractive index of 1.6. A ray of light hits its flat surface from air at an angle of incidence of 45°. Using sin 45° = 0.71, what is the angle of refraction, to the nearest degree?",
+      "options": {
+        "A": "27°",
+        "B": "29°",
+        "C": "45°",
+        "D": "72°"
+      },
+      "correct_answer": "A",
+      "explanation": "Rearranging n = sin(i)/sin(r) gives sin(r) = sin(i)/n = 0.71/1.6 = 0.444. Taking the inverse sine gives r ≈ 26.4°, which rounds to 27°.",
+      "common_misconception": "Students often multiply sin(i) by n instead of dividing by it when rearranging the formula to solve for the angle of refraction.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "6",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "A block of plastic has a refractive index of 1.4. Light travels inside the plastic and strikes the boundary with air from the inside at an angle. Using the relationship between refractive index and critical angle, sin(critical angle) = 1/n, what is the critical angle for this plastic, to the nearest degree? (sin 46° = 0.72, sin 36° = 0.59)",
+      "options": {
+        "A": "36°",
+        "B": "39°",
+        "C": "46°",
+        "D": "54°"
+      },
+      "correct_answer": "C",
+      "explanation": "sin(critical angle) = 1/n = 1/1.4 = 0.714, which is closest to sin 46° = 0.72, so the critical angle is approximately 46°.",
+      "common_misconception": "Students sometimes use n directly as the sine of the critical angle rather than taking the reciprocal of n first, leading to a value greater than 1, which is impossible for a sine.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "6",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0"
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "A student shines light from air into a liquid and measures an angle of incidence of 60° and an angle of refraction of 38°. Using sin 60° = 0.87 and sin 38° = 0.62, the student calculates the refractive index of the liquid. What value should the student obtain, to two significant figures?",
+      "options": {
+        "A": "0.71",
+        "B": "1.4",
+        "C": "1.6",
+        "D": "2.2"
+      },
+      "correct_answer": "B",
+      "explanation": "n = sin(60°) / sin(38°) = 0.87 / 0.62 = 1.40, which is 1.4 to two significant figures.",
+      "common_misconception": "Students sometimes round intermediate sine values too early or mix up which angle belongs to which medium, leading to small calculation errors that produce a noticeably different final answer.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "repair": {
+        "target_id_repaired": true,
+        "old_target_id": "6",
+        "new_target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quanta Aptus Active Content Index</title>
+<style>
+body{font-family:'Segoe UI',Arial,sans-serif;margin:0;padding:0;background:#f8f9fa;color:#2d3748}
+h1{margin:0;font-size:1.5rem;color:#fff}
+.topbar{background:#2b6cb0;padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+.badge{background:#ebf8ff;color:#2b6cb0;font-size:.75rem;padding:.2rem .6rem;border-radius:999px;font-weight:600}
+.container{max-width:1100px;margin:2rem auto;padding:0 1rem}
+.summary-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1rem;margin-bottom:2rem}
+.stat-card{background:#fff;border:1px solid #e2e8f0;border-radius:.5rem;padding:1rem;text-align:center}
+.stat-val{font-size:2rem;font-weight:700;color:#2b6cb0}
+.stat-label{font-size:.8rem;color:#718096;margin-top:.25rem}
+.section-title{font-size:1.1rem;font-weight:600;margin:1.5rem 0 .75rem;color:#2d3748;border-bottom:2px solid #bee3f8;padding-bottom:.3rem}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #e2e8f0;border-radius:.5rem;overflow:hidden}
+th{background:#ebf8ff;color:#2b6cb0;padding:.6rem .8rem;text-align:left;font-size:.82rem;font-weight:600}
+td{padding:.55rem .8rem;border-top:1px solid #e2e8f0;font-size:.85rem;vertical-align:top}
+tr:hover td{background:#f7fafc}
+.pkg-id{font-family:monospace;font-size:.78rem;color:#4a5568}
+.status-badge{display:inline-block;font-size:.72rem;padding:.1rem .5rem;border-radius:999px;font-weight:600}
+.status-publish_ready{background:#c6f6d5;color:#276749}
+.status-internal_demo{background:#ebf8ff;color:#2b6cb0}
+.prev-ver{font-family:monospace;font-size:.76rem;color:#718096}
+a{color:#2b6cb0;text-decoration:none}
+a:hover{text-decoration:underline}
+.footer{text-align:center;color:#a0aec0;font-size:.8rem;margin:3rem 0 1rem}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <h1>Quanta Aptus Active Content Index</h1>
+  <span class="badge">quanta_aptus_active_content_index_v1</span>
+  <span class="badge">internal_demo</span>
+</div>
+<div class="container">
+  <div class="summary-grid">
+    <div class="stat-card"><div class="stat-val">1</div><div class="stat-label">Active Packages</div></div>
+    <div class="stat-card"><div class="stat-val">1</div><div class="stat-label">Archived Packages</div></div>
+    <div class="stat-card"><div class="stat-val">27</div><div class="stat-label">Total Resources</div></div>
+    <div class="stat-card"><div class="stat-val">23</div><div class="stat-label">Student Resources</div></div>
+    <div class="stat-card"><div class="stat-val">27</div><div class="stat-label">Teacher Resources</div></div>
+    <div class="stat-card"><div class="stat-val">4</div><div class="stat-label">Teacher-Only</div></div>
+    <div class="stat-card"><div class="stat-val">2</div><div class="stat-label">Registry Total</div></div>
+  </div>
+
+  <div class="section-title">Active Packages</div>
+  <table>
+    <thead>
+      <tr>
+        <th>Package ID</th>
+        <th>Board</th>
+        <th>Level</th>
+        <th>Subject</th>
+        <th>Syllabus</th>
+        <th>Status</th>
+        <th>Resources</th>
+        <th>Student</th>
+        <th>Teacher</th>
+        <th>Teacher-Only</th>
+        <th>Previous Versions</th>
+        <th>Links</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr>
+          <td><span class="pkg-id">cambridge_igcse_physics_0625_resource_package_v2</span></td>
+          <td>Cambridge</td>
+          <td>IGCSE</td>
+          <td>Physics</td>
+          <td>0625</td>
+          <td><span class="status-badge status-internal_demo">internal_demo</span></td>
+          <td style="text-align:center">27</td>
+          <td style="text-align:center">23</td>
+          <td style="text-align:center">27</td>
+          <td style="text-align:center">4</td>
+          <td><span class="prev-ver">cambridge_igcse_physics_0625_resource_package_v1</span> (26 res)</td>
+          <td><a href="D:\qa-engine\data\publish\cambridge_igcse\physics_0625\resource_package_v2\static_preview\student_resource_preview_v2.html" target="_blank">Student</a> &nbsp; <a href="D:\qa-engine\data\publish\cambridge_igcse\physics_0625\resource_package_v2\static_preview\teacher_resource_preview_v2.html" target="_blank">Teacher</a> &nbsp; <a href="D:\qa-engine\data\publish\cambridge_igcse\physics_0625\resource_package_v2\publish_package_v2.json" target="_blank">JSON</a></td>
+        </tr>
+    </tbody>
+  </table>
+
+  <p class="footer">Generated 2026-06-29T11:10:46.161032+00:00 &middot; Source: quanta_aptus_content_registry_v1</p>
+</div>
+</body>
+</html>

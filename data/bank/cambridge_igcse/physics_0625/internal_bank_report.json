@@ -1,0 +1,62 @@
+{
+  "total_items": 40,
+  "ready_internal_count": 6,
+  "needs_human_review_count": 15,
+  "not_publishable_count": 19,
+  "topic_counts": {
+    "Electricity and magnetism": 9,
+    "General measurement / practical skills": 1,
+    "Motion, forces and energy": 8,
+    "Nuclear physics": 5,
+    "Space physics": 3,
+    "Thermal physics": 7,
+    "Waves": 7
+  },
+  "items_with_diagram_placeholders": [
+    2,
+    19,
+    28,
+    29,
+    33
+  ],
+  "items_with_empty_stem": [
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    14,
+    15,
+    18,
+    21,
+    23,
+    29,
+    32,
+    35,
+    38
+  ],
+  "items_with_tables": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    16,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    38,
+    40
+  ]
+}

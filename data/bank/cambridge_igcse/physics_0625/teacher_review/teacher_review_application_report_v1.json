@@ -1,0 +1,27 @@
+{
+  "report_id": "cambridge_igcse_physics_0625_teacher_review_application_report_v1",
+  "version": "0.1.0",
+  "status": "passed",
+  "created_at": "2026-06-29T10:25:27.754978+00:00",
+  "source_queue_id": "cambridge_igcse_physics_0625_teacher_review_queue_v1",
+  "source_decision_file_id": "cambridge_igcse_physics_0625_teacher_review_decisions_v1",
+  "source_candidate_bank_v1_id": "cambridge_igcse_physics_0625_publish_candidate_resource_bank_v1",
+  "source_original_bank_id": "cambridge_igcse_physics_0625_original_resource_bank_v1",
+  "queue_item_count": 24,
+  "decision_count": 1,
+  "approved_count": 1,
+  "revise_count": 0,
+  "rejected_count": 0,
+  "pending_count": 23,
+  "v1_candidate_count": 26,
+  "v2_candidate_count": 27,
+  "newly_approved_count": 1,
+  "output_files": {
+    "approved_resource_bank": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\approved_resource_bank_v1.json",
+    "revision_required_resource_bank": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\revision_required_resource_bank_v1.json",
+    "rejected_resource_bank": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\rejected_resource_bank_v1.json",
+    "publish_candidate_resource_bank_v2": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\publish_candidate_resource_bank_v2.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\teacher_review_application_report_v1.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\teacher_review_application_manifest_v1.md"
+  }
+}

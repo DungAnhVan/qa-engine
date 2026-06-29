@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3000/learn/results\" -UseBasicParsing -TimeoutSec 5; \"Status: $\\($r.StatusCode\\) | Length: $\\($r.Content.Length\\) | Has 'Accuracy': $\\($r.Content -match 'Accuracy'\\)\" } catch { \"Dev server not running \\(expected - build already verified\\)\" })"
+    ]
+  }
+}

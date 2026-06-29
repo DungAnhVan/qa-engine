@@ -1,0 +1,1730 @@
+{
+  "document_id": "cambridge_igcse_physics_0625_2025_s_p21",
+  "total_items": 40,
+  "items": [
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q01",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 1,
+      "question_type": "mcq",
+      "stem": "The speed–time graph for a racing car is divided into four sections, P, Q, R and S. The car starts\nthe race but soon crashes into a wall of tyres.\nspeed R\nQ\nS\nP\n0\n0 time\nWhich sections of the graph show that there is an acceleration that is changing?",
+      "options": {
+        "A": "P, Q, R and S",
+        "B": "Q, R and S only",
+        "C": "Q and R only",
+        "D": "R and S only"
+      },
+      "correct_answer": "C",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Motion graphs",
+      "skill": "Analyse speed–time graph",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has diagram/visual content — options may be labels only"
+        ],
+        "has_diagram": true,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "1 The speed–time graph for a racing car is divided into four sections, P, Q, R and S. The car starts\nthe race but soon crashes into a wall of tyres.\nspeed R\nQ\nS\nP\n0\n0 time\nWhich sections of the graph show that there is an acceleration that is changing?\nA P, Q, R and S\nB Q, R and S only\nC Q and R only\nD R and S only",
+        "original_raw_block": "1 The speed–time graph for a racing car is divided into four sections, P, Q, R and S. The car starts\nthe race but soon crashes into a wall of tyres.\nspeed R\nQ\nS\nP\n0\n0 time\nWhich sections of the graph show that there is an acceleration that is changing?\nA P, Q, R and S\nB Q, R and S only\nC Q and R only\nD R and S only"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q02",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 2,
+      "question_type": "mcq",
+      "stem": "The diagram shows the four forces acting on an aircraft in flight.\n120 kN\n40 kN 60 kN\n60 kN\nWhich arrow shows the direction of the resultant of the four forces?",
+      "options": {
+        "A": "Option A (diagram label)",
+        "B": "Option B (diagram label)",
+        "C": "Option C (diagram label)",
+        "D": "Option D (diagram label)"
+      },
+      "correct_answer": "B",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Resultant forces",
+      "skill": "Calculate resultant of forces",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "Missing options: ['B', 'C', 'D']",
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "correct answer 'B' not found in parsed options",
+          "options reconciled with diagram-label placeholders"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": "diagram_label_placeholder"
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "2 The diagram shows the four forces acting on an aircraft in flight.\n120 kN\n40 kN 60 kN\n60 kN\nWhich arrow shows the direction of the resultant of the four forces?\nA B C D",
+        "original_raw_block": "2 The diagram shows the four forces acting on an aircraft in flight.\n120 kN\n40 kN 60 kN\n60 kN\nWhich arrow shows the direction of the resultant of the four forces?\nA B C D\n\n|     |     |     |     |     | 3   |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q03",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 3,
+      "question_type": "mcq",
+      "stem": "The diagrams show two metal blocks, X and Y, suspended from identical force meters. X and Y\nhave identical dimensions.\n\n|     |     |     | N   |     | N   |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|     |     |     | 0   |     |     | 0   |     |     |\n|     |     |     | 1   |     |     | 1   |     |     |\n|     |     |     | 2   |     |     | 2   |     |     |\n|     |     |     | 3   |     |     | 3   |     |     |\n|     |     |     | 4   |     |     | 4   |     |     |\n|     |     |     | 5   |     |     | 5   |     |     |\n|     |     |     | 6   |     |     | 6   |     |     |\nX\nY\n\nWhich statement about X and Y is correct?",
+      "options": {
+        "A": "They have different volumes and different weights.",
+        "B": "They have different volumes and equal weights.",
+        "C": "They have equal volumes and equal weights.",
+        "D": "They have equal volumes and different weights."
+      },
+      "correct_answer": "D",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Density and mass",
+      "skill": "Identify volume and weight properties",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "3  The diagrams show two metal blocks, X and Y, suspended from identical force meters. X and Y\nhave identical dimensions.\n\n|     |     |     | N   |     | N   |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|     |     |     | 0   |     |     | 0   |     |     |\n|     |     |     | 1   |     |     | 1   |     |     |\nX\nY\n\nWhich statement about X and Y is correct?\n|     | A  They have different volumes and different weights.  |     |     |     |     |     |     |     |\n| --- | ------------------------------------------------------ | --- | --- | --- | --- | --- | --- | --- |\n|     | B  They have different volumes and equal weights.      |     |     |     |     |     |     |     |\n|     | C  They have equal volumes and equal weights.          |     |     |     |     |     |     |     |\n|     | D  They have equal volumes and different weights.      |     |     |     |     |     |     |     |",
+        "original_raw_block": "3  The diagrams show two metal blocks, X and Y, suspended from identical force meters. X and Y\nhave identical dimensions.\n\n|     |     |     | N   |     | N   |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|     |     |     | 0   |     |     | 0   |     |     |\n|     |     |     | 1   |     |     | 1   |     |     |\n|     |     |     | 2   |     |     | 2   |     |     |\n|     |     |     | 3   |     |     | 3   |     |     |\n|     |     |     | 4   |     |     | 4   |     |     |\n|     |     |     | 5   |     |     | 5   |     |     |\n|     |     |     | 6   |     |     | 6   |     |     |\nX\nY\n\nWhich statement about X and Y is correct?\n|     | A  They have different volumes and different weights.  |     |     |     |     |     |     |     |\n| --- | ------------------------------------------------------ | --- | --- | --- | --- | --- | --- | --- |\n|     | B  They have different volumes and equal weights.      |     |     |     |     |     |     |     |\n|     | C  They have equal volumes and equal weights.          |     |     |     |     |     |     |     |\n|     | D  They have equal volumes and different weights.      |     |     |     |     |     |     |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q04",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 4,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "(check)",
+        "B": "(check)",
+        "C": "(check)  (check)  (cross)  (cross)  (cross) = not needed",
+        "D": "(check)"
+      },
+      "correct_answer": "C",
+      "topic": "General measurement / practical skills",
+      "subtopic": "Density practical",
+      "skill": "Select appropriate apparatus for density measurement",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial",
+          "raw block contains (cid:) characters — symbol extraction may be incorrect"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "4  A girl has a gold necklace.\n\nWhich apparatus does she need to find the density of the gold?\n\nmeasuring\n|     |     | balance  |     | thermometer  |     | ruler  |     |     |\n| --- | --- | -------- | --- | ------------ | --- | ------ | --- | --- |\ncylinder\n|     | A   | (check)  | (check)  |     | (check)  | (check)  | key               |     |\n| --- | --- | --------- | --------- | --- | --------- | --------- | ----------------- | --- |\n|     | B   | (check)  | (check)  |     | (check)  | (cross)  | (check)= needed  |     |\n\nC  (check)  (check)  (cross)  (cross)  (cross) = not needed\n|     | D   | (check)  | (cross)  |     | (cross)  | (cross)  |     |     |\n| --- | --- | --------- | --------- | --- | --------- | --------- | --- | --- |",
+        "original_raw_block": "4  A girl has a gold necklace.\n\nWhich apparatus does she need to find the density of the gold?\n\nmeasuring\n|     |     | balance  |     | thermometer  |     | ruler  |     |     |\n| --- | --- | -------- | --- | ------------ | --- | ------ | --- | --- |\ncylinder\n|     | A   | (cid:22)  | (cid:22)  |     | (cid:22)  | (cid:22)  | key               |     |\n| --- | --- | --------- | --------- | --- | --------- | --------- | ----------------- | --- |\n|     | B   | (cid:22)  | (cid:22)  |     | (cid:22)  | (cid:26)  | (cid:22)= needed  |     |\n\nC  (cid:22)  (cid:22)  (cid:26)  (cid:26)  (cid:26) = not needed\n|     | D   | (cid:22)  | (cid:26)  |     | (cid:26)  | (cid:26)  |     |     |\n| --- | --- | --------- | --------- | --- | --------- | --------- | --- | --- |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q05",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 5,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "0.20N/cm",
+        "B": "0.50N/cm",
+        "C": "2.0N/cm",
+        "D": "5.0N/cm"
+      },
+      "correct_answer": "B",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Springs and Hooke's law",
+      "skill": "Calculate spring constant",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial",
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "5  A spring has a length of 25cm when a load of 2.0N is suspended from it.\n|     |     |     |     |     |     |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n\nThe spring has a length of 35cm when a 7.0N load is used.\n|     |     |     |     |     |     |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n\nWhat is the spring constant of the spring?\n|               | A  0.20N/cm  | B  0.50N/cm  |       | C               | 2.0N/cm  | D   | 5.0N/cm  |             |\n| ------------- | ------------ | ------------ | ----- | --------------- | -------- | --- | -------- | ----------- |\n|               |              |              |       |                 |          |     |          |             |",
+        "original_raw_block": "5  A spring has a length of 25cm when a load of 2.0N is suspended from it.\n|     |     |     |     |     |     |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n\nThe spring has a length of 35cm when a 7.0N load is used.\n|     |     |     |     |     |     |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n\nWhat is the spring constant of the spring?\n|               | A  0.20N/cm  | B  0.50N/cm  |       | C               | 2.0N/cm  | D   | 5.0N/cm  |             |\n| ------------- | ------------ | ------------ | ----- | --------------- | -------- | --- | -------- | ----------- |\n|               |              |              |       |                 |          |     |          |             |\n| © UCLES 2025  |              |              |       | 0625/21/M/J/25  |          |     |          | [Turn over  |\n\n4"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q06",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 6,
+      "question_type": "mcq",
+      "stem": "The diagrams E–H show a block of wood on a frictionless surface. In each diagram, the block has\ntwo forces acting on its sides.\n\n2 N\n|     |     |     | 2 N | 2 N | 2 N | 2 N |\n| --- | --- | --- | --- | --- | --- | --- |\n2 N 2 N\n2 N\n|     | E   | F   | G   |     | H   |     |\n| --- | --- | --- | --- | --- | --- | --- |\n\nWhich diagrams show the block in equilibrium?",
+      "options": {
+        "A": "E, F, G and H",
+        "B": "E, G and H only",
+        "C": "E and F only",
+        "D": "G and H only"
+      },
+      "correct_answer": "D",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Equilibrium",
+      "skill": "Identify conditions for equilibrium",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "6  The diagrams E–H show a block of wood on a frictionless surface. In each diagram, the block has\ntwo forces acting on its sides.\n\n2 N\n|     |     |     | 2 N | 2 N | 2 N | 2 N |\n| --- | --- | --- | --- | --- | --- | --- |\n2 N 2 N\n2 N\n|     | E   | F   | G   |     | H   |     |\n| --- | --- | --- | --- | --- | --- | --- |\n\nWhich diagrams show the block in equilibrium?\n| A  E, F, G and H    |     |     |     |     |     |     |\n| ------------------- | --- | --- | --- | --- | --- | --- |\n| B  E, G and H only  |     |     |     |     |     |     |\n| C  E and F only     |     |     |     |     |     |     |\n| D  G and H only     |     |     |     |     |     |     |",
+        "original_raw_block": "6  The diagrams E–H show a block of wood on a frictionless surface. In each diagram, the block has\ntwo forces acting on its sides.\n\n2 N\n|     |     |     | 2 N | 2 N | 2 N | 2 N |\n| --- | --- | --- | --- | --- | --- | --- |\n2 N 2 N\n2 N\n|     | E   | F   | G   |     | H   |     |\n| --- | --- | --- | --- | --- | --- | --- |\n\nWhich diagrams show the block in equilibrium?\n| A  E, F, G and H    |     |     |     |     |     |     |\n| ------------------- | --- | --- | --- | --- | --- | --- |\n| B  E, G and H only  |     |     |     |     |     |     |\n| C  E and F only     |     |     |     |     |     |     |\n| D  G and H only     |     |     |     |     |     |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q07",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 7,
+      "question_type": "mcq",
+      "stem": "Which statement is not correct?",
+      "options": {
+        "A": "the momentum of a system is conserved in all interactions",
+        "B": "impulse = change of momentum",
+        "C": "force acting = change of momentum  time",
+        "D": "momentum = mass  velocity"
+      },
+      "correct_answer": "C",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Momentum and impulse",
+      "skill": "Recall and apply momentum principles",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "7  Which statement is not correct?\n| A  the momentum of a system is conserved in all interactions  |     |     |     |     |     |     |\n| ------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |\n| B  impulse = change of momentum                               |     |     |     |     |     |     |\n| C  force acting = change of momentum  time                   |     |     |     |     |     |     |\n| D  momentum = mass  velocity                                 |     |     |     |     |     |     |",
+        "original_raw_block": "7  Which statement is not correct?\n| A  the momentum of a system is conserved in all interactions  |     |     |     |     |     |     |\n| ------------------------------------------------------------- | --- | --- | --- | --- | --- | --- |\n| B  impulse = change of momentum                               |     |     |     |     |     |     |\n| C  force acting = change of momentum  time                   |     |     |     |     |     |     |\n| D  momentum = mass  velocity                                 |     |     |     |     |     |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q08",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 8,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "decreasing the total mass of the ball",
+        "B": "increasing the temperature of the ball",
+        "C": "using a ball with a hollow centre but the same mass",
+        "D": "using a different material for the ball so that it has a lower density but the same mass"
+      },
+      "correct_answer": "A",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Newton's laws of motion",
+      "skill": "Apply Newton's second law",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "8  A force acting on a moving ball causes its motion to change. This force stays constant.\n\nWhat makes the force produce a greater change in the motion of the ball?\n| A  decreasing the total mass of the ball                |     |     |     |     |     |     |\n| ------------------------------------------------------- | --- | --- | --- | --- | --- | --- |\n| B  increasing the temperature of the ball               |     |     |     |     |     |     |\n| C  using a ball with a hollow centre but the same mass  |     |     |     |     |     |     |\nD  using a different material for the ball so that it has a lower density but the same mass",
+        "original_raw_block": "8  A force acting on a moving ball causes its motion to change. This force stays constant.\n\nWhat makes the force produce a greater change in the motion of the ball?\n| A  decreasing the total mass of the ball                |     |     |     |     |     |     |\n| ------------------------------------------------------- | --- | --- | --- | --- | --- | --- |\n| B  increasing the temperature of the ball               |     |     |     |     |     |     |\n| C  using a ball with a hollow centre but the same mass  |     |     |     |     |     |     |\nD  using a different material for the ball so that it has a lower density but the same mass\n\n| © UCLES 2025  |     | 0625/21/M/J/25  |     |     |     |     |\n| ------------- | --- | --------------- | --- | --- | --- | --- |\n\n|     |     |     | 5   |     |     |\n| --- | --- | --- | --- | --- | --- |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q09",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 9,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "narrow",
+        "B": "narrow",
+        "C": "wide",
+        "D": "wide"
+      },
+      "correct_answer": "D",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Pressure",
+      "skill": "Apply pressure concept (force/area)",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "9  A farmer has two carts. The carts have the same weight, but one has four narrow wheels and the\nother has four wide wheels.\n\n|     |     | narrow wheel | wide wheel |     |     |\n| --- | --- | ------------ | ---------- | --- | --- |\n\nWhich cart wheels sink less into soft ground and what is the reason?\n\n|     | cart wheels  | reason                          |     |     |     |\n| --- | ------------ | ------------------------------- | --- | --- | --- |\n| A   | narrow       | greater pressure on the ground  |     |     |     |\n| B   | narrow       | less pressure on the ground     |     |     |     |\n| C   | wide         | greater pressure on the ground  |     |     |     |\n| D   | wide         | less pressure on the ground     |     |     |     |",
+        "original_raw_block": "9  A farmer has two carts. The carts have the same weight, but one has four narrow wheels and the\nother has four wide wheels.\n\n|     |     | narrow wheel | wide wheel |     |     |\n| --- | --- | ------------ | ---------- | --- | --- |\n\nWhich cart wheels sink less into soft ground and what is the reason?\n\n|     | cart wheels  | reason                          |     |     |     |\n| --- | ------------ | ------------------------------- | --- | --- | --- |\n| A   | narrow       | greater pressure on the ground  |     |     |     |\n| B   | narrow       | less pressure on the ground     |     |     |     |\n| C   | wide         | greater pressure on the ground  |     |     |     |\n| D   | wide         | less pressure on the ground     |     |     |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q10",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 10,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "greater than a cool liquid",
+        "B": "greater than a cool liquid",
+        "C": "less than a cool liquid",
+        "D": "less than a cool liquid"
+      },
+      "correct_answer": "A",
+      "topic": "Thermal physics",
+      "subtopic": "Particle model of matter",
+      "skill": "Compare particle separation and motion",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "10  A hot gas and a cool liquid are at the same pressure.\n\nWhich row describes the separation and the motion of the particles of a hot gas compared to\nthose of a cool liquid?\n\n|     | separation of gas particles  |     | motion of gas particles    |     |     |\n| --- | ---------------------------- | --- | -------------------------- | --- | --- |\n| A   | greater than a cool liquid   |     | faster than a cool liquid  |     |     |\n| B   | greater than a cool liquid   |     | slower than a cool liquid  |     |     |\n| C   | less than a cool liquid      |     | faster than a cool liquid  |     |     |\n| D   | less than a cool liquid      |     | slower than a cool liquid  |     |     |",
+        "original_raw_block": "10  A hot gas and a cool liquid are at the same pressure.\n\nWhich row describes the separation and the motion of the particles of a hot gas compared to\nthose of a cool liquid?\n\n|     | separation of gas particles  |     | motion of gas particles    |     |     |\n| --- | ---------------------------- | --- | -------------------------- | --- | --- |\n| A   | greater than a cool liquid   |     | faster than a cool liquid  |     |     |\n| B   | greater than a cool liquid   |     | slower than a cool liquid  |     |     |\n| C   | less than a cool liquid      |     | faster than a cool liquid  |     |     |\n| D   | less than a cool liquid      |     | slower than a cool liquid  |     |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q11",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 11,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "fixed mass of gas has a volume of 1.2m3 and is at a pressure of 200kPa. The gas expands at 11 constant temperature to a volume of 1.8m3. What is the new pressure of the gas?",
+        "B": "130kPa",
+        "C": "300kPa",
+        "D": "600kPa"
+      },
+      "correct_answer": "B",
+      "topic": "Thermal physics",
+      "subtopic": "Gas laws",
+      "skill": "Apply Boyle's law (pressure–volume)",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "Question number appeared on a separate line (PDF extraction artifact)",
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial",
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "A fixed mass of gas has a volume of 1.2m3 and is at a pressure of 200kPa. The gas expands at\n11\n\nconstant temperature to a volume of 1.8m3.\n\nWhat is the new pressure of the gas?\n| A   | 120kPa  | B  130kPa  | C  300kPa  | D  600kPa  |     |\n| --- | ------- | ---------- | ---------- | ---------- | --- |\n|     |         |            |            |            |     |",
+        "original_raw_block": "A fixed mass of gas has a volume of 1.2m3 and is at a pressure of 200kPa. The gas expands at\n11\n\nconstant temperature to a volume of 1.8m3.\n\nWhat is the new pressure of the gas?\n| A   | 120kPa  | B  130kPa  | C  300kPa  | D  600kPa  |     |\n| --- | ------- | ---------- | ---------- | ---------- | --- |\n|     |         |            |            |            |     |\n\n| © UCLES 2025  |     |     | 0625/21/M/J/25  |     | [Turn over  |\n| ------------- | --- | --- | --------------- | --- | ----------- |\n\n6"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q12",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 12,
+      "question_type": "mcq",
+      "stem": "The specific heat capacity of solid P is greater than that of solid Q.\nWhat does this statement mean?",
+      "options": {
+        "A": "Less energy is needed to raise the temperature by 1°C of unit mass of solid P than unit mass of solid Q.",
+        "B": "Less energy is needed to melt unit mass of solid P than unit mass of solid Q.",
+        "C": "More energy is needed to raise the temperature by 1°C of unit mass of solid P than unit mass of solid Q.",
+        "D": "More energy is needed to melt unit mass of solid P than unit mass of solid Q."
+      },
+      "correct_answer": "C",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "confidence": "high",
+      "quality": {
+        "needs_review": false,
+        "issues": [],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "ready_internal",
+      "raw": {
+        "normalized_raw_block": "12 The specific heat capacity of solid P is greater than that of solid Q.\nWhat does this statement mean?\nA Less energy is needed to raise the temperature by 1°C of unit mass of solid P than unit mass\nof solid Q.\nB Less energy is needed to melt unit mass of solid P than unit mass of solid Q.\nC More energy is needed to raise the temperature by 1°C of unit mass of solid P than unit\nmass of solid Q.\nD More energy is needed to melt unit mass of solid P than unit mass of solid Q.",
+        "original_raw_block": "12 The specific heat capacity of solid P is greater than that of solid Q.\nWhat does this statement mean?\nA Less energy is needed to raise the temperature by 1°C of unit mass of solid P than unit mass\nof solid Q.\nB Less energy is needed to melt unit mass of solid P than unit mass of solid Q.\nC More energy is needed to raise the temperature by 1°C of unit mass of solid P than unit\nmass of solid Q.\nD More energy is needed to melt unit mass of solid P than unit mass of solid Q."
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q13",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 13,
+      "question_type": "mcq",
+      "stem": "When water evaporates, what escapes from the surface of the water?",
+      "options": {
+        "A": "individual atoms",
+        "B": "individual molecules",
+        "C": "individual protons",
+        "D": "tiny drops of water"
+      },
+      "correct_answer": "B",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "confidence": "high",
+      "quality": {
+        "needs_review": false,
+        "issues": [],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "ready_internal",
+      "raw": {
+        "normalized_raw_block": "13 When water evaporates, what escapes from the surface of the water?\nA individual atoms\nB individual molecules\nC individual protons\nD tiny drops of water",
+        "original_raw_block": "13 When water evaporates, what escapes from the surface of the water?\nA individual atoms\nB individual molecules\nC individual protons\nD tiny drops of water"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q14",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 14,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "The forces of the gas particles striking the walls of the container increase.",
+        "B": "The forces of attraction between the gas particles and the walls of the container increase.",
+        "C": "The gas particles collide with each other more frequently.",
+        "D": "The gas particles lose more energy when they strike the walls of the container."
+      },
+      "correct_answer": "A",
+      "topic": "Thermal physics",
+      "subtopic": "Gas laws and kinetic theory",
+      "skill": "Explain pressure increase using particle model",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary"
+        ],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "14 A sealed container of gas is heated. The pressure of the gas increases.\nWhich statement explains this increase in pressure?\nA The forces of the gas particles striking the walls of the container increase.\nB The forces of attraction between the gas particles and the walls of the container increase.\nC The gas particles collide with each other more frequently.\nD The gas particles lose more energy when they strike the walls of the container.",
+        "original_raw_block": "14 A sealed container of gas is heated. The pressure of the gas increases.\nWhich statement explains this increase in pressure?\nA The forces of the gas particles striking the walls of the container increase.\nB The forces of attraction between the gas particles and the walls of the container increase.\nC The gas particles collide with each other more frequently.\nD The gas particles lose more energy when they strike the walls of the container."
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q15",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 15,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "The copper rod feels colder than the wooden rod because copper is a better conductor than wood.",
+        "B": "The copper rod feels warmer than the wooden rod because copper is a better conductor than wood.",
+        "C": "The wooden rod feels colder than the copper rod because wood is a better conductor than copper.",
+        "D": "The wooden rod feels warmer than the copper rod because wood is a better conductor than copper."
+      },
+      "correct_answer": "A",
+      "topic": "Thermal physics",
+      "subtopic": "Thermal conduction",
+      "skill": "Compare thermal conduction of materials",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "15 A student has a copper rod and a wooden rod. Both rods have the same dimensions.\nThe student puts one end of each rod into a beaker of crushed ice.\nAfter a few minutes, the student picks up the rods by the ends not in the ice.\nWhich statement is correct?\nA The copper rod feels colder than the wooden rod because copper is a better conductor than\nwood.\nB The copper rod feels warmer than the wooden rod because copper is a better conductor than\nwood.\nC The wooden rod feels colder than the copper rod because wood is a better conductor than\ncopper.\nD The wooden rod feels warmer than the copper rod because wood is a better conductor than\ncopper.",
+        "original_raw_block": "15 A student has a copper rod and a wooden rod. Both rods have the same dimensions.\nThe student puts one end of each rod into a beaker of crushed ice.\nAfter a few minutes, the student picks up the rods by the ends not in the ice.\nWhich statement is correct?\nA The copper rod feels colder than the wooden rod because copper is a better conductor than\nwood.\nB The copper rod feels warmer than the wooden rod because copper is a better conductor than\nwood.\nC The wooden rod feels colder than the copper rod because wood is a better conductor than\ncopper.\nD The wooden rod feels warmer than the copper rod because wood is a better conductor than\ncopper.\n\n7"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q16",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 16,
+      "question_type": "mcq",
+      "stem": "The diagram shows a black object X at constant temperature.\n\nThe arrows represent the absorption and emission of thermal radiation at the surface.\n\nObject Y is at the same constant temperature as X and is identical except that it has a white\nsurface.\n\nWhich row correctly compares object X with object Y?\n\n|     | rate of  | rate of  |     |\n| --- | -------- | -------- | --- |\n\n| absorption for X  |         | emission for X  |     |\n| ----------------- | ------- | --------------- | --- |",
+      "options": {
+        "A": "higher",
+        "B": "lower",
+        "C": "higher",
+        "D": "lower"
+      },
+      "correct_answer": "A",
+      "topic": "Thermal physics",
+      "subtopic": "Thermal radiation",
+      "skill": "Compare absorption and emission of thermal radiation",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "16  The diagram shows a black object X at constant temperature.\n\nThe arrows represent the absorption and emission of thermal radiation at the surface.\n\nObject Y is at the same constant temperature as X and is identical except that it has a white\nsurface.\n\nWhich row correctly compares object X with object Y?\n\n|     | rate of  | rate of  |     |\n| --- | -------- | -------- | --- |\n\n| absorption for X  |         | emission for X  |     |\n| ----------------- | ------- | --------------- | --- |\n| A                 | higher  | higher          |     |\n| B                 | lower   | higher          |     |\n| C                 | higher  | lower           |     |\n| D                 | lower   | lower           |     |",
+        "original_raw_block": "16  The diagram shows a black object X at constant temperature.\n\nThe arrows represent the absorption and emission of thermal radiation at the surface.\n\nObject Y is at the same constant temperature as X and is identical except that it has a white\nsurface.\n\nWhich row correctly compares object X with object Y?\n\n|     | rate of  | rate of  |     |\n| --- | -------- | -------- | --- |\n\n| absorption for X  |         | emission for X  |     |\n| ----------------- | ------- | --------------- | --- |\n| A                 | higher  | higher          |     |\n| B                 | lower   | higher          |     |\n| C                 | higher  | lower           |     |\n| D                 | lower   | lower           |     |\n\n| © UCLES 2025  |     | 0625/21/M/J/25  | [Turn over  |\n| ------------- | --- | --------------- | ----------- |\n\n8"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q17",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 17,
+      "question_type": "mcq",
+      "stem": "The diagram shows a cork with a weight attached so that the cork floats upright in water.\ncork water surface\nX Y\nweight\nTransverse waves travel across the water from X to Y.\nIn which direction do the waves make the cork move?",
+      "options": {
+        "A": "  right and left",
+        "B": " up and down",
+        "C": " only to the right",
+        "D": " only to the left"
+      },
+      "correct_answer": "B",
+      "topic": "Waves",
+      "subtopic": "Wave motion",
+      "skill": "Recall direction of particle vibration in transverse waves",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has diagram/visual content — options may be labels only"
+        ],
+        "has_diagram": true,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "17 The diagram shows a cork with a weight attached so that the cork floats upright in water.\ncork water surface\nX Y\nweight\nTransverse waves travel across the water from X to Y.\nIn which direction do the waves make the cork move?\nA   right and left\nB  up and down\nC  only to the right\nD  only to the left",
+        "original_raw_block": "17 The diagram shows a cork with a weight attached so that the cork floats upright in water.\ncork water surface\nX Y\nweight\nTransverse waves travel across the water from X to Y.\nIn which direction do the waves make the cork move?\nA   right and left\nB  up and down\nC  only to the right\nD  only to the left"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q18",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 18,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "real and inverted",
+        "B": "real and upright",
+        "C": "virtual and inverted",
+        "D": "virtual and upright"
+      },
+      "correct_answer": "D",
+      "topic": "Waves",
+      "subtopic": "Lenses",
+      "skill": "Describe image formed by converging lens",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has diagram/visual content — options may be labels only",
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": true,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "18 A thin converging lens is used as a magnifying glass.\nHow does the image compare with the object?\nA real and inverted\nB real and upright\nC virtual and inverted\nD virtual and upright",
+        "original_raw_block": "18 A thin converging lens is used as a magnifying glass.\nHow does the image compare with the object?\nA real and inverted\nB real and upright\nC virtual and inverted\nD virtual and upright\n\n9"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q19",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 19,
+      "question_type": "mcq",
+      "stem": "The diagram shows two plane mirrors at 90° to each other. A ray of light is incident on one of the\nmirrors. The ray reflects off both mirrors before reaching a screen.\nAt which labelled point does the ray reach the screen?\nscreen\nA\nB\nC\nD\nray of\nlight",
+      "options": {
+        "A": "Option A (diagram label)",
+        "B": "Option B (diagram label)",
+        "C": "Option C (diagram label)",
+        "D": "Option D (diagram label)"
+      },
+      "correct_answer": "B",
+      "topic": "Waves",
+      "subtopic": "Reflection",
+      "skill": "Apply law of reflection at plane mirrors",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "Missing options: ['A', 'B', 'C', 'D']",
+          "has diagram/visual content — options may be labels only",
+          "correct answer 'B' not found in parsed options",
+          "options reconciled with diagram-label placeholders"
+        ],
+        "has_diagram": true,
+        "has_table": false,
+        "option_reconciliation": "diagram_label_placeholder"
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "19 The diagram shows two plane mirrors at 90° to each other. A ray of light is incident on one of the\nmirrors. The ray reflects off both mirrors before reaching a screen.\nAt which labelled point does the ray reach the screen?\nscreen\nA\nB\nC\nD\nray of\nlight",
+        "original_raw_block": "19 The diagram shows two plane mirrors at 90° to each other. A ray of light is incident on one of the\nmirrors. The ray reflects off both mirrors before reaching a screen.\nAt which labelled point does the ray reach the screen?\nscreen\nA\nB\nC\nD\nray of\nlight"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q20",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 20,
+      "question_type": "mcq",
+      "stem": "The speed of light in a material is 50% of the speed of light in air.\nWhat is the refractive index of the material?",
+      "options": {
+        "A": "0.5",
+        "B": "2.0",
+        "C": "6.0  108",
+        "D": "1.5  108"
+      },
+      "correct_answer": "B",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "confidence": "high",
+      "quality": {
+        "needs_review": false,
+        "issues": [],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "ready_internal",
+      "raw": {
+        "normalized_raw_block": "20 The speed of light in a material is 50% of the speed of light in air.\nWhat is the refractive index of the material?\nA 0.5 B 2.0 C 6.0  108 D 1.5  108",
+        "original_raw_block": "20 The speed of light in a material is 50% of the speed of light in air.\nWhat is the refractive index of the material?\nA 0.5 B 2.0 C 6.0  108 D 1.5  108"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q21",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 21,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "diffraction",
+        "B": "dispersion",
+        "C": "reflection",
+        "D": "refraction"
+      },
+      "correct_answer": "B",
+      "topic": "Waves",
+      "subtopic": "Dispersion",
+      "skill": "Recall the name of white light splitting",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary"
+        ],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "21 A beam of white light is split into a spectrum of seven colours.\nWhich name is given to this process?\nA diffraction\nB dispersion\nC reflection\nD refraction",
+        "original_raw_block": "21 A beam of white light is split into a spectrum of seven colours.\nWhich name is given to this process?\nA diffraction\nB dispersion\nC reflection\nD refraction"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q22",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 22,
+      "question_type": "mcq",
+      "stem": "Satellites are sometimes used to receive and re-transmit television signals.\nWhich row shows the type of satellite and the electromagnetic waves used?\nelectromagnetic\ntype of satellite\nwaves used",
+      "options": {
+        "A": "low orbit infrared",
+        "B": "low orbit microwaves",
+        "C": "geostationary infrared",
+        "D": "geostationary microwaves"
+      },
+      "correct_answer": "D",
+      "topic": "Waves",
+      "subtopic": "Electromagnetic spectrum",
+      "skill": "Identify EM wave type used by satellites",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "22 Satellites are sometimes used to receive and re-transmit television signals.\nWhich row shows the type of satellite and the electromagnetic waves used?\nelectromagnetic\ntype of satellite\nwaves used\nA low orbit infrared\nB low orbit microwaves\nC geostationary infrared\nD geostationary microwaves",
+        "original_raw_block": "22 Satellites are sometimes used to receive and re-transmit television signals.\nWhich row shows the type of satellite and the electromagnetic waves used?\nelectromagnetic\ntype of satellite\nwaves used\nA low orbit infrared\nB low orbit microwaves\nC geostationary infrared\nD geostationary microwaves\n\n10"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q23",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 23,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "less than in air",
+        "B": "less than in air",
+        "C": "greater than in air",
+        "D": "greater than in air"
+      },
+      "correct_answer": "D",
+      "topic": "Waves",
+      "subtopic": "Sound",
+      "skill": "Compare speed and wavelength of sound in different media",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "23  A sound wave travels through the air and strikes a solid block of steel.\n\nSome of the sound is reflected from the steel, and some is transmitted through the steel.\n\nHow does the speed and the wavelength of the sound in steel compare to the speed and the\nwavelength of the sound in air?\n\n|     | speed in steel       |     | wavelength in steel  |     |     |\n| --- | -------------------- | --- | -------------------- | --- | --- |\n| A   | less than in air     |     | less than in air     |     |     |\n| B   | less than in air     |     | greater than in air  |     |     |\n| C   | greater than in air  |     | less than in air     |     |     |\n| D   | greater than in air  |     | greater than in air  |     |     |",
+        "original_raw_block": "23  A sound wave travels through the air and strikes a solid block of steel.\n\nSome of the sound is reflected from the steel, and some is transmitted through the steel.\n\nHow does the speed and the wavelength of the sound in steel compare to the speed and the\nwavelength of the sound in air?\n\n|     | speed in steel       |     | wavelength in steel  |     |     |\n| --- | -------------------- | --- | -------------------- | --- | --- |\n| A   | less than in air     |     | less than in air     |     |     |\n| B   | less than in air     |     | greater than in air  |     |     |\n| C   | greater than in air  |     | less than in air     |     |     |\n| D   | greater than in air  |     | greater than in air  |     |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q24",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 24,
+      "question_type": "mcq",
+      "stem": "The diagram shows a bracelet containing two magnets. The arrows represent the pattern and the\ndirection of the magnetic field due to the magnets.\n\n|     |     |     | X   | Y   |     |\n| --- | --- | --- | --- | --- | --- |\nJ K\n\nWhich row identifies the magnetic pole at J, the magnetic pole at K and where the magnetic field\nis the strongest?\n\n|     | magnetic  | magnetic  | where the magnetic  |     |     |\n| --- | --------- | --------- | ------------------- | --- | --- |\n\n|     | pole at J  | pole at K  | field is the strongest  |     |     |\n| --- | ---------- | ---------- | ----------------------- | --- | --- |",
+      "options": {
+        "A": "N",
+        "B": "N",
+        "C": "S",
+        "D": "S"
+      },
+      "correct_answer": "A",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Magnetic fields",
+      "skill": "Identify magnetic poles and field strength from field pattern",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "option A text appears incomplete: 'N'",
+          "option B text appears incomplete: 'N'",
+          "option C text appears incomplete: 'S'",
+          "option D text appears incomplete: 'S'"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "24  The diagram shows a bracelet containing two magnets. The arrows represent the pattern and the\ndirection of the magnetic field due to the magnets.\n\n|     |     |     | X   | Y   |     |\n| --- | --- | --- | --- | --- | --- |\nJ K\n\nWhich row identifies the magnetic pole at J, the magnetic pole at K and where the magnetic field\nis the strongest?\n\n|     | magnetic  | magnetic  | where the magnetic  |     |     |\n| --- | --------- | --------- | ------------------- | --- | --- |\n\n|     | pole at J  | pole at K  | field is the strongest  |     |     |\n| --- | ---------- | ---------- | ----------------------- | --- | --- |\n| A   | N          | N          |                         | X   |     |\n| B   | N          | N          |                         | Y   |     |\n| C   | S          | S          |                         | X   |     |\n| D   | S          | S          |                         | Y   |     |",
+        "original_raw_block": "24  The diagram shows a bracelet containing two magnets. The arrows represent the pattern and the\ndirection of the magnetic field due to the magnets.\n\n|     |     |     | X   | Y   |     |\n| --- | --- | --- | --- | --- | --- |\nJ K\n\nWhich row identifies the magnetic pole at J, the magnetic pole at K and where the magnetic field\nis the strongest?\n\n|     | magnetic  | magnetic  | where the magnetic  |     |     |\n| --- | --------- | --------- | ------------------- | --- | --- |\n\n|     | pole at J  | pole at K  | field is the strongest  |     |     |\n| --- | ---------- | ---------- | ----------------------- | --- | --- |\n| A   | N          | N          |                         | X   |     |\n| B   | N          | N          |                         | Y   |     |\n| C   | S          | S          |                         | X   |     |\n| D   | S          | S          |                         | Y   |     |\n\n| © UCLES 2025  |     |     |     | 0625/21/M/J/25  |     |\n| ------------- | --- | --- | --- | --------------- | --- |\n\n|     |     |     |     | 11  |     |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q25",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 25,
+      "question_type": "mcq",
+      "stem": "Which row describes an electric field and its direction?\n\n|     | description of electric field  |     |     | direction of electric field  |     |     |     |\n| --- | ------------------------------ | --- | --- | ---------------------------- | --- | --- | --- |",
+      "options": {
+        "A": "region in which an electric",
+        "B": "region in which an electric",
+        "C": "region in which an electric",
+        "D": "region in which an electric"
+      },
+      "correct_answer": "A",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Electric fields",
+      "skill": "Recall electric field definition and direction",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "25  Which row describes an electric field and its direction?\n\n|     | description of electric field  |     |     | direction of electric field  |     |     |     |\n| --- | ------------------------------ | --- | --- | ---------------------------- | --- | --- | --- |\n| A   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge experiences a force     |     |     | on a positive charge         |     |     |     |\n| B   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge experiences a force     |     |     | on a negative charge         |     |     |     |\n| C   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge produces a current      |     |     | on a positive charge         |     |     |     |\n| D   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge produces a current      |     |     | on a negative charge         |     |     |     |",
+        "original_raw_block": "25  Which row describes an electric field and its direction?\n\n|     | description of electric field  |     |     | direction of electric field  |     |     |     |\n| --- | ------------------------------ | --- | --- | ---------------------------- | --- | --- | --- |\n| A   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge experiences a force     |     |     | on a positive charge         |     |     |     |\n| B   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge experiences a force     |     |     | on a negative charge         |     |     |     |\n| C   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge produces a current      |     |     | on a positive charge         |     |     |     |\n| D   | region in which an electric    |     |     | direction of the force       |     |     |     |\n|     | charge produces a current      |     |     | on a negative charge         |     |     |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q26",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 26,
+      "question_type": "mcq",
+      "stem": "Copper wire is available in fixed lengths but in various diameters d. Each wire has a different\nresistance R.\n\nWhich relationship between R and d is correct?",
+      "options": {
+        "A": "R is directly proportional to d.",
+        "B": "R is directly proportional to d².",
+        "C": "R is inversely proportional to d.",
+        "D": "R is inversely proportional to d²."
+      },
+      "correct_answer": "D",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Resistance",
+      "skill": "Determine resistance–diameter relationship",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "Missing options: ['D']",
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "correct answer 'D' not found in parsed options",
+          "options reconciled from split markdown table"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": "manual_rule_q26"
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "26  Copper wire is available in fixed lengths but in various diameters d. Each wire has a different\nresistance R.\n\nWhich relationship between R and d is correct?\n| A   | R is directly proportional to d.   |     |     |     |     |     |     |\n| --- | ---------------------------------- | --- | --- | --- | --- | --- | --- |\n| B   | R is directly proportional to d2.  |     |     |     |     |     |     |\n\n| C   | R is inversely proportional to d.  |     |     |     |     |     |     |\n| --- | ---------------------------------- | --- | --- | --- | --- | --- | --- |\nR is inversely proportional to d2.\nD",
+        "original_raw_block": "26  Copper wire is available in fixed lengths but in various diameters d. Each wire has a different\nresistance R.\n\nWhich relationship between R and d is correct?\n| A   | R is directly proportional to d.   |     |     |     |     |     |     |\n| --- | ---------------------------------- | --- | --- | --- | --- | --- | --- |\n| B   | R is directly proportional to d2.  |     |     |     |     |     |     |\n\n| C   | R is inversely proportional to d.  |     |     |     |     |     |     |\n| --- | ---------------------------------- | --- | --- | --- | --- | --- | --- |\nR is inversely proportional to d2.\nD"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q27",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 27,
+      "question_type": "mcq",
+      "stem": "The diagram shows three 20 resistors, R , R  and R , and a switch S connected to a d.c. power\n|     |     |     |     | 1 2 | 3   |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- |\nsupply.\n\nR\n1\nS\nR\n3\nR\n2\n\nSwitch S is open.\n\n| The potential difference (p.d.) across R |     |     |     |  is 9.0V.  |     |     |     |\n| ---------------------------------------- | --- | --- | --- | ---------- | --- | --- | --- |\n3\n\n| What is the p.d. across R |     |     |  when switch S is closed?  |     |     |     |     |\n| ------------------------- | --- | --- | -------------------------- | --- | --- | --- | --- |\n3",
+      "options": {
+        "A": "3.0V",
+        "B": "6.0V",
+        "C": "12V",
+        "D": "27V"
+      },
+      "correct_answer": "C",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Circuits",
+      "skill": "Calculate potential difference when switch is closed",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "27  The diagram shows three 20 resistors, R , R  and R , and a switch S connected to a d.c. power\n|     |     |     |     | 1 2 | 3   |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- |\nsupply.\n\nR\n1\nS\nR\n3\nR\n2\n\nSwitch S is open.\n\n| The potential difference (p.d.) across R |     |     |     |  is 9.0V.  |     |     |     |\n| ---------------------------------------- | --- | --- | --- | ---------- | --- | --- | --- |\n3\n\n| What is the p.d. across R |     |     |  when switch S is closed?  |     |     |     |     |\n| ------------------------- | --- | --- | -------------------------- | --- | --- | --- | --- |\n3\n| A   | 3.0V  | B   | 6.0V  | C  12V  | D   | 27V  |     |\n| --- | ----- | --- | ----- | ------- | --- | ---- | --- |\n|     |       |     |       |         |     |      |     |",
+        "original_raw_block": "27  The diagram shows three 20 resistors, R , R  and R , and a switch S connected to a d.c. power\n|     |     |     |     | 1 2 | 3   |     |     |\n| --- | --- | --- | --- | --- | --- | --- | --- |\nsupply.\n\nR\n1\nS\nR\n3\nR\n2\n\nSwitch S is open.\n\n| The potential difference (p.d.) across R |     |     |     |  is 9.0V.  |     |     |     |\n| ---------------------------------------- | --- | --- | --- | ---------- | --- | --- | --- |\n3\n\n| What is the p.d. across R |     |     |  when switch S is closed?  |     |     |     |     |\n| ------------------------- | --- | --- | -------------------------- | --- | --- | --- | --- |\n3\n| A   | 3.0V  | B   | 6.0V  | C  12V  | D   | 27V  |     |\n| --- | ----- | --- | ----- | ------- | --- | ---- | --- |\n|     |       |     |       |         |     |      |     |\n\n| © UCLES 2025  |     |     |     | 0625/21/M/J/25  |     |     | [Turn over  |\n| ------------- | --- | --- | --- | --------------- | --- | --- | ----------- |\n\n12"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q28",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 28,
+      "question_type": "mcq",
+      "stem": "The circuits shown all include a d.c. power supply, one diode and two light-emitting diodes\n(LEDs).\n\nIn which circuit will both LEDs be turned on?\n\n| A   |     |     | B   |     |\n| --- | --- | --- | --- | --- |\n| +   | –   | +   | –   |     |\n| C   |     |     | D   |     |\n| +   | –   | +   | –   |     |",
+      "options": {
+        "A": "Option A (diagram label)",
+        "B": "Option B (diagram label)",
+        "C": "Option C (diagram label)",
+        "D": "Option D (diagram label)"
+      },
+      "correct_answer": "C",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Diodes and LEDs",
+      "skill": "Identify circuit in which LEDs conduct",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "Missing options: ['A', 'B', 'C', 'D']",
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "correct answer 'C' not found in parsed options",
+          "options reconciled with diagram-label placeholders"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": "diagram_label_placeholder"
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "28  The circuits shown all include a d.c. power supply, one diode and two light-emitting diodes\n(LEDs).\n\nIn which circuit will both LEDs be turned on?\n\n| A   |     |     | B   |     |\n| --- | --- | --- | --- | --- |\n| +   | –   | +   | –   |     |\n| C   |     |     | D   |     |\n| +   | –   | +   | –   |     |",
+        "original_raw_block": "28  The circuits shown all include a d.c. power supply, one diode and two light-emitting diodes\n(LEDs).\n\nIn which circuit will both LEDs be turned on?\n\n| A   |     |     | B   |     |\n| --- | --- | --- | --- | --- |\n| +   | –   | +   | –   |     |\n| C   |     |     | D   |     |\n| +   | –   | +   | –   |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q29",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 29,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "Option A (diagram label)",
+        "B": "Option B (diagram label)",
+        "C": "Option C (diagram label)",
+        "D": "Option D (diagram label)"
+      },
+      "correct_answer": "C",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Electromagnetic induction",
+      "skill": "Identify direction of wire movement from induced current",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "Missing options: ['A', 'B', 'C']",
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "correct answer 'C' not found in parsed options",
+          "options reconciled with diagram-label placeholders"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": "diagram_label_placeholder"
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "29  A wire connected to a resistor R is moved in a magnetic field. A current is induced in the direction\nshown.\n\nIn which direction is the wire moved?\n\nwire\nA\nD BB\n|     | N   | S   | R   |     |\n| --- | --- | --- | --- | --- |\nC\ninduced\n|     |     | current |     |     |\n| --- | --- | ------- | --- | --- |",
+        "original_raw_block": "29  A wire connected to a resistor R is moved in a magnetic field. A current is induced in the direction\nshown.\n\nIn which direction is the wire moved?\n\nwire\nA\nD BB\n|     | N   | S   | R   |     |\n| --- | --- | --- | --- | --- |\nC\ninduced\n|     |     | current |     |     |\n| --- | --- | ------- | --- | --- |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q30",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 30,
+      "question_type": "mcq",
+      "stem": "Which component is not found in an a.c. generator?",
+      "options": {
+        "A": "coil of wire",
+        "B": "split-ring commutator",
+        "C": "magnetic poles",
+        "D": "slip rings"
+      },
+      "correct_answer": "B",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Generators",
+      "skill": "Identify component not found in a.c. generator",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial",
+          "has diagram/visual content — options may be labels only",
+          "option D has trailing page number — stripped in normalized output"
+        ],
+        "has_diagram": true,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "30  Which component is not found in an a.c. generator?\nA  coil of wire\nB  split-ring commutator\nC  magnetic poles\nD  slip rings",
+        "original_raw_block": "30  Which component is not found in an a.c. generator?\nA  coil of wire\nB  split-ring commutator\nC  magnetic poles\nD  slip rings\n\n| © UCLES 2025  |     | 0625/21/M/J/25  |     |     |\n| ------------- | --- | --------------- | --- | --- |\n\n13"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q31",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 31,
+      "question_type": "mcq",
+      "stem": "There is a current in a straight metal wire in the direction shown.\ndirection of current\nWhich row describes the direction and the pattern of the magnetic field due to the wire when\nlooking from vertically above the wire?\ndirection pattern",
+      "options": {
+        "A": "anticlockwise circular",
+        "B": "left to right parallel lines",
+        "C": "clockwise circular",
+        "D": "right to left parallel lines"
+      },
+      "correct_answer": "A",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Magnetic fields",
+      "skill": "Describe direction and pattern of magnetic field around wire",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has diagram/visual content — options may be labels only"
+        ],
+        "has_diagram": true,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "31 There is a current in a straight metal wire in the direction shown.\ndirection of current\nWhich row describes the direction and the pattern of the magnetic field due to the wire when\nlooking from vertically above the wire?\ndirection pattern\nA anticlockwise circular\nB left to right parallel lines\nC clockwise circular\nD right to left parallel lines",
+        "original_raw_block": "31 There is a current in a straight metal wire in the direction shown.\ndirection of current\nWhich row describes the direction and the pattern of the magnetic field due to the wire when\nlooking from vertically above the wire?\ndirection pattern\nA anticlockwise circular\nB left to right parallel lines\nC clockwise circular\nD right to left parallel lines"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q32",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 32,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "to conduct current from the primary coil to the secondary coil",
+        "B": "to enable the secondary coil to act as an electromagnet",
+        "C": "to ensure there is a high voltage between the primary coil and the secondary coil",
+        "D": "to link the magnetic field in the primary coil to the secondary coil"
+      },
+      "correct_answer": "D",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Transformers",
+      "skill": "Recall function of iron core in transformer",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary"
+        ],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "32 A simple transformer contains an iron core.\nWhat is the function of the iron core in the transformer?\nA to conduct current from the primary coil to the secondary coil\nB to enable the secondary coil to act as an electromagnet\nC to ensure there is a high voltage between the primary coil and the secondary coil\nD to link the magnetic field in the primary coil to the secondary coil",
+        "original_raw_block": "32 A simple transformer contains an iron core.\nWhat is the function of the iron core in the transformer?\nA to conduct current from the primary coil to the secondary coil\nB to enable the secondary coil to act as an electromagnet\nC to ensure there is a high voltage between the primary coil and the secondary coil\nD to link the magnetic field in the primary coil to the secondary coil"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q33",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 33,
+      "question_type": "mcq",
+      "stem": "In an alpha particle scattering experiment, a beam of alpha particles is fired at a very thin piece of\ngold foil.\nIn which direction do most of the alpha particles travel after hitting the foil?\ngold foil\nbeam of\nalpha particles A\nD\nB\nC\n\n14",
+      "options": {
+        "A": "Option A (diagram label)",
+        "B": "Option B (diagram label)",
+        "C": "Option C (diagram label)",
+        "D": "Option D (diagram label)"
+      },
+      "correct_answer": "A",
+      "topic": "Nuclear physics",
+      "subtopic": "Rutherford scattering",
+      "skill": "Apply Rutherford scattering experiment results",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "Missing options: ['A', 'B', 'C', 'D']",
+          "has diagram/visual content — options may be labels only",
+          "correct answer 'A' not found in parsed options",
+          "options reconciled with diagram-label placeholders"
+        ],
+        "has_diagram": true,
+        "has_table": false,
+        "option_reconciliation": "diagram_label_placeholder"
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "33 In an alpha particle scattering experiment, a beam of alpha particles is fired at a very thin piece of\ngold foil.\nIn which direction do most of the alpha particles travel after hitting the foil?\ngold foil\nbeam of\nalpha particles A\nD\nB\nC",
+        "original_raw_block": "33 In an alpha particle scattering experiment, a beam of alpha particles is fired at a very thin piece of\ngold foil.\nIn which direction do most of the alpha particles travel after hitting the foil?\ngold foil\nbeam of\nalpha particles A\nD\nB\nC\n\n14"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q34",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 34,
+      "question_type": "mcq",
+      "stem": "An atom of boron contains 5 protons and 5 electrons. The nucleon number of the atom is 11.\nHow many neutrons are there in the atom?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "11",
+        "D": "16"
+      },
+      "correct_answer": "B",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "confidence": "high",
+      "quality": {
+        "needs_review": false,
+        "issues": [],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "ready_internal",
+      "raw": {
+        "normalized_raw_block": "34 An atom of boron contains 5 protons and 5 electrons. The nucleon number of the atom is 11.\nHow many neutrons are there in the atom?\nA 5 B 6 C 11 D 16",
+        "original_raw_block": "34 An atom of boron contains 5 protons and 5 electrons. The nucleon number of the atom is 11.\nHow many neutrons are there in the atom?\nA 5 B 6 C 11 D 16"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q35",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 35,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "192 counts/minute",
+        "B": "200 counts/minute",
+        "C": "224 counts/minute",
+        "D": "232 counts/minute"
+      },
+      "correct_answer": "C",
+      "topic": "Nuclear physics",
+      "subtopic": "Half-life",
+      "skill": "Calculate count rate after given number of half-lives",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary"
+        ],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "35 A detector placed near a radioactive isotope gives a measured count rate of 800 counts/minute.\nThe half-life of the isotope is three hours.\nThe background count rate is 32 counts/minute.\nWhat is the count rate on the detector after six hours?\nA 192 counts/minute\nB 200 counts/minute\nC 224 counts/minute\nD 232 counts/minute",
+        "original_raw_block": "35 A detector placed near a radioactive isotope gives a measured count rate of 800 counts/minute.\nThe half-life of the isotope is three hours.\nThe background count rate is 32 counts/minute.\nWhat is the count rate on the detector after six hours?\nA 192 counts/minute\nB 200 counts/minute\nC 224 counts/minute\nD 232 counts/minute"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q36",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 36,
+      "question_type": "mcq",
+      "stem": "Sodium-24 is a radioactive isotope that emits beta radiation.\nWhich nuclear equation shows how sodium-24 decays?",
+      "options": {
+        "A": "24Na -> 24Mg + 0beta 11 12 –1",
+        "B": "24Na -> 24Ne + 0beta 11 10 –1",
+        "C": "24Na -> 20F + 4beta 11 9",
+        "D": "24Na -> 20Al + 4beta 11 13"
+      },
+      "correct_answer": "A",
+      "topic": "Nuclear physics",
+      "subtopic": "Radioactive decay",
+      "skill": "Interpret nuclear decay equation",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "option D has trailing page number — stripped in normalized output",
+          "raw block contains (cid:) characters — symbol extraction may be incorrect"
+        ],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "36 Sodium-24 is a radioactive isotope that emits beta radiation.\nWhich nuclear equation shows how sodium-24 decays?\nA 24Na -> 24Mg + 0beta\n11 12 –1\nB 24Na -> 24Ne + 0beta\n11 10 –1\nC 24Na -> 20F + 4beta\n11 9 2\nD 24Na -> 20Al + 4beta\n11 13 2",
+        "original_raw_block": "36 Sodium-24 is a radioactive isotope that emits beta radiation.\nWhich nuclear equation shows how sodium-24 decays?\nA 24Na (cid:1) 24Mg + 0(cid:2)\n11 12 –1\nB 24Na (cid:1) 24Ne + 0(cid:2)\n11 10 –1\nC 24Na (cid:1) 20F + 4(cid:2)\n11 9 2\nD 24Na (cid:1) 20Al + 4(cid:2)\n11 13 2"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q37",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 37,
+      "question_type": "mcq",
+      "stem": "Which safety precautions must be taken when using a source of gamma radiation?\n1 Reduce the distance between the source and the person.\n2 Reduce the time of exposure to the radiation.\n3 Use a suitable shielding material between the source and the person.",
+      "options": {
+        "A": "1, 2 and",
+        "B": "1 and 2 only",
+        "C": "1 and 3 only",
+        "D": "2 and 3 only"
+      },
+      "correct_answer": "D",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "confidence": "high",
+      "quality": {
+        "needs_review": false,
+        "issues": [],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "ready_internal",
+      "raw": {
+        "normalized_raw_block": "37 Which safety precautions must be taken when using a source of gamma radiation?\n1 Reduce the distance between the source and the person.\n2 Reduce the time of exposure to the radiation.\n3 Use a suitable shielding material between the source and the person.\nA 1, 2 and 3 B 1 and 2 only C 1 and 3 only D 2 and 3 only",
+        "original_raw_block": "37 Which safety precautions must be taken when using a source of gamma radiation?\n1 Reduce the distance between the source and the person.\n2 Reduce the time of exposure to the radiation.\n3 Use a suitable shielding material between the source and the person.\nA 1, 2 and 3 B 1 and 2 only C 1 and 3 only D 2 and 3 only\n\n15"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q38",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 38,
+      "question_type": "mcq",
+      "stem": "",
+      "options": {
+        "A": "T",
+        "B": "T",
+        "C": "T",
+        "D": "T M"
+      },
+      "correct_answer": "B",
+      "topic": "Space physics",
+      "subtopic": "Orbital periods",
+      "skill": "Order orbital and rotational periods of Earth and Moon",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "stem is empty — check raw_block for correct stem boundary",
+          "has markdown table — options may be partial",
+          "option A text appears incomplete: 'T'",
+          "option B text appears incomplete: 'T'",
+          "option C text appears incomplete: 'T'"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "not_publishable",
+      "raw": {
+        "normalized_raw_block": "38  A student defines three periods of time:\n\n| ●   | the time T  taken for the Earth to orbit the Sun  |     |     |\n| --- | ------------------------------------------------- | --- | --- |\nS\n| ●   | the time T  taken for the Earth to rotate once on its axis  |     |     |\n| --- | ----------------------------------------------------------- | --- | --- |\nR\n| ●   | the time T  taken for the Moon to orbit the Earth.  |     |     |\n| --- | --------------------------------------------------- | --- | --- |\nM\n\nWhich row shows the shortest period of time and the longest period of time?\n\n|     | shortest  | longest  |     |\n| --- | --------- | -------- | --- |\n\n| period of time  | period of time  |       |     |\n| --------------- | --------------- | ----- | --- |\n| A               | T               | T     |     |\n|                 | S               | R     |     |\n| B               | T               | T     |     |\n|                 | R               | S     |     |\n| C               | T               | T     |     |\n|                 | R               | M     |     |\n| D               | T M             | T S   |     |",
+        "original_raw_block": "38  A student defines three periods of time:\n\n| ●   | the time T  taken for the Earth to orbit the Sun  |     |     |\n| --- | ------------------------------------------------- | --- | --- |\nS\n| ●   | the time T  taken for the Earth to rotate once on its axis  |     |     |\n| --- | ----------------------------------------------------------- | --- | --- |\nR\n| ●   | the time T  taken for the Moon to orbit the Earth.  |     |     |\n| --- | --------------------------------------------------- | --- | --- |\nM\n\nWhich row shows the shortest period of time and the longest period of time?\n\n|     | shortest  | longest  |     |\n| --- | --------- | -------- | --- |\n\n| period of time  | period of time  |       |     |\n| --------------- | --------------- | ----- | --- |\n| A               | T               | T     |     |\n|                 | S               | R     |     |\n| B               | T               | T     |     |\n|                 | R               | S     |     |\n| C               | T               | T     |     |\n|                 | R               | M     |     |\n| D               | T M             | T S   |     |"
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q39",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 39,
+      "question_type": "mcq",
+      "stem": "Which statement about the Universe is correct?",
+      "options": {
+        "A": "The Universe consists of 100000 galaxies.",
+        "B": "Redshift is a decrease in the observed wavelength of electromagnetic radiation emitted from receding galaxies.",
+        "C": "Light emitted from distant galaxies appears redshifted.",
+        "D": "Redshift of the light from distant galaxies gives evidence that the Universe is contracting."
+      },
+      "correct_answer": "C",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "confidence": "high",
+      "quality": {
+        "needs_review": false,
+        "issues": [],
+        "has_diagram": false,
+        "has_table": false,
+        "option_reconciliation": null
+      },
+      "quality_status": "ready_internal",
+      "raw": {
+        "normalized_raw_block": "39  Which statement about the Universe is correct?\nA  The Universe consists of 100000 galaxies.\n\nB  Redshift is a decrease in the observed wavelength of electromagnetic radiation emitted from\nreceding galaxies.\nC  Light emitted from distant galaxies appears redshifted.\nD  Redshift of the light from distant galaxies gives evidence that the Universe is contracting.",
+        "original_raw_block": "39  Which statement about the Universe is correct?\nA  The Universe consists of 100000 galaxies.\n\nB  Redshift is a decrease in the observed wavelength of electromagnetic radiation emitted from\nreceding galaxies.\nC  Light emitted from distant galaxies appears redshifted.\nD  Redshift of the light from distant galaxies gives evidence that the Universe is contracting."
+      },
+      "copyright_status": "internal_reference_only"
+    },
+    {
+      "item_id": "cambridge_igcse_physics_0625_2025_s_p21_q40",
+      "source": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject": "physics",
+        "syllabus_code": "0625",
+        "year": 2025,
+        "series": "summer",
+        "paper": "p21",
+        "document_type": "question_paper"
+      },
+      "question_number": 40,
+      "question_type": "mcq",
+      "stem": "Which statement about the cosmic microwave background radiation (CMBR) is correct?",
+      "options": {
+        "A": "CMBR now has a frequency higher than that of infrared radiation.",
+        "B": "CMBR has always had exactly the same frequency.",
+        "C": "CMBR had a shorter wavelength in the past.",
+        "D": "CMBR was produced a long time after the Universe was formed."
+      },
+      "correct_answer": "C",
+      "topic": "Space physics",
+      "subtopic": "Cosmic microwave background radiation",
+      "skill": "Recall properties of CMBR",
+      "confidence": "high",
+      "quality": {
+        "needs_review": true,
+        "issues": [
+          "has markdown table — options may be partial",
+          "option D contains copyright block — stripped in normalized output"
+        ],
+        "has_diagram": false,
+        "has_table": true,
+        "option_reconciliation": null
+      },
+      "quality_status": "needs_human_review",
+      "raw": {
+        "normalized_raw_block": "40  Which statement about the cosmic microwave background radiation (CMBR) is correct?\nA  CMBR now has a frequency higher than that of infrared radiation.\nB  CMBR has always had exactly the same frequency.\nC  CMBR had a shorter wavelength in the past.\nD  CMBR was produced a long time after the Universe was formed.",
+        "original_raw_block": "40  Which statement about the cosmic microwave background radiation (CMBR) is correct?\nA  CMBR now has a frequency higher than that of infrared radiation.\nB  CMBR has always had exactly the same frequency.\nC  CMBR had a shorter wavelength in the past.\nD  CMBR was produced a long time after the Universe was formed.\n\n| © UCLES 2025  |     | 0625/21/M/J/25  |     |\n| ------------- | --- | --------------- | --- |\n\n16\nPermission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every\nreasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the\npublisher will be pleased to make amends at the earliest possible opportunity.\nTo avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge\nAssessment International Education Copyright Acknowledgements Booklet. This is produced for each series of examinations and is freely available to download\nat www.cambridgeinternational.org after the live examination series.\nCambridge Assessment International Education is part of Cambridge Assessment. Cambridge Assessment is the brand name of the University of Cambridge\nLocal Examinations Syndicate (UCLES), which is a department of the University of Cambridge."
+      },
+      "copyright_status": "internal_reference_only"
+    }
+  ]
+}

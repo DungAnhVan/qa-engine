@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "registry_id": "quanta_aptus_content_registry_v1",
+  "package_count": 2,
+  "updated_package_id": "cambridge_igcse_physics_0625_resource_package_v2",
+  "total_resources": 53,
+  "missing_file_count": 0,
+  "missing_files": [],
+  "output_files": {
+    "registry": "D:\\qa-engine\\data\\registry\\content_registry_v1.json",
+    "report": "D:\\qa-engine\\data\\registry\\content_registry_v1_report.json",
+    "manifest": "D:\\qa-engine\\data\\registry\\content_registry_v1_manifest.md",
+    "preview": "D:\\qa-engine\\data\\registry\\content_registry_preview_v1.html"
+  }
+}

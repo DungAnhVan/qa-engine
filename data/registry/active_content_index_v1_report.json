@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "index_id": "quanta_aptus_active_content_index_v1",
+  "source_registry_id": "quanta_aptus_content_registry_v1",
+  "active_package_count": 1,
+  "archived_package_count": 1,
+  "active_total_resources": 27,
+  "active_student_resources": 23,
+  "active_teacher_resources": 27,
+  "active_teacher_only_resources": 4,
+  "output_files": {
+    "index": "D:\\qa-engine\\data\\registry\\active_content_index_v1.json",
+    "report": "D:\\qa-engine\\data\\registry\\active_content_index_v1_report.json",
+    "manifest": "D:\\qa-engine\\data\\registry\\active_content_index_v1_manifest.md",
+    "preview": "D:\\qa-engine\\data\\registry\\active_content_index_preview_v1.html"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "source_bank_id": "cambridge_igcse_physics_0625_original_resource_bank_v1",
+  "total_bank_items": 50,
+  "publish_candidate_count": 26,
+  "teacher_review_required_count": 24,
+  "excluded_count": 0,
+  "resource_types": {
+    "calculation_drill": 15,
+    "short_answer_calculation": 9,
+    "worked_example": 8,
+    "diagram_or_graph_drill": 3,
+    "marking_checklist": 1,
+    "graph_marking_checklist": 2,
+    "graphing_drill": 6,
+    "experiment_planning_task": 2,
+    "planning_marking_checklist": 1,
+    "data_interpretation_drill": 3
+  },
+  "component_types": {
+    "theory_structured": 39,
+    "practical_structured": 11
+  },
+  "topics": {
+    "Motion, forces and energy": 20,
+    "Waves": 14,
+    "Electricity and magnetism": 12,
+    "Thermal physics": 4
+  },
+  "output_files": {
+    "teacher_review_queue_json": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\teacher_review_queue_v1.json",
+    "teacher_review_queue_md": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\teacher_review_queue_v1.md",
+    "publish_candidate_resource_bank": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\publish_candidate_resource_bank_v1.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\teacher_review_queue_v1_report.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\teacher_review_queue_v1_manifest.md"
+  }
+}

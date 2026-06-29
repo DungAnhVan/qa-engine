@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "skill_map_id": "cambridge_igcse_physics_0625_unified_skill_map_v0",
+  "total_skill_units": 54,
+  "derived_count": 54,
+  "unknown_skill_count": 2,
+  "unknown_pct": 3.7,
+  "summary": {
+    "total_skill_units": 54,
+    "component_types": {
+      "mcq": 40,
+      "theory_structured": 10,
+      "practical_structured": 4
+    },
+    "topics": {
+      "Motion, forces and energy": 13,
+      "General measurement / practical skills": 1,
+      "Thermal physics": 8,
+      "Waves": 9,
+      "Electricity and magnetism": 13,
+      "Nuclear physics": 6,
+      "Space physics": 4
+    },
+    "skill_types": {
+      "multiple_choice_concept": 40,
+      "measurement": 2,
+      "calculation": 1,
+      "equation_manipulation": 2,
+      "unknown": 2,
+      "data_interpretation": 1,
+      "graphing": 3,
+      "recall_definition": 2,
+      "extended_planning": 1
+    },
+    "assessment_modes": {
+      "mcq": 40,
+      "theory_written": 10,
+      "practical": 4
+    },
+    "total_marks_indexed": 162
+  },
+  "output_files": {
+    "skill_map": "data\\bank\\cambridge_igcse\\physics_0625\\skill_map\\unified_skill_map_v0.json",
+    "report": "data\\bank\\cambridge_igcse\\physics_0625\\skill_map\\unified_skill_map_report.json",
+    "manifest": "data\\bank\\cambridge_igcse\\physics_0625\\skill_map\\unified_skill_map_manifest.md"
+  }
+}

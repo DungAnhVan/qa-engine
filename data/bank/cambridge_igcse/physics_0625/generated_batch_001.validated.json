@@ -1,0 +1,898 @@
+{
+  "batch_id": "cambridge_igcse_physics_0625_authoring_batch_001",
+  "validation_status": "needs_review",
+  "total_items": 30,
+  "valid_items_count": 30,
+  "items": [
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "Original question 001 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 001",
+        "B": "option beta 001",
+        "C": "option gamma 001",
+        "D": "option delta 001"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "pass",
+        "issues": []
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "Original question 002 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 002",
+        "B": "option beta 002",
+        "C": "option gamma 002",
+        "D": "option delta 002"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "pass",
+        "issues": []
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "Original question 003 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 003",
+        "B": "option beta 003",
+        "C": "option gamma 003",
+        "D": "option delta 003"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "pass",
+        "issues": []
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "Original question 004 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 004",
+        "B": "option beta 004",
+        "C": "option gamma 004",
+        "D": "option delta 004"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "pass",
+        "issues": []
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "question_type": "mcq",
+      "stem": "Original question 005 testing Calculate neutron number from nucleon number.",
+      "options": {
+        "A": "option alpha 005",
+        "B": "option beta 005",
+        "C": "option gamma 005",
+        "D": "option delta 005"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate neutron number from nucleon number.",
+      "common_misconception": "Students often confuse the key terms in Calculate neutron number from nucleon number.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "pass",
+        "issues": []
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "Original question 001 testing Recall gamma radiation safety precautions.",
+      "options": {
+        "A": "option alpha 001",
+        "B": "option beta 001",
+        "C": "option gamma 001",
+        "D": "option delta 001"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall gamma radiation safety precautions.",
+      "common_misconception": "Students often confuse the key terms in Recall gamma radiation safety precautions.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 0)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "Original question 002 testing Recall gamma radiation safety precautions.",
+      "options": {
+        "A": "option alpha 002",
+        "B": "option beta 002",
+        "C": "option gamma 002",
+        "D": "option delta 002"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall gamma radiation safety precautions.",
+      "common_misconception": "Students often confuse the key terms in Recall gamma radiation safety precautions.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 1)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "Original question 003 testing Recall gamma radiation safety precautions.",
+      "options": {
+        "A": "option alpha 003",
+        "B": "option beta 003",
+        "C": "option gamma 003",
+        "D": "option delta 003"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall gamma radiation safety precautions.",
+      "common_misconception": "Students often confuse the key terms in Recall gamma radiation safety precautions.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 2)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "Original question 004 testing Recall gamma radiation safety precautions.",
+      "options": {
+        "A": "option alpha 004",
+        "B": "option beta 004",
+        "C": "option gamma 004",
+        "D": "option delta 004"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall gamma radiation safety precautions.",
+      "common_misconception": "Students often confuse the key terms in Recall gamma radiation safety precautions.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 3)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_radiation_safety_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "question_type": "mcq",
+      "stem": "Original question 005 testing Recall gamma radiation safety precautions.",
+      "options": {
+        "A": "option alpha 005",
+        "B": "option beta 005",
+        "C": "option gamma 005",
+        "D": "option delta 005"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall gamma radiation safety precautions.",
+      "common_misconception": "Students often confuse the key terms in Recall gamma radiation safety precautions.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 4)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Original question 001 testing Recall properties of the Universe and redshift.",
+      "options": {
+        "A": "option alpha 001",
+        "B": "option beta 001",
+        "C": "option gamma 001",
+        "D": "option delta 001"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall properties of the Universe and redshift.",
+      "common_misconception": "Students often confuse the key terms in Recall properties of the Universe and redshift.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 0)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Original question 002 testing Recall properties of the Universe and redshift.",
+      "options": {
+        "A": "option alpha 002",
+        "B": "option beta 002",
+        "C": "option gamma 002",
+        "D": "option delta 002"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall properties of the Universe and redshift.",
+      "common_misconception": "Students often confuse the key terms in Recall properties of the Universe and redshift.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 1)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Original question 003 testing Recall properties of the Universe and redshift.",
+      "options": {
+        "A": "option alpha 003",
+        "B": "option beta 003",
+        "C": "option gamma 003",
+        "D": "option delta 003"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall properties of the Universe and redshift.",
+      "common_misconception": "Students often confuse the key terms in Recall properties of the Universe and redshift.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 2)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Original question 004 testing Recall properties of the Universe and redshift.",
+      "options": {
+        "A": "option alpha 004",
+        "B": "option beta 004",
+        "C": "option gamma 004",
+        "D": "option delta 004"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall properties of the Universe and redshift.",
+      "common_misconception": "Students often confuse the key terms in Recall properties of the Universe and redshift.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 3)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_universe_and_redshift_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "question_type": "mcq",
+      "stem": "Original question 005 testing Recall properties of the Universe and redshift.",
+      "options": {
+        "A": "option alpha 005",
+        "B": "option beta 005",
+        "C": "option gamma 005",
+        "D": "option delta 005"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall properties of the Universe and redshift.",
+      "common_misconception": "Students often confuse the key terms in Recall properties of the Universe and redshift.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 4)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "Original question 001 testing Recall what escapes during evaporation.",
+      "options": {
+        "A": "option alpha 001",
+        "B": "option beta 001",
+        "C": "option gamma 001",
+        "D": "option delta 001"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall what escapes during evaporation.",
+      "common_misconception": "Students often confuse the key terms in Recall what escapes during evaporation.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 0)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "Original question 002 testing Recall what escapes during evaporation.",
+      "options": {
+        "A": "option alpha 002",
+        "B": "option beta 002",
+        "C": "option gamma 002",
+        "D": "option delta 002"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall what escapes during evaporation.",
+      "common_misconception": "Students often confuse the key terms in Recall what escapes during evaporation.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 1)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "Original question 003 testing Recall what escapes during evaporation.",
+      "options": {
+        "A": "option alpha 003",
+        "B": "option beta 003",
+        "C": "option gamma 003",
+        "D": "option delta 003"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall what escapes during evaporation.",
+      "common_misconception": "Students often confuse the key terms in Recall what escapes during evaporation.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 2)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "Original question 004 testing Recall what escapes during evaporation.",
+      "options": {
+        "A": "option alpha 004",
+        "B": "option beta 004",
+        "C": "option gamma 004",
+        "D": "option delta 004"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall what escapes during evaporation.",
+      "common_misconception": "Students often confuse the key terms in Recall what escapes during evaporation.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 3)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_evaporation_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "question_type": "mcq",
+      "stem": "Original question 005 testing Recall what escapes during evaporation.",
+      "options": {
+        "A": "option alpha 005",
+        "B": "option beta 005",
+        "C": "option gamma 005",
+        "D": "option delta 005"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Recall what escapes during evaporation.",
+      "common_misconception": "Students often confuse the key terms in Recall what escapes during evaporation.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 4)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Original question 001 testing Interpret specific heat capacity definition.",
+      "options": {
+        "A": "option alpha 001",
+        "B": "option beta 001",
+        "C": "option gamma 001",
+        "D": "option delta 001"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Interpret specific heat capacity definition.",
+      "common_misconception": "Students often confuse the key terms in Interpret specific heat capacity definition.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 0)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Original question 002 testing Interpret specific heat capacity definition.",
+      "options": {
+        "A": "option alpha 002",
+        "B": "option beta 002",
+        "C": "option gamma 002",
+        "D": "option delta 002"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Interpret specific heat capacity definition.",
+      "common_misconception": "Students often confuse the key terms in Interpret specific heat capacity definition.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 1)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Original question 003 testing Interpret specific heat capacity definition.",
+      "options": {
+        "A": "option alpha 003",
+        "B": "option beta 003",
+        "C": "option gamma 003",
+        "D": "option delta 003"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Interpret specific heat capacity definition.",
+      "common_misconception": "Students often confuse the key terms in Interpret specific heat capacity definition.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 2)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Original question 004 testing Interpret specific heat capacity definition.",
+      "options": {
+        "A": "option alpha 004",
+        "B": "option beta 004",
+        "C": "option gamma 004",
+        "D": "option delta 004"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Interpret specific heat capacity definition.",
+      "common_misconception": "Students often confuse the key terms in Interpret specific heat capacity definition.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 3)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_specific_heat_capacity_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "question_type": "mcq",
+      "stem": "Original question 005 testing Interpret specific heat capacity definition.",
+      "options": {
+        "A": "option alpha 005",
+        "B": "option beta 005",
+        "C": "option gamma 005",
+        "D": "option delta 005"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Interpret specific heat capacity definition.",
+      "common_misconception": "Students often confuse the key terms in Interpret specific heat capacity definition.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 4)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_001",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "Original question 001 testing Calculate refractive index.",
+      "options": {
+        "A": "option alpha 001",
+        "B": "option beta 001",
+        "C": "option gamma 001",
+        "D": "option delta 001"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate refractive index.",
+      "common_misconception": "Students often confuse the key terms in Calculate refractive index.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 0)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_002",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "Original question 002 testing Calculate refractive index.",
+      "options": {
+        "A": "option alpha 002",
+        "B": "option beta 002",
+        "C": "option gamma 002",
+        "D": "option delta 002"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate refractive index.",
+      "common_misconception": "Students often confuse the key terms in Calculate refractive index.",
+      "difficulty": "easy",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 1)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_003",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "Original question 003 testing Calculate refractive index.",
+      "options": {
+        "A": "option alpha 003",
+        "B": "option beta 003",
+        "C": "option gamma 003",
+        "D": "option delta 003"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate refractive index.",
+      "common_misconception": "Students often confuse the key terms in Calculate refractive index.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 2)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_004",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "Original question 004 testing Calculate refractive index.",
+      "options": {
+        "A": "option alpha 004",
+        "B": "option beta 004",
+        "C": "option gamma 004",
+        "D": "option delta 004"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate refractive index.",
+      "common_misconception": "Students often confuse the key terms in Calculate refractive index.",
+      "difficulty": "medium",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 3)"
+        ]
+      }
+    },
+    {
+      "generated_item_id": "cambridge_igcse_physics_0625_authoring_batch_001_refraction_005",
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "question_type": "mcq",
+      "stem": "Original question 005 testing Calculate refractive index.",
+      "options": {
+        "A": "option alpha 005",
+        "B": "option beta 005",
+        "C": "option gamma 005",
+        "D": "option delta 005"
+      },
+      "correct_answer": "A",
+      "explanation": "A is correct because of the core principle of Calculate refractive index.",
+      "common_misconception": "Students often confuse the key terms in Calculate refractive index.",
+      "difficulty": "hard",
+      "quality_flags": {
+        "uses_original_context": true,
+        "no_diagram_required": true,
+        "single_correct_answer": true
+      },
+      "validation": {
+        "status": "needs_review",
+        "issues": [
+          "duplicate option set (also at index 4)"
+        ]
+      }
+    }
+  ]
+}

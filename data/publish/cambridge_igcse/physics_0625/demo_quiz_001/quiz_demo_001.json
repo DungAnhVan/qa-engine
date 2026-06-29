@@ -1,0 +1,104 @@
+{
+  "quiz_id": "cambridge_igcse_physics_0625_demo_quiz_001",
+  "title": "Cambridge IGCSE Physics 0625 — Demo Quiz 001",
+  "description": "A short Quanta Aptus demo quiz using original generated MCQs.",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "physics",
+  "syllabus_code": "0625",
+  "question_count": 5,
+  "estimated_time_minutes": 8,
+  "status": "demo_internal",
+  "items": [
+    {
+      "quiz_question_number": 1,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_001",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "easy",
+      "stem": "An atom of silver is represented as having a nucleon number of 108 and a proton number of 47. How many neutrons are in the nucleus of this atom?",
+      "options": {
+        "A": "47",
+        "B": "61",
+        "C": "108",
+        "D": "155"
+      },
+      "correct_answer": "B",
+      "explanation": "The number of neutrons is found by subtracting the proton number from the nucleon number: 108 - 47 = 61.",
+      "common_misconception": "Students often confuse nucleon number with neutron number and give the nucleon number itself as the answer, forgetting that nucleon number = protons + neutrons."
+    },
+    {
+      "quiz_question_number": 2,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_002",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "easy",
+      "stem": "A nucleus has a proton number of 19 and contains 21 neutrons. What is the nucleon number of this nucleus?",
+      "options": {
+        "A": "2",
+        "B": "19",
+        "C": "21",
+        "D": "40"
+      },
+      "correct_answer": "D",
+      "explanation": "Nucleon number is the total of protons and neutrons: 19 + 21 = 40.",
+      "common_misconception": "Some students subtract the proton number from the neutron number instead of adding them, since they mix up which quantities should be combined."
+    },
+    {
+      "quiz_question_number": 3,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_003",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "medium",
+      "stem": "Two isotopes of an element X have nucleon numbers 63 and 65. Both isotopes have a proton number of 29. What is the difference in the number of neutrons between these two isotopes?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "29"
+      },
+      "correct_answer": "C",
+      "explanation": "Neutrons in isotope 1 = 63 - 29 = 34. Neutrons in isotope 2 = 65 - 29 = 36. The difference is 36 - 34 = 2.",
+      "common_misconception": "Students sometimes think isotopes differ in proton number rather than neutron number, leading them to answer 0 because they assume the nuclei are otherwise identical in every count."
+    },
+    {
+      "quiz_question_number": 4,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_004",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "medium",
+      "stem": "A neutral atom contains 34 electrons and has a nucleon number of 79. How many neutrons does this atom's nucleus contain?",
+      "options": {
+        "A": "34",
+        "B": "45",
+        "C": "68",
+        "D": "79"
+      },
+      "correct_answer": "B",
+      "explanation": "In a neutral atom, the number of electrons equals the number of protons, so the proton number is 34. Neutrons = nucleon number - proton number = 79 - 34 = 45.",
+      "common_misconception": "Students may forget that electron number equals proton number only in a neutral atom, and may instead try to use the electron number directly as a separate quantity unrelated to the proton count."
+    },
+    {
+      "quiz_question_number": 5,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_005",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "hard",
+      "stem": "A radioactive nucleus with proton number 84 decays by emitting one alpha particle, forming a new nucleus with nucleon number 206. What was the neutron number of the original nucleus before decay?",
+      "options": {
+        "A": "120",
+        "B": "122",
+        "C": "126",
+        "D": "128"
+      },
+      "correct_answer": "C",
+      "explanation": "An alpha particle carries away a nucleon number of 4, so the original nucleus had a nucleon number of 206 + 4 = 210. Its neutron number is therefore 210 - 84 = 126.",
+      "common_misconception": "Students often forget to add back the 4 nucleons lost as the alpha particle before subtracting the proton number, leading them to use the daughter nucleus's nucleon number directly."
+    }
+  ]
+}

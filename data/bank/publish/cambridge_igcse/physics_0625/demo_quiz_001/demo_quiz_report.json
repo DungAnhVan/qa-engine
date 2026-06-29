@@ -1,0 +1,20 @@
+{
+  "quiz_id": "cambridge_igcse_physics_0625_demo_quiz_001",
+  "source_bank": "data\\bank\\cambridge_igcse\\physics_0625\\publish_candidate_bank_v0.json",
+  "question_count": 5,
+  "topics": {
+    "Nuclear physics": 5
+  },
+  "difficulties": {
+    "easy": 2,
+    "medium": 2,
+    "hard": 1
+  },
+  "item_ids": [
+    "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_001",
+    "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_002",
+    "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_003",
+    "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_004",
+    "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_005"
+  ]
+}

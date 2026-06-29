@@ -1,0 +1,235 @@
+{
+  "dashboard_id": "quanta_aptus_local_mvp_dashboard_v1",
+  "version": "0.1.0",
+  "status": "needs_review",
+  "created_at": "2026-06-29T15:31:44.123105+00:00",
+  "mvp_name": "Quanta Aptus Local MVP v1",
+  "system_stage": "local_prototype",
+  "summary": {
+    "content_factory_ready": true,
+    "active_content_ready": true,
+    "student_practice_ready": true,
+    "attempt_capture_ready": true,
+    "marking_ready": true,
+    "teacher_review_ready": true,
+    "resubmission_ready": true,
+    "latest_learning_state_ready": true
+  },
+  "content": {
+    "package_count": 2,
+    "active_package_count": 1,
+    "active_package_id": "cambridge_igcse_physics_0625_resource_package_v2",
+    "active_total_resources": 27,
+    "active_student_resources": 23,
+    "active_teacher_resources": 4
+  },
+  "learning": {
+    "student_id": "local_demo_student",
+    "raw_attempt_count": 3,
+    "current_attempt_count": 2,
+    "superseded_attempt_count": 1,
+    "resubmission_attempt_count": 1,
+    "correct_count": 1,
+    "incorrect_count": 0,
+    "pending_teacher_review_count": 1,
+    "needs_resubmission_count": 0,
+    "accuracy": 1.0
+  },
+  "workflow_status": {
+    "latest_status": "pending_teacher_review",
+    "open_teacher_review_items": 1,
+    "open_resubmission_items": 0,
+    "resolved_review_items": 1
+  },
+  "gates": [
+    {
+      "gate": 30,
+      "name": "One-command MVP Pipeline",
+      "status": "passed",
+      "files": [
+        "tools/ingest/run_full_mvp_pipeline.py"
+      ]
+    },
+    {
+      "gate": 31,
+      "name": "Content Registry",
+      "status": "passed",
+      "files": [
+        "data/registry/content_registry_v1.json"
+      ]
+    },
+    {
+      "gate": 32,
+      "name": "Admin Registry Viewer",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/content/page.tsx"
+      ]
+    },
+    {
+      "gate": 33,
+      "name": "Package Detail / Resource Browser",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/content/[packageId]/page.tsx"
+      ]
+    },
+    {
+      "gate": 34,
+      "name": "Teacher Resource Review UI",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/content/review/page.tsx"
+      ]
+    },
+    {
+      "gate": 35,
+      "name": "Apply Teacher Resource Decisions",
+      "status": "passed",
+      "files": [
+        "tools/ingest/apply_teacher_review_decisions_v1.py"
+      ]
+    },
+    {
+      "gate": 36,
+      "name": "Publish Package v2",
+      "status": "passed",
+      "files": [
+        "data/publish/cambridge_igcse/physics_0625/resource_package_v2/publish_package_v2.json"
+      ]
+    },
+    {
+      "gate": "36B",
+      "name": "Registry v1/v2 Support",
+      "status": "passed",
+      "files": [
+        "data/registry/content_registry_v1.json",
+        "tools/ingest/build_content_registry_v1.py"
+      ]
+    },
+    {
+      "gate": 37,
+      "name": "Active Content Index",
+      "status": "passed",
+      "files": [
+        "data/registry/active_content_index_v1.json"
+      ]
+    },
+    {
+      "gate": 38,
+      "name": "Admin Active Content View",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/content/active/page.tsx"
+      ]
+    },
+    {
+      "gate": 39,
+      "name": "Student Active Resource Viewer",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/learn/page.tsx"
+      ]
+    },
+    {
+      "gate": 40,
+      "name": "Student Practice Mode",
+      "status": "passed",
+      "files": [
+        "data/attempts/local/student_attempts_v1.json",
+        "apps/admin/src/app/learn/practice/page.tsx"
+      ]
+    },
+    {
+      "gate": 41,
+      "name": "Basic Local Marking Engine",
+      "status": "passed",
+      "files": [
+        "tools/ingest/mark_student_attempts_v1.py"
+      ]
+    },
+    {
+      "gate": 42,
+      "name": "Student Result & Skill Gap Report v1",
+      "status": "passed",
+      "files": [
+        "data/attempts/local/reports/student_result_report_v1.json"
+      ]
+    },
+    {
+      "gate": 43,
+      "name": "Student Result Viewer UI",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/learn/results/page.tsx"
+      ]
+    },
+    {
+      "gate": 44,
+      "name": "Teacher Attempt Review UI",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/learn/attempt-review/page.tsx"
+      ]
+    },
+    {
+      "gate": 45,
+      "name": "Apply Teacher Attempt Review",
+      "status": "passed",
+      "files": [
+        "data/attempts/local/marked_attempts_v2.json",
+        "tools/ingest/apply_teacher_attempt_review_decisions_v1.py"
+      ]
+    },
+    {
+      "gate": 46,
+      "name": "Student Result Report v2",
+      "status": "passed",
+      "files": [
+        "data/attempts/local/reports/student_result_report_v2.json",
+        "tools/ingest/build_student_result_report_v2.py"
+      ]
+    },
+    {
+      "gate": 47,
+      "name": "Results UI Latest Report",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/lib/studentResults.ts"
+      ]
+    },
+    {
+      "gate": 48,
+      "name": "Student Resubmission Flow",
+      "status": "passed",
+      "files": [
+        "apps/admin/src/app/learn/practice/AttemptForm.tsx"
+      ]
+    },
+    {
+      "gate": 49,
+      "name": "Latest Learning State",
+      "status": "passed",
+      "files": [
+        "data/attempts/local/latest_learning_state_v1.json",
+        "tools/ingest/rebuild_latest_learning_state_v1.py"
+      ]
+    },
+    {
+      "gate": 50,
+      "name": "MVP Dashboard",
+      "status": "passed",
+      "files": [
+        "data/mvp/local_mvp_dashboard_v1.json"
+      ]
+    }
+  ],
+  "gate_stats": {
+    "passed": 22,
+    "total": 22
+  },
+  "next_phase": {
+    "recommended_next_step": "Production hardening: Supabase, auth, OpenAI/Claude API, deployment.",
+    "phase": "Phase 2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status_id": "quanta_aptus_local_mvp_status_v1",
+  "version": "0.1.0",
+  "created_at": "2026-06-29T15:31:44.123105+00:00",
+  "local_mvp_core_complete": true,
+  "local_mvp_status": "complete_with_open_review",
+  "open_items": {
+    "pending_teacher_review_count": 1,
+    "needs_resubmission_count": 0
+  },
+  "definition_of_done": {
+    "content_factory": true,
+    "student_practice": true,
+    "attempt_capture": true,
+    "marking": true,
+    "teacher_review": true,
+    "resubmission": true,
+    "latest_learning_state": true,
+    "dashboard": true
+  },
+  "next_phase": "production_platform"
+}

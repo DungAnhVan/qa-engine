@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "package_id": "cambridge_igcse_physics_0625_publish_package_v0",
+  "quiz_id": "cambridge_igcse_physics_0625_demo_quiz_001",
+  "student_question_count": 5,
+  "teacher_answer_count": 5,
+  "sample_score": 4,
+  "sample_total": 5,
+  "sample_percentage": 80.0,
+  "answer_leakage_check": "passed",
+  "placeholder_check": "passed",
+  "output_files": {
+    "student_preview": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\static_preview\\student_quiz_preview.html",
+    "teacher_preview": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\static_preview\\teacher_answer_preview.html",
+    "sample_result_preview": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\static_preview\\sample_result_preview.html",
+    "report": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\static_preview\\static_preview_report.json",
+    "manifest": "data\\publish\\cambridge_igcse\\physics_0625\\package_v0\\static_preview\\static_preview_manifest.md"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "status": "passed",
+  "pipeline_id": "cambridge_igcse_physics_0625_full_mvp_pipeline_v1",
+  "created_at": "2026-06-29T02:07:30.564373+00:00",
+  "raw_folder": "D:\\qa-engine\\data\\raw\\cambridge_igcse\\physics_0625",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "physics",
+  "syllabus_code": "0625",
+  "stages": [
+    {
+      "gate": 19,
+      "name": "raw_document_intake",
+      "status": "skipped",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_raw_document_intake.py D:\\qa-engine\\data\\raw\\cambridge_igcse\\physics_0625",
+      "output": "D:\\qa-engine\\data\\intake\\cambridge_igcse\\physics_0625\\raw_document_pairs_v0.json"
+    },
+    {
+      "gate": 20,
+      "name": "markitdown_ingest",
+      "status": "skipped",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\run_batch_markitdown_ingest.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\physics_0625\\raw_document_pairs_v0.json",
+      "output": ""
+    },
+    {
+      "gate": 21,
+      "name": "batch_paper_pipeline",
+      "status": "skipped",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\run_batch_paper_pipeline.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\physics_0625\\raw_document_pairs_v0.json",
+      "output": "D:\\qa-engine\\data\\intake\\cambridge_igcse\\physics_0625\\batch_paper_pipeline_report.json"
+    },
+    {
+      "gate": 22,
+      "name": "unified_source_corpus",
+      "status": "skipped",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_unified_source_corpus.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\physics_0625\\batch_paper_pipeline_report.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\source_corpus\\unified_source_corpus_v0.json"
+    },
+    {
+      "gate": 23,
+      "name": "unified_skill_map",
+      "status": "skipped",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_unified_skill_map.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\source_corpus\\unified_source_corpus_v0.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\skill_map\\unified_skill_map_v0.json"
+    },
+    {
+      "gate": 24,
+      "name": "unified_generation_targets",
+      "status": "skipped",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_unified_generation_targets.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\skill_map\\unified_skill_map_v0.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_v0.json"
+    },
+    {
+      "gate": 25,
+      "name": "authoring_batch",
+      "status": "skipped",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_authoring_batch_v1.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_v0.json --batch-id 001",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001.json"
+    },
+    {
+      "gate": 26,
+      "name": "validate_generated_batch",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\validate_generated_resource_batch_v1.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001.json D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generated_batches\\generated_resource_batch_v1_001.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generated_batches\\generated_resource_batch_v1_001.validated.json"
+    },
+    {
+      "gate": 27,
+      "name": "original_resource_bank",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_original_resource_bank_v1.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generated_batches\\generated_resource_batch_v1_001.validated.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\original_resource_bank\\original_resource_bank_v1.json"
+    },
+    {
+      "gate": 28,
+      "name": "teacher_review_queue",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_teacher_review_queue_v1.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\original_resource_bank\\original_resource_bank_v1.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\publish_candidate_resource_bank_v1.json"
+    },
+    {
+      "gate": 29,
+      "name": "publish_package",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_publish_package_v1.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\teacher_review\\publish_candidate_resource_bank_v1.json",
+      "output": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\publish_package_v1.json"
+    }
+  ],
+  "current_stop": null,
+  "authoring_prompt": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_prompt_v1_001.md",
+  "expected_generated_batch": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generated_batches\\generated_resource_batch_v1_001.json",
+  "publish_package": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\publish_package_v1.json",
+  "student_preview": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\static_preview\\student_resource_preview_v1.html",
+  "teacher_preview": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\static_preview\\teacher_resource_preview_v1.html",
+  "summary": {
+    "source_pairs": 3,
+    "source_count": 3,
+    "skill_units": 54,
+    "generation_targets": 107,
+    "authoring_planned_items": 50,
+    "generated_resources": 50,
+    "publish_ready_resources": 26,
+    "teacher_review_resources": 24,
+    "published_resources": 26
+  }
+}

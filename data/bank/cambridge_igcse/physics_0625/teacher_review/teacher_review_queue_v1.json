@@ -1,0 +1,787 @@
+{
+  "queue_id": "cambridge_igcse_physics_0625_teacher_review_queue_v1",
+  "version": "0.1.0",
+  "status": "ready_for_teacher_review",
+  "created_at": "2026-06-29T02:07:31.148731+00:00",
+  "source_bank_id": "cambridge_igcse_physics_0625_original_resource_bank_v1",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "physics",
+  "syllabus_code": "0625",
+  "review_item_count": 24,
+  "items": [
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0002",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0002",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_02",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "easy",
+      "student_prompt": "A cyclist moves at 6.0 m/s for 2.5 minutes along a straight path. Calculate the distance travelled in metres.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Convert time first: 2.5 min = 2.5 × 60 = 150 s. distance = speed × time = 6.0 × 150 = 900 m.",
+      "marking_guidance": "1 mark for converting minutes to seconds; 1 mark for using d = vt; 1 mark for 900 m.",
+      "common_misconception": "Using 2.5 directly gives 15 m, which is too small because the time was not converted to seconds.",
+      "teacher_note": "Emphasise that m/s requires time in seconds.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0003",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0003",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_03",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "medium",
+      "student_prompt": "An electric shuttle travels in two parts: 12 m/s for 40 s, then 8.0 m/s for 55 s. Calculate the total distance travelled.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Distance in first part = 12 × 40 = 480 m. Distance in second part = 8.0 × 55 = 440 m. Total distance = 480 + 440 = 920 m.",
+      "marking_guidance": "1 mark for each section distance; 1 mark for adding the two distances; answer must include m.",
+      "common_misconception": "A common error is to average the speeds without considering the different times. Calculate each section separately.",
+      "teacher_note": "Use this to introduce piecewise motion before speed-time graph area.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0004",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0004",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_04",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "medium",
+      "student_prompt": "A remote cart accelerates uniformly from rest to 10 m/s in 12 s. The speed-time graph is a straight line. Calculate the distance travelled during this acceleration.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Distance is the area under the speed-time graph. The shape is a triangle, so distance = 1/2 × base × height = 1/2 × 12 × 10 = 60 m.",
+      "marking_guidance": "1 mark for recognising area under speed-time graph; 1 mark for triangular area; 1 mark for 60 m.",
+      "common_misconception": "Some students use 10 × 12 = 120 m. That would be for a constant speed of 10 m/s, not uniform acceleration from rest.",
+      "teacher_note": "Connect this to average speed: (0 + 10)/2 = 5 m/s; 5 × 12 = 60 m.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0005",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0005",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_05",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "hard",
+      "student_prompt": "A test vehicle moves with this speed-time pattern: it accelerates from 0 to 16 m/s in 10 s, travels at 16 m/s for 25 s, then slows uniformly to rest in 8 s. Calculate the total distance travelled.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Find the area under each part. Acceleration triangle = 1/2 × 10 × 16 = 80 m. Constant-speed rectangle = 25 × 16 = 400 m. Deceleration triangle = 1/2 × 8 × 16 = 64 m. Total distance = 80 + 400 + 64 = 544 m.",
+      "marking_guidance": "1 mark for first triangular area; 1 mark for rectangle; 1 mark for final triangular area; 1 mark for total 544 m.",
+      "common_misconception": "Students may add times and multiply by top speed. That assumes the vehicle is at 16 m/s for the whole journey, which is false.",
+      "teacher_note": "Strong item for checking whether students understand distance as graph area.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0006",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0006",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_short_answer_calculation_01",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "easy",
+      "student_prompt": "A runner keeps a speed of 4.5 m/s for 32 s. How far does the runner travel?",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "d = vt = 4.5 × 32 = 144 m.",
+      "marking_guidance": "Award marks for formula, substitution, and final answer with unit.",
+      "common_misconception": "The number 144 must be a distance, so the unit is m, not m/s.",
+      "teacher_note": "Suitable as a quick exit-ticket calculation.",
+      "validation_warnings": [
+        "calculation resource: worked_solution is very short (26 chars) — may be missing step-by-step working"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "expand_worked_solution"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0007",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0007",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_short_answer_calculation_02",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "medium",
+      "student_prompt": "A scooter travels 1.20 km in 150 s. Calculate its average speed in m/s.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Convert distance: 1.20 km = 1200 m. speed = distance ÷ time = 1200 ÷ 150 = 8.0 m/s.",
+      "marking_guidance": "1 mark for converting km to m; 1 mark for v = d/t; 1 mark for 8.0 m/s.",
+      "common_misconception": "Do not leave the answer in km/s; use SI units unless the question states otherwise.",
+      "teacher_note": "Although the target is distance, this reciprocal form strengthens equation manipulation.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0008",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0008",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_short_answer_calculation_03",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "hard",
+      "student_prompt": "A trolley moves at 3.0 m/s for 20 s, then accelerates uniformly to 9.0 m/s over the next 10 s. Calculate the total distance travelled.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "First part: d = 3.0 × 20 = 60 m. Second part uses average speed during uniform acceleration: average speed = (3.0 + 9.0)/2 = 6.0 m/s. Distance = 6.0 × 10 = 60 m. Total distance = 120 m.",
+      "marking_guidance": "1 mark for first distance; 1 mark for average speed; 1 mark for second distance; 1 mark for total.",
+      "common_misconception": "Using only the final speed for the accelerating part gives 90 m, which overestimates the distance.",
+      "teacher_note": "Good bridge from simple d = vt to acceleration graph reasoning.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0009",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0009",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_worked_example_01",
+      "resource_type": "worked_example",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "medium",
+      "student_prompt": "Worked example: A battery cart travels at 5.0 m/s for 18 s, then at 7.5 m/s for 12 s. Calculate the total distance.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Step 1: Write the equation d = vt. Step 2: For the first part, d1 = 5.0 × 18 = 90 m. Step 3: For the second part, d2 = 7.5 × 12 = 90 m. Step 4: Add the distances: total distance = 90 + 90 = 180 m.",
+      "marking_guidance": "Mark the two section distances separately before marking the total.",
+      "common_misconception": "A common mistake is to add the speeds and add the times, then multiply. Motion in sections must be calculated section by section.",
+      "teacher_note": "Use this to model clear working layout: equation, substitution, answer.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0011",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0011",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_calculation_drill_01",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "easy",
+      "student_prompt": "A 900 W heater is switched on for 240 s. Calculate the energy transferred by the heater.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Use E = Pt. E = 900 × 240 = 216000 J = 216 kJ.",
+      "marking_guidance": "1 mark for E = Pt; 1 mark for substitution; 1 mark for 216000 J or 216 kJ.",
+      "common_misconception": "Do not divide by time. Power is energy transferred per second, so energy = power × time.",
+      "teacher_note": "Start with direct substitution before rearrangement.",
+      "validation_warnings": [
+        "calculation resource: worked_solution is very short (46 chars) — may be missing step-by-step working",
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "expand_worked_solution_and_add_unit_criteria"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0012",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0012",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_calculation_drill_02",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "easy",
+      "student_prompt": "A fan heater transfers 360 kJ of energy in 300 s. Calculate its power in watts.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Convert energy: 360 kJ = 360000 J. Use P = E/t. P = 360000 ÷ 300 = 1200 W.",
+      "marking_guidance": "1 mark for converting kJ to J; 1 mark for P = E/t; 1 mark for 1200 W.",
+      "common_misconception": "Leaving the answer as 1.2 without the kW unit can be unclear. 1200 W or 1.2 kW is acceptable.",
+      "teacher_note": "Good for checking unit conversion and rearrangement.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0013",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0013",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_calculation_drill_03",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "A small insulated box contains 2.5 kg of air. The specific heat capacity of air is 1000 J/(kg °C). Calculate the energy needed to increase the air temperature by 8.0 °C.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Use E = mcΔT. E = 2.5 × 1000 × 8.0 = 20000 J.",
+      "marking_guidance": "1 mark for E = mcΔT; 1 mark for correct substitution; 1 mark for 20000 J.",
+      "common_misconception": "Some students add the numbers rather than multiply them. Specific heat capacity means energy per kilogram per degree Celsius.",
+      "teacher_note": "Keep the context small and safe; no real room heating assumptions needed.",
+      "validation_warnings": [
+        "calculation resource: worked_solution is very short (45 chars) — may be missing step-by-step working",
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "expand_worked_solution_and_add_unit_criteria"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0015",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0015",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_calculation_drill_05",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "hard",
+      "student_prompt": "A 1200 W heater is 75% efficient at warming the contents of a container. Calculate the useful energy transferred in 6.0 minutes.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Convert time: 6.0 min = 360 s. Total energy supplied = Pt = 1200 × 360 = 432000 J. Useful energy = 75% × 432000 = 0.75 × 432000 = 324000 J = 324 kJ.",
+      "marking_guidance": "1 mark for converting time; 1 mark for total energy; 1 mark for applying efficiency; 1 mark for 324000 J or 324 kJ.",
+      "common_misconception": "Students may multiply by 75 rather than 0.75, producing an answer 100 times too large.",
+      "teacher_note": "Use this after students understand efficiency as useful output divided by total input.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0016",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0016",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_short_answer_calculation_01",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "easy",
+      "student_prompt": "A 500 W heating pad is used for 80 s. Calculate the energy transferred.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "E = Pt = 500 × 80 = 40000 J.",
+      "marking_guidance": "Formula, substitution, final answer with J.",
+      "common_misconception": "Power in watts already means joules per second.",
+      "teacher_note": "Short drill for fluency with E = Pt.",
+      "validation_warnings": [
+        "calculation resource: worked_solution is very short (28 chars) — may be missing step-by-step working",
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "expand_worked_solution_and_add_unit_criteria"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0017",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0017",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_short_answer_calculation_02",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "A heater transfers 96 kJ of energy in 2.0 minutes. Calculate its power.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "96 kJ = 96000 J. 2.0 min = 120 s. P = E/t = 96000 ÷ 120 = 800 W.",
+      "marking_guidance": "Award marks for both conversions, equation, and final answer.",
+      "common_misconception": "Using 2.0 as seconds gives 48000 W, which is unrealistic for this small heater.",
+      "teacher_note": "Ask students to estimate whether the answer is sensible.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0020",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0020",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_worked_example_02",
+      "resource_type": "worked_example",
+      "component_type": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "hard",
+      "student_prompt": "Worked example: A heater supplies 180 kJ of energy to 1.5 kg of liquid. The liquid's specific heat capacity is 3000 J/(kg °C). Calculate the temperature rise.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Step 1: Convert energy: 180 kJ = 180000 J. Step 2: Start with E = mcΔT. Step 3: Rearrange to ΔT = E/(mc). Step 4: ΔT = 180000 ÷ (1.5 × 3000) = 180000 ÷ 4500 = 40 °C.",
+      "marking_guidance": "1 mark for conversion; 1 mark for rearrangement; 1 mark for substitution; 1 mark for 40 °C.",
+      "common_misconception": "Students may calculate the final temperature even though only temperature rise is asked. The answer is a change in temperature.",
+      "teacher_note": "Reinforce the symbol ΔT as temperature change.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0021",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0021",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_calculation_drill_01",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "easy",
+      "student_prompt": "A light wave has frequency 5.0 × 10^14 Hz and wavelength 6.0 × 10^-7 m in air. Calculate its speed.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Use v = fλ. v = (5.0 × 10^14) × (6.0 × 10^-7) = 3.0 × 10^8 m/s.",
+      "marking_guidance": "1 mark for v = fλ; 1 mark for substitution; 1 mark for 3.0 × 10^8 m/s.",
+      "common_misconception": "Do not add frequency and wavelength. Their units combine by multiplication to give m/s.",
+      "teacher_note": "Good opener for wave equation fluency.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0023",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0023",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_calculation_drill_03",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "A ray enters a transparent slab from air. The angle of incidence is 50° and the angle of refraction is 31°. Calculate the refractive index of the slab.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Use n = sin i / sin r. n = sin 50° / sin 31° = 0.766 / 0.515 = 1.49, so n ≈ 1.5.",
+      "marking_guidance": "1 mark for formula; 1 mark for substituting sine values; 1 mark for answer about 1.49 or 1.5.",
+      "common_misconception": "A common error is to use i/r instead of sin i/sin r. Snell's law uses sines of angles.",
+      "teacher_note": "Check calculators are in degree mode.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0024",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0024",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_calculation_drill_04",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "A beam in glass has frequency 4.6 × 10^14 Hz and speed 2.0 × 10^8 m/s. Calculate its wavelength in the glass.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Use v = fλ, so λ = v/f. λ = (2.0 × 10^8) ÷ (4.6 × 10^14) = 4.35 × 10^-7 m, about 4.3 × 10^-7 m.",
+      "marking_guidance": "1 mark for rearrangement; 1 mark for substitution; 1 mark for answer in metres.",
+      "common_misconception": "Frequency does not change when light enters a new medium; speed and wavelength change.",
+      "teacher_note": "Good item for separating frequency, speed and wavelength concepts.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0025",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0025",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_calculation_drill_05",
+      "resource_type": "calculation_drill",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "hard",
+      "student_prompt": "The critical angle for a transparent material is 42°. Calculate the refractive index of the material, assuming the material is surrounded by air.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Use sin c = 1/n, so n = 1/sin c. n = 1/sin 42° = 1/0.669 = 1.49.",
+      "marking_guidance": "1 mark for correct critical angle relationship; 1 mark for substitution; 1 mark for n ≈ 1.49.",
+      "common_misconception": "Students sometimes calculate sin 42° only and give 0.669. Refractive index is the reciprocal here.",
+      "teacher_note": "Use after total internal reflection has been taught conceptually.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0026",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0026",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_short_answer_calculation_01",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "easy",
+      "student_prompt": "A wave has speed 3.0 × 10^8 m/s and frequency 6.0 × 10^14 Hz. Calculate its wavelength.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "λ = v/f = (3.0 × 10^8) ÷ (6.0 × 10^14) = 5.0 × 10^-7 m.",
+      "marking_guidance": "Formula, substitution, final answer with m.",
+      "common_misconception": "Do not write Hz as the unit for wavelength; wavelength is a length.",
+      "teacher_note": "Quick scientific-notation practice.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0027",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0027",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_short_answer_calculation_02",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "A ray travels from air into a liquid. The angle of incidence is 40° and the angle of refraction is 28°. Calculate the refractive index of the liquid.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "n = sin i / sin r = sin 40° / sin 28° = 0.643 / 0.469 = 1.37.",
+      "marking_guidance": "Marks for Snell's law, correct substitution, and answer to 2 or 3 significant figures.",
+      "common_misconception": "Using 40 ÷ 28 gives 1.43, but the correct relationship uses sine values.",
+      "teacher_note": "Remind students to set calculator to degrees.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0028",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0028",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_short_answer_calculation_03",
+      "resource_type": "short_answer_calculation",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "hard",
+      "student_prompt": "The refractive index of a material is 1.60. Calculate the speed of light in the material. Take the speed of light in air as 3.0 × 10^8 m/s.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "n = c/v, so v = c/n. v = (3.0 × 10^8) ÷ 1.60 = 1.875 × 10^8 m/s ≈ 1.9 × 10^8 m/s.",
+      "marking_guidance": "1 mark for rearrangement; 1 mark for substitution; 1 mark for answer with m/s.",
+      "common_misconception": "Multiplying by 1.60 gives a speed greater than in air, which is not expected for ordinary transparent materials.",
+      "teacher_note": "Use sense-checking: refractive index greater than 1 means slower light.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0030",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0030",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_worked_example_02",
+      "resource_type": "worked_example",
+      "component_type": "theory_structured",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "hard",
+      "student_prompt": "Worked example: Light of frequency 5.5 × 10^14 Hz enters a crystal where its speed is 1.8 × 10^8 m/s. Calculate the wavelength inside the crystal and the refractive index of the crystal.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Step 1: Wavelength uses v = fλ, so λ = v/f. Step 2: λ = (1.8 × 10^8) ÷ (5.5 × 10^14) = 3.27 × 10^-7 m. Step 3: Refractive index uses n = c/v. Step 4: n = (3.0 × 10^8) ÷ (1.8 × 10^8) = 1.67.",
+      "marking_guidance": "1 mark for λ rearrangement; 1 mark for wavelength; 1 mark for refractive index formula; 1 mark for n.",
+      "common_misconception": "Students may change the frequency when light enters the medium. Frequency stays constant across a boundary.",
+      "teacher_note": "Combines two equations without requiring a copied optical setup.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    },
+    {
+      "review_id": "rev_cambridge_igcse_physics_0625_orb_v1_0050",
+      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0050",
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example_02",
+      "resource_type": "worked_example",
+      "component_type": "theory_structured",
+      "topic": "Electricity and magnetism",
+      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
+      "skill_type": "data_interpretation",
+      "difficulty": "hard",
+      "student_prompt": "Worked example: A component has data: Potential difference / V: 1, 2, 3, 4, 5. Current / A: 0.12, 0.20, 0.26, 0.31, 0.35. Explain whether its resistance stays constant.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "correct_answer": null,
+      "worked_solution": "Step 1: Calculate resistance at low voltage: R = V/I = 1/0.12 = 8.3 Ω. Step 2: Calculate resistance at high voltage: R = 5/0.35 = 14.3 Ω. Step 3: Compare the values. The resistance increases as voltage increases. Step 4: Therefore the component is not ohmic over this range.",
+      "marking_guidance": "Credit use of V/I at two or more points, comparison, and correct non-ohmic conclusion.",
+      "common_misconception": "Students may confuse a curved I-V graph with experimental error. A systematic change in V/I shows changing resistance.",
+      "teacher_note": "Use to teach concise written explanations from numerical data.",
+      "validation_warnings": [
+        "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
+      ],
+      "validation_errors": [],
+      "review_status": "pending",
+      "teacher_decision": null,
+      "teacher_notes": "",
+      "suggested_action": "add_unit_criteria_to_marking_guidance"
+    }
+  ],
+  "summary": {
+    "review_item_count": 24,
+    "resource_types": {
+      "calculation_drill": 12,
+      "short_answer_calculation": 8,
+      "worked_example": 4
+    },
+    "component_types": {
+      "theory_structured": 24
+    },
+    "topics": {
+      "Motion, forces and energy": 15,
+      "Waves": 8,
+      "Electricity and magnetism": 1
+    },
+    "skill_types": {
+      "calculation": 8,
+      "equation_manipulation": 15,
+      "data_interpretation": 1
+    },
+    "difficulties": {
+      "easy": 7,
+      "medium": 9,
+      "hard": 8
+    }
+  }
+}

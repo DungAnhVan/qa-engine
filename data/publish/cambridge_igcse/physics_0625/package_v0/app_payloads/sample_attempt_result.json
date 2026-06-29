@@ -1,0 +1,74 @@
+{
+  "package_id": "cambridge_igcse_physics_0625_publish_package_v0",
+  "quiz_id": "cambridge_igcse_physics_0625_demo_quiz_001",
+  "attempt_id": "sample_attempt_001",
+  "score": 4,
+  "total": 5,
+  "percentage": 80.0,
+  "results": [
+    {
+      "quiz_question_number": 1,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_001",
+      "student_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "skill": "Calculate neutron number from nucleon number",
+      "topic": "Nuclear physics",
+      "explanation": "The number of neutrons is found by subtracting the proton number from the nucleon number: 108 - 47 = 61."
+    },
+    {
+      "quiz_question_number": 2,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_002",
+      "student_answer": "D",
+      "correct_answer": "D",
+      "is_correct": true,
+      "skill": "Calculate neutron number from nucleon number",
+      "topic": "Nuclear physics",
+      "explanation": "Nucleon number is the total of protons and neutrons: 19 + 21 = 40."
+    },
+    {
+      "quiz_question_number": 3,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_003",
+      "student_answer": "A",
+      "correct_answer": "C",
+      "is_correct": false,
+      "skill": "Calculate neutron number from nucleon number",
+      "topic": "Nuclear physics",
+      "explanation": "Neutrons in isotope 1 = 63 - 29 = 34. Neutrons in isotope 2 = 65 - 29 = 36. The difference is 36 - 34 = 2."
+    },
+    {
+      "quiz_question_number": 4,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_004",
+      "student_answer": "B",
+      "correct_answer": "B",
+      "is_correct": true,
+      "skill": "Calculate neutron number from nucleon number",
+      "topic": "Nuclear physics",
+      "explanation": "In a neutral atom, the number of electrons equals the number of protons, so the proton number is 34. Neutrons = nucleon number - proton number = 79 - 34 = 45."
+    },
+    {
+      "quiz_question_number": 5,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_005",
+      "student_answer": "C",
+      "correct_answer": "C",
+      "is_correct": true,
+      "skill": "Calculate neutron number from nucleon number",
+      "topic": "Nuclear physics",
+      "explanation": "An alpha particle carries away a nucleon number of 4, so the original nucleus had a nucleon number of 206 + 4 = 210. Its neutron number is therefore 210 - 84 = 126."
+    }
+  ],
+  "skill_breakdown": {
+    "Calculate neutron number from nucleon number": {
+      "correct": 4,
+      "total": 5,
+      "percentage": 80.0
+    }
+  },
+  "topic_breakdown": {
+    "Nuclear physics": {
+      "correct": 4,
+      "total": 5,
+      "percentage": 80.0
+    }
+  }
+}

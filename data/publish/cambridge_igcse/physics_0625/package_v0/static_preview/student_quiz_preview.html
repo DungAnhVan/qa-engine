@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quanta Aptus — Student Quiz Preview</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Georgia, serif; background: #f8f8f6; color: #222; padding: 2rem; }
+    h1 { font-size: 1.6rem; color: #1a1a2e; border-bottom: 2px solid #c8a96e; padding-bottom: .5rem; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #1a1a2e; margin-bottom: .4rem; }
+    .meta { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 1rem 1.2rem; margin-bottom: 1.5rem; font-size: .9rem; line-height: 1.8; }
+    .meta span { font-weight: bold; color: #444; }
+    .question { background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 1.2rem 1.4rem; margin-bottom: 1.2rem; }
+    .q-header { display: flex; gap: 1rem; font-size: .8rem; color: #666; margin-bottom: .6rem; }
+    .badge { background: #eef2ff; border: 1px solid #c7d2fe; border-radius: 4px; padding: 2px 7px; }
+    .badge.hard { background: #fef2f2; border-color: #fecaca; }
+    .badge.medium { background: #fffbeb; border-color: #fde68a; }
+    .badge.easy { background: #f0fdf4; border-color: #bbf7d0; }
+    .stem { font-size: 1rem; margin-bottom: .8rem; line-height: 1.5; }
+    .options { list-style: none; }
+    .options li { padding: .35rem .6rem; border-radius: 4px; margin-bottom: .25rem; font-size: .95rem; }
+    .options li:hover { background: #f0f4ff; }
+    .options .label { font-weight: bold; display: inline-block; width: 1.4rem; color: #555; }
+    .correct { background: #dcfce7 !important; border-left: 4px solid #22c55e; font-weight: bold; }
+    .wrong   { background: #fee2e2 !important; border-left: 4px solid #ef4444; }
+    .expln-box { margin-top: .7rem; padding: .6rem .8rem; background: #f0fdf4; border-left: 3px solid #22c55e; font-size: .9rem; border-radius: 0 4px 4px 0; }
+    .miscn-box { margin-top: .4rem; padding: .6rem .8rem; background: #fffbeb; border-left: 3px solid #f59e0b; font-size: .9rem; border-radius: 0 4px 4px 0; }
+    table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; font-size: .9rem; }
+    th { background: #1a1a2e; color: #fff; padding: .5rem .8rem; text-align: left; }
+    td { padding: .45rem .8rem; border-bottom: 1px solid #eee; }
+    tr:nth-child(even) td { background: #fafafa; }
+    .pass { color: #16a34a; font-weight: bold; }
+    .fail { color: #dc2626; font-weight: bold; }
+    .score-banner { background: #1a1a2e; color: #fff; border-radius: 8px; padding: 1.2rem 1.6rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 2rem; }
+    .score-number { font-size: 2.5rem; font-weight: bold; color: #c8a96e; }
+    .score-label { font-size: .9rem; line-height: 1.6; opacity: .85; }
+    .section-title { font-size: 1rem; font-weight: bold; color: #1a1a2e; margin: 1.2rem 0 .5rem; border-left: 4px solid #c8a96e; padding-left: .5rem; }
+    footer { margin-top: 2rem; font-size: .75rem; color: #aaa; text-align: center; }
+</style>
+</head>
+<body>
+  <h1>🎓 Cambridge IGCSE Physics 0625 — Demo Quiz 001</h1>
+  <div class="meta">
+    <span>Board:</span> cambridge &nbsp;|&nbsp; 
+    <span>Level:</span> igcse &nbsp;|&nbsp; 
+    <span>Subject:</span> physics &nbsp;|&nbsp; 
+    <span>Syllabus:</span> 0625<br>
+    <span>Questions:</span> 5 &nbsp;|&nbsp; 
+    <span>Estimated time:</span> 8 minutes
+  </div>
+  <div class="question">
+    <h2>Question 1</h2>
+    <div class="q-header">
+      <span class="badge">Nuclear physics</span>
+      <span class="badge">Calculate neutron number from nucleon number</span>
+      <span class="badge easy">easy</span>
+    </div>
+    <p class="stem">An atom of silver is represented as having a nucleon number of 108 and a proton number of 47. How many neutrons are in the nucleus of this atom?</p>
+    <ul class="options">
+      <li><span class="label">A.</span> 47</li>
+      <li><span class="label">B.</span> 61</li>
+      <li><span class="label">C.</span> 108</li>
+      <li><span class="label">D.</span> 155</li>
+    </ul>
+  </div>
+  <div class="question">
+    <h2>Question 2</h2>
+    <div class="q-header">
+      <span class="badge">Nuclear physics</span>
+      <span class="badge">Calculate neutron number from nucleon number</span>
+      <span class="badge easy">easy</span>
+    </div>
+    <p class="stem">A nucleus has a proton number of 19 and contains 21 neutrons. What is the nucleon number of this nucleus?</p>
+    <ul class="options">
+      <li><span class="label">A.</span> 2</li>
+      <li><span class="label">B.</span> 19</li>
+      <li><span class="label">C.</span> 21</li>
+      <li><span class="label">D.</span> 40</li>
+    </ul>
+  </div>
+  <div class="question">
+    <h2>Question 3</h2>
+    <div class="q-header">
+      <span class="badge">Nuclear physics</span>
+      <span class="badge">Calculate neutron number from nucleon number</span>
+      <span class="badge medium">medium</span>
+    </div>
+    <p class="stem">Two isotopes of an element X have nucleon numbers 63 and 65. Both isotopes have a proton number of 29. What is the difference in the number of neutrons between these two isotopes?</p>
+    <ul class="options">
+      <li><span class="label">A.</span> 0</li>
+      <li><span class="label">B.</span> 1</li>
+      <li><span class="label">C.</span> 2</li>
+      <li><span class="label">D.</span> 29</li>
+    </ul>
+  </div>
+  <div class="question">
+    <h2>Question 4</h2>
+    <div class="q-header">
+      <span class="badge">Nuclear physics</span>
+      <span class="badge">Calculate neutron number from nucleon number</span>
+      <span class="badge medium">medium</span>
+    </div>
+    <p class="stem">A neutral atom contains 34 electrons and has a nucleon number of 79. How many neutrons does this atom&#x27;s nucleus contain?</p>
+    <ul class="options">
+      <li><span class="label">A.</span> 34</li>
+      <li><span class="label">B.</span> 45</li>
+      <li><span class="label">C.</span> 68</li>
+      <li><span class="label">D.</span> 79</li>
+    </ul>
+  </div>
+  <div class="question">
+    <h2>Question 5</h2>
+    <div class="q-header">
+      <span class="badge">Nuclear physics</span>
+      <span class="badge">Calculate neutron number from nucleon number</span>
+      <span class="badge hard">hard</span>
+    </div>
+    <p class="stem">A radioactive nucleus with proton number 84 decays by emitting one alpha particle, forming a new nucleus with nucleon number 206. What was the neutron number of the original nucleus before decay?</p>
+    <ul class="options">
+      <li><span class="label">A.</span> 120</li>
+      <li><span class="label">B.</span> 122</li>
+      <li><span class="label">C.</span> 126</li>
+      <li><span class="label">D.</span> 128</li>
+    </ul>
+  </div>
+  <footer>Quanta Aptus &mdash; Internal Preview &mdash; Not for distribution</footer>
+</body>
+</html>

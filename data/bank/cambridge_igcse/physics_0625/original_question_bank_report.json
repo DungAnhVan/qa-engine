@@ -1,0 +1,78 @@
+{
+  "bank_id": "cambridge_igcse_physics_0625_original_question_bank_v0",
+  "total_items": 30,
+  "draft_ready_count": 30,
+  "draft_needs_review_count": 0,
+  "skipped_fail_count": 0,
+  "by_topic": {
+    "Nuclear physics": {
+      "total": 10,
+      "draft_ready": 10,
+      "draft_needs_review": 0
+    },
+    "Space physics": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    },
+    "Thermal physics": {
+      "total": 10,
+      "draft_ready": 10,
+      "draft_needs_review": 0
+    },
+    "Waves": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    }
+  },
+  "by_skill": {
+    "Calculate neutron number from nucleon number": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    },
+    "Recall gamma radiation safety precautions": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    },
+    "Recall properties of the Universe and redshift": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    },
+    "Recall what escapes during evaporation": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    },
+    "Interpret specific heat capacity definition": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    },
+    "Calculate refractive index": {
+      "total": 5,
+      "draft_ready": 5,
+      "draft_needs_review": 0
+    }
+  },
+  "by_difficulty": {
+    "easy": {
+      "total": 12,
+      "draft_ready": 12,
+      "draft_needs_review": 0
+    },
+    "medium": {
+      "total": 12,
+      "draft_ready": 12,
+      "draft_needs_review": 0
+    },
+    "hard": {
+      "total": 6,
+      "draft_ready": 6,
+      "draft_needs_review": 0
+    }
+  }
+}

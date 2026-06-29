@@ -1,0 +1,885 @@
+{
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "physics",
+  "syllabus_code": "0625",
+  "total_items": 40,
+  "topics": [
+    {
+      "topic": "Electricity and magnetism",
+      "count": 9,
+      "subtopics": [
+        {
+          "subtopic": "Circuits",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Calculate potential difference when switch is closed",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q27"
+              ],
+              "question_numbers": [
+                27
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Diodes and LEDs",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Identify circuit in which LEDs conduct",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q28"
+              ],
+              "question_numbers": [
+                28
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Electric fields",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall electric field definition and direction",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q25"
+              ],
+              "question_numbers": [
+                25
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Electromagnetic induction",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Identify direction of wire movement from induced current",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q29"
+              ],
+              "question_numbers": [
+                29
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Generators",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Identify component not found in a.c. generator",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q30"
+              ],
+              "question_numbers": [
+                30
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Magnetic fields",
+          "count": 2,
+          "skills": [
+            {
+              "skill": "Describe direction and pattern of magnetic field around wire",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q31"
+              ],
+              "question_numbers": [
+                31
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            },
+            {
+              "skill": "Identify magnetic poles and field strength from field pattern",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q24"
+              ],
+              "question_numbers": [
+                24
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Resistance",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Determine resistance–diameter relationship",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q26"
+              ],
+              "question_numbers": [
+                26
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Transformers",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall function of iron core in transformer",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q32"
+              ],
+              "question_numbers": [
+                32
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "General measurement / practical skills",
+      "count": 1,
+      "subtopics": [
+        {
+          "subtopic": "Density practical",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Select appropriate apparatus for density measurement",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q04"
+              ],
+              "question_numbers": [
+                4
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Motion, forces and energy",
+      "count": 8,
+      "subtopics": [
+        {
+          "subtopic": "Density and mass",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Identify volume and weight properties",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q03"
+              ],
+              "question_numbers": [
+                3
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Equilibrium",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Identify conditions for equilibrium",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q06"
+              ],
+              "question_numbers": [
+                6
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Momentum and impulse",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall and apply momentum principles",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q07"
+              ],
+              "question_numbers": [
+                7
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Motion graphs",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Analyse speed–time graph",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q01"
+              ],
+              "question_numbers": [
+                1
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Newton's laws of motion",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Apply Newton's second law",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q08"
+              ],
+              "question_numbers": [
+                8
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Pressure",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Apply pressure concept (force/area)",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q09"
+              ],
+              "question_numbers": [
+                9
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Resultant forces",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Calculate resultant of forces",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q02"
+              ],
+              "question_numbers": [
+                2
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Springs and Hooke's law",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Calculate spring constant",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q05"
+              ],
+              "question_numbers": [
+                5
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Nuclear physics",
+      "count": 5,
+      "subtopics": [
+        {
+          "subtopic": "Atomic structure",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Calculate neutron number from nucleon number",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q34"
+              ],
+              "question_numbers": [
+                34
+              ],
+              "quality_summary": {
+                "ready_internal": 1,
+                "needs_human_review": 0,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Half-life",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Calculate count rate after given number of half-lives",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q35"
+              ],
+              "question_numbers": [
+                35
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Radiation safety",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall gamma radiation safety precautions",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q37"
+              ],
+              "question_numbers": [
+                37
+              ],
+              "quality_summary": {
+                "ready_internal": 1,
+                "needs_human_review": 0,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Radioactive decay",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Interpret nuclear decay equation",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q36"
+              ],
+              "question_numbers": [
+                36
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Rutherford scattering",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Apply Rutherford scattering experiment results",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q33"
+              ],
+              "question_numbers": [
+                33
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Space physics",
+      "count": 3,
+      "subtopics": [
+        {
+          "subtopic": "Cosmic microwave background radiation",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall properties of CMBR",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q40"
+              ],
+              "question_numbers": [
+                40
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Orbital periods",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Order orbital and rotational periods of Earth and Moon",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q38"
+              ],
+              "question_numbers": [
+                38
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Universe and redshift",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall properties of the Universe and redshift",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q39"
+              ],
+              "question_numbers": [
+                39
+              ],
+              "quality_summary": {
+                "ready_internal": 1,
+                "needs_human_review": 0,
+                "not_publishable": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Thermal physics",
+      "count": 7,
+      "subtopics": [
+        {
+          "subtopic": "Evaporation",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall what escapes during evaporation",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q13"
+              ],
+              "question_numbers": [
+                13
+              ],
+              "quality_summary": {
+                "ready_internal": 1,
+                "needs_human_review": 0,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Gas laws",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Apply Boyle's law (pressure–volume)",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q11"
+              ],
+              "question_numbers": [
+                11
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Gas laws and kinetic theory",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Explain pressure increase using particle model",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q14"
+              ],
+              "question_numbers": [
+                14
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Particle model of matter",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Compare particle separation and motion",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q10"
+              ],
+              "question_numbers": [
+                10
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Specific heat capacity",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Interpret specific heat capacity definition",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q12"
+              ],
+              "question_numbers": [
+                12
+              ],
+              "quality_summary": {
+                "ready_internal": 1,
+                "needs_human_review": 0,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Thermal conduction",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Compare thermal conduction of materials",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q15"
+              ],
+              "question_numbers": [
+                15
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Thermal radiation",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Compare absorption and emission of thermal radiation",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q16"
+              ],
+              "question_numbers": [
+                16
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Waves",
+      "count": 7,
+      "subtopics": [
+        {
+          "subtopic": "Dispersion",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall the name of white light splitting",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q21"
+              ],
+              "question_numbers": [
+                21
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Electromagnetic spectrum",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Identify EM wave type used by satellites",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q22"
+              ],
+              "question_numbers": [
+                22
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Lenses",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Describe image formed by converging lens",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q18"
+              ],
+              "question_numbers": [
+                18
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Reflection",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Apply law of reflection at plane mirrors",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q19"
+              ],
+              "question_numbers": [
+                19
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Refraction",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Calculate refractive index",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q20"
+              ],
+              "question_numbers": [
+                20
+              ],
+              "quality_summary": {
+                "ready_internal": 1,
+                "needs_human_review": 0,
+                "not_publishable": 0
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Sound",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Compare speed and wavelength of sound in different media",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q23"
+              ],
+              "question_numbers": [
+                23
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 0,
+                "not_publishable": 1
+              }
+            }
+          ]
+        },
+        {
+          "subtopic": "Wave motion",
+          "count": 1,
+          "skills": [
+            {
+              "skill": "Recall direction of particle vibration in transverse waves",
+              "count": 1,
+              "item_ids": [
+                "cambridge_igcse_physics_0625_2025_s_p21_q17"
+              ],
+              "question_numbers": [
+                17
+              ],
+              "quality_summary": {
+                "ready_internal": 0,
+                "needs_human_review": 1,
+                "not_publishable": 0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

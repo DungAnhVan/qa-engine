@@ -1,0 +1,99 @@
+{
+  "batch_id": "cambridge_igcse_physics_0625_authoring_batch_001",
+  "purpose": "Generate original exam-style MCQ questions from clean priority-1 skill targets.",
+  "copyright_policy": "Do not copy wording, numbers, contexts, diagrams, option order, or answer patterns from source materials. Generate original questions only.",
+  "total_targets": 6,
+  "total_planned_questions": 30,
+  "targets": [
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "target_question_count": 5,
+      "recommended_formats": [
+        "mcq"
+      ],
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only."
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "target_question_count": 5,
+      "recommended_formats": [
+        "mcq"
+      ],
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only."
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "target_question_count": 5,
+      "recommended_formats": [
+        "mcq"
+      ],
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only."
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "target_question_count": 5,
+      "recommended_formats": [
+        "mcq"
+      ],
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only."
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "target_question_count": 5,
+      "recommended_formats": [
+        "mcq"
+      ],
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only."
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "target_question_count": 5,
+      "recommended_formats": [
+        "mcq"
+      ],
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only."
+    }
+  ]
+}

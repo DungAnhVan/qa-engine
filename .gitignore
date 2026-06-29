@@ -1,0 +1,15 @@
+node_modules/
+.next/
+.turbo/
+.venv*/
+.env
+.env.*
+*.log
+
+apps/admin/.next/
+apps/admin/node_modules/
+
+data/raw/
+data/ingested/
+data/intake/
+data/attempts/local/

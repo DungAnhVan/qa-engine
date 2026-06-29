@@ -1,0 +1,1075 @@
+{
+  "total_targets": 40,
+  "target_ids_unique": true,
+  "duplicate_target_ids": [],
+  "targets": [
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "priority": 1,
+      "target_question_count": 5,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q34"
+      ],
+      "source_question_numbers": [
+        34
+      ],
+      "seed_quality": "ready_internal",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": []
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Nuclear physics",
+      "subtopic": "Radiation safety",
+      "skill": "Recall gamma radiation safety precautions",
+      "priority": 1,
+      "target_question_count": 5,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q37"
+      ],
+      "source_question_numbers": [
+        37
+      ],
+      "seed_quality": "ready_internal",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": []
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Space physics",
+      "subtopic": "Universe and redshift",
+      "skill": "Recall properties of the Universe and redshift",
+      "priority": 1,
+      "target_question_count": 5,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q39"
+      ],
+      "source_question_numbers": [
+        39
+      ],
+      "seed_quality": "ready_internal",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": []
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Specific heat capacity",
+      "skill": "Interpret specific heat capacity definition",
+      "priority": 1,
+      "target_question_count": 5,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q12"
+      ],
+      "source_question_numbers": [
+        12
+      ],
+      "seed_quality": "ready_internal",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": []
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Evaporation",
+      "skill": "Recall what escapes during evaporation",
+      "priority": 1,
+      "target_question_count": 5,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q13"
+      ],
+      "source_question_numbers": [
+        13
+      ],
+      "seed_quality": "ready_internal",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": []
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Refraction",
+      "skill": "Calculate refractive index",
+      "priority": 1,
+      "target_question_count": 5,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q20"
+      ],
+      "source_question_numbers": [
+        20
+      ],
+      "seed_quality": "ready_internal",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": []
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_circuits_calculate_potential_difference_when_switch_is_closed_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Circuits",
+      "skill": "Calculate potential difference when switch is closed",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q27"
+      ],
+      "source_question_numbers": [
+        27
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_magnetic_fields_describe_direction_and_pattern_of_magnetic_field_around_wire_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Magnetic fields",
+      "skill": "Describe direction and pattern of magnetic field around wire",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q31"
+      ],
+      "source_question_numbers": [
+        31
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_resistance_determine_resistance_diameter_relationship_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Resistance",
+      "skill": "Determine resistance–diameter relationship",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q26"
+      ],
+      "source_question_numbers": [
+        26
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_generators_identify_component_not_found_in_ac_generator_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Generators",
+      "skill": "Identify component not found in a.c. generator",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q30"
+      ],
+      "source_question_numbers": [
+        30
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_magnetic_fields_identify_magnetic_poles_and_field_strength_from_field_pattern_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Magnetic fields",
+      "skill": "Identify magnetic poles and field strength from field pattern",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q24"
+      ],
+      "source_question_numbers": [
+        24
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_electric_fields_recall_electric_field_definition_and_direction_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Electric fields",
+      "skill": "Recall electric field definition and direction",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q25"
+      ],
+      "source_question_numbers": [
+        25
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_motion_graphs_analyse_speed_time_graph_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Motion graphs",
+      "skill": "Analyse speed–time graph",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q01"
+      ],
+      "source_question_numbers": [
+        1
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_equilibrium_identify_conditions_for_equilibrium_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Equilibrium",
+      "skill": "Identify conditions for equilibrium",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q06"
+      ],
+      "source_question_numbers": [
+        6
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_density_and_mass_identify_volume_and_weight_properties_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Density and mass",
+      "skill": "Identify volume and weight properties",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q03"
+      ],
+      "source_question_numbers": [
+        3
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_momentum_and_impulse_recall_and_apply_momentum_principles_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Momentum and impulse",
+      "skill": "Recall and apply momentum principles",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q07"
+      ],
+      "source_question_numbers": [
+        7
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_radioactive_decay_interpret_nuclear_decay_equation_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Nuclear physics",
+      "subtopic": "Radioactive decay",
+      "skill": "Interpret nuclear decay equation",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q36"
+      ],
+      "source_question_numbers": [
+        36
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_cosmic_microwave_background_radiation_recall_properties_of_cmbr_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Space physics",
+      "subtopic": "Cosmic microwave background radiation",
+      "skill": "Recall properties of CMBR",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q40"
+      ],
+      "source_question_numbers": [
+        40
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_thermal_radiation_compare_absorption_and_emission_of_thermal_radiation_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Thermal radiation",
+      "skill": "Compare absorption and emission of thermal radiation",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q16"
+      ],
+      "source_question_numbers": [
+        16
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_electromagnetic_spectrum_identify_em_wave_type_used_by_satellites_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Electromagnetic spectrum",
+      "skill": "Identify EM wave type used by satellites",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q22"
+      ],
+      "source_question_numbers": [
+        22
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_wave_motion_recall_direction_of_particle_vibration_in_transverse_waves_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Wave motion",
+      "skill": "Recall direction of particle vibration in transverse waves",
+      "priority": 2,
+      "target_question_count": 3,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q17"
+      ],
+      "source_question_numbers": [
+        17
+      ],
+      "seed_quality": "needs_human_review",
+      "generation_mode": "original_variant",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question needs human review before using as generation seed"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_diodes_and_leds_identify_circuit_in_which_leds_conduct_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Diodes and LEDs",
+      "skill": "Identify circuit in which LEDs conduct",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q28"
+      ],
+      "source_question_numbers": [
+        28
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_electromagnetic_induction_identify_direction_of_wire_movement_from_induced_current_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Electromagnetic induction",
+      "skill": "Identify direction of wire movement from induced current",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q29"
+      ],
+      "source_question_numbers": [
+        29
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_transformers_recall_function_of_iron_core_in_transformer_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Electricity and magnetism",
+      "subtopic": "Transformers",
+      "skill": "Recall function of iron core in transformer",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q32"
+      ],
+      "source_question_numbers": [
+        32
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_density_practical_select_appropriate_apparatus_for_density_measurement_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "General measurement / practical skills",
+      "subtopic": "Density practical",
+      "skill": "Select appropriate apparatus for density measurement",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q04"
+      ],
+      "source_question_numbers": [
+        4
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_newtons_laws_of_motion_apply_newtons_second_law_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Newton's laws of motion",
+      "skill": "Apply Newton's second law",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q08"
+      ],
+      "source_question_numbers": [
+        8
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_pressure_apply_pressure_concept_force_area_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Pressure",
+      "skill": "Apply pressure concept (force/area)",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q09"
+      ],
+      "source_question_numbers": [
+        9
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_resultant_forces_calculate_resultant_of_forces_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Resultant forces",
+      "skill": "Calculate resultant of forces",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q02"
+      ],
+      "source_question_numbers": [
+        2
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_springs_and_hookes_law_calculate_spring_constant_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Springs and Hooke's law",
+      "skill": "Calculate spring constant",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q05"
+      ],
+      "source_question_numbers": [
+        5
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_rutherford_scattering_apply_rutherford_scattering_experiment_results_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Nuclear physics",
+      "subtopic": "Rutherford scattering",
+      "skill": "Apply Rutherford scattering experiment results",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q33"
+      ],
+      "source_question_numbers": [
+        33
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_halflife_calculate_count_rate_after_given_number_of_halflives_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Nuclear physics",
+      "subtopic": "Half-life",
+      "skill": "Calculate count rate after given number of half-lives",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q35"
+      ],
+      "source_question_numbers": [
+        35
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_orbital_periods_order_orbital_and_rotational_periods_of_earth_and_moon_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Space physics",
+      "subtopic": "Orbital periods",
+      "skill": "Order orbital and rotational periods of Earth and Moon",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q38"
+      ],
+      "source_question_numbers": [
+        38
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_gas_laws_apply_boyles_law_pressure_volume_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Gas laws",
+      "skill": "Apply Boyle's law (pressure–volume)",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q11"
+      ],
+      "source_question_numbers": [
+        11
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_particle_model_of_matter_compare_particle_separation_and_motion_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Particle model of matter",
+      "skill": "Compare particle separation and motion",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q10"
+      ],
+      "source_question_numbers": [
+        10
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_thermal_conduction_compare_thermal_conduction_of_materials_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Thermal conduction",
+      "skill": "Compare thermal conduction of materials",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q15"
+      ],
+      "source_question_numbers": [
+        15
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_gas_laws_and_kinetic_theory_explain_pressure_increase_using_particle_model_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Thermal physics",
+      "subtopic": "Gas laws and kinetic theory",
+      "skill": "Explain pressure increase using particle model",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q14"
+      ],
+      "source_question_numbers": [
+        14
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_reflection_apply_law_of_reflection_at_plane_mirrors_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Reflection",
+      "skill": "Apply law of reflection at plane mirrors",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q19"
+      ],
+      "source_question_numbers": [
+        19
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_sound_compare_speed_and_wavelength_of_sound_in_different_media_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Sound",
+      "skill": "Compare speed and wavelength of sound in different media",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q23"
+      ],
+      "source_question_numbers": [
+        23
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_lenses_describe_image_formed_by_converging_lens_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Lenses",
+      "skill": "Describe image formed by converging lens",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q18"
+      ],
+      "source_question_numbers": [
+        18
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    },
+    {
+      "target_id": "gen_cambridge_igcse_physics_0625_dispersion_recall_the_name_of_white_light_splitting_v0",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "topic": "Waves",
+      "subtopic": "Dispersion",
+      "skill": "Recall the name of white light splitting",
+      "priority": 3,
+      "target_question_count": 2,
+      "source_seed_item_ids": [
+        "cambridge_igcse_physics_0625_2025_s_p21_q21"
+      ],
+      "source_question_numbers": [
+        21
+      ],
+      "seed_quality": "not_publishable",
+      "generation_mode": "original_authoring_required",
+      "copyright_rule": "Do not copy wording, numbers, diagrams, contexts, or option order from source. Generate original exam-style questions only.",
+      "recommended_formats": [
+        "mcq"
+      ],
+      "notes": [
+        "source question is not usable (diagram/table parsing failure) — author from scratch using syllabus spec"
+      ]
+    }
+  ]
+}

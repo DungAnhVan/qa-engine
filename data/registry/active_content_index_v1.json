@@ -1,0 +1,49 @@
+{
+  "index_id": "quanta_aptus_active_content_index_v1",
+  "version": "0.1.0",
+  "status": "internal_demo",
+  "created_at": "2026-06-29T11:10:46.161032+00:00",
+  "source_registry_id": "quanta_aptus_content_registry_v1",
+  "active_package_count": 1,
+  "active_packages": [
+    {
+      "content_key": "cambridge_igcse_physics_0625",
+      "board": "cambridge",
+      "level": "igcse",
+      "subject": "physics",
+      "syllabus_code": "0625",
+      "active_package_id": "cambridge_igcse_physics_0625_resource_package_v2",
+      "active_package_version": "0.2.0",
+      "active_package_status": "internal_demo",
+      "resource_count": 27,
+      "student_payload_count": 23,
+      "teacher_payload_count": 27,
+      "teacher_only_resource_count": 4,
+      "estimated_total_time_minutes": 167,
+      "paths": {
+        "publish_package": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v2\\publish_package_v2.json",
+        "student_payload": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v2\\student_resource_payload_v2.json",
+        "teacher_payload": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v2\\teacher_resource_payload_v2.json",
+        "student_preview": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v2\\static_preview\\student_resource_preview_v2.html",
+        "teacher_preview": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v2\\static_preview\\teacher_resource_preview_v2.html"
+      },
+      "previous_versions": [
+        {
+          "package_id": "cambridge_igcse_physics_0625_resource_package_v1",
+          "resource_count": 26,
+          "student_payload_count": 22,
+          "teacher_payload_count": 26
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "active_package_count": 1,
+    "active_total_resources": 27,
+    "active_student_resources": 23,
+    "active_teacher_resources": 27,
+    "active_teacher_only_resources": 4,
+    "archived_package_count": 1,
+    "all_registry_package_count": 2
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "package_id": "cambridge_igcse_physics_0625_resource_package_v2",
+  "payload_type": "student",
+  "created_at": "2026-06-29T10:35:20.285599+00:00",
+  "resource_count": 23,
+  "copyright_note": "All resources are original Quanta Aptus content. No Cambridge source text is included.",
+  "resources": [
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_01",
+      "resource_type": "calculation_drill",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "easy",
+      "student_prompt": "A small delivery robot travels at a steady speed of 1.8 m/s for 75 s. Calculate the distance travelled.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 2
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_worked_example_02",
+      "resource_type": "worked_example",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "hard",
+      "student_prompt": "Worked example: A drone's horizontal speed increases uniformly from 2.0 m/s to 14 m/s in 6.0 s, then remains at 14 m/s for 9.0 s. Calculate the horizontal distance travelled.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 5,
+      "worked_solution": "Step 1: During uniform acceleration, use average speed = (initial speed + final speed)/2 = (2.0 + 14)/2 = 8.0 m/s. Step 2: Distance during acceleration = 8.0 × 6.0 = 48 m. Step 3: Distance at constant speed = 14 × 9.0 = 126 m. Step 4: Total distance = 48 + 126 = 174 m."
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_calculation_drill_04",
+      "resource_type": "calculation_drill",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "A 1.5 kW heater warms water in a container. It transfers 270 kJ of useful thermal energy. Calculate the time in minutes if all the heater energy is useful.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 4
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_short_answer_calculation_03",
+      "resource_type": "short_answer_calculation",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "hard",
+      "student_prompt": "A 2.0 kg sample is warmed by 12 °C using 60000 J of energy. Calculate the specific heat capacity of the sample.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 4
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q04_worked_example_01",
+      "resource_type": "worked_example",
+      "topic": "Motion, forces and energy",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "Worked example: A 1.1 kW electric warmer runs for 5.0 minutes. Calculate the energy transferred in joules.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 4,
+      "worked_solution": "Step 1: Convert power to watts: 1.1 kW = 1100 W. Step 2: Convert time to seconds: 5.0 min = 300 s. Step 3: Use E = Pt. Step 4: E = 1100 × 300 = 330000 J."
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_calculation_drill_02",
+      "resource_type": "calculation_drill",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "easy",
+      "student_prompt": "Light travels through a clear plastic at 2.0 × 10^8 m/s. The speed of light in air is 3.0 × 10^8 m/s. Calculate the refractive index of the plastic.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 3
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q05_worked_example_01",
+      "resource_type": "worked_example",
+      "topic": "Waves",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "student_prompt": "Worked example: A ray enters a glass tile from air. The angle of incidence is 45° and the angle of refraction is 28°. Calculate the refractive index of the glass.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 4,
+      "worked_solution": "Step 1: Use Snell's law for air to glass: n = sin i / sin r. Step 2: Substitute the angles: n = sin 45° / sin 28°. Step 3: Calculate the sine values: 0.707 / 0.469. Step 4: n = 1.51. The refractive index is about 1.5."
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q08_diagram_or_graph_drill_01",
+      "resource_type": "diagram_or_graph_drill",
+      "topic": "Electricity and magnetism",
+      "skill_name": "8 Fig. 8.1 shows a diagram of part of a simple a.c. generator. external circuit",
+      "skill_type": "graphing",
+      "difficulty": "easy",
+      "student_prompt": "Sketch one complete cycle of the output voltage from a simple a.c. generator. Use a horizontal time axis and a vertical voltage axis. Label one peak positive voltage, one peak negative voltage, and the period.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 4
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q08_diagram_or_graph_drill_02",
+      "resource_type": "diagram_or_graph_drill",
+      "topic": "Electricity and magnetism",
+      "skill_name": "8 Fig. 8.1 shows a diagram of part of a simple a.c. generator. external circuit",
+      "skill_type": "graphing",
+      "difficulty": "medium",
+      "student_prompt": "Draw a voltage-time graph for an a.c. generator with peak voltage 6.0 V and period 0.20 s. Show two complete cycles from t = 0 to t = 0.40 s.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 5
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q08_diagram_or_graph_drill_03",
+      "resource_type": "diagram_or_graph_drill",
+      "topic": "Electricity and magnetism",
+      "skill_name": "8 Fig. 8.1 shows a diagram of part of a simple a.c. generator. external circuit",
+      "skill_type": "graphing",
+      "difficulty": "hard",
+      "student_prompt": "Two a.c. generator outputs are compared. Generator X has peak voltage 4 V and period 0.50 s. Generator Y rotates faster and has peak voltage 4 V and period 0.25 s. On the same axes, sketch both voltage-time graphs from 0 to 0.50 s and label X and Y.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 6
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q02_graphing_drill_01",
+      "resource_type": "graphing_drill",
+      "topic": "Thermal physics",
+      "skill_name": "2 Fig. 1.1 (i) On Fig. 1.1",
+      "skill_type": "graphing",
+      "difficulty": "easy",
+      "student_prompt": "Cooling data are shown for a cup of warm water. Time / min: 0, 2, 4, 6, 8, 10. Temperature / °C: 72, 64, 58, 53, 49, 46. Plot temperature against time, draw a smooth best-fit curve, and estimate the temperature at 5 min.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 8
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q02_graphing_drill_02",
+      "resource_type": "graphing_drill",
+      "topic": "Thermal physics",
+      "skill_name": "2 Fig. 1.1 (i) On Fig. 1.1",
+      "skill_type": "graphing",
+      "difficulty": "medium",
+      "student_prompt": "An insulated container is tested. Time / min: 0, 3, 6, 9, 12, 15. Temperature / °C: 80, 73, 67, 62, 58, 55. Plot the graph and estimate the cooling rate between 3 min and 12 min.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 10
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q02_graphing_drill_03",
+      "resource_type": "graphing_drill",
+      "topic": "Thermal physics",
+      "skill_name": "2 Fig. 1.1 (i) On Fig. 1.1",
+      "skill_type": "graphing",
+      "difficulty": "hard",
+      "student_prompt": "A heated metal block cools in air. Time / min: 0, 1, 2, 3, 4, 5, 6. Temperature / °C: 90, 78, 68, 60, 54, 50, 47. Plot the graph. Draw a tangent at t = 2 min and estimate the instantaneous cooling rate at that time.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 12
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill_01",
+      "resource_type": "graphing_drill",
+      "topic": "Waves",
+      "skill_name": "(c) The student measures the mass m of a dish",
+      "skill_type": "graphing",
+      "difficulty": "easy",
+      "student_prompt": "Ripple-tank data are collected. Frequency / Hz: 5, 10, 15, 20, 25. Wavelength / cm: 6.0, 3.0, 2.0, 1.5, 1.2. Plot wavelength against frequency and describe the trend.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 8
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill_02",
+      "resource_type": "graphing_drill",
+      "topic": "Waves",
+      "skill_name": "(c) The student measures the mass m of a dish",
+      "skill_type": "graphing",
+      "difficulty": "medium",
+      "student_prompt": "Data for water waves are shown. Frequency / Hz: 4, 6, 8, 10, 12. Wavelength / m: 0.50, 0.33, 0.25, 0.20, 0.17. Calculate the wave speed for each row, then plot wave speed against frequency.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 10
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill_03",
+      "resource_type": "graphing_drill",
+      "topic": "Waves",
+      "skill_name": "(c) The student measures the mass m of a dish",
+      "skill_type": "graphing",
+      "difficulty": "hard",
+      "student_prompt": "A vibrating string is tested. Tension / N: 10, 20, 30, 40, 50. Wave speed / m/s: 18, 25, 31, 36, 40. Plot wave speed against tension. Decide whether speed is directly proportional to tension.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 10
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task_01",
+      "resource_type": "experiment_planning_task",
+      "topic": "Electricity and magnetism",
+      "skill_name": "4 eye Fig. 3.1",
+      "skill_type": "extended_planning",
+      "difficulty": "medium",
+      "student_prompt": "Plan an experiment to investigate how the length of a resistance wire affects the current in a circuit. You may use a low-voltage power supply, switch, ammeter, voltmeter, metre ruler, crocodile clips and resistance wire. Include the variables, method, table and graph.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 10
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task_02",
+      "resource_type": "experiment_planning_task",
+      "topic": "Electricity and magnetism",
+      "skill_name": "4 eye Fig. 3.1",
+      "skill_type": "extended_planning",
+      "difficulty": "hard",
+      "student_prompt": "Plan an experiment to investigate how the number of turns on a coil affects the strength of an electromagnet. You may use insulated copper wire, an iron nail, a low-voltage d.c. supply, switch, paper clips, ammeter and connecting leads. Include safety and reliability details.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 12
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill_01",
+      "resource_type": "data_interpretation_drill",
+      "topic": "Electricity and magnetism",
+      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
+      "skill_type": "data_interpretation",
+      "difficulty": "easy",
+      "student_prompt": "An electrical component has the following data. Potential difference / V: 0, 1, 2, 3, 4. Current / A: 0, 0.20, 0.40, 0.60, 0.80. Describe the relationship between current and potential difference and calculate the resistance.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 4
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill_02",
+      "resource_type": "data_interpretation_drill",
+      "topic": "Electricity and magnetism",
+      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
+      "skill_type": "data_interpretation",
+      "difficulty": "medium",
+      "student_prompt": "A lamp is tested. Potential difference / V: 0, 1, 2, 3, 4, 5. Current / A: 0, 0.18, 0.31, 0.41, 0.49, 0.55. Explain what happens to the resistance as potential difference increases.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 5
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill_03",
+      "resource_type": "data_interpretation_drill",
+      "topic": "Electricity and magnetism",
+      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
+      "skill_type": "data_interpretation",
+      "difficulty": "hard",
+      "student_prompt": "Two components are tested. At 2.0 V, component A has current 0.40 A and component B has current 0.10 A. At 6.0 V, A has current 1.20 A and B has current 0.20 A. Identify which component is ohmic and justify your answer.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 5
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example_01",
+      "resource_type": "worked_example",
+      "topic": "Electricity and magnetism",
+      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
+      "skill_type": "data_interpretation",
+      "difficulty": "medium",
+      "student_prompt": "Worked example: A resistor is tested. Potential difference / V: 1.5, 3.0, 4.5, 6.0. Current / A: 0.30, 0.60, 0.90, 1.20. Decide whether the resistor is ohmic and find its resistance.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 5,
+      "worked_solution": "Step 1: For an ohmic resistor, V is directly proportional to I and resistance is constant. Step 2: Calculate R = V/I using one pair: R = 3.0/0.60 = 5.0 Ω. Step 3: Check another pair: R = 6.0/1.20 = 5.0 Ω. Step 4: Since resistance is constant, the resistor is ohmic."
+    },
+    {
+      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_03",
+      "resource_type": "calculation_drill",
+      "topic": "Motion, forces and energy",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "medium",
+      "student_prompt": "An electric shuttle travels in two parts: 12 m/s for 40 s, then 8.0 m/s for 55 s. Calculate the total distance travelled.",
+      "options": {
+        "A": null,
+        "B": null,
+        "C": null,
+        "D": null
+      },
+      "estimated_time_minutes": 4
+    }
+  ]
+}

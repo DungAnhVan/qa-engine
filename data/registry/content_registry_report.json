@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "registry_id": "quanta_aptus_content_registry_v0",
+  "content_count": 1,
+  "total_questions": 5,
+  "boards": {
+    "cambridge": 1
+  },
+  "levels": {
+    "igcse": 1
+  },
+  "subjects": {
+    "physics": 1
+  },
+  "syllabus_codes": {
+    "0625": 1
+  },
+  "placeholder_check": "passed",
+  "output_files": {
+    "registry": "data\\registry\\content_registry_v0.json",
+    "report": "data\\registry\\content_registry_report.json",
+    "manifest": "data\\registry\\content_registry_manifest.md"
+  }
+}

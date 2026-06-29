@@ -1,0 +1,94 @@
+{
+  "package_id": "cambridge_igcse_physics_0625_publish_package_v0",
+  "quiz_id": "cambridge_igcse_physics_0625_demo_quiz_001",
+  "title": "Cambridge IGCSE Physics 0625 — Demo Quiz 001",
+  "description": "A short Quanta Aptus demo quiz using original generated MCQs.",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "physics",
+  "syllabus_code": "0625",
+  "question_count": 5,
+  "estimated_time_minutes": 8,
+  "items": [
+    {
+      "quiz_question_number": 1,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_001",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "easy",
+      "question_type": "mcq",
+      "stem": "An atom of silver is represented as having a nucleon number of 108 and a proton number of 47. How many neutrons are in the nucleus of this atom?",
+      "options": {
+        "A": "47",
+        "B": "61",
+        "C": "108",
+        "D": "155"
+      }
+    },
+    {
+      "quiz_question_number": 2,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_002",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "easy",
+      "question_type": "mcq",
+      "stem": "A nucleus has a proton number of 19 and contains 21 neutrons. What is the nucleon number of this nucleus?",
+      "options": {
+        "A": "2",
+        "B": "19",
+        "C": "21",
+        "D": "40"
+      }
+    },
+    {
+      "quiz_question_number": 3,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_003",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "medium",
+      "question_type": "mcq",
+      "stem": "Two isotopes of an element X have nucleon numbers 63 and 65. Both isotopes have a proton number of 29. What is the difference in the number of neutrons between these two isotopes?",
+      "options": {
+        "A": "0",
+        "B": "1",
+        "C": "2",
+        "D": "29"
+      }
+    },
+    {
+      "quiz_question_number": 4,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_004",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "medium",
+      "question_type": "mcq",
+      "stem": "A neutral atom contains 34 electrons and has a nucleon number of 79. How many neutrons does this atom's nucleus contain?",
+      "options": {
+        "A": "34",
+        "B": "45",
+        "C": "68",
+        "D": "79"
+      }
+    },
+    {
+      "quiz_question_number": 5,
+      "item_id": "cambridge_igcse_physics_0625_authoring_batch_001_atomic_structure_005",
+      "topic": "Nuclear physics",
+      "subtopic": "Atomic structure",
+      "skill": "Calculate neutron number from nucleon number",
+      "difficulty": "hard",
+      "question_type": "mcq",
+      "stem": "A radioactive nucleus with proton number 84 decays by emitting one alpha particle, forming a new nucleus with nucleon number 206. What was the neutron number of the original nucleus before decay?",
+      "options": {
+        "A": "120",
+        "B": "122",
+        "C": "126",
+        "D": "128"
+      }
+    }
+  ]
+}

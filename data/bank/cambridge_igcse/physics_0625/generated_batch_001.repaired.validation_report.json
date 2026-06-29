@@ -1,0 +1,53 @@
+{
+  "batch_id": "cambridge_igcse_physics_0625_authoring_batch_001",
+  "validation_status": "pass",
+  "expected_items": 30,
+  "detected_items": 30,
+  "valid_items_count": 30,
+  "needs_review_count": 0,
+  "fail_count": 0,
+  "missing_target_ids": [],
+  "target_counts": {
+    "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0": 5,
+    "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0": 5,
+    "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0": 5,
+    "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0": 5,
+    "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0": 5,
+    "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0": 5
+  },
+  "difficulty_distribution_by_target": {
+    "gen_cambridge_igcse_physics_0625_atomic_structure_calculate_neutron_number_from_nucleon_number_v0": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 1
+    },
+    "gen_cambridge_igcse_physics_0625_evaporation_recall_what_escapes_during_evaporation_v0": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 1
+    },
+    "gen_cambridge_igcse_physics_0625_radiation_safety_recall_gamma_radiation_safety_precautions_v0": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 1
+    },
+    "gen_cambridge_igcse_physics_0625_refraction_calculate_refractive_index_v0": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 1
+    },
+    "gen_cambridge_igcse_physics_0625_specific_heat_capacity_interpret_specific_heat_capacity_definition_v0": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 1
+    },
+    "gen_cambridge_igcse_physics_0625_universe_and_redshift_recall_properties_of_the_universe_and_redshift_v0": {
+      "easy": 2,
+      "medium": 2,
+      "hard": 1
+    }
+  },
+  "duplicate_generated_item_ids": [],
+  "duplicate_stems": [],
+  "copyright_hygiene_issues": []
+}

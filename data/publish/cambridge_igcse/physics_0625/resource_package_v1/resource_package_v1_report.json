@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "package_id": "cambridge_igcse_physics_0625_resource_package_v1",
+  "resource_count": 26,
+  "student_payload_count": 22,
+  "teacher_payload_count": 26,
+  "teacher_only_resource_count": 4,
+  "estimated_total_time_minutes": 163,
+  "resource_types": {
+    "calculation_drill": 3,
+    "worked_example": 4,
+    "short_answer_calculation": 1,
+    "diagram_or_graph_drill": 3,
+    "marking_checklist": 1,
+    "graph_marking_checklist": 2,
+    "graphing_drill": 6,
+    "experiment_planning_task": 2,
+    "planning_marking_checklist": 1,
+    "data_interpretation_drill": 3
+  },
+  "topics": {
+    "Motion, forces and energy": 5,
+    "Waves": 6,
+    "Electricity and magnetism": 11,
+    "Thermal physics": 4
+  },
+  "skill_types": {
+    "calculation": 2,
+    "equation_manipulation": 5,
+    "graphing": 12,
+    "extended_planning": 3,
+    "data_interpretation": 4
+  },
+  "difficulties": {
+    "easy": 6,
+    "hard": 7,
+    "medium": 13
+  },
+  "output_files": {
+    "publish_package": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\publish_package_v1.json",
+    "student_payload": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\student_resource_payload_v1.json",
+    "teacher_payload": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\teacher_resource_payload_v1.json",
+    "report": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\resource_package_v1_report.json",
+    "manifest": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\resource_package_v1_manifest.md",
+    "student_html_preview": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\static_preview\\student_resource_preview_v1.html",
+    "teacher_html_preview": "D:\\qa-engine\\data\\publish\\cambridge_igcse\\physics_0625\\resource_package_v1\\static_preview\\teacher_resource_preview_v1.html"
+  }
+}

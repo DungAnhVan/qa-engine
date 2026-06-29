@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quanta Aptus Local MVP Dashboard</title>
+<style>
+body{font-family:'Segoe UI',Arial,sans-serif;margin:0;background:#f0f4f8;color:#1a202c}
+.topbar{background:#1a1a2e;color:#fff;padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+.topbar h1{margin:0;font-size:1.45rem;font-weight:800;letter-spacing:.01em}
+.topbar .sub{opacity:.65;font-size:.82rem}
+.done-banner{background:#276749;color:#fff;text-align:center;padding:10px 0;font-size:.88rem;font-weight:700;letter-spacing:.04em}
+.container{max-width:1040px;margin:2rem auto;padding:0 1rem}
+.note-box{background:#fffbeb;border:1px solid #f6e05e;border-radius:5px;padding:8px 12px;font-size:.78rem;color:#744210;margin-bottom:16px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px;margin-bottom:24px}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:8px;padding:16px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.card .val{font-size:1.8rem;font-weight:700;color:#2b6cb0;line-height:1.1}
+.card .lbl{font-size:.65rem;color:#718096;text-transform:uppercase;letter-spacing:.05em;margin-top:5px}
+.sec{background:#fff;border:1px solid #e2e8f0;border-radius:8px;margin-bottom:20px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.07)}
+.sec-hdr{background:#2b6cb0;color:#fff;padding:10px 18px;font-size:.85rem;font-weight:700;letter-spacing:.03em}
+.sec-body{padding:16px 18px}
+.sec-hdr.done-hdr{background:#276749}
+.gate-timeline{display:flex;flex-direction:column;gap:6px}
+.gate-row{display:flex;align-items:center;gap:12px;padding:7px 10px;border-radius:6px;background:#f7fafc;border:1px solid #e2e8f0}
+.gate-row.passed{border-left:4px solid #38a169}
+.gate-row.missing{border-left:4px solid #e53e3e;background:#fff5f5}
+.gate-num{font-size:.72rem;font-weight:700;color:#718096;width:40px;flex-shrink:0}
+.gate-name{font-size:.84rem;flex:1;color:#2d3748}
+.gate-badge{font-size:.65rem;font-weight:700;padding:2px 8px;border-radius:999px;text-transform:uppercase;flex-shrink:0}
+.gate-badge.passed{background:#c6f6d5;color:#276749}
+.gate-badge.missing{background:#fed7d7;color:#742a2a}
+table{width:100%;border-collapse:collapse;font-size:.82rem}
+th{background:#f7fafc;padding:8px 10px;text-align:left;font-size:.7rem;font-weight:700;text-transform:uppercase;color:#718096;border-bottom:1px solid #e2e8f0}
+td{padding:8px 10px;border-bottom:1px solid #e2e8f0}
+tr:last-child td{border-bottom:none}
+.tick{color:#276749;font-weight:700}
+.cross{color:#e53e3e;font-weight:700}
+.limitation-list,.next-list{list-style:none;padding:0;margin:0}
+.limitation-list li,.next-list li{padding:5px 0;border-bottom:1px solid #e2e8f0;font-size:.85rem;color:#4a5568}
+.limitation-list li:last-child,.next-list li:last-child{border-bottom:none}
+.limitation-list li::before{content:'! ';color:#e53e3e;font-weight:700}
+.next-list li::before{content:'-> ';color:#2b6cb0;font-weight:700}
+.done-box{background:#f0fff4;border:2px solid #38a169;border-radius:10px;padding:22px 24px;text-align:center}
+.done-title{font-size:1.6rem;font-weight:800;color:#276749;margin-bottom:8px}
+.done-sub{font-size:.88rem;color:#276749;opacity:.8}
+.footer{text-align:center;color:#a0aec0;font-size:.76rem;margin:2rem 0 1rem}
+.acc-good{color:#276749;font-weight:700}
+</style>
+</head>
+<body>
+<div class="done-banner">LOCAL MVP v1 — COMPLETE &nbsp;|&nbsp; Gates 30–50 &nbsp;|&nbsp; 22/22 gates passed</div>
+<div class="topbar">
+  <div>
+    <h1>Quanta Aptus Local MVP Dashboard</h1>
+    <div class="sub">Generated 2026-06-29T15:31:44.123105+00:00 &middot; Cambridge IGCSE Physics 0625 &middot; local_demo_student</div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="cards"><div class="card"><div class="val">V2</div><div class="lbl">Active Package</div></div>
+<div class="card"><div class="val">27</div><div class="lbl">Total Resources</div></div>
+<div class="card"><div class="val">23</div><div class="lbl">Student Resources</div></div>
+<div class="card"><div class="val">3</div><div class="lbl">Raw Attempts</div></div>
+<div class="card"><div class="val">2</div><div class="lbl">Current</div></div>
+<div class="card"><div class="val">1</div><div class="lbl">Pending Review</div></div>
+<div class="card"><div class="val">100%</div><div class="lbl">Accuracy</div></div></div>
+
+  <div class="sec">
+    <div class="sec-hdr done-hdr">LOCAL MVP v1 — DONE</div>
+    <div class="sec-body">
+      <div class="done-box">
+        <div class="done-title">Local MVP v1 Complete</div>
+        <div class="done-sub">
+          Content factory → Active package → Student practice → Attempt capture →
+          Rule-based marking → Teacher review → Resubmission → Latest learning state → Dashboard
+        </div>
+        <div style="margin-top:12px;font-size:.82rem;color:#276749;opacity:.8">
+          Gates 30–50 &middot; Cambridge IGCSE Physics 0625 &middot; Quanta Aptus
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-hdr">Gate Timeline (30–50)</div>
+    <div class="sec-body"><div class="gate-timeline"><div class="gate-row passed"><span class="gate-num">Gate 30</span><span class="gate-name">One-command MVP Pipeline</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 31</span><span class="gate-name">Content Registry</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 32</span><span class="gate-name">Admin Registry Viewer</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 33</span><span class="gate-name">Package Detail / Resource Browser</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 34</span><span class="gate-name">Teacher Resource Review UI</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 35</span><span class="gate-name">Apply Teacher Resource Decisions</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 36</span><span class="gate-name">Publish Package v2</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 36B</span><span class="gate-name">Registry v1/v2 Support</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 37</span><span class="gate-name">Active Content Index</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 38</span><span class="gate-name">Admin Active Content View</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 39</span><span class="gate-name">Student Active Resource Viewer</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 40</span><span class="gate-name">Student Practice Mode</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 41</span><span class="gate-name">Basic Local Marking Engine</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 42</span><span class="gate-name">Student Result & Skill Gap Report v1</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 43</span><span class="gate-name">Student Result Viewer UI</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 44</span><span class="gate-name">Teacher Attempt Review UI</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 45</span><span class="gate-name">Apply Teacher Attempt Review</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 46</span><span class="gate-name">Student Result Report v2</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 47</span><span class="gate-name">Results UI Latest Report</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 48</span><span class="gate-name">Student Resubmission Flow</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 49</span><span class="gate-name">Latest Learning State</span><span class="gate-badge passed">PASSED</span></div><div class="gate-row passed"><span class="gate-num">Gate 50</span><span class="gate-name">MVP Dashboard</span><span class="gate-badge passed">PASSED</span></div></div></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-hdr">System Summary Checklist</div>
+    <div class="sec-body" style="padding:0">
+      <table>
+        <thead><tr><th>Subsystem</th><th>Ready</th></tr></thead>
+        <tbody><tr><td>Content Factory Ready</td><td><span class="tick">✓</span></td></tr><tr><td>Active Content Ready</td><td><span class="tick">✓</span></td></tr><tr><td>Student Practice Ready</td><td><span class="tick">✓</span></td></tr><tr><td>Attempt Capture Ready</td><td><span class="tick">✓</span></td></tr><tr><td>Marking Ready</td><td><span class="tick">✓</span></td></tr><tr><td>Teacher Review Ready</td><td><span class="tick">✓</span></td></tr><tr><td>Resubmission Ready</td><td><span class="tick">✓</span></td></tr><tr><td>Latest Learning State Ready</td><td><span class="tick">✓</span></td></tr></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-hdr">Content Factory</div>
+    <div class="sec-body" style="padding:0">
+      <table>
+        <thead><tr><th>Metric</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>Package count</td><td>2</td></tr>
+          <tr><td>Active package ID</td><td><code style="font-size:.76rem">cambridge_igcse_physics_0625_resource_package_v2</code></td></tr>
+          <tr><td>Total resources</td><td>27</td></tr>
+          <tr><td>Student resources</td><td>23</td></tr>
+          <tr><td>Teacher-only resources</td><td>4</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-hdr">Learning Workflow Status</div>
+    <div class="sec-body" style="padding:0">
+      <table>
+        <thead><tr><th>Metric</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>Raw attempts</td><td>3</td></tr>
+          <tr><td>Current attempts</td><td>2</td></tr>
+          <tr><td>Superseded (resubmitted)</td><td>1</td></tr>
+          <tr><td>Resubmission attempts</td><td>1</td></tr>
+          <tr><td>Correct</td><td>1</td></tr>
+          <tr><td>Pending teacher review</td><td>1</td></tr>
+          <tr><td>Needs resubmission</td><td>0</td></tr>
+          <tr><td>Accuracy (resolved)</td><td><span class="acc-good">100%</span></td></tr>
+          <tr><td>Workflow status</td><td><code>pending_teacher_review</code></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-hdr">Known Limitations (Local MVP)</div>
+    <div class="sec-body"><ul class='limitation-list'><li>Local JSON file storage only — no database persistence</li><li>No authentication or multi-user support</li><li>No Supabase integration</li><li>No OpenAI / Claude API auto-authoring in production</li><li>Graphing, diagram and planning tasks require teacher review</li><li>Single-student demo (local_demo_student)</li></ul></div>
+  </div>
+
+  <div class="sec">
+    <div class="sec-hdr">Next Phase: Production Platform</div>
+    <div class="sec-body"><ul class='next-list'><li>Supabase: database, auth, storage, row-level security</li><li>Claude / OpenAI API for automated authoring at scale</li><li>Multi-student dashboard and class analytics</li><li>Production deployment (Vercel / Render)</li><li>Graphing assessment: image upload + AI marking</li><li>Cambridge-aligned grade boundary reports</li></ul></div>
+  </div>
+
+  <p class="footer">Quanta Aptus &mdash; Local MVP v1 &mdash; Cambridge IGCSE Physics 0625 &mdash; 2026-06-29T15:31:44.123105+00:00</p>
+</div>
+</body>
+</html>
