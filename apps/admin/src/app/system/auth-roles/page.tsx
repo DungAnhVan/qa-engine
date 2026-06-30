@@ -253,8 +253,41 @@ export default async function AuthRolesPage() {
         </Alert>
       </section>
 
+      {/* Login UI status */}
+      <section style={{ marginBottom: 24 }}>
+        <h2 style={{ fontSize: 15, fontWeight: 600, marginBottom: 10 }}>Login UI Status</h2>
+        <table style={{ borderCollapse: 'collapse' }}>
+          <tbody>
+            <Row label="login page"  value={<code>/login</code>} />
+            <Row label="logout page" value={<code>/logout</code>} />
+            <Row
+              label="demo users expected"
+              value={
+                <span style={{ fontSize: 13, color: '#374151' }}>
+                  admin@quantaaptus.local, teacher@quantaaptus.local,
+                  student@quantaaptus.local, parent@quantaaptus.local
+                </span>
+              }
+            />
+            <Row
+              label="demo password"
+              value={
+                <span style={{ fontSize: 13, color: '#374151' }}>
+                  QuantaAptusDemo123! (local dev only)
+                </span>
+              }
+            />
+          </tbody>
+        </table>
+        <Alert variant="info">
+          Run <code>tools/supabase/create_gate61_demo_auth_users_v1.py</code> to create demo Supabase Auth users.
+        </Alert>
+      </section>
+
       {/* Navigation */}
       <p style={{ fontSize: 13, color: '#6b7280', marginTop: 12 }}>
+        <a href="/system/auth-session"      style={{ color: '#3b82f6', marginRight: 16 }}>Auth Session</a>
+        <a href="/login"                    style={{ color: '#3b82f6', marginRight: 16 }}>Login</a>
         <a href="/system/student-results"   style={{ color: '#3b82f6', marginRight: 16 }}>Student Results</a>
         <a href="/system/teacher-review"    style={{ color: '#3b82f6', marginRight: 16 }}>Teacher Review</a>
         <a href="/system/marking"           style={{ color: '#3b82f6', marginRight: 16 }}>Marking</a>

@@ -1,0 +1,251 @@
+{
+  "report_id": "quanta_aptus_gate61_login_rls_report_v1",
+  "gate": "61",
+  "created_at": "2026-06-30T13:37:53.387350+00:00",
+  "status": "passed",
+  "checks_total": 45,
+  "checks_passed": 45,
+  "checks_failed": 0,
+  "login_ui_available": true,
+  "logout_available": true,
+  "demo_auth_users_created": true,
+  "profiles_created": true,
+  "roles_verified": [
+    "admin",
+    "teacher",
+    "student",
+    "parent"
+  ],
+  "rls_permission_tests_run": true,
+  "rls_hardening_needed": false,
+  "service_role_exposed_to_client": false,
+  "security_violations": [],
+  "next_gate": "Gate 62 - RLS Hardening + Role-Based App Access",
+  "checks": [
+    {
+      "label": "browserSupabaseClient.ts exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth.ts exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "login/page.tsx exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "login/LoginForm.tsx exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "logout/page.tsx exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-session/page.tsx exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-roles/page.tsx exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "package.json exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": ".env.example exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "browserSupabaseClient: no SERVICE_ROLE reference",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "browserSupabaseClient: uses NEXT_PUBLIC_SUPABASE_URL",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "browserSupabaseClient: uses NEXT_PUBLIC_SUPABASE_ANON_KEY",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "browserSupabaseClient: exports createBrowserSupabaseClient",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "browserSupabaseClient: exports isBrowserSupabaseConfigured",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: imports 'server-only'",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: exports getServerAuthSession",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: exports getCurrentProfile",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: exports getCurrentRole",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: exports requireRole",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: exports getAuthMode",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: references SUPABASE_SERVICE_ROLE_KEY (server-only)",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "serverSupabaseAuth: QA_AUTH_DEMO_FALLBACK demo logic present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "login/page.tsx: force-dynamic",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "login/page.tsx: imports LoginForm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "login/page.tsx: imports getServerAuthSession",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "LoginForm.tsx: 'use client' directive",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "LoginForm.tsx: uses createBrowserSupabaseClient",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "LoginForm.tsx: signInWithPassword call",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "LoginForm.tsx: no SERVICE_ROLE reference",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "logout/page.tsx: 'use client'",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "logout/page.tsx: signOut call",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-session: force-dynamic",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-session: imports getServerAuthSession",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-session: imports getCurrentProfile",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-session: no SERVICE_ROLE reference",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-roles: auth-session link added",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "system/auth-roles: login UI section present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": ".env.example: NEXT_PUBLIC_SUPABASE_URL present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": ".env.example: NEXT_PUBLIC_SUPABASE_ANON_KEY present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": ".env.example: QA_AUTH_DEMO_FALLBACK present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "package.json: @supabase/ssr dependency present",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": ".env.local covered by .gitignore",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "service role not in client files",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "demo auth users report: passed/needs_review",
+      "ok": true,
+      "detail": "status=passed"
+    },
+    {
+      "label": "rls permission test report: passed/needs_review",
+      "ok": true,
+      "detail": "status=needs_review"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "report_id": "quanta_aptus_gate61_demo_auth_users_v1",
+  "gate": "61",
+  "created_at": "2026-06-30T13:37:35.562442+00:00",
+  "status": "passed",
+  "demo_users": [
+    {
+      "email": "admin@quantaaptus.local",
+      "role": "admin",
+      "display_name": "Demo Admin",
+      "user_id": "aa2b9ed7-6d46-4a7c-ac21-dce6a8a95608",
+      "created": true,
+      "updated": false,
+      "error": null
+    },
+    {
+      "email": "teacher@quantaaptus.local",
+      "role": "teacher",
+      "display_name": "Demo Teacher",
+      "user_id": "a97cbf41-703c-4ef0-9a77-76054415a1e3",
+      "created": true,
+      "updated": false,
+      "error": null
+    },
+    {
+      "email": "student@quantaaptus.local",
+      "role": "student",
+      "display_name": "Demo Student",
+      "user_id": "d034cb30-101d-42dd-bb10-bf16ef9148a9",
+      "created": true,
+      "updated": false,
+      "error": null
+    },
+    {
+      "email": "parent@quantaaptus.local",
+      "role": "parent",
+      "display_name": "Demo Parent",
+      "user_id": "c5e4f518-3d2f-408d-90c5-7bbc8e7ef34d",
+      "created": true,
+      "updated": false,
+      "error": null
+    }
+  ],
+  "profiles_created": true,
+  "roles_verified": [
+    "admin",
+    "teacher",
+    "student",
+    "parent"
+  ],
+  "trigger_applied": true,
+  "warnings": [],
+  "errors": []
+}

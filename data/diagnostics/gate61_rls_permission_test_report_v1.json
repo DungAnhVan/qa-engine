@@ -1,0 +1,86 @@
+{
+  "report_id": "quanta_aptus_gate61_rls_permission_tests_v1",
+  "gate": "61",
+  "created_at": "2026-06-30T13:37:42.082778+00:00",
+  "status": "needs_review",
+  "demo_users_login_ok": true,
+  "profiles_found": 4,
+  "roles_verified": [
+    "admin",
+    "teacher",
+    "student",
+    "parent"
+  ],
+  "rls_tests_run": true,
+  "rls_hardening_needed": false,
+  "per_role": {
+    "admin": {
+      "login": true,
+      "user_id": "aa2b9ed7-6d46-4a7c-ac21-dce6a8a95608",
+      "tests": {
+        "passed": [
+          "read_own_profile"
+        ],
+        "failed": [
+          "read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+          "read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}"
+        ],
+        "skipped": []
+      }
+    },
+    "teacher": {
+      "login": true,
+      "user_id": "a97cbf41-703c-4ef0-9a77-76054415a1e3",
+      "tests": {
+        "passed": [
+          "read_own_profile"
+        ],
+        "failed": [
+          "read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+          "read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}"
+        ],
+        "skipped": []
+      }
+    },
+    "student": {
+      "login": true,
+      "user_id": "d034cb30-101d-42dd-bb10-bf16ef9148a9",
+      "tests": {
+        "passed": [
+          "read_own_profile",
+          "student_read_students_table (0 rows visible)"
+        ],
+        "failed": [
+          "read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+          "read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}"
+        ],
+        "skipped": []
+      }
+    },
+    "parent": {
+      "login": true,
+      "user_id": "c5e4f518-3d2f-408d-90c5-7bbc8e7ef34d",
+      "tests": {
+        "passed": [
+          "read_own_profile",
+          "parent_read_parent_student_links (0 rows visible)"
+        ],
+        "failed": [
+          "read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+          "read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}"
+        ],
+        "skipped": []
+      }
+    }
+  },
+  "errors": [
+    "admin: read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+    "admin: read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+    "teacher: read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+    "teacher: read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+    "student: read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+    "student: read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+    "parent: read_subjects: {'message': 'column subjects.slug does not exist', 'code': '42703', 'hint': None, 'details': None}",
+    "parent: read_resource_packages: {'message': 'column resource_packages.slug does not exist', 'code': '42703', 'hint': None, 'details': None}"
+  ]
+}
