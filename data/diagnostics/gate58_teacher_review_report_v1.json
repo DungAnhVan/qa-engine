@@ -1,0 +1,315 @@
+{
+  "report_id": "quanta_aptus_gate58_teacher_review_report_v1",
+  "gate": "58",
+  "created_at": "2026-06-30T10:36:20.643172+00:00",
+  "status": "passed",
+  "teacher_review_queue_supported": true,
+  "teacher_review_write_supported": true,
+  "marked_attempt_update_supported": true,
+  "attempt_status_update_supported": true,
+  "needs_resubmission_supported": true,
+  "service_role_exposed_to_client": false,
+  "service_role_leak_files": [],
+  "test_teacher_review_passed": true,
+  "test_details": {
+    "attempt_id": "818851f0-c2fc-41c9-b8f3-0c7fbd8e1365",
+    "review_id": "a9c1a68b-b95e-419f-8316-51258795ca44",
+    "marked_attempt_id": "118072c9-302a-46a4-b5ed-73cef60fb75a",
+    "decision_used": "needs_resubmission",
+    "attempt_marking_status_after": "teacher_reviewed",
+    "marked_attempt_result": "needs_resubmission"
+  },
+  "openai_used": false,
+  "checks_total": 38,
+  "file_checks_passed": 9,
+  "content_checks_passed": 29,
+  "issues": [],
+  "checks": [
+    {
+      "label": "liveSupabaseTeacherReview.ts (new)",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: import server-only",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "import 'server-only'"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: getLiveSupabaseTeacherReviewQueue",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "getLiveSupabaseTeacherReviewQueue"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: submitLiveSupabaseTeacherReview",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "submitLiveSupabaseTeacherReview"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: getLiveSupabaseTeacherReviewStats",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "getLiveSupabaseTeacherReviewStats"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: teacher_reviews table",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "teacher_reviews"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: attempt_review type",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "attempt_review"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: teacher_reviewed status",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "teacher_reviewed"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: no organization_id hard-coded",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "organization_id"
+    },
+    {
+      "label": "liveSupabaseTeacherReview.ts: no OpenAI import",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695,
+      "contains": true,
+      "needle": "NO openai import"
+    },
+    {
+      "label": "API route: teacher-attempt-review/route.ts",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275
+    },
+    {
+      "label": "API route: live_supabase guard",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "API route: imports submitLiveSupabaseTeacherReview",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275,
+      "contains": true,
+      "needle": "submitLiveSupabaseTeacherReview"
+    },
+    {
+      "label": "API route: validates UUID",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275,
+      "contains": true,
+      "needle": "UUID_REGEX"
+    },
+    {
+      "label": "API route: validates decision",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275,
+      "contains": true,
+      "needle": "VALID_DECISIONS"
+    },
+    {
+      "label": "API route: requires feedback",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275,
+      "contains": true,
+      "needle": "feedback"
+    },
+    {
+      "label": "API route: returns storage=supabase",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275,
+      "contains": true,
+      "needle": "supabase"
+    },
+    {
+      "label": "API route: force-dynamic",
+      "path": "apps\\admin\\src\\app\\api\\supabase\\teacher-attempt-review\\route.ts",
+      "present": true,
+      "size_bytes": 3275,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "Review page: /learn/supabase-attempt-review",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7327
+    },
+    {
+      "label": "Review page: force-dynamic",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7327,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "Review page: imports getLiveSupabaseTeacherReviewQueue",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7327,
+      "contains": true,
+      "needle": "getLiveSupabaseTeacherReviewQueue"
+    },
+    {
+      "label": "Review page: renders TeacherReviewForm",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7327,
+      "contains": true,
+      "needle": "TeacherReviewForm"
+    },
+    {
+      "label": "Review page: shows student answer",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7327,
+      "contains": true,
+      "needle": "answer_text"
+    },
+    {
+      "label": "TeacherReviewForm.tsx: present",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\TeacherReviewForm.tsx",
+      "present": true,
+      "size_bytes": 8091
+    },
+    {
+      "label": "TeacherReviewForm.tsx: use client",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\TeacherReviewForm.tsx",
+      "present": true,
+      "size_bytes": 8091,
+      "contains": true,
+      "needle": "'use client'"
+    },
+    {
+      "label": "TeacherReviewForm.tsx: calls mark endpoint",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\TeacherReviewForm.tsx",
+      "present": true,
+      "size_bytes": 8091,
+      "contains": true,
+      "needle": "/api/supabase/teacher-attempt-review"
+    },
+    {
+      "label": "TeacherReviewForm.tsx: router.refresh() after submit",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\TeacherReviewForm.tsx",
+      "present": true,
+      "size_bytes": 8091,
+      "contains": true,
+      "needle": "router.refresh()"
+    },
+    {
+      "label": "TeacherReviewForm.tsx: decision field",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\TeacherReviewForm.tsx",
+      "present": true,
+      "size_bytes": 8091,
+      "contains": true,
+      "needle": "decision"
+    },
+    {
+      "label": "TeacherReviewForm.tsx: feedback field",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\TeacherReviewForm.tsx",
+      "present": true,
+      "size_bytes": 8091,
+      "contains": true,
+      "needle": "feedback"
+    },
+    {
+      "label": "Diagnostic page: /system/teacher-review",
+      "path": "apps\\admin\\src\\app\\system\\teacher-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7226
+    },
+    {
+      "label": "Diagnostic page: force-dynamic",
+      "path": "apps\\admin\\src\\app\\system\\teacher-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7226,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "Diagnostic page: getLiveSupabaseTeacherReviewStats",
+      "path": "apps\\admin\\src\\app\\system\\teacher-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7226,
+      "contains": true,
+      "needle": "getLiveSupabaseTeacherReviewStats"
+    },
+    {
+      "label": "Diagnostic page: Gate 59 notice",
+      "path": "apps\\admin\\src\\app\\system\\teacher-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7226,
+      "contains": true,
+      "needle": "Gate 59"
+    },
+    {
+      "label": "Gate 56: liveSupabaseAttempts.ts still present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845
+    },
+    {
+      "label": "Gate 57: liveSupabaseMarking.ts still present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249
+    },
+    {
+      "label": "Gate 57: mark-attempt route still present",
+      "path": "apps\\admin\\src\\app\\api\\mark-attempt\\route.ts",
+      "present": true,
+      "size_bytes": 1832
+    },
+    {
+      "label": "Test report: gate58_teacher_review_test_report_v1.json",
+      "path": "data\\diagnostics\\gate58_teacher_review_test_report_v1.json",
+      "present": true,
+      "size_bytes": 726
+    },
+    {
+      "label": "Test report: status=passed",
+      "path": "data\\diagnostics\\gate58_teacher_review_test_report_v1.json",
+      "present": true,
+      "contains": true,
+      "needle": "status=passed"
+    }
+  ],
+  "next_gate": "Gate 59 - Supabase Student Results"
+}

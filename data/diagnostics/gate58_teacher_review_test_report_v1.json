@@ -1,0 +1,18 @@
+{
+  "report_id": "quanta_aptus_gate58_teacher_review_test_v1",
+  "gate": "58",
+  "created_at": "2026-06-30T10:36:15.229145+00:00",
+  "status": "passed",
+  "attempt_id": "818851f0-c2fc-41c9-b8f3-0c7fbd8e1365",
+  "created_test_attempt": true,
+  "attempt_marking_status_before": "teacher_review_required",
+  "review_id": "a9c1a68b-b95e-419f-8316-51258795ca44",
+  "marked_attempt_id": "118072c9-302a-46a4-b5ed-73cef60fb75a",
+  "teacher_review_row_created": true,
+  "marked_attempt_updated": true,
+  "attempt_status_updated": true,
+  "decision_used": "needs_resubmission",
+  "attempt_marking_status_after": "teacher_reviewed",
+  "marked_attempt_result": "needs_resubmission",
+  "marked_attempt_method": "teacher"
+}
