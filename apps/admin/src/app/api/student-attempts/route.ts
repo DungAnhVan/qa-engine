@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { saveStudentAttempt, type AttemptInput } from '@/lib/studentAttempts'
+import { getContentSourceMode } from '@/lib/contentSource'
+import { createLiveSupabaseAttempt } from '@/lib/liveSupabaseAttempts'
 
 export async function POST(req: NextRequest) {
   let body: Record<string, unknown>
@@ -18,7 +20,7 @@ export async function POST(req: NextRequest) {
     )
   }
 
-  const student_answer = (body.student_answer as string | null) ?? ''
+  const student_answer  = (body.student_answer as string | null) ?? ''
   const selected_option = (body.selected_option as string | null) ?? null
 
   if (!student_answer.trim() && !selected_option) {
@@ -41,20 +43,57 @@ export async function POST(req: NextRequest) {
   const parent_attempt_id =
     body.parent_attempt_id ? String(body.parent_attempt_id) : null
 
+  // ── Live Supabase mode ──────────────────────────────────────────────────────
+  if (getContentSourceMode() === 'live_supabase') {
+    const answerText = selected_option
+      ? `${selected_option}${student_answer.trim() ? ` — ${student_answer.trim()}` : ''}`
+      : student_answer.trim()
+
+    const answerJson: Record<string, unknown> = {}
+    if (selected_option)          answerJson.selected_option = selected_option
+    if (student_answer.trim())    answerJson.student_answer  = student_answer.trim()
+
+    const result = await createLiveSupabaseAttempt({
+      resource_key:       String(resource_id),
+      answer_text:        answerText,
+      answer_json:        answerJson,
+      confidence_level:   self_confidence ?? 'unknown',
+      attempt_type,
+      parent_attempt_id,
+    })
+
+    if (!result.success) {
+      console.error('[student-attempts] live_supabase insert failed:', result.error)
+      return NextResponse.json(
+        { error: result.error ?? 'Failed to save attempt to Supabase.' },
+        { status: 500 },
+      )
+    }
+
+    return NextResponse.json({
+      status:         'saved',
+      storage:        'supabase',
+      attempt_id:     result.attempt_id,
+      submitted_at:   result.submitted_at,
+      marking_status: result.marking_status ?? 'unmarked',
+    })
+  }
+
+  // ── Local JSON mode (default) ───────────────────────────────────────────────
   const input: AttemptInput = {
-    package_id: String(package_id),
-    resource_id: String(resource_id),
-    resource_type: String(resource_type),
-    topic: String(body.topic ?? ''),
-    skill_name: String(body.skill_name ?? ''),
-    skill_type: String(body.skill_type ?? ''),
-    difficulty: body.difficulty ? String(body.difficulty) : null,
-    student_answer: student_answer.trim(),
+    package_id:        String(package_id),
+    resource_id:       String(resource_id),
+    resource_type:     String(resource_type),
+    topic:             String(body.topic ?? ''),
+    skill_name:        String(body.skill_name ?? ''),
+    skill_type:        String(body.skill_type ?? ''),
+    difficulty:        body.difficulty ? String(body.difficulty) : null,
+    student_answer:    student_answer.trim(),
     selected_option,
     self_confidence,
     attempt_type,
     parent_attempt_id,
-    resubmission_of: parent_attempt_id,
+    resubmission_of:   parent_attempt_id,
   }
 
   try {

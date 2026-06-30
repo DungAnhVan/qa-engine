@@ -1,0 +1,181 @@
+{
+  "report_id": "quanta_aptus_gate56_attempt_write_report_v1",
+  "gate": "56",
+  "created_at": "2026-06-30T09:25:07.367627+00:00",
+  "status": "passed",
+  "live_supabase_attempt_write_supported": true,
+  "local_fallback_available": true,
+  "service_role_exposed_to_client": false,
+  "service_role_leak_files": [],
+  "test_attempt_inserted": true,
+  "test_attempt_id": "41ad8554-2acb-41e5-95e7-8f37e7c1edab",
+  "marking_enabled": false,
+  "checks_total": 22,
+  "file_checks_passed": 7,
+  "content_checks_passed": 15,
+  "issues": [],
+  "checks": [
+    {
+      "label": "liveSupabaseAttempts.ts (new)",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845
+    },
+    {
+      "label": "liveSupabaseAttempts.ts: import server-only",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845,
+      "contains": true,
+      "needle": "import 'server-only'"
+    },
+    {
+      "label": "liveSupabaseAttempts.ts: getLiveSupabaseDemoStudent",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845,
+      "contains": true,
+      "needle": "getLiveSupabaseDemoStudent"
+    },
+    {
+      "label": "liveSupabaseAttempts.ts: getLiveSupabaseResourceByKey",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845,
+      "contains": true,
+      "needle": "getLiveSupabaseResourceByKey"
+    },
+    {
+      "label": "liveSupabaseAttempts.ts: createLiveSupabaseAttempt",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845,
+      "contains": true,
+      "needle": "createLiveSupabaseAttempt"
+    },
+    {
+      "label": "liveSupabaseAttempts.ts: marking_status = unmarked",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845,
+      "contains": true,
+      "needle": "marking_status"
+    },
+    {
+      "label": "API route: student-attempts/route.ts",
+      "path": "apps\\admin\\src\\app\\api\\student-attempts\\route.ts",
+      "present": true,
+      "size_bytes": 4071
+    },
+    {
+      "label": "API route: branches on live_supabase",
+      "path": "apps\\admin\\src\\app\\api\\student-attempts\\route.ts",
+      "present": true,
+      "size_bytes": 4071,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "API route: imports createLiveSupabaseAttempt",
+      "path": "apps\\admin\\src\\app\\api\\student-attempts\\route.ts",
+      "present": true,
+      "size_bytes": 4071,
+      "contains": true,
+      "needle": "createLiveSupabaseAttempt"
+    },
+    {
+      "label": "API route: returns storage=supabase",
+      "path": "apps\\admin\\src\\app\\api\\student-attempts\\route.ts",
+      "present": true,
+      "size_bytes": 4071,
+      "contains": true,
+      "needle": "storage"
+    },
+    {
+      "label": "API route: local fallback still present (saveStudentAttempt)",
+      "path": "apps\\admin\\src\\app\\api\\student-attempts\\route.ts",
+      "present": true,
+      "size_bytes": 4071,
+      "contains": true,
+      "needle": "saveStudentAttempt"
+    },
+    {
+      "label": "AttemptForm.tsx: present",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 8914
+    },
+    {
+      "label": "AttemptForm.tsx: shows Supabase storage badge",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 8914,
+      "contains": true,
+      "needle": "Saved to: Supabase"
+    },
+    {
+      "label": "AttemptForm.tsx: shows attempt_id",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 8914,
+      "contains": true,
+      "needle": "attempt_id"
+    },
+    {
+      "label": "AttemptForm.tsx: shows marking_status",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 8914,
+      "contains": true,
+      "needle": "marking_status"
+    },
+    {
+      "label": "Diagnostic page: /system/attempt-write",
+      "path": "apps\\admin\\src\\app\\system\\attempt-write\\page.tsx",
+      "present": true,
+      "size_bytes": 6532
+    },
+    {
+      "label": "Diagnostic page: Gate 57 warning",
+      "path": "apps\\admin\\src\\app\\system\\attempt-write\\page.tsx",
+      "present": true,
+      "size_bytes": 6532,
+      "contains": true,
+      "needle": "Gate 57"
+    },
+    {
+      "label": "Diagnostic page: shows demo student",
+      "path": "apps\\admin\\src\\app\\system\\attempt-write\\page.tsx",
+      "present": true,
+      "size_bytes": 6532,
+      "contains": true,
+      "needle": "getLiveSupabaseDemoStudent"
+    },
+    {
+      "label": "Gate 55: liveSupabaseContent.ts still present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250
+    },
+    {
+      "label": "Gate 54/55: contentSource.ts still present",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 957
+    },
+    {
+      "label": "Test report: gate56_attempt_write_test_report_v1.json",
+      "path": "data\\diagnostics\\gate56_attempt_write_test_report_v1.json",
+      "present": true,
+      "size_bytes": 756
+    },
+    {
+      "label": "Test report: status=passed",
+      "path": "data\\diagnostics\\gate56_attempt_write_test_report_v1.json",
+      "present": true,
+      "contains": true,
+      "needle": "status=passed"
+    }
+  ],
+  "next_gate": "Gate 57 - Supabase Marking + Marked Attempts"
+}
