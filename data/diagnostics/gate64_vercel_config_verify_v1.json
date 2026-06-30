@@ -1,0 +1,171 @@
+{
+  "gate": "64",
+  "title": "Vercel Config Verification v1",
+  "generated_at": "2026-06-30T15:18:49.045609+00:00",
+  "overall_status": "passed",
+  "pass_count": 31,
+  "fail_count": 0,
+  "warn_count": 0,
+  "total_checks": 31,
+  "security_summary": {
+    "service_role_exposed_to_client": false,
+    "env_local_tracked": false
+  },
+  "checks": [
+    {
+      "label": "vercel.json at repo root",
+      "status": "PASS",
+      "detail": "vercel.json"
+    },
+    {
+      "label": "VERCEL_GATE64_SETUP.md",
+      "status": "PASS",
+      "detail": "deployment\\VERCEL_GATE64_SETUP.md"
+    },
+    {
+      "label": "VERCEL_ENV_VARS_GATE64.md",
+      "status": "PASS",
+      "detail": "deployment\\VERCEL_ENV_VARS_GATE64.md"
+    },
+    {
+      "label": "vercel.json: build command documented",
+      "status": "PASS",
+      "detail": "found: pnpm --filter @qa-engine/admin build"
+    },
+    {
+      "label": "vercel.json: output directory set",
+      "status": "PASS",
+      "detail": "found: apps/admin/.next"
+    },
+    {
+      "label": "vercel.json: install command",
+      "status": "PASS",
+      "detail": "found: pnpm install"
+    },
+    {
+      "label": "vercel.json has no embedded service role key",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "vercel.json has no hardcoded secret values",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "setup doc: build command",
+      "status": "PASS",
+      "detail": "found: pnpm --filter @qa-engine/admin build"
+    },
+    {
+      "label": "setup doc: SUPABASE_SERVICE_ROLE_KEY documented",
+      "status": "PASS",
+      "detail": "found: SUPABASE_SERVICE_ROLE_KEY"
+    },
+    {
+      "label": "setup doc: NEXT_PUBLIC_SUPABASE_URL documented",
+      "status": "PASS",
+      "detail": "found: NEXT_PUBLIC_SUPABASE_URL"
+    },
+    {
+      "label": "setup doc: health URL documented",
+      "status": "PASS",
+      "detail": "found: /system/health"
+    },
+    {
+      "label": "setup doc: readiness URL documented",
+      "status": "PASS",
+      "detail": "found: /system/readiness"
+    },
+    {
+      "label": "env doc: QA_CONTENT_SOURCE documented",
+      "status": "PASS",
+      "detail": "found: QA_CONTENT_SOURCE"
+    },
+    {
+      "label": "env doc: live_supabase value",
+      "status": "PASS",
+      "detail": "found: live_supabase"
+    },
+    {
+      "label": "env doc: SUPABASE_SERVICE_ROLE_KEY server-only note",
+      "status": "PASS",
+      "detail": "found: NEVER NEXT_PUBLIC"
+    },
+    {
+      "label": "env doc: QA_AUTH_DEMO_FALLBACK=false required",
+      "status": "PASS",
+      "detail": "found: QA_AUTH_DEMO_FALLBACK"
+    },
+    {
+      "label": ".env.production.example exists",
+      "status": "PASS",
+      "detail": ".env.production.example"
+    },
+    {
+      "label": "health page exists",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\system\\health\\page.tsx"
+    },
+    {
+      "label": "readiness page exists",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\system\\readiness\\page.tsx"
+    },
+    {
+      "label": "health API route exists",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\api\\system\\health\\route.ts"
+    },
+    {
+      "label": "readiness API route exists",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\api\\system\\readiness\\route.ts"
+    },
+    {
+      "label": "login page exists",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\login\\page.tsx"
+    },
+    {
+      "label": ".env.local not tracked by git",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": ".env.production not tracked by git",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "service role key not in 'use client' browser components",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "service role key not in browserSupabaseClient.ts",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "no NEXT_PUBLIC_SUPABASE_SERVICE_ROLE anywhere",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "no committed OpenAI/Anthropic key (sk-...)",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "pnpm-lock.yaml is tracked by git",
+      "status": "PASS",
+      "detail": "present \u2014 Vercel reproducible install"
+    },
+    {
+      "label": "vercel.json: QA_CONTENT_SOURCE documented (if env block present)",
+      "status": "PASS",
+      "detail": "found: nextjs"
+    }
+  ]
+}

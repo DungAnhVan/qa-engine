@@ -1,0 +1,18 @@
+{
+  "gate": "64",
+  "status": "passed",
+  "generated_at": "2026-06-30T15:32:39.923341+00:00",
+  "vercel_config_created": true,
+  "deployment_setup_doc_created": true,
+  "env_var_doc_created": true,
+  "health_urls_ready": true,
+  "readiness_urls_ready": true,
+  "health_api_ready": true,
+  "readiness_api_ready": true,
+  "service_role_exposed_to_client": false,
+  "env_local_tracked": false,
+  "manual_vercel_deploy_required": true,
+  "verify_check_ran": true,
+  "verify_fail_count": 0,
+  "next_gate": "Gate 65 - Post-deploy Smoke Test"
+}
