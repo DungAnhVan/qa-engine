@@ -1,0 +1,89 @@
+{
+  "report_id": "quanta_aptus_supabase_source_items_skill_units_sync_v1",
+  "gate": "53D",
+  "created_at": "2026-06-30T05:56:59.756160+00:00",
+  "status": "passed",
+  "synced_subjects": [
+    "biology_0610",
+    "chemistry_0620",
+    "mathematics_0580",
+    "physics_0625"
+  ],
+  "subject_count": 4,
+  "source_items_upserted_count": 134,
+  "skill_units_upserted_count": 132,
+  "source_item_match_warnings": 0,
+  "skill_unit_match_warnings": 0,
+  "failed_count": 0,
+  "errors": [],
+  "copyright_safety": {
+    "uploaded_raw_pdfs": false,
+    "uploaded_extracted_text": false,
+    "source_items_raw_text_synced": false,
+    "metadata_only_for_source_items": true,
+    "derived_skill_metadata_synced": true
+  },
+  "subjects": [
+    {
+      "subject_slug": "biology_0610",
+      "corpus_found": true,
+      "skill_map_found": true,
+      "skill_units_skipped": false,
+      "source_items_found": 54,
+      "source_items_upserted": 54,
+      "skill_units_found": 54,
+      "skill_units_upserted": 54,
+      "failed_source_items": 0,
+      "failed_skill_units": 0,
+      "source_item_warnings": 0,
+      "skill_unit_warnings": 0,
+      "errors": []
+    },
+    {
+      "subject_slug": "chemistry_0620",
+      "corpus_found": true,
+      "skill_map_found": false,
+      "skill_units_skipped": true,
+      "source_items_found": 2,
+      "source_items_upserted": 2,
+      "skill_units_found": 0,
+      "skill_units_upserted": 0,
+      "failed_source_items": 0,
+      "failed_skill_units": 0,
+      "source_item_warnings": 0,
+      "skill_unit_warnings": 0,
+      "errors": []
+    },
+    {
+      "subject_slug": "mathematics_0580",
+      "corpus_found": true,
+      "skill_map_found": true,
+      "skill_units_skipped": false,
+      "source_items_found": 10,
+      "source_items_upserted": 10,
+      "skill_units_found": 10,
+      "skill_units_upserted": 10,
+      "failed_source_items": 0,
+      "failed_skill_units": 0,
+      "source_item_warnings": 0,
+      "skill_unit_warnings": 0,
+      "errors": []
+    },
+    {
+      "subject_slug": "physics_0625",
+      "corpus_found": true,
+      "skill_map_found": true,
+      "skill_units_skipped": false,
+      "source_items_found": 68,
+      "source_items_upserted": 68,
+      "skill_units_found": 68,
+      "skill_units_upserted": 68,
+      "failed_source_items": 0,
+      "failed_skill_units": 0,
+      "source_item_warnings": 0,
+      "skill_unit_warnings": 0,
+      "errors": []
+    }
+  ],
+  "next_gate": "Gate 53E - Sync Resource Packages and Resources"
+}
