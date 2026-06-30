@@ -1,0 +1,27 @@
+{
+  "report_id": "quanta_aptus_gate60_auth_roles_verify_v1",
+  "gate": "60",
+  "created_at": "2026-06-30T12:46:19.166219+00:00",
+  "status": "ready_no_auth_users",
+  "organizations_found": 1,
+  "organizations": [
+    {
+      "slug": "quanta-aptus-local-demo",
+      "name": "Quanta Aptus Local Demo"
+    }
+  ],
+  "profiles_total": 0,
+  "profiles_by_role": {
+    "admin": 0,
+    "teacher": 0,
+    "student": 0,
+    "parent": 0
+  },
+  "demo_profiles_seeded": 0,
+  "students_count": 1,
+  "parent_links_count": 0,
+  "migration_003_present": true,
+  "seed_profiles_present": true,
+  "auth_profile_trigger_applied": false,
+  "issues": []
+}

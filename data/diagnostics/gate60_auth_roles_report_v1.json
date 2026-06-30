@@ -1,0 +1,339 @@
+{
+  "report_id": "quanta_aptus_gate60_auth_roles_report_v1",
+  "gate": "60",
+  "created_at": "2026-06-30T12:49:05.858794+00:00",
+  "status": "passed",
+  "auth_profile_trigger_defined": true,
+  "roles_supported": [
+    "admin",
+    "teacher",
+    "student",
+    "parent"
+  ],
+  "demo_auth_context_supported": true,
+  "rls_foundation_ready": true,
+  "login_ui_enabled": false,
+  "service_role_exposed_to_client": false,
+  "service_role_leak_files": [],
+  "verify_run": true,
+  "verify_details": {
+    "status": "ready_no_auth_users",
+    "organizations": 1,
+    "students": 1,
+    "profiles_total": 0
+  },
+  "openai_used": false,
+  "checks_total": 41,
+  "file_checks_passed": 10,
+  "content_checks_passed": 31,
+  "issues": [],
+  "checks": [
+    {
+      "label": "000003_auth_profile_trigger.sql",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330
+    },
+    {
+      "label": "migration: handle_new_user function",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "handle_new_user"
+    },
+    {
+      "label": "migration: on_auth_user_created trigger",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "on_auth_user_created"
+    },
+    {
+      "label": "migration: SECURITY DEFINER",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "SECURITY DEFINER"
+    },
+    {
+      "label": "migration: DROP TRIGGER IF EXISTS",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "DROP TRIGGER IF EXISTS"
+    },
+    {
+      "label": "migration: role validation",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "'admin'"
+    },
+    {
+      "label": "migration: default role = student",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "'student'"
+    },
+    {
+      "label": "migration: org slug fallback",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "quanta-aptus-local-demo"
+    },
+    {
+      "label": "migration: ON CONFLICT DO NOTHING",
+      "path": "supabase\\migrations\\000003_auth_profile_trigger.sql",
+      "present": true,
+      "size_bytes": 3330,
+      "contains": true,
+      "needle": "ON CONFLICT (id) DO NOTHING"
+    },
+    {
+      "label": "seed_demo_auth_profiles.sql",
+      "path": "supabase\\seed\\seed_demo_auth_profiles.sql",
+      "present": true,
+      "size_bytes": 3481
+    },
+    {
+      "label": "seed: admin demo profile",
+      "path": "supabase\\seed\\seed_demo_auth_profiles.sql",
+      "present": true,
+      "size_bytes": 3481,
+      "contains": true,
+      "needle": "admin"
+    },
+    {
+      "label": "seed: teacher demo profile",
+      "path": "supabase\\seed\\seed_demo_auth_profiles.sql",
+      "present": true,
+      "size_bytes": 3481,
+      "contains": true,
+      "needle": "teacher"
+    },
+    {
+      "label": "seed: student demo profile",
+      "path": "supabase\\seed\\seed_demo_auth_profiles.sql",
+      "present": true,
+      "size_bytes": 3481,
+      "contains": true,
+      "needle": "student"
+    },
+    {
+      "label": "seed: parent demo profile",
+      "path": "supabase\\seed\\seed_demo_auth_profiles.sql",
+      "present": true,
+      "size_bytes": 3481,
+      "contains": true,
+      "needle": "parent"
+    },
+    {
+      "label": "seed: idempotent ON CONFLICT",
+      "path": "supabase\\seed\\seed_demo_auth_profiles.sql",
+      "present": true,
+      "size_bytes": 3481,
+      "contains": true,
+      "needle": "ON CONFLICT"
+    },
+    {
+      "label": "verify_auth_roles_v1.py",
+      "path": "tools\\supabase\\verify_auth_roles_v1.py",
+      "present": true,
+      "size_bytes": 7970
+    },
+    {
+      "label": "verify: checks profiles table",
+      "path": "tools\\supabase\\verify_auth_roles_v1.py",
+      "present": true,
+      "size_bytes": 7970,
+      "contains": true,
+      "needle": "profiles"
+    },
+    {
+      "label": "verify: checks by role",
+      "path": "tools\\supabase\\verify_auth_roles_v1.py",
+      "present": true,
+      "size_bytes": 7970,
+      "contains": true,
+      "needle": "VALID_ROLES"
+    },
+    {
+      "label": "verify: ready_no_auth_users status",
+      "path": "tools\\supabase\\verify_auth_roles_v1.py",
+      "present": true,
+      "size_bytes": 7970,
+      "contains": true,
+      "needle": "ready_no_auth_users"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts (new)",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: import server-only",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "import 'server-only'"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: getDemoAuthContext",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "getDemoAuthContext"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: getProfileById",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "getProfileById"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: getProfilesByRole",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "getProfilesByRole"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: getStudentForProfile",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "getStudentForProfile"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: getParentLinkedStudents",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "getParentLinkedStudents"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: getAuthRoleStats",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "getAuthRoleStats"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: demo_auth_context mode",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "demo_auth_context"
+    },
+    {
+      "label": "liveSupabaseAuthContext.ts: no OpenAI",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAuthContext.ts",
+      "present": true,
+      "size_bytes": 7464,
+      "contains": true,
+      "needle": "NO openai import"
+    },
+    {
+      "label": "/system/auth-roles page",
+      "path": "apps\\admin\\src\\app\\system\\auth-roles\\page.tsx",
+      "present": true,
+      "size_bytes": 9422
+    },
+    {
+      "label": "page: force-dynamic",
+      "path": "apps\\admin\\src\\app\\system\\auth-roles\\page.tsx",
+      "present": true,
+      "size_bytes": 9422,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "page: getDemoAuthContext",
+      "path": "apps\\admin\\src\\app\\system\\auth-roles\\page.tsx",
+      "present": true,
+      "size_bytes": 9422,
+      "contains": true,
+      "needle": "getDemoAuthContext"
+    },
+    {
+      "label": "page: getAuthRoleStats",
+      "path": "apps\\admin\\src\\app\\system\\auth-roles\\page.tsx",
+      "present": true,
+      "size_bytes": 9422,
+      "contains": true,
+      "needle": "getAuthRoleStats"
+    },
+    {
+      "label": "page: Gate 61 warning",
+      "path": "apps\\admin\\src\\app\\system\\auth-roles\\page.tsx",
+      "present": true,
+      "size_bytes": 9422,
+      "contains": true,
+      "needle": "Gate 61"
+    },
+    {
+      "label": ".env.local in .gitignore",
+      "path": ".gitignore",
+      "present": true,
+      "contains": true,
+      "needle": ".env.local"
+    },
+    {
+      "label": "Gate 56: liveSupabaseAttempts.ts present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845
+    },
+    {
+      "label": "Gate 57: liveSupabaseMarking.ts present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249
+    },
+    {
+      "label": "Gate 58: liveSupabaseTeacherReview.ts present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695
+    },
+    {
+      "label": "Gate 59: liveSupabaseStudentResults.ts present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809
+    },
+    {
+      "label": "Verify report: auth_roles_verify_report_v1.json",
+      "path": "data\\diagnostics\\auth_roles_verify_report_v1.json",
+      "present": true,
+      "size_bytes": 659
+    },
+    {
+      "label": "Verify report: not failed",
+      "path": "data\\diagnostics\\auth_roles_verify_report_v1.json",
+      "present": true,
+      "contains": true,
+      "needle": "status not failed"
+    }
+  ],
+  "next_gate": "Gate 61 - Login UI + RLS Permission Tests"
+}
