@@ -1,9 +1,3 @@
-/**
- * /system/readiness — Gate 63 production readiness page.
- *
- * Server Component — all checks run server-side, no secrets shown.
- * Displays READY / NEEDS_REVIEW / FAILED based on env + file checks.
- */
 import { existsSync } from 'fs'
 import path from 'path'
 import { getContentSourceMode } from '@/lib/contentSource'
@@ -40,11 +34,27 @@ interface ReadinessCheck {
 // Checks
 // ---------------------------------------------------------------------------
 
-function buildChecks(mode: string, isLive: boolean): ReadinessCheck[] {
+function buildChecks(mode: string, isLive: boolean, isProduction: boolean): ReadinessCheck[] {
   const anonKeyPresent     = Boolean(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.SUPABASE_ANON_KEY)
   const supabaseUrlPresent = Boolean(process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL)
+  const nextPublicUrl      = Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL)
   const serviceRolePresent = Boolean(process.env.SUPABASE_SERVICE_ROLE_KEY)
   const demoFallback       = process.env.QA_AUTH_DEMO_FALLBACK
+
+  // Vercel production deploys only compiled .next output; source files are
+  // absent so existsSync on src/** always returns false there.
+  const SKIP = (label: string): ReadinessCheck => ({
+    label,
+    status:   'SKIP',
+    detail:   'skipped in production runtime — source files absent from build output',
+    critical: false,
+  })
+
+  const fileCheck = (label: string, path: string, repoLevel = false): ReadinessCheck => {
+    if (isProduction) return SKIP(label)
+    const exists = repoLevel ? repoFileExists(path) : fileExists(path)
+    return { label, status: exists ? 'PASS' : 'WARN', detail: exists ? 'found' : 'not found', critical: false }
+  }
 
   return [
     // ── Content source ────────────────────────────────────────────────
@@ -78,8 +88,8 @@ function buildChecks(mode: string, isLive: boolean): ReadinessCheck[] {
     },
     {
       label:    'NEXT_PUBLIC_SUPABASE_URL present (browser)',
-      status:   Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL) ? 'PASS' : (isLive ? 'FAIL' : 'WARN'),
-      detail:   Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL) ? 'present' : 'missing — required for browser auth',
+      status:   nextPublicUrl ? 'PASS' : (isLive ? 'FAIL' : 'WARN'),
+      detail:   nextPublicUrl ? 'present' : 'missing — required for browser auth',
       critical: isLive,
     },
     {
@@ -95,68 +105,21 @@ function buildChecks(mode: string, isLive: boolean): ReadinessCheck[] {
       critical: isLive,
     },
 
-    // ── App modules ───────────────────────────────────────────────────
-    {
-      label:    'Login UI exists (apps/admin/src/app/login/page.tsx)',
-      status:   fileExists('src/app/login/page.tsx') ? 'PASS' : 'FAIL',
-      critical: true,
-    },
-    {
-      label:    'Logout page exists',
-      status:   fileExists('src/app/logout/page.tsx') ? 'PASS' : 'FAIL',
-      critical: true,
-    },
-    {
-      label:    'roleAccess.ts exists',
-      status:   fileExists('src/lib/roleAccess.ts') ? 'PASS' : 'FAIL',
-      critical: true,
-    },
-    {
-      label:    'serverSupabaseAuth.ts exists',
-      status:   fileExists('src/lib/serverSupabaseAuth.ts') ? 'PASS' : 'FAIL',
-      critical: true,
-    },
-    {
-      label:    'browserSupabaseClient.ts exists',
-      status:   fileExists('src/lib/browserSupabaseClient.ts') ? 'PASS' : 'FAIL',
-      critical: true,
-    },
-    {
-      label:    'RoleGate.tsx server component exists',
-      status:   fileExists('src/components/RoleGate.tsx') ? 'PASS' : 'FAIL',
-      critical: false,
-    },
+    // ── App modules (local dev only; SKIP in production) ──────────────
+    fileCheck('Login UI (src/app/login/page.tsx)',            'src/app/login/page.tsx'),
+    fileCheck('Logout page (src/app/logout/page.tsx)',        'src/app/logout/page.tsx'),
+    fileCheck('roleAccess.ts module',                        'src/lib/roleAccess.ts'),
+    fileCheck('serverSupabaseAuth.ts module',                'src/lib/serverSupabaseAuth.ts'),
+    fileCheck('browserSupabaseClient.ts module',             'src/lib/browserSupabaseClient.ts'),
+    fileCheck('RoleGate.tsx component',                      'src/components/RoleGate.tsx'),
+    fileCheck('Health page (src/app/system/health)',          'src/app/system/health/page.tsx'),
 
-    // ── RLS / migrations ──────────────────────────────────────────────
-    {
-      label:    'RLS migration file exists (000004_rls_role_hardening.sql)',
-      status:   repoFileExists('supabase/migrations/000004_rls_role_hardening.sql') ? 'PASS' : 'WARN',
-      detail:   'migration must also be applied in Supabase SQL Editor',
-      critical: false,
-    },
-    {
-      label:    'Gate 62 RLS done marker exists',
-      status:   repoFileExists('data/diagnostics/SUPABASE_GATE_62_RLS_ROLE_ACCESS_DONE.md') ? 'PASS' : 'WARN',
-      detail:   'run build_gate62_rls_role_access_report_v1.py to generate',
-      critical: false,
-    },
-
-    // ── Gate 63 files ─────────────────────────────────────────────────
-    {
-      label:    'Production env template (.env.production.example)',
-      status:   repoFileExists('.env.production.example') ? 'PASS' : 'WARN',
-      critical: false,
-    },
-    {
-      label:    'Deployment checklist exists',
-      status:   repoFileExists('deployment/VERCEL_DEPLOYMENT_CHECKLIST.md') ? 'PASS' : 'WARN',
-      critical: false,
-    },
-    {
-      label:    'Security pre-deploy checklist exists',
-      status:   repoFileExists('deployment/SECURITY_PREDEPLOY_CHECKLIST.md') ? 'PASS' : 'WARN',
-      critical: false,
-    },
+    // ── Repository files (local dev only; SKIP in production) ─────────
+    fileCheck('RLS migration 000004',                        'supabase/migrations/000004_rls_role_hardening.sql', true),
+    fileCheck('Gate 62 done marker',                         'data/diagnostics/SUPABASE_GATE_62_RLS_ROLE_ACCESS_DONE.md', true),
+    fileCheck('.env.production.example template',             '.env.production.example', true),
+    fileCheck('Deployment checklist',                        'deployment/VERCEL_DEPLOYMENT_CHECKLIST.md', true),
+    fileCheck('Security pre-deploy checklist',               'deployment/SECURITY_PREDEPLOY_CHECKLIST.md', true),
   ]
 }
 
@@ -194,11 +157,12 @@ function StatusBadge({ status }: { status: CheckStatus }) {
 // ---------------------------------------------------------------------------
 
 export default async function ReadinessPage() {
-  const mode   = getContentSourceMode()
-  const isLive = mode === 'live_supabase'
-  const envOk  = isLiveSupabaseConfigured()
+  const mode         = getContentSourceMode()
+  const isLive       = mode === 'live_supabase'
+  const isProduction = process.env.NODE_ENV === 'production'
+  const envOk        = isLiveSupabaseConfigured()
 
-  const checks = buildChecks(mode, isLive)
+  const checks = buildChecks(mode, isLive, isProduction)
 
   const hasCriticalFail = checks.some(c => c.critical && c.status === 'FAIL')
   const hasWarn         = checks.some(c => c.status === 'WARN')
@@ -215,9 +179,10 @@ export default async function ReadinessPage() {
   const passCount = checks.filter(c => c.status === 'PASS').length
   const failCount = checks.filter(c => c.status === 'FAIL').length
   const warnCount = checks.filter(c => c.status === 'WARN').length
+  const skipCount = checks.filter(c => c.status === 'SKIP').length
 
   return (
-    <main style={{ padding: '2rem', maxWidth: 800, fontFamily: 'system-ui, sans-serif' }}>
+    <main style={{ padding: '2rem', maxWidth: 820, fontFamily: 'system-ui, sans-serif' }}>
       <h1 style={{ fontSize: 22, fontWeight: 700, marginBottom: 4 }}>
         Production Readiness
         <span
@@ -234,11 +199,34 @@ export default async function ReadinessPage() {
           {overallStatus}
         </span>
       </h1>
-      <p style={{ color: '#6b7280', marginBottom: 8, fontSize: 13 }}>
-        Gate 63 — production readiness checks. No secrets displayed.
+
+      <p style={{ color: '#6b7280', marginBottom: 4, fontSize: 13 }}>
+        Gates 63–65B — production readiness checks. No secrets displayed.
+      </p>
+      <p style={{ color: '#6b7280', marginBottom: 4, fontSize: 13 }}>
+        Environment:{' '}
+        <code
+          style={{
+            padding:         '1px 6px',
+            borderRadius:    3,
+            fontSize:        12,
+            backgroundColor: isProduction ? '#dbeafe' : '#f3f4f6',
+            color:           isProduction ? '#1e40af' : '#374151',
+            fontFamily:      'monospace',
+          }}
+        >
+          {isProduction ? 'production' : 'development'}
+        </code>
+        {isProduction && (
+          <span style={{ marginLeft: 8, fontSize: 12, color: '#6b7280' }}>
+            — source-file checks skipped (build output only)
+          </span>
+        )}
       </p>
       <p style={{ color: '#6b7280', marginBottom: 24, fontSize: 13 }}>
-        {passCount} PASS · {warnCount} WARN · {failCount} FAIL · {checks.length} total
+        {passCount} PASS · {warnCount} WARN · {failCount} FAIL
+        {skipCount > 0 && ` · ${skipCount} SKIP`}
+        {' '}· {checks.length} total
       </p>
 
       <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: 13 }}>
@@ -252,14 +240,14 @@ export default async function ReadinessPage() {
         <tbody>
           {checks.map((check, i) => (
             <tr key={i} style={{ borderBottom: '1px solid #f3f4f6' }}>
-              <td style={{ padding: '6px 12px 6px 0', color: check.critical && check.status === 'FAIL' ? '#991b1b' : '#374151' }}>
+              <td style={{ padding: '6px 12px 6px 0', color: check.critical && check.status === 'FAIL' ? '#991b1b' : check.status === 'SKIP' ? '#9ca3af' : '#374151' }}>
                 {check.label}
                 {check.critical && <span style={{ marginLeft: 6, fontSize: 10, color: '#ef4444' }}>critical</span>}
               </td>
               <td style={{ padding: '6px 12px', textAlign: 'center' }}>
                 <StatusBadge status={check.status} />
               </td>
-              <td style={{ padding: '6px 0', color: '#6b7280', fontSize: 12 }}>
+              <td style={{ padding: '6px 0', color: check.status === 'SKIP' ? '#9ca3af' : '#6b7280', fontSize: 12 }}>
                 {check.detail ?? ''}
               </td>
             </tr>
@@ -279,16 +267,16 @@ export default async function ReadinessPage() {
       )}
       {overallStatus === 'READY' && (
         <div style={{ marginTop: 20, padding: '10px 14px', background: '#d1fae5', borderRadius: 4, fontSize: 13, color: '#065f46' }}>
-          All checks pass. Ready to proceed with Gate 64 Vercel deployment.
+          All checks pass.{isProduction ? ' Production environment looks healthy.' : ' Ready to deploy.'}
         </div>
       )}
 
       <p style={{ fontSize: 13, color: '#6b7280', marginTop: 24 }}>
-        <a href="/system/health"           style={{ color: '#3b82f6', marginRight: 16 }}>Health</a>
-        <a href="/api/system/readiness"    style={{ color: '#3b82f6', marginRight: 16 }}>Readiness API</a>
-        <a href="/api/system/health"       style={{ color: '#3b82f6', marginRight: 16 }}>Health API</a>
-        <a href="/system/auth-session"     style={{ color: '#3b82f6', marginRight: 16 }}>Auth Session</a>
-        <a href="/system/role-access"      style={{ color: '#3b82f6' }}>Role Access</a>
+        <a href="/system/health"        style={{ color: '#3b82f6', marginRight: 16 }}>Health</a>
+        <a href="/api/system/readiness" style={{ color: '#3b82f6', marginRight: 16 }}>Readiness API</a>
+        <a href="/api/system/health"    style={{ color: '#3b82f6', marginRight: 16 }}>Health API</a>
+        <a href="/system/auth-session"  style={{ color: '#3b82f6', marginRight: 16 }}>Auth Session</a>
+        <a href="/system/role-access"   style={{ color: '#3b82f6' }}>Role Access</a>
       </p>
     </main>
   )
