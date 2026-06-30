@@ -1,0 +1,139 @@
+{
+  "gate": "63",
+  "title": "Production Readiness Check v1",
+  "generated_at": "2026-06-30T14:59:52.442831+00:00",
+  "overall_status": "passed",
+  "pass_count": 24,
+  "fail_count": 0,
+  "warn_count": 0,
+  "skip_count": 0,
+  "total_checks": 24,
+  "security_summary": {
+    "service_role_exposed_to_client": false,
+    "env_local_tracked": false,
+    "raw_cambridge_pdf_exposed": false,
+    "env_production_tracked": false
+  },
+  "checks": [
+    {
+      "label": "production env template (.env.production.example)",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "health page (system/health/page.tsx)",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "readiness page (system/readiness/page.tsx)",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "health API route (api/system/health/route.ts)",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "readiness API route (api/system/readiness/route.ts)",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "Vercel deployment checklist",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "security pre-deploy checklist",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "Gate 62 RLS migration file",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "Gate 62 done marker",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "roleAccess.ts exists",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "serverSupabaseAuth.ts exists",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "browserSupabaseClient.ts exists",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "login page exists",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": ".env.local not tracked by git",
+      "status": "PASS",
+      "detail": "clean \u2014 not in git"
+    },
+    {
+      "label": ".env.production not tracked by git",
+      "status": "PASS",
+      "detail": "clean \u2014 not in git"
+    },
+    {
+      "label": "service role key not in 'use client' browser components",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "service role key not in browserSupabaseClient.ts",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "no NEXT_PUBLIC_SUPABASE_SERVICE_ROLE variable",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "no OpenAI/Anthropic API key pattern",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "no raw Cambridge PDF path referenced in app routes",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "data/raw not imported by admin app",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "production env template has no real service role value",
+      "status": "PASS",
+      "detail": "clean \u2014 placeholders only"
+    },
+    {
+      "label": "production env template has QA_CONTENT_SOURCE=live_supabase",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "label": "production env template has QA_AUTH_DEMO_FALLBACK=false",
+      "status": "PASS",
+      "detail": "ok"
+    }
+  ]
+}
