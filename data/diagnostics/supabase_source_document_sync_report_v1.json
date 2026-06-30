@@ -1,0 +1,74 @@
+{
+  "report_id": "quanta_aptus_supabase_source_document_sync_v1",
+  "gate": "53C",
+  "created_at": "2026-06-30T05:22:58.067062+00:00",
+  "status": "passed",
+  "synced_subjects": [
+    "biology_0610",
+    "chemistry_0620",
+    "mathematics_0580",
+    "physics_0625"
+  ],
+  "subject_count": 4,
+  "source_document_upserted_count": 28,
+  "source_pair_upserted_count": 14,
+  "failed_count": 0,
+  "errors": [],
+  "copyright_safety": {
+    "uploaded_raw_pdfs": false,
+    "uploaded_extracted_text": false,
+    "metadata_only": true,
+    "copyright_status": "internal_reference_only"
+  },
+  "subjects": [
+    {
+      "subject_slug": "biology_0610",
+      "inventory_found": true,
+      "pairs_found": true,
+      "documents_in_inventory": 6,
+      "pairs_in_file": 3,
+      "documents_upserted": 6,
+      "pairs_upserted": 3,
+      "failed_documents": 0,
+      "failed_pairs": 0,
+      "errors": []
+    },
+    {
+      "subject_slug": "chemistry_0620",
+      "inventory_found": true,
+      "pairs_found": true,
+      "documents_in_inventory": 6,
+      "pairs_in_file": 3,
+      "documents_upserted": 6,
+      "pairs_upserted": 3,
+      "failed_documents": 0,
+      "failed_pairs": 0,
+      "errors": []
+    },
+    {
+      "subject_slug": "mathematics_0580",
+      "inventory_found": true,
+      "pairs_found": true,
+      "documents_in_inventory": 4,
+      "pairs_in_file": 2,
+      "documents_upserted": 4,
+      "pairs_upserted": 2,
+      "failed_documents": 0,
+      "failed_pairs": 0,
+      "errors": []
+    },
+    {
+      "subject_slug": "physics_0625",
+      "inventory_found": true,
+      "pairs_found": true,
+      "documents_in_inventory": 12,
+      "pairs_in_file": 6,
+      "documents_upserted": 12,
+      "pairs_upserted": 6,
+      "failed_documents": 0,
+      "failed_pairs": 0,
+      "errors": []
+    }
+  ],
+  "next_gate": "Gate 53D - Sync Source Items and Skill Units"
+}
