@@ -1,6 +1,8 @@
 import { readFile } from 'fs/promises'
 import { existsSync } from 'fs'
 import path from 'path'
+import { getContentSourceMode } from './contentSource'
+import { getSupabaseExportActiveContentIndex } from './supabaseExportContent'
 
 // ---------------------------------------------------------------------------
 // Types
@@ -85,6 +87,9 @@ const INDEX_PATH = path.join(REPO_ROOT, 'data', 'registry', 'active_content_inde
 // ---------------------------------------------------------------------------
 
 export async function getActiveContentIndex(): Promise<ActiveContentIndex | null> {
+  if (getContentSourceMode() === 'supabase_export') {
+    return getSupabaseExportActiveContentIndex()
+  }
   try {
     const raw = await readFile(INDEX_PATH, 'utf-8')
     return JSON.parse(raw) as ActiveContentIndex

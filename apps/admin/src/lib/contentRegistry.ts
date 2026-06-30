@@ -1,6 +1,7 @@
 import { readFile } from 'fs/promises'
 import { existsSync } from 'fs'
 import path from 'path'
+import { getContentSourceMode, type ContentSourceMode } from './contentSource'
 
 // ---------------------------------------------------------------------------
 // Types
@@ -100,6 +101,7 @@ export interface ContentRegistry {
 export interface RegistryResult {
   registry: ContentRegistry
   repoRoot: string
+  sourceMode: ContentSourceMode
 }
 
 // ---------------------------------------------------------------------------
@@ -174,13 +176,14 @@ const EMPTY_REGISTRY: ContentRegistry = {
 }
 
 export async function getContentRegistry(): Promise<RegistryResult> {
+  const sourceMode = getContentSourceMode()
   try {
     const registryPath = path.join(REPO_ROOT, 'data', 'registry', 'content_registry_v1.json')
     const raw = await readFile(registryPath, 'utf-8')
     const registry = JSON.parse(raw) as ContentRegistry
-    return { registry, repoRoot: REPO_ROOT }
+    return { registry, repoRoot: REPO_ROOT, sourceMode }
   } catch {
-    return { registry: EMPTY_REGISTRY, repoRoot: REPO_ROOT }
+    return { registry: EMPTY_REGISTRY, repoRoot: REPO_ROOT, sourceMode }
   }
 }
 

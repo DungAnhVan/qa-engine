@@ -1,0 +1,230 @@
+{
+  "report_id": "quanta_aptus_gate54_app_read_mode_report_v1",
+  "gate": "54",
+  "created_at": "2026-06-30T06:40:07.170656+00:00",
+  "status": "passed",
+  "checks_total": 27,
+  "checks_passed": 27,
+  "content_checks_passed": 16,
+  "content_checks_failed": 0,
+  "issues": [],
+  "checks": [
+    {
+      "label": "contentSource.ts (new)",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 754
+    },
+    {
+      "label": "supabaseExportContent.ts (new)",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521
+    },
+    {
+      "label": "contentSource.ts: exports ContentSourceMode type",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 754,
+      "contains_needle": true,
+      "needle": "ContentSourceMode"
+    },
+    {
+      "label": "contentSource.ts: exports getContentSourceMode()",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 754,
+      "contains_needle": true,
+      "needle": "getContentSourceMode"
+    },
+    {
+      "label": "contentSource.ts: handles supabase_export value",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 754,
+      "contains_needle": true,
+      "needle": "supabase_export"
+    },
+    {
+      "label": "supabaseExportContent.ts: exports getExportFileStatus()",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521,
+      "contains_needle": true,
+      "needle": "getExportFileStatus"
+    },
+    {
+      "label": "supabaseExportContent.ts: exports getSupabaseExportStudentResources()",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521,
+      "contains_needle": true,
+      "needle": "getSupabaseExportStudentResources"
+    },
+    {
+      "label": "supabaseExportContent.ts: exports getSupabaseExportActiveContentIndex()",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521,
+      "contains_needle": true,
+      "needle": "getSupabaseExportActiveContentIndex"
+    },
+    {
+      "label": "supabaseExportContent.ts: does NOT use Supabase client directly",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521,
+      "contains_needle": false,
+      "needle": "create_client",
+      "safe": true
+    },
+    {
+      "label": "activeContent.ts: imports getContentSourceMode",
+      "path": "apps\\admin\\src\\lib\\activeContent.ts",
+      "present": true,
+      "size_bytes": 3270,
+      "contains_needle": true,
+      "needle": "getContentSourceMode"
+    },
+    {
+      "label": "activeContent.ts: branches on supabase_export mode",
+      "path": "apps\\admin\\src\\lib\\activeContent.ts",
+      "present": true,
+      "size_bytes": 3270,
+      "contains_needle": true,
+      "needle": "supabase_export"
+    },
+    {
+      "label": "studentResources.ts: imports getContentSourceMode",
+      "path": "apps\\admin\\src\\lib\\studentResources.ts",
+      "present": true,
+      "size_bytes": 2360,
+      "contains_needle": true,
+      "needle": "getContentSourceMode"
+    },
+    {
+      "label": "studentResources.ts: branches on supabase_export mode",
+      "path": "apps\\admin\\src\\lib\\studentResources.ts",
+      "present": true,
+      "size_bytes": 2360,
+      "contains_needle": true,
+      "needle": "supabase_export"
+    },
+    {
+      "label": "contentRegistry.ts: RegistryResult includes sourceMode",
+      "path": "apps\\admin\\src\\lib\\contentRegistry.ts",
+      "present": true,
+      "size_bytes": 6850,
+      "contains_needle": true,
+      "needle": "sourceMode"
+    },
+    {
+      "label": "contentRegistry.ts: imports getContentSourceMode",
+      "path": "apps\\admin\\src\\lib\\contentRegistry.ts",
+      "present": true,
+      "size_bytes": 6850,
+      "contains_needle": true,
+      "needle": "getContentSourceMode"
+    },
+    {
+      "label": "Diagnostic page: apps/admin/src/app/system/content-source/page.tsx",
+      "path": "apps\\admin\\src\\app\\system\\content-source\\page.tsx",
+      "present": true,
+      "size_bytes": 8410
+    },
+    {
+      "label": "Diagnostic page: shows content source mode",
+      "path": "apps\\admin\\src\\app\\system\\content-source\\page.tsx",
+      "present": true,
+      "size_bytes": 8410,
+      "contains_needle": true,
+      "needle": "getContentSourceMode"
+    },
+    {
+      "label": "Diagnostic page: shows export file status",
+      "path": "apps\\admin\\src\\app\\system\\content-source\\page.tsx",
+      "present": true,
+      "size_bytes": 8410,
+      "contains_needle": true,
+      "needle": "getExportFileStatus"
+    },
+    {
+      "label": ".env.example: includes QA_CONTENT_SOURCE",
+      "path": ".env.example",
+      "present": true,
+      "size_bytes": 1630,
+      "contains_needle": true,
+      "needle": "QA_CONTENT_SOURCE"
+    },
+    {
+      "label": ".env.example: QA_CONTENT_SOURCE defaults to local",
+      "path": ".env.example",
+      "present": true,
+      "size_bytes": 1630,
+      "contains_needle": true,
+      "needle": "QA_CONTENT_SOURCE=local"
+    },
+    {
+      "label": "Supabase export: active_package_from_supabase_v1.json",
+      "path": "data\\supabase_exports\\active_package_from_supabase_v1.json",
+      "present": true,
+      "size_bytes": 46360
+    },
+    {
+      "label": "Supabase export: student_resource_payload_from_supabase_v1.json",
+      "path": "data\\supabase_exports\\student_resource_payload_from_supabase_v1.json",
+      "present": true,
+      "size_bytes": 21335
+    },
+    {
+      "label": "Supabase export: teacher_resource_payload_from_supabase_v1.json",
+      "path": "data\\supabase_exports\\teacher_resource_payload_from_supabase_v1.json",
+      "present": true,
+      "size_bytes": 40050
+    },
+    {
+      "label": "contentSource.ts: does NOT use SUPABASE_SERVICE_ROLE_KEY",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 754,
+      "contains_needle": false,
+      "needle": "SERVICE_ROLE",
+      "safe": true
+    },
+    {
+      "label": "supabaseExportContent.ts: does NOT use SUPABASE_SERVICE_ROLE_KEY",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521,
+      "contains_needle": false,
+      "needle": "SERVICE_ROLE",
+      "safe": true
+    },
+    {
+      "label": "activeContent.ts: does NOT use SUPABASE_SERVICE_ROLE_KEY",
+      "path": "apps\\admin\\src\\lib\\activeContent.ts",
+      "present": true,
+      "size_bytes": 3270,
+      "contains_needle": false,
+      "needle": "SERVICE_ROLE",
+      "safe": true
+    },
+    {
+      "label": "studentResources.ts: does NOT use SUPABASE_SERVICE_ROLE_KEY",
+      "path": "apps\\admin\\src\\lib\\studentResources.ts",
+      "present": true,
+      "size_bytes": 2360,
+      "contains_needle": false,
+      "needle": "SERVICE_ROLE",
+      "safe": true
+    }
+  ],
+  "safety": {
+    "no_service_role_in_frontend": true,
+    "no_direct_supabase_in_browser": true,
+    "local_mode_preserved": true,
+    "no_schema_modified": true,
+    "no_existing_data_modified": true
+  },
+  "next_gate": "Gate 55 - Admin App Teacher View + Supabase Auth"
+}
