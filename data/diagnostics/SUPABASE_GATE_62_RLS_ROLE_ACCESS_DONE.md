@@ -1,6 +1,6 @@
 # Gate 62 — RLS Hardening + Role-Based App Access — DONE
 
-Generated: 2026-06-30T14:04:28.940482Z
+Generated: 2026-06-30T14:10:55.258659Z
 
 ## Status: PASS_WITH_SKIPS
 

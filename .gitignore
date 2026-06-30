@@ -14,3 +14,8 @@ data/raw/
 data/ingested/
 data/intake/
 data/attempts/local/
+# Build/cache artifacts
+*.tsbuildinfo
+__pycache__/
+*.pyc
+

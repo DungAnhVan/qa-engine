@@ -1,7 +1,7 @@
 {
   "gate": "62",
   "title": "RLS Hardening + Role-Based App Access Report v1",
-  "generated_at": "2026-06-30T14:04:28.939497Z",
+  "generated_at": "2026-06-30T14:10:55.249657Z",
   "overall_status": "PASS_WITH_SKIPS",
   "pass_count": 85,
   "fail_count": 0,
