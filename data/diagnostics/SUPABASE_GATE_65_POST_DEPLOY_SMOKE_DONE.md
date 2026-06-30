@@ -1,20 +1,20 @@
 # Gate 65 -- Post-Deploy Smoke Test DONE
 
-Generated: 2026-06-30T15:42:30.011354+00:00
+Generated: 2026-06-30T16:54:48.536578+00:00
 
-## Status: NEEDS_REVIEW
+## Status: PASSED
 
 ## Smoke Test Results
 
-- Production URL tested: False
-- URL: not yet run
-- Smoke test status: not_run
-- Health API: FAIL or not run
-- Readiness API: FAIL or not run
-- Login reachable: FAIL or not run
-- Secrets exposed: not checked
-- Content source live: False
-- Routes: 0/0 passed
+- Production URL tested: True
+- URL: https://qa-engine-admin.vercel.app
+- Smoke test status: passed
+- Health API: OK
+- Readiness API: OK
+- Login reachable: YES
+- Secrets exposed: False
+- Content source live: True
+- Routes: 8/8 passed
 
 ## Gate 65 Scripts
 

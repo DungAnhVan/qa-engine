@@ -1,0 +1,271 @@
+{
+  "gate": "65",
+  "title": "Post-Deploy Smoke Test v1",
+  "generated_at": "2026-06-30T16:54:48.326503+00:00",
+  "base_url": "https://qa-engine-admin.vercel.app",
+  "status": "passed",
+  "routes_tested": 8,
+  "routes_passed": 8,
+  "health_ok": true,
+  "readiness_ok": true,
+  "login_reachable": true,
+  "secrets_exposed": false,
+  "content_source_live_supabase": true,
+  "issues": [],
+  "routes": [
+    {
+      "path": "/",
+      "url": "https://qa-engine-admin.vercel.app/",
+      "status_code": 200,
+      "elapsed_ms": 2109,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": null,
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "path": "/login",
+      "url": "https://qa-engine-admin.vercel.app/login",
+      "status_code": 200,
+      "elapsed_ms": 937,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": null,
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "path": "/system/health",
+      "url": "https://qa-engine-admin.vercel.app/system/health",
+      "status_code": 200,
+      "elapsed_ms": 1000,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": null,
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "path": "/system/readiness",
+      "url": "https://qa-engine-admin.vercel.app/system/readiness",
+      "status_code": 200,
+      "elapsed_ms": 719,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": null,
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "path": "/api/system/health",
+      "url": "https://qa-engine-admin.vercel.app/api/system/health",
+      "status_code": 200,
+      "elapsed_ms": 1030,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": {
+        "status": "ok",
+        "app": "quanta-aptus-admin",
+        "content_source": "live_supabase",
+        "demo_fallback": "false",
+        "node_env": "production",
+        "supabase_url_present": true,
+        "anon_key_present": true,
+        "service_role_present_server": true,
+        "timestamp": "2026-06-30T16:54:46.350Z"
+      },
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "path": "/api/system/readiness",
+      "url": "https://qa-engine-admin.vercel.app/api/system/readiness",
+      "status_code": 200,
+      "elapsed_ms": 687,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": {
+        "status": "ready",
+        "environment": "production",
+        "content_source": "live_supabase",
+        "checks": [
+          {
+            "key": "content_source_valid",
+            "label": "QA_CONTENT_SOURCE valid",
+            "status": "PASS",
+            "detail": "live_supabase",
+            "critical": true
+          },
+          {
+            "key": "content_source_is_live",
+            "label": "QA_CONTENT_SOURCE is live_supabase",
+            "status": "PASS",
+            "detail": "live_supabase active",
+            "critical": false
+          },
+          {
+            "key": "demo_fallback_off",
+            "label": "QA_AUTH_DEMO_FALLBACK off",
+            "status": "PASS",
+            "detail": "disabled (correct for production)",
+            "critical": false
+          },
+          {
+            "key": "supabase_url_present",
+            "label": "SUPABASE_URL present",
+            "status": "PASS",
+            "detail": "present",
+            "critical": true
+          },
+          {
+            "key": "next_public_supabase_url_present",
+            "label": "NEXT_PUBLIC_SUPABASE_URL present",
+            "status": "PASS",
+            "detail": "present",
+            "critical": true
+          },
+          {
+            "key": "anon_key_present",
+            "label": "NEXT_PUBLIC_SUPABASE_ANON_KEY present",
+            "status": "PASS",
+            "detail": "present",
+            "critical": true
+          },
+          {
+            "key": "service_role_present",
+            "label": "SUPABASE_SERVICE_ROLE_KEY present (server-only)",
+            "status": "PASS",
+            "detail": "present (value never shown)",
+            "critical": true
+          },
+          {
+            "key": "login_ui_exists",
+            "label": "Login UI (src/app/login/page.tsx)",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "logout_page_exists",
+            "label": "Logout page (src/app/logout/page.tsx)",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "role_access_module_exists",
+            "label": "roleAccess.ts module",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "server_auth_module_exists",
+            "label": "serverSupabaseAuth.ts module",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "browser_client_module_exists",
+            "label": "browserSupabaseClient.ts module",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "role_gate_exists",
+            "label": "RoleGate.tsx component",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "health_page_exists",
+            "label": "Health page (src/app/system/health)",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "rls_migration_exists",
+            "label": "RLS migration 000004",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "gate62_marker_exists",
+            "label": "Gate 62 done marker",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "env_template_exists",
+            "label": ".env.production.example template",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "deploy_checklist_exists",
+            "label": "Deployment checklist",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          },
+          {
+            "key": "security_checklist_exists",
+            "label": "Security pre-deploy checklist",
+            "status": "SKIP",
+            "detail": "skipped in production runtime \u2014 source files absent from build output",
+            "critical": false
+          }
+        ],
+        "timestamp": "2026-06-30T16:54:47.028Z"
+      },
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "path": "/system/auth-session",
+      "url": "https://qa-engine-admin.vercel.app/system/auth-session",
+      "status_code": 200,
+      "elapsed_ms": 922,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": null,
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "path": "/system/role-access",
+      "url": "https://qa-engine-admin.vercel.app/system/role-access",
+      "status_code": 200,
+      "elapsed_ms": 702,
+      "status_ok": true,
+      "secrets_found": [],
+      "json_data": null,
+      "json_error": null,
+      "marker_found": true,
+      "error": null,
+      "pass": true
+    }
+  ]
+}
