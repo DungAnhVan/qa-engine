@@ -1,0 +1,88 @@
+{
+  "exported_at": "2026-06-30T12:11:18.487966+00:00",
+  "student_code": "local_demo_student",
+  "subject_slug": "physics_0625",
+  "report": {
+    "student_id": "20000000-0000-0000-0000-000000000001",
+    "student_name": "Local Demo Student",
+    "subject_slug": "physics_0625",
+    "attempt_count": 3,
+    "marked_attempt_count": 2,
+    "unmarked_count": 1,
+    "auto_marked_count": 1,
+    "teacher_review_required_count": 0,
+    "teacher_reviewed_count": 1,
+    "correct_count": 0,
+    "incorrect_count": 1,
+    "partially_correct_count": 0,
+    "needs_resubmission_count": 1,
+    "pending_teacher_review_count": 0,
+    "accuracy": 0.0,
+    "strengths": [],
+    "skill_gaps": [
+      {
+        "attempt_id": "41ad8554-2acb-41e5-95e7-8f37e7c1edab",
+        "resource_title": "Calculation Drill — Motion, forces and energy",
+        "resource_key": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_01",
+        "topic": "Motion, forces and energy",
+        "skill_type": "calculation",
+        "result": "incorrect",
+        "feedback": "Your numerical answer does not match the expected result. Check your working."
+      },
+      {
+        "attempt_id": "818851f0-c2fc-41c9-b8f3-0c7fbd8e1365",
+        "resource_title": "Graphing Drill — Thermal physics",
+        "resource_key": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q02_graphing_drill_01",
+        "topic": "Thermal physics",
+        "skill_type": "graphing",
+        "result": "needs_resubmission",
+        "feedback": "Gate 58 test review: please resubmit with labelled axes and plotted points."
+      }
+    ],
+    "resubmission_queue": [
+      {
+        "attempt_id": "818851f0-c2fc-41c9-b8f3-0c7fbd8e1365",
+        "resource_title": "Graphing Drill — Thermal physics",
+        "resource_key": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q02_graphing_drill_01",
+        "topic": "Thermal physics",
+        "feedback": "Gate 58 test review: please resubmit with labelled axes and plotted points.",
+        "submitted_at": "2026-06-30T10:36:19.904273+00:00"
+      }
+    ],
+    "recent_attempts": [
+      {
+        "attempt_id": "818851f0-c2fc-41c9-b8f3-0c7fbd8e1365",
+        "resource_title": "Graphing Drill — Thermal physics",
+        "resource_key": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q02_graphing_drill_01",
+        "topic": "Thermal physics",
+        "result": "needs_resubmission",
+        "marking_method": "teacher",
+        "submitted_at": "2026-06-30T10:36:19.904273+00:00",
+        "attempt_type": "first_attempt",
+        "marking_status": "teacher_reviewed"
+      },
+      {
+        "attempt_id": "41ad8554-2acb-41e5-95e7-8f37e7c1edab",
+        "resource_title": "Calculation Drill — Motion, forces and energy",
+        "resource_key": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_01",
+        "topic": "Motion, forces and energy",
+        "result": "incorrect",
+        "marking_method": "rule_based",
+        "submitted_at": "2026-06-30T09:25:07.793914+00:00",
+        "attempt_type": "first_attempt",
+        "marking_status": "auto_marked"
+      },
+      {
+        "attempt_id": "6f18dd31-e51f-4d9b-b945-11b1696f3bb2",
+        "resource_title": "Calculation Drill — Motion, forces and energy",
+        "resource_key": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_01",
+        "topic": "Motion, forces and energy",
+        "result": null,
+        "marking_method": null,
+        "submitted_at": "2026-06-30T09:21:57.604326+00:00",
+        "attempt_type": "first_attempt",
+        "marking_status": "unmarked"
+      }
+    ]
+  }
+}

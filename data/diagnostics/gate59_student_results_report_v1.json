@@ -1,0 +1,252 @@
+{
+  "report_id": "quanta_aptus_gate59_student_results_report_v1",
+  "gate": "59",
+  "created_at": "2026-06-30T12:11:22.815774+00:00",
+  "status": "passed",
+  "live_supabase_student_results_supported": true,
+  "student_result_report_supported": true,
+  "skill_gap_report_supported": true,
+  "resubmission_queue_supported": true,
+  "local_fallback_available": true,
+  "service_role_exposed_to_client": false,
+  "service_role_leak_files": [],
+  "test_student_results_passed": true,
+  "test_details": {
+    "attempt_count": 3,
+    "marked_count": 2,
+    "correct_count": 0,
+    "skill_gap_count": 2,
+    "strength_count": 0,
+    "resubmission_count": 1,
+    "accuracy": 0.0
+  },
+  "openai_used": false,
+  "checks_total": 30,
+  "file_checks_passed": 9,
+  "content_checks_passed": 21,
+  "issues": [],
+  "checks": [
+    {
+      "label": "liveSupabaseStudentResults.ts (new)",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: import server-only",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "import 'server-only'"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: getLiveSupabaseStudentResults",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "getLiveSupabaseStudentResults"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: getLiveSupabaseLatestLearningState",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "getLiveSupabaseLatestLearningState"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: StudentResultReport export",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "StudentResultReport"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: skill_gaps",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "skill_gaps"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: resubmission_queue",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "resubmission_queue"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: strengths",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "strengths"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: accuracy",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "accuracy"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: superseded_by_attempt_id logic",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "superseded_by_attempt_id"
+    },
+    {
+      "label": "liveSupabaseStudentResults.ts: no OpenAI import",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseStudentResults.ts",
+      "present": true,
+      "size_bytes": 16809,
+      "contains": true,
+      "needle": "NO openai import"
+    },
+    {
+      "label": "/learn/supabase-results page exists",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557
+    },
+    {
+      "label": "learn page: force-dynamic",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "learn page: imports getLiveSupabaseStudentResults",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557,
+      "contains": true,
+      "needle": "getLiveSupabaseStudentResults"
+    },
+    {
+      "label": "learn page: shows skill gaps",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557,
+      "contains": true,
+      "needle": "skill_gaps"
+    },
+    {
+      "label": "learn page: shows strengths",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557,
+      "contains": true,
+      "needle": "strengths"
+    },
+    {
+      "label": "learn page: shows resubmission queue",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557,
+      "contains": true,
+      "needle": "resubmission_queue"
+    },
+    {
+      "label": "learn page: shows recent attempts",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557,
+      "contains": true,
+      "needle": "recent_attempts"
+    },
+    {
+      "label": "learn page: Gate 60 auth warning",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx",
+      "present": true,
+      "size_bytes": 14557,
+      "contains": true,
+      "needle": "Gate 60"
+    },
+    {
+      "label": "/system/student-results page exists",
+      "path": "apps\\admin\\src\\app\\system\\student-results\\page.tsx",
+      "present": true,
+      "size_bytes": 8065
+    },
+    {
+      "label": "system page: force-dynamic",
+      "path": "apps\\admin\\src\\app\\system\\student-results\\page.tsx",
+      "present": true,
+      "size_bytes": 8065,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "system page: imports getLiveSupabaseStudentResults",
+      "path": "apps\\admin\\src\\app\\system\\student-results\\page.tsx",
+      "present": true,
+      "size_bytes": 8065,
+      "contains": true,
+      "needle": "getLiveSupabaseStudentResults"
+    },
+    {
+      "label": "system page: shows attempt_count",
+      "path": "apps\\admin\\src\\app\\system\\student-results\\page.tsx",
+      "present": true,
+      "size_bytes": 8065,
+      "contains": true,
+      "needle": "attempt_count"
+    },
+    {
+      "label": "Gate 56: liveSupabaseAttempts.ts still present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845
+    },
+    {
+      "label": "Gate 57: liveSupabaseMarking.ts still present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249
+    },
+    {
+      "label": "Gate 58: liveSupabaseTeacherReview.ts still present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseTeacherReview.ts",
+      "present": true,
+      "size_bytes": 13695
+    },
+    {
+      "label": "Gate 58: review page still present",
+      "path": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\page.tsx",
+      "present": true,
+      "size_bytes": 7327
+    },
+    {
+      "label": "local fallback: /learn/results still present",
+      "path": "apps\\admin\\src\\app\\learn\\results\\page.tsx",
+      "present": true,
+      "size_bytes": 17349
+    },
+    {
+      "label": "Test report: gate59_student_results_test_report_v1.json",
+      "path": "data\\diagnostics\\gate59_student_results_test_report_v1.json",
+      "present": true,
+      "size_bytes": 408
+    },
+    {
+      "label": "Test report: status=passed",
+      "path": "data\\diagnostics\\gate59_student_results_test_report_v1.json",
+      "present": true,
+      "contains": true,
+      "needle": "status=passed"
+    }
+  ],
+  "next_gate": "Gate 60 - Supabase Auth and Roles"
+}

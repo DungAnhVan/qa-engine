@@ -1,0 +1,16 @@
+{
+  "report_id": "quanta_aptus_gate59_student_results_test_v1",
+  "gate": "59",
+  "created_at": "2026-06-30T12:11:18.487966+00:00",
+  "status": "passed",
+  "attempt_count": 3,
+  "marked_count": 2,
+  "correct_count": 0,
+  "incorrect_count": 1,
+  "skill_gap_count": 2,
+  "strength_count": 0,
+  "resubmission_count": 1,
+  "accuracy": 0.0,
+  "has_marked_data": true,
+  "has_result_content": true
+}
