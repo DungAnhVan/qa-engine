@@ -1,0 +1,252 @@
+{
+  "report_id": "quanta_aptus_gate57_marking_report_v1",
+  "gate": "57",
+  "created_at": "2026-06-30T10:08:05.947770+00:00",
+  "status": "passed",
+  "marking_enabled": true,
+  "marking_method": "rule_based",
+  "openai_used": false,
+  "teacher_review_ui_implemented": false,
+  "service_role_exposed_to_client": false,
+  "service_role_leak_files": [],
+  "test_marking_passed": true,
+  "test_details": {
+    "attempt_id": "41ad8554-2acb-41e5-95e7-8f37e7c1edab",
+    "resource_type": "calculation_drill",
+    "marking_result": "incorrect",
+    "marking_status_after": "auto_marked",
+    "marked_attempt_id": "418e5ac0-89f3-450e-a4a6-45e5e57f7113"
+  },
+  "checks_total": 30,
+  "file_checks_passed": 7,
+  "content_checks_passed": 23,
+  "issues": [],
+  "checks": [
+    {
+      "label": "liveSupabaseMarking.ts (new)",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249
+    },
+    {
+      "label": "liveSupabaseMarking.ts: import server-only",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "import 'server-only'"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: markLiveSupabaseAttempt export",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "markLiveSupabaseAttempt"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: getLiveSupabaseUnmarkedAttempts export",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "getLiveSupabaseUnmarkedAttempts"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: markLatestUnmarkedLiveSupabaseAttempt export",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "markLatestUnmarkedLiveSupabaseAttempt"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: NUMERIC_MARKING_TYPES",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "NUMERIC_MARKING_TYPES"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: TEACHER_REVIEW_TYPES",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "TEACHER_REVIEW_TYPES"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: rule_based marking_method",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "rule_based"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: marked_attempts table",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "marked_attempts"
+    },
+    {
+      "label": "liveSupabaseMarking.ts: no OpenAI import",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseMarking.ts",
+      "present": true,
+      "size_bytes": 13249,
+      "contains": true,
+      "needle": "NO openai import"
+    },
+    {
+      "label": "API route: mark-attempt/route.ts",
+      "path": "apps\\admin\\src\\app\\api\\mark-attempt\\route.ts",
+      "present": true,
+      "size_bytes": 1832
+    },
+    {
+      "label": "API route: branches on live_supabase",
+      "path": "apps\\admin\\src\\app\\api\\mark-attempt\\route.ts",
+      "present": true,
+      "size_bytes": 1832,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "API route: imports markLiveSupabaseAttempt",
+      "path": "apps\\admin\\src\\app\\api\\mark-attempt\\route.ts",
+      "present": true,
+      "size_bytes": 1832,
+      "contains": true,
+      "needle": "markLiveSupabaseAttempt"
+    },
+    {
+      "label": "API route: validates UUID",
+      "path": "apps\\admin\\src\\app\\api\\mark-attempt\\route.ts",
+      "present": true,
+      "size_bytes": 1832,
+      "contains": true,
+      "needle": "UUID_REGEX"
+    },
+    {
+      "label": "API route: force-dynamic",
+      "path": "apps\\admin\\src\\app\\api\\mark-attempt\\route.ts",
+      "present": true,
+      "size_bytes": 1832,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "AttemptForm.tsx: present",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 11760
+    },
+    {
+      "label": "AttemptForm.tsx: MarkResult interface",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 11760,
+      "contains": true,
+      "needle": "MarkResult"
+    },
+    {
+      "label": "AttemptForm.tsx: markResult state",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 11760,
+      "contains": true,
+      "needle": "markResult"
+    },
+    {
+      "label": "AttemptForm.tsx: auto-marks after save",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 11760,
+      "contains": true,
+      "needle": "/api/mark-attempt"
+    },
+    {
+      "label": "AttemptForm.tsx: shows correct result",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 11760,
+      "contains": true,
+      "needle": "correct"
+    },
+    {
+      "label": "AttemptForm.tsx: shows feedback",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 11760,
+      "contains": true,
+      "needle": "feedback"
+    },
+    {
+      "label": "AttemptForm.tsx: marking loading state",
+      "path": "apps\\admin\\src\\app\\learn\\practice\\AttemptForm.tsx",
+      "present": true,
+      "size_bytes": 11760,
+      "contains": true,
+      "needle": "Marking"
+    },
+    {
+      "label": "Diagnostic page: /system/marking",
+      "path": "apps\\admin\\src\\app\\system\\marking\\page.tsx",
+      "present": true,
+      "size_bytes": 9045
+    },
+    {
+      "label": "Diagnostic page: force-dynamic",
+      "path": "apps\\admin\\src\\app\\system\\marking\\page.tsx",
+      "present": true,
+      "size_bytes": 9045,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "Diagnostic page: getLiveSupabaseUnmarkedAttempts",
+      "path": "apps\\admin\\src\\app\\system\\marking\\page.tsx",
+      "present": true,
+      "size_bytes": 9045,
+      "contains": true,
+      "needle": "getLiveSupabaseUnmarkedAttempts"
+    },
+    {
+      "label": "Diagnostic page: mentions Gate 58",
+      "path": "apps\\admin\\src\\app\\system\\marking\\page.tsx",
+      "present": true,
+      "size_bytes": 9045,
+      "contains": true,
+      "needle": "Gate 58"
+    },
+    {
+      "label": "Gate 56: liveSupabaseAttempts.ts still present",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseAttempts.ts",
+      "present": true,
+      "size_bytes": 6845
+    },
+    {
+      "label": "Gate 56: student-attempts route still present",
+      "path": "apps\\admin\\src\\app\\api\\student-attempts\\route.ts",
+      "present": true,
+      "size_bytes": 4071
+    },
+    {
+      "label": "Test report: gate57_marking_test_report_v1.json",
+      "path": "data\\diagnostics\\gate57_marking_test_report_v1.json",
+      "present": true,
+      "size_bytes": 920
+    },
+    {
+      "label": "Test report: status=passed",
+      "path": "data\\diagnostics\\gate57_marking_test_report_v1.json",
+      "present": true,
+      "contains": true,
+      "needle": "status=passed"
+    }
+  ],
+  "next_gate": "Gate 58 - Teacher Review UI"
+}

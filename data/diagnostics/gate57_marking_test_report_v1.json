@@ -1,0 +1,21 @@
+{
+  "report_id": "quanta_aptus_gate57_marking_test_v1",
+  "gate": "57",
+  "created_at": "2026-06-30T10:06:35.632181+00:00",
+  "status": "passed",
+  "attempt_id": "41ad8554-2acb-41e5-95e7-8f37e7c1edab",
+  "attempt_marking_status_before": "unmarked",
+  "resource_key": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_01",
+  "resource_type": "calculation_drill",
+  "marking_result": "incorrect",
+  "marking_score": 0,
+  "marking_max_score": 1,
+  "marking_status_target": "auto_marked",
+  "feedback": "Your numerical answer does not match the expected result. Check your working.",
+  "existing_marked_attempt_id": null,
+  "marked_attempt_id": "418e5ac0-89f3-450e-a4a6-45e5e57f7113",
+  "attempt_marking_status_after": "auto_marked",
+  "verified_marking_status": "auto_marked",
+  "marking_enabled": true,
+  "marking_method": "rule_based"
+}
