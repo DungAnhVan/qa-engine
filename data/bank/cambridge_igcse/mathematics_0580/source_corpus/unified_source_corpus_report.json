@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "corpus_id": "cambridge_igcse_mathematics_0580_unified_source_corpus_v0",
+  "source_count": 1,
+  "indexed_source_count": 1,
+  "missing_source_count": 0,
+  "read_failed_count": 0,
+  "needs_review_count": 0,
+  "component_types": {
+    "theory_structured": 1
+  },
+  "routes": {
+    "structured_theory_pipeline": 1
+  },
+  "total_questions": 10,
+  "total_marks": 80,
+  "output_files": {
+    "corpus": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\source_corpus\\unified_source_corpus_v0.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\source_corpus\\unified_source_corpus_report.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\source_corpus\\unified_source_corpus_manifest.md"
+  }
+}

@@ -2,14 +2,42 @@
   "corpus_id": "cambridge_igcse_physics_0625_unified_source_corpus_v0",
   "version": "0.1.0",
   "status": "internal_source_only",
-  "created_at": "2026-06-28T16:01:13.203783+00:00",
+  "created_at": "2026-06-29T16:25:30.320485+00:00",
   "copyright_status": "internal_reference_only_not_publishable",
   "board": "cambridge",
   "level": "igcse",
   "subject": "physics",
   "syllabus_code": "0625",
-  "source_count": 3,
+  "source_count": 5,
   "sources": [
+    {
+      "source_id": "cambridge_igcse_physics_0625_2024_w_p41",
+      "pair_id": "cambridge_igcse_physics_0625_2024_w_p41",
+      "component_type": "theory_structured",
+      "paper_code": "41",
+      "year": 2024,
+      "series_code": "w",
+      "route": "structured_theory_pipeline",
+      "source_type": "theory_source",
+      "source_file": "D:\\qa-engine\\data\\ingested\\markitdown\\cambridge_igcse_physics_0625_2024_w_p41_qp\\structured_paper_dataset.json",
+      "question_count": 10,
+      "total_marks": 80,
+      "status": "indexed"
+    },
+    {
+      "source_id": "cambridge_igcse_physics_0625_2024_w_p61",
+      "pair_id": "cambridge_igcse_physics_0625_2024_w_p61",
+      "component_type": "practical_structured",
+      "paper_code": "61",
+      "year": 2024,
+      "series_code": "w",
+      "route": "practical_pipeline",
+      "source_type": "practical_source",
+      "source_file": "D:\\qa-engine\\data\\ingested\\markitdown\\cambridge_igcse_physics_0625_2024_w_p61_qp\\structured_paper_dataset.json",
+      "question_count": 4,
+      "total_marks": 40,
+      "status": "indexed"
+    },
     {
       "source_id": "cambridge_igcse_physics_0625_2025_s_p21",
       "pair_id": "cambridge_igcse_physics_0625_2025_s_p21",
@@ -55,17 +83,17 @@
   ],
   "summary": {
     "component_types": {
-      "mcq": 1,
-      "theory_structured": 1,
-      "practical_structured": 1
+      "theory_structured": 2,
+      "practical_structured": 2,
+      "mcq": 1
     },
     "routes": {
-      "mcq_pipeline": 1,
-      "structured_theory_pipeline": 1,
-      "practical_pipeline": 1
+      "structured_theory_pipeline": 2,
+      "practical_pipeline": 2,
+      "mcq_pipeline": 1
     },
-    "total_sources": 3,
-    "total_questions": 54,
-    "total_marks": 160
+    "total_sources": 5,
+    "total_questions": 68,
+    "total_marks": 280
   }
 }

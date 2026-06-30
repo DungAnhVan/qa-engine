@@ -2,11 +2,11 @@
   "batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
   "schema_version": "validated_generated_resource_batch_v1",
   "source_authoring_batch": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001.json",
-  "status": "needs_review",
+  "status": "failed",
   "generated_count": 50,
-  "passed_count": 26,
-  "needs_review_count": 24,
-  "failed_count": 0,
+  "passed_count": 16,
+  "needs_review_count": 23,
+  "failed_count": 11,
   "resources": [
     {
       "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill_01",
@@ -1133,8 +1133,10 @@
       "teacher_note": "Use this to discuss inverse relationships without heavy algebra.",
       "estimated_time_minutes": 8,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1160,8 +1162,10 @@
       "teacher_note": "Good for introducing calculated columns in practical tables.",
       "estimated_time_minutes": 10,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1187,8 +1191,10 @@
       "teacher_note": "Use this for high-quality conclusion writing from graphs.",
       "estimated_time_minutes": 10,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1214,8 +1220,10 @@
       "teacher_note": "Keep currents low and switch off between readings to reduce heating effects.",
       "estimated_time_minutes": 10,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1241,8 +1249,10 @@
       "teacher_note": "Good extended planning item because students must operationalise 'strength'.",
       "estimated_time_minutes": 12,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1268,8 +1278,10 @@
       "teacher_note": "Use MP labels to train students to self-check before writing the final answer.",
       "estimated_time_minutes": 8,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p61_q04_planning_marking_checklist' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1295,8 +1307,10 @@
       "teacher_note": "Use as a simple ohmic conductor interpretation.",
       "estimated_time_minutes": 4,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1322,8 +1336,10 @@
       "teacher_note": "Good for identifying non-ohmic behaviour from data.",
       "estimated_time_minutes": 5,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1349,8 +1365,10 @@
       "teacher_note": "Strong comparison item for evidence-based explanation.",
       "estimated_time_minutes": 5,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1376,8 +1394,10 @@
       "teacher_note": "Model how to justify a conclusion using more than one data point.",
       "estimated_time_minutes": 5,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example' (not in authoring batch)"
+      ],
       "validation_warnings": []
     },
     {
@@ -1403,8 +1423,10 @@
       "teacher_note": "Use to teach concise written explanations from numerical data.",
       "estimated_time_minutes": 5,
       "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "needs_review",
-      "validation_errors": [],
+      "validation_status": "failed",
+      "validation_errors": [
+        "Unknown target_id: 'cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example' (not in authoring batch)"
+      ],
       "validation_warnings": [
         "calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria"
       ]

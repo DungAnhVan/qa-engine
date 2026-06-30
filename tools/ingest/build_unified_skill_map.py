@@ -7,9 +7,9 @@ only derived metadata (topic, skill label, skill_type, short_evidence).
 
 Usage:
     python tools/ingest/build_unified_skill_map.py \\
-        data/bank/cambridge_igcse/physics_0625/source_corpus/unified_source_corpus_v0.json
+        data/bank/cambridge_igcse/<subject_slug>/source_corpus/unified_source_corpus_v0.json
 
-Output (data/bank/cambridge_igcse/physics_0625/skill_map/):
+Output (data/bank/cambridge_igcse/<subject_slug>/skill_map/):
     unified_skill_map_v0.json
     unified_skill_map_report.json
     unified_skill_map_manifest.md
@@ -24,8 +24,17 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
+# Subject adapter import (subject_adapters/ is a sibling of this file)
+sys.path.insert(0, str(Path(__file__).parent))
+try:
+    from subject_adapters.registry import get_adapter
+    _ADAPTER_AVAILABLE = True
+except ImportError:
+    _ADAPTER_AVAILABLE = False
+    get_adapter = None  # type: ignore[assignment]
+
 # ---------------------------------------------------------------------------
-# Skill type vocab
+# Skill type vocab (kept for reference)
 # ---------------------------------------------------------------------------
 
 SKILL_TYPES = [
@@ -48,10 +57,10 @@ SKILL_TYPES = [
 ]
 
 # ---------------------------------------------------------------------------
-# Topic keyword heuristics
+# Legacy Physics-only heuristics — used only when adapter unavailable
 # ---------------------------------------------------------------------------
 
-TOPIC_KEYWORDS: dict[str, list[str]] = {
+_LEGACY_TOPIC_KEYWORDS: dict[str, list[str]] = {
     "Motion, forces and energy": [
         "speed", "velocity", "acceleration", "force", "energy", "work", "power",
         "momentum", "pressure", "weight", "mass", "gravity", "newton", "friction",
@@ -90,15 +99,7 @@ TOPIC_KEYWORDS: dict[str, list[str]] = {
     ],
 }
 
-# ---------------------------------------------------------------------------
-# Skill type keyword heuristics (ordered by priority — first match wins)
-# ---------------------------------------------------------------------------
-
-# Each entry: (skill_type, [(keyword, case_sensitive)])
-# Use case_sensitive=True only for short acronyms like "MP1"
-
-SKILL_TYPE_RULES: list[tuple[str, list[str], bool]] = [
-    # Practical mark-point planning questions
+_LEGACY_SKILL_TYPE_RULES: list[tuple[str, list[str], bool]] = [
     ("extended_planning", ["MP1", "MP2", "MP3", "MP4", "MP5", "MP6", "MP7"], True),
     ("equation_manipulation", ["rearrange", "express in terms", "derive an expression", "show that"], False),
     ("graphing", [
@@ -160,19 +161,19 @@ SKILL_TYPE_RULES: list[tuple[str, list[str], bool]] = [
 ]
 
 
-def infer_topic(text: str) -> str:
+def _legacy_infer_topic(text: str) -> str:
     lower = text.lower()
     scores: dict[str, int] = {}
-    for topic, keywords in TOPIC_KEYWORDS.items():
+    for topic, keywords in _LEGACY_TOPIC_KEYWORDS.items():
         score = sum(1 for kw in keywords if kw.lower() in lower)
         if score:
             scores[topic] = score
     return max(scores, key=lambda k: scores[k]) if scores else "Unknown"
 
 
-def infer_skill_type(text: str) -> str:
+def _legacy_infer_skill_type(text: str) -> str:
     lower = text.lower()
-    for skill_type, keywords, case_sensitive in SKILL_TYPE_RULES:
+    for skill_type, keywords, case_sensitive in _LEGACY_SKILL_TYPE_RULES:
         for kw in keywords:
             if case_sensitive:
                 if kw in text:
@@ -183,16 +184,19 @@ def infer_skill_type(text: str) -> str:
     return "unknown"
 
 
+# ---------------------------------------------------------------------------
+# Text utilities
+# ---------------------------------------------------------------------------
+
 def clean_text(text: str) -> str:
     text = re.sub(r'\(cid:\d+\)', ' ', text)
-    text = re.sub(r'[^\x20-\x7E -ɏ–—°αβγΩμ]', ' ', text)
+    text = re.sub(r'[^\x20-\x7E -ɏ–—°αβγΩμ]', ' ', text)
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
 
 def short_evidence(text: str, max_len: int = 180) -> str:
     cleaned = clean_text(text)
-    # Strip leading question numbers / paper-header noise
     cleaned = re.sub(r'^[\d\s]+(?=\w)', '', cleaned, count=1).strip()
     if len(cleaned) <= max_len:
         return cleaned
@@ -203,9 +207,7 @@ def short_evidence(text: str, max_len: int = 180) -> str:
 
 def derive_skill_label(text: str, skill_type: str, q_num: str) -> str:
     cleaned = clean_text(text)
-    # Strip leading question number
     cleaned = re.sub(r'^\d+\s*', '', cleaned).strip()
-    # Take first substantive fragment up to 80 chars
     if len(cleaned) > 80:
         for sep in ('.', ',', ';', '(', '['):
             idx = cleaned.find(sep)
@@ -234,7 +236,7 @@ def load_json(path: Path) -> tuple[dict | list | None, str]:
 # MCQ processor
 # ---------------------------------------------------------------------------
 
-def process_mcq_source(source: dict) -> list[dict]:
+def process_mcq_source(source: dict, adapter) -> list[dict]:
     data, err = load_json(Path(source['source_file']))
     if err or not isinstance(data, dict):
         return []
@@ -249,31 +251,57 @@ def process_mcq_source(source: dict) -> list[dict]:
         sub   = q.get('subtopic', '') or ''
         skill = q.get('skill', '') or ''
 
-        # For MCQ the default skill_type is multiple_choice_concept;
-        # override only if the stem clearly indicates calculation or graph reading
-        lower = stem.lower()
-        if any(kw in lower for kw in ['calculate', 'work out', 'find the value']):
-            skill_type = 'calculation'
-        elif any(kw in lower for kw in ['from the graph', 'use the graph', 'from the table', 'use the table']):
-            skill_type = 'data_interpretation'
+        # Skill type via adapter
+        if adapter is not None:
+            skill_result = adapter.classify_skill(stem, 'mcq')
+            skill_type   = skill_result["skill_type"]
+            adapter_st   = skill_result["adapter_status"]
         else:
-            skill_type = 'multiple_choice_concept'
+            skill_type = _legacy_infer_skill_type(stem)
+            adapter_st = "legacy"
+
+        # MCQ default when adapter returns unknown
+        if skill_type == 'unknown':
+            lower = stem.lower()
+            if any(kw in lower for kw in ['calculate', 'work out', 'find the value']):
+                skill_type = 'calculation'
+            elif any(kw in lower for kw in ['from the graph', 'use the graph', 'from the table', 'use the table']):
+                skill_type = 'data_interpretation'
+            else:
+                skill_type = 'multiple_choice_concept'
+
+        # Topic: prefer data; try adapter only if Unknown
+        confidence = 0.75
+        if (topic == 'Unknown' or not topic) and adapter is not None:
+            topic_result = adapter.classify_topic(stem, 'mcq')
+            topic        = topic_result["topic"]
+            confidence   = topic_result["confidence"]
+
+        resource_type = "worked_example"
+        if adapter is not None:
+            resource_type = adapter.get_resource_type(skill_type, 'mcq')
+
+        needs_human_review = adapter_st == "generic_adapter" or confidence < 0.4
 
         units.append({
-            'skill_unit_id':   f'{source_id}_q{int(qn):02d}',
-            'source_id':       source_id,
-            'pair_id':         source['pair_id'],
-            'question_number': str(qn),
-            'question_part':   None,
-            'component_type':  'mcq',
-            'assessment_mode': 'mcq',
-            'topic':           topic,
-            'subtopic':        sub,
-            'skill':           skill,
-            'skill_type':      skill_type,
-            'marks':           1,
-            'short_evidence':  short_evidence(stem),
-            'status':          'derived',
+            'skill_unit_id':      f'{source_id}_q{int(qn):02d}',
+            'source_id':          source_id,
+            'pair_id':            source['pair_id'],
+            'question_number':    str(qn),
+            'question_part':      None,
+            'component_type':     'mcq',
+            'assessment_mode':    'mcq',
+            'topic':              topic,
+            'subtopic':           sub,
+            'skill':              skill,
+            'skill_type':         skill_type,
+            'marks':              1,
+            'short_evidence':     short_evidence(stem),
+            'status':             'derived',
+            'confidence':         round(confidence, 3),
+            'adapter_status':     adapter_st,
+            'needs_human_review': needs_human_review,
+            'resource_type':      resource_type,
         })
 
     return units
@@ -288,7 +316,6 @@ def _ms_items_for_question(ms_items: list[dict], q_num: str) -> list[dict]:
     seen_ids: set[int] = set()
     for item in ms_items:
         qp = item.get('question_part', '') or ''
-        # Match: "2", "2(a)", "2(a)(i)", "2MP1", "MP1" when q_num == first digit
         starts = (
             qp == q_num
             or qp.startswith(q_num + '(')
@@ -300,10 +327,10 @@ def _ms_items_for_question(ms_items: list[dict], q_num: str) -> list[dict]:
     return matched
 
 
-MAX_PLAUSIBLE_MARKS = 20  # filter out spurious year-values (e.g. 2025)
+MAX_PLAUSIBLE_MARKS = 20
 
 
-def process_structured_source(source: dict) -> list[dict]:
+def process_structured_source(source: dict, adapter) -> list[dict]:
     data, err = load_json(Path(source['source_file']))
     if err or not isinstance(data, dict):
         return []
@@ -320,12 +347,11 @@ def process_structured_source(source: dict) -> list[dict]:
         raw_txt  = q.get('raw_text', '') or ''
         marks_q  = q.get('marks_total_detected', 0) or 0
 
-        matched_ms   = _ms_items_for_question(ms_items, q_num)
-        ms_guidance  = ' '.join(
+        matched_ms  = _ms_items_for_question(ms_items, q_num)
+        ms_guidance = ' '.join(
             (it.get('answer_guidance', '') or '') for it in matched_ms
         )
 
-        # Check if this question uses practical mark points (MP1…MP7)
         has_mp = any(
             re.search(r'MP\d', it.get('question_part', '') or '')
             for it in matched_ms
@@ -333,16 +359,43 @@ def process_structured_source(source: dict) -> list[dict]:
 
         combined = f'{raw_txt} {ms_guidance}'
 
-        topic = infer_topic(combined)
+        # ── Topic classification ────────────────────────────────────────────
+        if adapter is not None:
+            topic_result = adapter.classify_topic(combined, comp_type)
+            topic        = topic_result["topic"]
+            confidence   = topic_result["confidence"]
+            adapter_st   = topic_result["adapter_status"]
+        else:
+            topic      = _legacy_infer_topic(combined)
+            confidence = 0.6
+            adapter_st = "legacy"
 
+        # ── Skill type classification ───────────────────────────────────────
         if has_mp:
             skill_type = 'extended_planning'
+        elif adapter is not None:
+            skill_result = adapter.classify_skill(raw_txt, comp_type)
+            skill_type   = skill_result["skill_type"]
+            if skill_type == 'unknown' and ms_guidance:
+                ms_skill = adapter.classify_skill(ms_guidance, comp_type)
+                if ms_skill["skill_type"] != 'unknown':
+                    skill_type = ms_skill["skill_type"]
         else:
-            # Use the question raw_text primarily; fall back to guidance
-            skill_type = infer_skill_type(raw_txt) or infer_skill_type(ms_guidance) or 'unknown'
+            skill_type = (
+                _legacy_infer_skill_type(raw_txt)
+                or _legacy_infer_skill_type(ms_guidance)
+                or 'unknown'
+            )
 
-        # Marks: prefer marks_total_detected from question segmenter;
-        # fall back to MS items (filter out spurious values)
+        # ── Resource type ───────────────────────────────────────────────────
+        if adapter is not None:
+            resource_type = adapter.get_resource_type(skill_type, comp_type)
+        else:
+            resource_type = "short_answer_calculation"
+
+        needs_human_review = adapter_st == "generic_adapter" or confidence < 0.4
+
+        # ── Marks ───────────────────────────────────────────────────────────
         marks = marks_q
         if marks == 0 and matched_ms:
             plausible = [
@@ -355,20 +408,24 @@ def process_structured_source(source: dict) -> list[dict]:
         skill = derive_skill_label(raw_txt, skill_type, q_num)
 
         units.append({
-            'skill_unit_id':   f'{source_id}_q{int(q_num):02d}',
-            'source_id':       source_id,
-            'pair_id':         source['pair_id'],
-            'question_number': q_num,
-            'question_part':   None,
-            'component_type':  comp_type,
-            'assessment_mode': assessment,
-            'topic':           topic,
-            'subtopic':        '',
-            'skill':           skill,
-            'skill_type':      skill_type,
-            'marks':           marks,
-            'short_evidence':  short_evidence(raw_txt),
-            'status':          'derived',
+            'skill_unit_id':      f'{source_id}_q{int(q_num):02d}',
+            'source_id':          source_id,
+            'pair_id':            source['pair_id'],
+            'question_number':    q_num,
+            'question_part':      None,
+            'component_type':     comp_type,
+            'assessment_mode':    assessment,
+            'topic':              topic,
+            'subtopic':           '',
+            'skill':              skill,
+            'skill_type':         skill_type,
+            'marks':              marks,
+            'short_evidence':     short_evidence(raw_txt),
+            'status':             'derived',
+            'confidence':         round(confidence, 3),
+            'adapter_status':     adapter_st,
+            'needs_human_review': needs_human_review,
+            'resource_type':      resource_type,
         })
 
     return units
@@ -382,48 +439,72 @@ def build_summary(units: list[dict]) -> dict:
     component_types:  dict[str, int] = {}
     topics:           dict[str, int] = {}
     skill_types:      dict[str, int] = {}
+    resource_types:   dict[str, int] = {}
     assessment_modes: dict[str, int] = {}
-    total_marks = 0
+    total_marks        = 0
+    needs_review_count = 0
+    low_conf_count     = 0
 
     for u in units:
         component_types[u['component_type']]  = component_types.get(u['component_type'], 0) + 1
         topics[u['topic']]                     = topics.get(u['topic'], 0) + 1
         skill_types[u['skill_type']]           = skill_types.get(u['skill_type'], 0) + 1
         assessment_modes[u['assessment_mode']] = assessment_modes.get(u['assessment_mode'], 0) + 1
-        total_marks += u.get('marks', 0)
+        rt = u.get('resource_type', 'unknown')
+        resource_types[rt] = resource_types.get(rt, 0) + 1
+        total_marks       += u.get('marks', 0)
+        if u.get('needs_human_review'):
+            needs_review_count += 1
+        if u.get('confidence', 1.0) < 0.4:
+            low_conf_count += 1
 
     return {
-        'total_skill_units':   len(units),
-        'component_types':     component_types,
-        'topics':              topics,
-        'skill_types':         skill_types,
-        'assessment_modes':    assessment_modes,
-        'total_marks_indexed': total_marks,
+        'total_skill_units':       len(units),
+        'component_types':         component_types,
+        'topics':                  topics,
+        'skill_types':             skill_types,
+        'resource_types':          resource_types,
+        'assessment_modes':        assessment_modes,
+        'total_marks_indexed':     total_marks,
+        'needs_human_review_count': needs_review_count,
+        'low_confidence_count':    low_conf_count,
     }
 
 
-def build_report(skill_map: dict, out_files: dict) -> dict:
+def build_report(skill_map: dict, out_files: dict, adapter_meta: dict) -> dict:
     units         = skill_map['skill_units']
     total         = len(units)
     unknown_count = sum(1 for u in units if u['skill_type'] == 'unknown')
     unknown_pct   = round(unknown_count / total * 100, 1) if total else 0.0
+    nhr_count     = skill_map['summary'].get('needs_human_review_count', 0)
+    low_conf      = skill_map['summary'].get('low_confidence_count', 0)
 
     if total == 0:
         status = 'failed'
+    elif adapter_meta.get('adapter_status') == 'generic_adapter':
+        status = 'needs_review'
     elif unknown_pct >= 30:
         status = 'needs_review'
     else:
         status = 'passed'
 
     return {
-        'status':              status,
-        'skill_map_id':        skill_map['skill_map_id'],
-        'total_skill_units':   total,
-        'derived_count':       sum(1 for u in units if u['status'] == 'derived'),
-        'unknown_skill_count': unknown_count,
-        'unknown_pct':         unknown_pct,
-        'summary':             skill_map['summary'],
-        'output_files':        out_files,
+        'status':                  status,
+        'skill_map_id':            skill_map['skill_map_id'],
+        'subject_slug':            adapter_meta.get('subject_slug', ''),
+        'adapter_name':            adapter_meta.get('adapter_name', ''),
+        'adapter_status':          adapter_meta.get('adapter_status', ''),
+        'total_skill_units':       total,
+        'classified_count':        total - unknown_count,
+        'needs_human_review_count': nhr_count,
+        'low_confidence_count':    low_conf,
+        'unknown_skill_count':     unknown_count,
+        'unknown_pct':             unknown_pct,
+        'topics':                  skill_map['summary'].get('topics', {}),
+        'skill_types':             skill_map['summary'].get('skill_types', {}),
+        'resource_types':          skill_map['summary'].get('resource_types', {}),
+        'summary':                 skill_map['summary'],
+        'output_files':            out_files,
     }
 
 
@@ -440,7 +521,11 @@ def build_manifest_md(skill_map: dict, report: dict) -> str:
         f"- **Status:** {report['status']}",
         f"- **Created:** {skill_map['created_at']}",
         '',
+        f"- **Adapter:** `{report.get('adapter_name', 'legacy')}` ({report.get('adapter_status', 'unknown')})",
         f"- **Total skill units:** {sm['total_skill_units']}",
+        f"- **Classified:** {report['classified_count']}",
+        f"- **Needs human review:** {report['needs_human_review_count']}",
+        f"- **Low confidence:** {report['low_confidence_count']}",
         f"- **Total marks indexed:** {sm['total_marks_indexed']}",
         f"- **Unknown skill types:** {report['unknown_skill_count']} ({report['unknown_pct']}%)",
         '',
@@ -455,6 +540,9 @@ def build_manifest_md(skill_map: dict, report: dict) -> str:
     lines += ['', '## Skill Types', '']
     for st, count in sorted(sm['skill_types'].items(), key=lambda x: -x[1]):
         lines.append(f'- **{st}:** {count} units')
+    lines += ['', '## Resource Types', '']
+    for rt, count in sorted(sm.get('resource_types', {}).items(), key=lambda x: -x[1]):
+        lines.append(f'- **{rt}:** {count} units')
     lines += ['', '## Assessment Modes', '']
     for am, count in sm['assessment_modes'].items():
         lines.append(f'- **{am}:** {count} units')
@@ -490,6 +578,34 @@ def main() -> None:
     if err:
         sys.exit(f'Error reading corpus: {err}')
 
+    # ── Derive subject_slug ────────────────────────────────────────────────
+    # Prefer corpus metadata; fall back to folder name
+    corpus_subject  = corpus.get('subject', '')
+    corpus_syllabus = corpus.get('syllabus_code', '')
+    if corpus_subject and corpus_syllabus:
+        subject_slug = f"{corpus_subject}_{corpus_syllabus}"
+    else:
+        subject_slug = corpus_path.parents[1].name  # e.g. "chemistry_0620"
+
+    # ── Select adapter ─────────────────────────────────────────────────────
+    if _ADAPTER_AVAILABLE and get_adapter is not None:
+        adapter = get_adapter(subject_slug)
+    else:
+        adapter = None
+        print(f"WARNING: subject_adapters module not available. Using legacy physics-only heuristics.")
+
+    adapter_meta = (
+        adapter.get_adapter_metadata()
+        if adapter is not None
+        else {"adapter_name": "legacy", "adapter_status": "legacy", "subject_slug": subject_slug}
+    )
+
+    print(f"subject_slug         : {subject_slug}")
+    print(f"adapter              : {adapter_meta['adapter_name']} ({adapter_meta['adapter_status']})")
+    if adapter_meta.get('adapter_status') == 'generic_adapter':
+        print(f"WARNING: no subject-specific adapter for '{subject_slug}'.")
+        print(f"         All items will be marked needs_human_review=True.")
+
     out_dir = corpus_path.parent.parent / 'skill_map'
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -498,9 +614,9 @@ def main() -> None:
         if source.get('status') not in ('indexed', 'needs_human_review'):
             continue
         if source['component_type'] == 'mcq':
-            units = process_mcq_source(source)
+            units = process_mcq_source(source, adapter)
         else:
-            units = process_structured_source(source)
+            units = process_structured_source(source, adapter)
         all_units.extend(units)
 
     board    = corpus.get('board', 'cambridge')
@@ -510,11 +626,11 @@ def main() -> None:
 
     skill_map_id = f'{board}_{level}_{subject}_{syllabus}_unified_skill_map_v0'
 
-    summary = build_summary(all_units)
+    summary  = build_summary(all_units)
 
     skill_map = {
         'skill_map_id':      skill_map_id,
-        'version':           '0.1.0',
+        'version':           '0.2.0',
         'status':            'internal_derived_only',
         'created_at':        datetime.now(timezone.utc).isoformat(),
         'copyright_note':    'Derived skill metadata only. No Cambridge content published.',
@@ -522,6 +638,9 @@ def main() -> None:
         'level':             level,
         'subject':           subject,
         'syllabus_code':     syllabus,
+        'subject_slug':      subject_slug,
+        'adapter_name':      adapter_meta['adapter_name'],
+        'adapter_status':    adapter_meta['adapter_status'],
         'source_corpus_id':  corpus.get('corpus_id', ''),
         'total_skill_units': len(all_units),
         'skill_units':       all_units,
@@ -538,7 +657,7 @@ def main() -> None:
         'manifest':  str(man_path),
     }
 
-    report   = build_report(skill_map, out_files)
+    report   = build_report(skill_map, out_files, adapter_meta)
     manifest = build_manifest_md(skill_map, report)
 
     sm_path.write_text(json.dumps(skill_map, indent=2, ensure_ascii=False), encoding='utf-8')
@@ -548,11 +667,11 @@ def main() -> None:
     print(f"status               : {report['status']}")
     print(f"skill_map_id         : {skill_map_id}")
     print(f"total_skill_units    : {len(all_units)}")
+    print(f"classified_count     : {report['classified_count']}")
+    print(f"needs_human_review   : {report['needs_human_review_count']}")
     print(f"unknown_skill_count  : {report['unknown_skill_count']} ({report['unknown_pct']}%)")
     print(f"component_types      : {summary['component_types']}")
     print(f"topics               : {summary['topics']}")
-    print(f"skill_types          : {summary['skill_types']}")
-    print(f"assessment_modes     : {summary['assessment_modes']}")
     print(f"total_marks_indexed  : {summary['total_marks_indexed']}")
     print(f"skill_map            : {sm_path}")
     print(f"report               : {rep_path}")

@@ -1,0 +1,575 @@
+{
+  "target_set_id": "cambridge_igcse_mathematics_0580_unified_generation_targets_v0",
+  "version": "0.1.0",
+  "status": "internal_authoring_plan",
+  "created_at": "2026-06-30T02:28:45.589350+00:00",
+  "source_skill_map_id": "cambridge_igcse_mathematics_0580_unified_skill_map_v0",
+  "copyright_status": "generation_plan_only_no_source_content",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "mathematics",
+  "syllabus_code": "0580",
+  "target_count": 25,
+  "targets": [
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q01_worked_example",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q01",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q01"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "| Area, A, of triangle, base b, height h",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "worked_example",
+      "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 2,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q01_calculation_drill",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q01",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q01"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "| Area, A, of triangle, base b, height h",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "calculation_drill",
+      "generation_goal": "Create a set of original calculation practice problems with full step-by-step solutions.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 5,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q01_short_answer_calculation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q01",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q01"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "| Area, A, of triangle, base b, height h",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_calculation",
+      "generation_goal": "Create short-answer calculation questions including expected working and a final answer.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q02_short_answer_recall",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q02",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q02"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "hours You must answer on the question paper",
+      "skill_type": "recall_definition",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_recall",
+      "generation_goal": "Create short-answer recall questions testing key definitions, units, or facts for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 3,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q02_definition_flashcard",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q02",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q02"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "hours You must answer on the question paper",
+      "skill_type": "recall_definition",
+      "assessment_mode": "theory_written",
+      "resource_type": "definition_flashcard",
+      "generation_goal": "Create a definition flashcard: front = term or concept; back = definition plus a brief original example.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 3,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q03_worked_example",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q03",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q03"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Algebra",
+      "skill_name": "| Volume, V, of cylinder of radius r, height h",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "worked_example",
+      "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 2,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q03_calculation_drill",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q03",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q03"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Algebra",
+      "skill_name": "| Volume, V, of cylinder of radius r, height h",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "calculation_drill",
+      "generation_goal": "Create a set of original calculation practice problems with full step-by-step solutions.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 5,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q03_short_answer_calculation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q03",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q03"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Algebra",
+      "skill_name": "| Volume, V, of cylinder of radius r, height h",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_calculation",
+      "generation_goal": "Create short-answer calculation questions including expected working and a final answer.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q04_review_before_generation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q04",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q04"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Geometry",
+      "skill_name": "| Volume, V, of sphere of radius r",
+      "skill_type": "extended_planning",
+      "assessment_mode": "theory_written",
+      "resource_type": "review_before_generation",
+      "generation_goal": "Skill type is unknown or unclear. Review this skill unit before creating any generation targets.",
+      "student_facing": false,
+      "teacher_facing": true,
+      "priority": 9,
+      "planned_item_count": 0,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "needs_review"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q05_worked_example",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q05",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q05"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Probability",
+      "skill_name": "Scott changes $300 into pounds (£)",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "worked_example",
+      "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 2,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q05_calculation_drill",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q05",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q05"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Probability",
+      "skill_name": "Scott changes $300 into pounds (£)",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "calculation_drill",
+      "generation_goal": "Create a set of original calculation practice problems with full step-by-step solutions.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 5,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q05_short_answer_calculation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q05",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q05"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Probability",
+      "skill_name": "Scott changes $300 into pounds (£)",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_calculation",
+      "generation_goal": "Create short-answer calculation questions including expected working and a final answer.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q06_worked_example",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q06",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q06"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "A solid wooden cone has base radius 4 cm and height 12 cm",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "worked_example",
+      "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 2,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q06_calculation_drill",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q06",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q06"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "A solid wooden cone has base radius 4 cm and height 12 cm",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "calculation_drill",
+      "generation_goal": "Create a set of original calculation practice problems with full step-by-step solutions.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 5,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q06_short_answer_calculation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q06",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q06"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "A solid wooden cone has base radius 4 cm and height 12 cm",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_calculation",
+      "generation_goal": "Create short-answer calculation questions including expected working and a final answer.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q07_worked_example",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q07",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q07"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Number",
+      "skill_name": "y = mx+c Rearrange the formula to make m the subject",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "worked_example",
+      "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 2,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q07_calculation_drill",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q07",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q07"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Number",
+      "skill_name": "y = mx+c Rearrange the formula to make m the subject",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "calculation_drill",
+      "generation_goal": "Create a set of original calculation practice problems with full step-by-step solutions.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 5,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q07_short_answer_calculation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q07",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q07"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Number",
+      "skill_name": "y = mx+c Rearrange the formula to make m the subject",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_calculation",
+      "generation_goal": "Create short-answer calculation questions including expected working and a final answer.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q08_worked_example",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q08",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q08"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "cm SCALE A 12 cm B ABCD is a trapezium",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "worked_example",
+      "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 2,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q08_calculation_drill",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q08",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q08"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "cm SCALE A 12 cm B ABCD is a trapezium",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "calculation_drill",
+      "generation_goal": "Create a set of original calculation practice problems with full step-by-step solutions.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 5,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q08_short_answer_calculation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q08",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q08"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Mensuration",
+      "skill_name": "cm SCALE A 12 cm B ABCD is a trapezium",
+      "skill_type": "calculation",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_calculation",
+      "generation_goal": "Create short-answer calculation questions including expected working and a final answer.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q09_review_before_generation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q09",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q09"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Geometry",
+      "skill_name": "Solve the simultaneous equations",
+      "skill_type": "extended_planning",
+      "assessment_mode": "theory_written",
+      "resource_type": "review_before_generation",
+      "generation_goal": "Skill type is unknown or unclear. Review this skill unit before creating any generation targets.",
+      "student_facing": false,
+      "teacher_facing": true,
+      "priority": 9,
+      "planned_item_count": 0,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "needs_review"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q10_worked_example",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q10",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q10"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Geometry",
+      "skill_name": "A group of 12 adults and 9 children travel on a bus",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "worked_example",
+      "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 2,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q10_calculation_drill",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q10",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q10"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Geometry",
+      "skill_name": "A group of 12 adults and 9 children travel on a bus",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "calculation_drill",
+      "generation_goal": "Create a set of original calculation practice problems with full step-by-step solutions.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 5,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    },
+    {
+      "target_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q10_short_answer_calculation",
+      "source_skill_unit_id": "cambridge_igcse_mathematics_0580_2025_s_p42_q10",
+      "source_skill_unit_ids": [
+        "cambridge_igcse_mathematics_0580_2025_s_p42_q10"
+      ],
+      "component_type": "theory_structured",
+      "paper_code": "42",
+      "topic": "Geometry",
+      "skill_name": "A group of 12 adults and 9 children travel on a bus",
+      "skill_type": "equation_manipulation",
+      "assessment_mode": "theory_written",
+      "resource_type": "short_answer_calculation",
+      "generation_goal": "Create short-answer calculation questions including expected working and a final answer.",
+      "student_facing": true,
+      "teacher_facing": false,
+      "priority": 1,
+      "planned_item_count": 3,
+      "copyright_rule": "create_original_content_only_do_not_copy_source_wording",
+      "status": "ready_for_authoring"
+    }
+  ],
+  "summary": {
+    "component_types": {
+      "theory_structured": 25
+    },
+    "topics": {
+      "Mensuration": 11,
+      "Algebra": 3,
+      "Geometry": 5,
+      "Probability": 3,
+      "Number": 3
+    },
+    "skill_types": {
+      "calculation": 9,
+      "recall_definition": 2,
+      "extended_planning": 2,
+      "equation_manipulation": 12
+    },
+    "resource_types": {
+      "worked_example": 7,
+      "calculation_drill": 7,
+      "short_answer_calculation": 7,
+      "short_answer_recall": 1,
+      "definition_flashcard": 1,
+      "review_before_generation": 2
+    },
+    "priorities": {
+      "1": 21,
+      "3": 2,
+      "9": 2
+    },
+    "planned_total_items": 76
+  },
+  "warnings": [
+    "total_marks_indexed (100) differs from source corpus total_marks (80); review mark aggregation later."
+  ]
+}

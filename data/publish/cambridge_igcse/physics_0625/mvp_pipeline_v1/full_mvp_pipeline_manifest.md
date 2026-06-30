@@ -2,22 +2,22 @@
 
 - **Pipeline ID:** `cambridge_igcse_physics_0625_full_mvp_pipeline_v1`
 - **Status:** passed
-- **Created:** 2026-06-29T02:07:30.564373+00:00
+- **Created:** 2026-06-30T02:18:34.361503+00:00
 - **Raw Folder:** `D:\qa-engine\data\raw\cambridge_igcse\physics_0625`
 
 ## Gates Run
 
 - Gate 19 `raw_document_intake`: [SKIP] skipped
-- Gate 20 `markitdown_ingest`: [SKIP] skipped
+- Gate 20 `markitdown_ingest`: [OK] passed
 - Gate 21 `batch_paper_pipeline`: [SKIP] skipped
 - Gate 22 `unified_source_corpus`: [SKIP] skipped
 - Gate 23 `unified_skill_map`: [SKIP] skipped
 - Gate 24 `unified_generation_targets`: [SKIP] skipped
 - Gate 25 `authoring_batch`: [SKIP] skipped
-- Gate 26 `validate_generated_batch`: [OK] passed
-- Gate 27 `original_resource_bank`: [OK] passed
-- Gate 28 `teacher_review_queue`: [OK] passed
-- Gate 29 `publish_package`: [OK] passed
+- Gate 26 `validate_generated_batch`: [SKIP] skipped
+- Gate 27 `original_resource_bank`: [SKIP] skipped
+- Gate 28 `teacher_review_queue`: [SKIP] skipped
+- Gate 29 `publish_package`: [SKIP] skipped
 
 ## Pipeline State
 
@@ -29,15 +29,15 @@
 
 ## Summary
 
-- **Source Pairs:** 3
-- **Source Count:** 3
-- **Skill Units:** 54
-- **Generation Targets:** 107
+- **Source Pairs:** 6
+- **Source Count:** 5
+- **Skill Units:** 68
+- **Generation Targets:** 124
 - **Authoring Planned Items:** 50
 - **Generated Resources:** 50
-- **Publish Ready Resources:** 26
-- **Teacher Review Resources:** 24
-- **Published Resources:** 26
+- **Publish Ready Resources:** 16
+- **Teacher Review Resources:** 23
+- **Published Resources:** 16
 
 ---
 

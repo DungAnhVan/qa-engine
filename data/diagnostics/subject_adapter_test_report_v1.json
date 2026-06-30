@@ -1,0 +1,380 @@
+{
+  "report_id": "quanta_aptus_subject_adapter_test_report_v1",
+  "version": "0.1.0",
+  "created_at": "2026-06-30T02:23:05.334305+00:00",
+  "total_tested": 11,
+  "registered_count": 10,
+  "full_adapter_count": 1,
+  "basic_adapter_count": 9,
+  "generic_adapter_count": 1,
+  "needs_human_review_count": 1,
+  "all_registered_slugs": [
+    "accounting_0452",
+    "additional_mathematics_0606",
+    "biology_0610",
+    "business_studies_0450",
+    "chemistry_0620",
+    "co_ordinated_sciences_0654",
+    "combined_science_0653",
+    "computer_science_0478",
+    "economics_0455",
+    "english_first_language_0500",
+    "english_literature_0475",
+    "english_second_language_0510",
+    "environmental_management_0680",
+    "geography_0460",
+    "global_perspectives_0457",
+    "history_0470",
+    "ict_0417",
+    "international_mathematics_0607",
+    "mathematics_0580",
+    "physics_0625",
+    "sociology_0495",
+    "travel_and_tourism_0471"
+  ],
+  "results": [
+    {
+      "subject_slug": "physics_0625",
+      "is_registered": true,
+      "adapter_name": "physics_0625",
+      "adapter_status": "full_adapter",
+      "topic_count": 6,
+      "topic_result": {
+        "topic": "Motion, forces and energy",
+        "skill_type": "calculation",
+        "resource_type": "calculation_drill",
+        "confidence": 0.85,
+        "matched_keywords": [
+          "acceleration",
+          "force",
+          "mass"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "calculation",
+        "resource_type": "calculation_drill",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "calculate"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "calculation_drill",
+        "skill_type": "calculation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "chemistry_0620",
+      "is_registered": true,
+      "adapter_name": "chemistry_0620",
+      "adapter_status": "basic_adapter",
+      "topic_count": 10,
+      "topic_result": {
+        "topic": "Atomic structure and bonding",
+        "skill_type": "recall_definition",
+        "resource_type": "worked_example",
+        "confidence": 0.85,
+        "matched_keywords": [
+          "electron",
+          "proton",
+          "neutron",
+          "ion"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "calculation",
+        "resource_type": "calculation_drill",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "calculate"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "calculation_drill",
+        "skill_type": "calculation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "biology_0610",
+      "is_registered": true,
+      "adapter_name": "biology_0610",
+      "adapter_status": "basic_adapter",
+      "topic_count": 14,
+      "topic_result": {
+        "topic": "Animal nutrition",
+        "skill_type": "conceptual_explanation",
+        "resource_type": "worked_example",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "digestion",
+          "enzyme",
+          "intestine"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "conceptual_explanation",
+        "resource_type": "worked_example",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "explain"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "worked_example",
+        "skill_type": "conceptual_explanation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "mathematics_0580",
+      "is_registered": true,
+      "adapter_name": "mathematics_0580",
+      "adapter_status": "basic_adapter",
+      "topic_count": 10,
+      "topic_result": {
+        "topic": "Algebra",
+        "skill_type": "equation_manipulation",
+        "resource_type": "algebra_drill",
+        "confidence": 0.85,
+        "matched_keywords": [
+          "equation",
+          "expression",
+          "factorise",
+          "quadratic"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "calculation",
+        "resource_type": "calculation_drill",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "calculate"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "calculation_drill",
+        "skill_type": "calculation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "computer_science_0478",
+      "is_registered": true,
+      "adapter_name": "computer_science_0478",
+      "adapter_status": "basic_adapter",
+      "topic_count": 9,
+      "topic_result": {
+        "topic": "Boolean logic",
+        "skill_type": "data_interpretation",
+        "resource_type": "pseudocode_trace",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "AND",
+          "OR"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "extended_planning",
+        "resource_type": "algorithm_design_task",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "write pseudocode"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "algorithm_design_task",
+        "skill_type": "extended_planning",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "business_studies_0450",
+      "is_registered": true,
+      "adapter_name": "business_studies_0450",
+      "adapter_status": "basic_adapter",
+      "topic_count": 6,
+      "topic_result": {
+        "topic": "People in business",
+        "skill_type": "conceptual_explanation",
+        "resource_type": "case_study_analysis",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "motivation",
+          "employee"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "calculation",
+        "resource_type": "calculation_drill",
+        "confidence": 0.55,
+        "matched_keywords": [
+          "calculate"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "calculation_drill",
+        "skill_type": "calculation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "economics_0455",
+      "is_registered": true,
+      "adapter_name": "economics_0455",
+      "adapter_status": "basic_adapter",
+      "topic_count": 6,
+      "topic_result": {
+        "topic": "Allocation of resources",
+        "skill_type": "conceptual_explanation",
+        "resource_type": "case_study_analysis",
+        "confidence": 0.65,
+        "matched_keywords": [
+          "demand",
+          "price"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "data_interpretation",
+        "resource_type": "data_response_task",
+        "confidence": 0.55,
+        "matched_keywords": [
+          "from the data"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "data_response_task",
+        "skill_type": "data_interpretation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "geography_0460",
+      "is_registered": true,
+      "adapter_name": "geography_0460",
+      "adapter_status": "basic_adapter",
+      "topic_count": 7,
+      "topic_result": {
+        "topic": "Population and settlement",
+        "skill_type": "conceptual_explanation",
+        "resource_type": "extended_response_plan",
+        "confidence": 0.75,
+        "matched_keywords": [
+          "population",
+          "urbanisation",
+          "urban"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "data_interpretation",
+        "resource_type": "source_analysis_task",
+        "confidence": 0.55,
+        "matched_keywords": [
+          "from the map"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "source_analysis_task",
+        "skill_type": "data_interpretation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "english_first_language_0500",
+      "is_registered": true,
+      "adapter_name": "english_language_english_first_language_0500",
+      "adapter_status": "basic_adapter",
+      "topic_count": 9,
+      "topic_result": {
+        "topic": "Writer's effect",
+        "skill_type": "conceptual_explanation",
+        "resource_type": "reading_analysis_task",
+        "confidence": 0.56,
+        "matched_keywords": [
+          "writer",
+          "language"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "unknown",
+        "resource_type": "directed_writing_task",
+        "confidence": 0.56,
+        "matched_keywords": []
+      },
+      "resource_type_result": {
+        "resource_type": "directed_writing_task",
+        "skill_type": "unknown",
+        "confidence": 0.3
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "english_literature_0475",
+      "is_registered": true,
+      "adapter_name": "english_literature_0475",
+      "adapter_status": "basic_adapter",
+      "topic_count": 10,
+      "topic_result": {
+        "topic": "Character",
+        "skill_type": "extended_planning",
+        "resource_type": "essay_planning_task",
+        "confidence": 0.56,
+        "matched_keywords": [
+          "character",
+          "protagonist"
+        ]
+      },
+      "skill_result": {
+        "skill_type": "data_interpretation",
+        "resource_type": "evidence_selection_task",
+        "confidence": 0.56,
+        "matched_keywords": [
+          "from the extract"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "evidence_selection_task",
+        "skill_type": "data_interpretation",
+        "confidence": 0.6
+      },
+      "needs_human_review": false
+    },
+    {
+      "subject_slug": "unknown_9999",
+      "is_registered": false,
+      "adapter_name": "generic_unknown_9999",
+      "adapter_status": "generic_adapter",
+      "topic_count": 0,
+      "topic_result": {
+        "topic": "Unknown",
+        "skill_type": "unknown",
+        "resource_type": "short_answer_concept",
+        "confidence": 0.15,
+        "matched_keywords": []
+      },
+      "skill_result": {
+        "skill_type": "conceptual_explanation",
+        "resource_type": "short_answer_concept",
+        "confidence": 0.15,
+        "matched_keywords": [
+          "describe"
+        ]
+      },
+      "resource_type_result": {
+        "resource_type": "short_answer_concept",
+        "skill_type": "conceptual_explanation",
+        "confidence": 0.6
+      },
+      "needs_human_review": true
+    }
+  ]
+}

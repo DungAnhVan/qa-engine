@@ -1,21 +1,21 @@
 {
-  "status": "needs_review",
+  "status": "failed",
   "batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
   "authoring_batch_file": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001.json",
   "generated_batch_file": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generated_batches\\generated_resource_batch_v1_001.json",
   "generated_count": 50,
-  "passed_count": 26,
-  "needs_review_count": 24,
-  "failed_count": 0,
-  "unknown_target_count": 0,
+  "passed_count": 16,
+  "needs_review_count": 23,
+  "failed_count": 11,
+  "unknown_target_count": 11,
   "copyright_leak_count": 0,
   "dummy_placeholder_count": 0,
   "duplicate_resource_id_count": 0,
   "duplicate_prompt_count": 0,
   "target_coverage": {
-    "target_count": 19,
-    "targets_with_generated_resources": 19,
-    "targets_missing_generated_resources": 0
+    "target_count": 20,
+    "targets_with_generated_resources": 14,
+    "targets_missing_generated_resources": 6
   },
   "resource_types": {
     "calculation_drill": 15,
@@ -33,7 +33,14 @@
     "theory_structured": 39,
     "practical_structured": 11
   },
-  "warnings": [],
+  "warnings": [
+    "Target 'cambridge_igcse_physics_0625_2024_w_p61_q01_graph_marking_checklist': planned 1 item(s) but 0 generated",
+    "Target 'cambridge_igcse_physics_0625_2024_w_p61_q01_graphing_drill': planned 3 item(s) but 0 generated",
+    "Target 'cambridge_igcse_physics_0625_2024_w_p61_q02_graph_marking_checklist': planned 1 item(s) but 0 generated",
+    "Target 'cambridge_igcse_physics_0625_2024_w_p61_q02_graphing_drill': planned 3 item(s) but 0 generated",
+    "Target 'cambridge_igcse_physics_0625_2024_w_p61_q04_experiment_planning_task': planned 2 item(s) but 0 generated",
+    "Target 'cambridge_igcse_physics_0625_2024_w_p61_q04_planning_marking_checklist': planned 1 item(s) but 0 generated"
+  ],
   "output_files": {
     "validated": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generated_batches\\generated_resource_batch_v1_001.validated.json",
     "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generated_batches\\generated_resource_batch_v1_001.validation_report.json",

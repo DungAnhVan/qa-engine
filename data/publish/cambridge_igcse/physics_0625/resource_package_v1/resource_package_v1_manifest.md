@@ -6,41 +6,38 @@
 - **Subject:** Physics
 - **Syllabus:** 0625
 - **Status:** passed
-- **Created:** 2026-06-29T02:07:31.370103+00:00
+- **Created:** 2026-06-29T16:25:32.131115+00:00
 
 ## Resource Counts
 
-- **Total resources:** 26
-- **Student payload items:** 22
-- **Teacher payload items:** 26
-- **Teacher-only resources:** 4
-- **Estimated total time:** 163 min
+- **Total resources:** 16
+- **Student payload items:** 13
+- **Teacher payload items:** 16
+- **Teacher-only resources:** 3
+- **Estimated total time:** 86 min
 
 ## Resource Types
 
-- **graphing_drill:** 6
-- **worked_example:** 4
 - **calculation_drill:** 3
+- **worked_example:** 3
 - **diagram_or_graph_drill:** 3
-- **data_interpretation_drill:** 3
+- **graphing_drill:** 3
 - **graph_marking_checklist:** 2
-- **experiment_planning_task:** 2
 - **short_answer_calculation:** 1
 - **marking_checklist:** 1
-- **planning_marking_checklist:** 1
 
 ## Topics
 
-- **Electricity and magnetism:** 11
-- **Waves:** 6
 - **Motion, forces and energy:** 5
+- **Electricity and magnetism:** 4
 - **Thermal physics:** 4
+- **Waves:** 3
 
 ## Difficulty Distribution
 
-- **medium:** 13
-- **hard:** 7
-- **easy:** 6
+- **medium:** 8
+- **easy:** 4
+- **hard:** 4
 
 ## Output Files
 

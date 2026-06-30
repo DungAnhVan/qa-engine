@@ -126,6 +126,120 @@ For each target with `planned_item_count >= 3`:
 ```json
 [
   {
+    "target_id": "cambridge_igcse_physics_0625_2024_w_p61_q01_graph_marking_checklist",
+    "source_skill_unit_ids": [
+      "cambridge_igcse_physics_0625_2024_w_p61_q01"
+    ],
+    "component_type": "practical_structured",
+    "paper_code": "61",
+    "topic": "Motion, forces and energy",
+    "skill_name": "hour You must answer on the question paper",
+    "skill_type": "graphing",
+    "assessment_mode": "practical",
+    "resource_type": "graph_marking_checklist",
+    "generation_goal": "Create a marking checklist for graphing tasks covering axes, scale, plots, and best-fit line.",
+    "planned_item_count": 1,
+    "priority": 1,
+    "student_facing": false,
+    "teacher_facing": true,
+    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
+  },
+  {
+    "target_id": "cambridge_igcse_physics_0625_2024_w_p61_q01_graphing_drill",
+    "source_skill_unit_ids": [
+      "cambridge_igcse_physics_0625_2024_w_p61_q01"
+    ],
+    "component_type": "practical_structured",
+    "paper_code": "61",
+    "topic": "Motion, forces and energy",
+    "skill_name": "hour You must answer on the question paper",
+    "skill_type": "graphing",
+    "assessment_mode": "practical",
+    "resource_type": "graphing_drill",
+    "generation_goal": "Create a graphing exercise: plot points from original data, draw a best-fit line, and extract values.",
+    "planned_item_count": 3,
+    "priority": 1,
+    "student_facing": true,
+    "teacher_facing": false,
+    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
+  },
+  {
+    "target_id": "cambridge_igcse_physics_0625_2024_w_p61_q02_graph_marking_checklist",
+    "source_skill_unit_ids": [
+      "cambridge_igcse_physics_0625_2024_w_p61_q02"
+    ],
+    "component_type": "practical_structured",
+    "paper_code": "61",
+    "topic": "Thermal physics",
+    "skill_name": "2 A student investigates the cooling of water in a metal container",
+    "skill_type": "graphing",
+    "assessment_mode": "practical",
+    "resource_type": "graph_marking_checklist",
+    "generation_goal": "Create a marking checklist for graphing tasks covering axes, scale, plots, and best-fit line.",
+    "planned_item_count": 1,
+    "priority": 1,
+    "student_facing": false,
+    "teacher_facing": true,
+    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
+  },
+  {
+    "target_id": "cambridge_igcse_physics_0625_2024_w_p61_q02_graphing_drill",
+    "source_skill_unit_ids": [
+      "cambridge_igcse_physics_0625_2024_w_p61_q02"
+    ],
+    "component_type": "practical_structured",
+    "paper_code": "61",
+    "topic": "Thermal physics",
+    "skill_name": "2 A student investigates the cooling of water in a metal container",
+    "skill_type": "graphing",
+    "assessment_mode": "practical",
+    "resource_type": "graphing_drill",
+    "generation_goal": "Create a graphing exercise: plot points from original data, draw a best-fit line, and extract values.",
+    "planned_item_count": 3,
+    "priority": 1,
+    "student_facing": true,
+    "teacher_facing": false,
+    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
+  },
+  {
+    "target_id": "cambridge_igcse_physics_0625_2024_w_p61_q04_experiment_planning_task",
+    "source_skill_unit_ids": [
+      "cambridge_igcse_physics_0625_2024_w_p61_q04"
+    ],
+    "component_type": "practical_structured",
+    "paper_code": "61",
+    "topic": "Electricity and magnetism",
+    "skill_name": "4 A student investigates the current required to melt different fuse wires",
+    "skill_type": "extended_planning",
+    "assessment_mode": "practical",
+    "resource_type": "experiment_planning_task",
+    "generation_goal": "Create an original experiment planning task covering setup, method, variables, results table, and graph.",
+    "planned_item_count": 2,
+    "priority": 1,
+    "student_facing": true,
+    "teacher_facing": false,
+    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
+  },
+  {
+    "target_id": "cambridge_igcse_physics_0625_2024_w_p61_q04_planning_marking_checklist",
+    "source_skill_unit_ids": [
+      "cambridge_igcse_physics_0625_2024_w_p61_q04"
+    ],
+    "component_type": "practical_structured",
+    "paper_code": "61",
+    "topic": "Electricity and magnetism",
+    "skill_name": "4 A student investigates the current required to melt different fuse wires",
+    "skill_type": "extended_planning",
+    "assessment_mode": "practical",
+    "resource_type": "planning_marking_checklist",
+    "generation_goal": "Create a marking checklist for experiment planning tasks aligned to mark-point criteria (MP1-MP7 style).",
+    "planned_item_count": 1,
+    "priority": 1,
+    "student_facing": false,
+    "teacher_facing": true,
+    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
+  },
+  {
     "target_id": "cambridge_igcse_physics_0625_2025_s_p41_q03_calculation_drill",
     "source_skill_unit_ids": [
       "cambridge_igcse_physics_0625_2025_s_p41_q03"
@@ -389,101 +503,6 @@ For each target with `planned_item_count >= 3`:
     "priority": 1,
     "student_facing": false,
     "teacher_facing": true,
-    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
-  },
-  {
-    "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill",
-    "source_skill_unit_ids": [
-      "cambridge_igcse_physics_0625_2025_s_p61_q03"
-    ],
-    "component_type": "practical_structured",
-    "paper_code": "61",
-    "topic": "Waves",
-    "skill_name": "(c) The student measures the mass m of a dish",
-    "skill_type": "graphing",
-    "assessment_mode": "practical",
-    "resource_type": "graphing_drill",
-    "generation_goal": "Create a graphing exercise: plot points from original data, draw a best-fit line, and extract values.",
-    "planned_item_count": 3,
-    "priority": 1,
-    "student_facing": true,
-    "teacher_facing": false,
-    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
-  },
-  {
-    "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task",
-    "source_skill_unit_ids": [
-      "cambridge_igcse_physics_0625_2025_s_p61_q04"
-    ],
-    "component_type": "practical_structured",
-    "paper_code": "61",
-    "topic": "Electricity and magnetism",
-    "skill_name": "4 eye Fig. 3.1",
-    "skill_type": "extended_planning",
-    "assessment_mode": "practical",
-    "resource_type": "experiment_planning_task",
-    "generation_goal": "Create an original experiment planning task covering setup, method, variables, results table, and graph.",
-    "planned_item_count": 2,
-    "priority": 1,
-    "student_facing": true,
-    "teacher_facing": false,
-    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
-  },
-  {
-    "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q04_planning_marking_checklist",
-    "source_skill_unit_ids": [
-      "cambridge_igcse_physics_0625_2025_s_p61_q04"
-    ],
-    "component_type": "practical_structured",
-    "paper_code": "61",
-    "topic": "Electricity and magnetism",
-    "skill_name": "4 eye Fig. 3.1",
-    "skill_type": "extended_planning",
-    "assessment_mode": "practical",
-    "resource_type": "planning_marking_checklist",
-    "generation_goal": "Create a marking checklist for experiment planning tasks aligned to mark-point criteria (MP1-MP7 style).",
-    "planned_item_count": 1,
-    "priority": 1,
-    "student_facing": false,
-    "teacher_facing": true,
-    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
-  },
-  {
-    "target_id": "cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill",
-    "source_skill_unit_ids": [
-      "cambridge_igcse_physics_0625_2025_s_p41_q07"
-    ],
-    "component_type": "theory_structured",
-    "paper_code": "41",
-    "topic": "Electricity and magnetism",
-    "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
-    "skill_type": "data_interpretation",
-    "assessment_mode": "theory_written",
-    "resource_type": "data_interpretation_drill",
-    "generation_goal": "Create a data interpretation exercise using original (non-Cambridge) data sets.",
-    "planned_item_count": 3,
-    "priority": 2,
-    "student_facing": true,
-    "teacher_facing": false,
-    "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
-  },
-  {
-    "target_id": "cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example",
-    "source_skill_unit_ids": [
-      "cambridge_igcse_physics_0625_2025_s_p41_q07"
-    ],
-    "component_type": "theory_structured",
-    "paper_code": "41",
-    "topic": "Electricity and magnetism",
-    "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
-    "skill_type": "data_interpretation",
-    "assessment_mode": "theory_written",
-    "resource_type": "worked_example",
-    "generation_goal": "Create a fully worked example with annotated solution steps for this skill.",
-    "planned_item_count": 2,
-    "priority": 2,
-    "student_facing": true,
-    "teacher_facing": false,
     "copyright_rule": "create_original_content_only_do_not_copy_source_wording"
   }
 ]

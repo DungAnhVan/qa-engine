@@ -1,0 +1,37 @@
+{
+  "status": "needs_review",
+  "target_set_id": "cambridge_igcse_biology_0610_unified_generation_targets_v0",
+  "source_skill_units": 54,
+  "target_count": 35,
+  "ready_for_authoring_count": 24,
+  "review_before_generation_count": 11,
+  "planned_total_items": 56,
+  "component_types": {
+    "mcq": 18,
+    "theory_structured": 10,
+    "practical_structured": 7
+  },
+  "resource_types": {
+    "original_mcq": 9,
+    "worked_explanation": 9,
+    "review_before_generation": 11,
+    "graphing_drill": 2,
+    "graph_marking_checklist": 2,
+    "experiment_planning_task": 1,
+    "planning_marking_checklist": 1
+  },
+  "priorities": {
+    "3": 16,
+    "2": 2,
+    "9": 11,
+    "1": 6
+  },
+  "warnings": [
+    "total_marks_indexed (125) differs from source corpus total_marks (160); review mark aggregation later."
+  ],
+  "output_files": {
+    "targets": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\generation_targets\\unified_generation_targets_v0.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\generation_targets\\unified_generation_targets_report.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\generation_targets\\unified_generation_targets_manifest.md"
+  }
+}

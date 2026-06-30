@@ -1,0 +1,78 @@
+{
+  "status": "waiting_for_generated_batch",
+  "pipeline_id": "cambridge_igcse_mathematics_0580_full_mvp_pipeline_v1",
+  "created_at": "2026-06-30T02:28:15.878708+00:00",
+  "raw_folder": "D:\\qa-engine\\data\\raw\\cambridge_igcse\\mathematics_0580",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "mathematics",
+  "syllabus_code": "0580",
+  "stages": [
+    {
+      "gate": 19,
+      "name": "raw_document_intake",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_raw_document_intake.py D:\\qa-engine\\data\\raw\\cambridge_igcse\\mathematics_0580",
+      "output": "D:\\qa-engine\\data\\intake\\cambridge_igcse\\mathematics_0580\\raw_document_pairs_v0.json"
+    },
+    {
+      "gate": 20,
+      "name": "markitdown_ingest",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\run_batch_markitdown_ingest.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\mathematics_0580\\raw_document_pairs_v0.json",
+      "output": ""
+    },
+    {
+      "gate": 21,
+      "name": "batch_paper_pipeline",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\run_batch_paper_pipeline.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\mathematics_0580\\raw_document_pairs_v0.json",
+      "output": "D:\\qa-engine\\data\\intake\\cambridge_igcse\\mathematics_0580\\batch_paper_pipeline_report.json"
+    },
+    {
+      "gate": 22,
+      "name": "unified_source_corpus",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_unified_source_corpus.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\mathematics_0580\\batch_paper_pipeline_report.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\source_corpus\\unified_source_corpus_v0.json"
+    },
+    {
+      "gate": 23,
+      "name": "unified_skill_map",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_unified_skill_map.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\source_corpus\\unified_source_corpus_v0.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\skill_map\\unified_skill_map_v0.json"
+    },
+    {
+      "gate": 24,
+      "name": "unified_generation_targets",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_unified_generation_targets.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\skill_map\\unified_skill_map_v0.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\generation_targets\\unified_generation_targets_v0.json"
+    },
+    {
+      "gate": 25,
+      "name": "authoring_batch",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_authoring_batch_v1.py D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\generation_targets\\unified_generation_targets_v0.json --batch-id 001",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\authoring_batches\\authoring_batch_v1_001.json"
+    }
+  ],
+  "current_stop": "waiting_for_generated_batch",
+  "authoring_prompt": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\authoring_batches\\authoring_prompt_v1_001.md",
+  "expected_generated_batch": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\generated_batches\\generated_resource_batch_v1_001.json",
+  "publish_package": null,
+  "student_preview": null,
+  "teacher_preview": null,
+  "summary": {
+    "source_pairs": 2,
+    "source_count": 1,
+    "skill_units": 10,
+    "generation_targets": 25,
+    "authoring_planned_items": 50,
+    "generated_resources": null,
+    "publish_ready_resources": null,
+    "teacher_review_resources": null,
+    "published_resources": null
+  }
+}

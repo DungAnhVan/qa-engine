@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "skill_map_id": "cambridge_igcse_mathematics_0580_unified_skill_map_v0",
+  "subject_slug": "mathematics_0580",
+  "adapter_name": "mathematics_0580",
+  "adapter_status": "basic_adapter",
+  "total_skill_units": 10,
+  "classified_count": 10,
+  "needs_human_review_count": 0,
+  "low_confidence_count": 0,
+  "unknown_skill_count": 0,
+  "unknown_pct": 0.0,
+  "topics": {
+    "Mensuration": 4,
+    "Algebra": 1,
+    "Geometry": 3,
+    "Probability": 1,
+    "Number": 1
+  },
+  "skill_types": {
+    "calculation": 3,
+    "recall_definition": 1,
+    "extended_planning": 2,
+    "equation_manipulation": 4
+  },
+  "resource_types": {
+    "calculation_drill": 3,
+    "worked_example": 1,
+    "proof_or_reasoning_prompt": 2,
+    "algebra_drill": 4
+  },
+  "summary": {
+    "total_skill_units": 10,
+    "component_types": {
+      "theory_structured": 10
+    },
+    "topics": {
+      "Mensuration": 4,
+      "Algebra": 1,
+      "Geometry": 3,
+      "Probability": 1,
+      "Number": 1
+    },
+    "skill_types": {
+      "calculation": 3,
+      "recall_definition": 1,
+      "extended_planning": 2,
+      "equation_manipulation": 4
+    },
+    "resource_types": {
+      "calculation_drill": 3,
+      "worked_example": 1,
+      "proof_or_reasoning_prompt": 2,
+      "algebra_drill": 4
+    },
+    "assessment_modes": {
+      "theory_written": 10
+    },
+    "total_marks_indexed": 100,
+    "needs_human_review_count": 0,
+    "low_confidence_count": 0
+  },
+  "output_files": {
+    "skill_map": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\skill_map\\unified_skill_map_v0.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\skill_map\\unified_skill_map_report.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\skill_map\\unified_skill_map_manifest.md"
+  }
+}

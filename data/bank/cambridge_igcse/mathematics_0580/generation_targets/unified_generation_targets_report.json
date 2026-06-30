@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "target_set_id": "cambridge_igcse_mathematics_0580_unified_generation_targets_v0",
+  "source_skill_units": 10,
+  "target_count": 25,
+  "ready_for_authoring_count": 23,
+  "review_before_generation_count": 2,
+  "planned_total_items": 76,
+  "component_types": {
+    "theory_structured": 25
+  },
+  "resource_types": {
+    "worked_example": 7,
+    "calculation_drill": 7,
+    "short_answer_calculation": 7,
+    "short_answer_recall": 1,
+    "definition_flashcard": 1,
+    "review_before_generation": 2
+  },
+  "priorities": {
+    "1": 21,
+    "3": 2,
+    "9": 2
+  },
+  "warnings": [
+    "total_marks_indexed (100) differs from source corpus total_marks (80); review mark aggregation later."
+  ],
+  "output_files": {
+    "targets": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\generation_targets\\unified_generation_targets_v0.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\generation_targets\\unified_generation_targets_report.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\generation_targets\\unified_generation_targets_manifest.md"
+  }
+}

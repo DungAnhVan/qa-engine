@@ -28,7 +28,24 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 TOOLS        = PROJECT_ROOT / "tools" / "ingest"
 PYTHON       = str(PROJECT_ROOT / ".venv-ingest" / "Scripts" / "python.exe")
 
-PIPELINE_ID = "cambridge_igcse_physics_0625_full_mvp_pipeline_v1"
+def _derive_slug_components(raw_folder: Path) -> tuple[str, str, str, str, str, str]:
+    """
+    Returns (subject_slug, board, level, subject, syllabus_code, dataset_slug).
+
+    Expects raw_folder = .../<board>_<level>/<subject>_<syllabus_code>
+    e.g.  data/raw/cambridge_igcse/chemistry_0620
+    """
+    subject_slug = raw_folder.name          # "chemistry_0620"
+    try:
+        board, level = raw_folder.parent.name.rsplit("_", 1)   # "cambridge", "igcse"
+    except ValueError:
+        board, level = "cambridge", "igcse"
+    try:
+        subject, syllabus_code = subject_slug.rsplit("_", 1)   # "chemistry", "0620"
+    except ValueError:
+        subject, syllabus_code = subject_slug, ""
+    dataset_slug = f"{board}_{level}_{subject_slug}"           # "cambridge_igcse_chemistry_0620"
+    return subject_slug, board, level, subject, syllabus_code, dataset_slug
 
 
 # ---------------------------------------------------------------------------
@@ -127,16 +144,21 @@ def build_report(
     teacher_html: Path,
     summary: dict,
     now_iso: str,
+    pipeline_id: str,
+    board: str,
+    level: str,
+    subject: str,
+    syllabus_code: str,
 ) -> dict:
     return {
         "status":                  status,
-        "pipeline_id":             PIPELINE_ID,
+        "pipeline_id":             pipeline_id,
         "created_at":              now_iso,
         "raw_folder":              raw_folder,
-        "board":                   "cambridge",
-        "level":                   "igcse",
-        "subject":                 "physics",
-        "syllabus_code":           "0625",
+        "board":                   board,
+        "level":                   level,
+        "subject":                 subject,
+        "syllabus_code":           syllabus_code,
         "stages":                  stages,
         "current_stop":            current_stop,
         "authoring_prompt":        str(authoring_prompt),
@@ -233,12 +255,23 @@ def main() -> None:
     if not raw_folder.exists():
         sys.exit(f"Error: raw folder not found: {raw_folder}")
 
-    # ── Resolve all paths ──────────────────────────────────────────────────
-    INTAKE   = PROJECT_ROOT / "data" / "intake"  / "cambridge_igcse" / "physics_0625"
-    BANK     = PROJECT_ROOT / "data" / "bank"    / "cambridge_igcse" / "physics_0625"
-    PUB      = PROJECT_ROOT / "data" / "publish" / "cambridge_igcse" / "physics_0625"
+    # ── Derive subject slug and components ─────────────────────────────────
+    subject_slug, board, level, subject, syllabus_code, dataset_slug = (
+        _derive_slug_components(raw_folder)
+    )
+    board_level  = raw_folder.parent.name            # e.g. "cambridge_igcse"
+    PIPELINE_ID  = f"{dataset_slug}_full_mvp_pipeline_v1"
+    INTAKE_PAIRS = (
+        PROJECT_ROOT / "data" / "intake" / board_level / subject_slug
+        / "raw_document_pairs_v0.json"
+    )
 
-    PAIRS_JSON        = INTAKE / "raw_document_pairs_v0.json"
+    # ── Resolve all paths ──────────────────────────────────────────────────
+    INTAKE   = PROJECT_ROOT / "data" / "intake"  / board_level / subject_slug
+    BANK     = PROJECT_ROOT / "data" / "bank"    / board_level / subject_slug
+    PUB      = PROJECT_ROOT / "data" / "publish" / board_level / subject_slug
+
+    PAIRS_JSON        = INTAKE_PAIRS
     PIPELINE_REPORT   = INTAKE / "batch_paper_pipeline_report.json"
     CORPUS_JSON       = BANK / "source_corpus"       / "unified_source_corpus_v0.json"
     SKILL_MAP_JSON    = BANK / "skill_map"           / "unified_skill_map_v0.json"
@@ -283,6 +316,11 @@ def main() -> None:
             teacher_html      = TEACHER_HTML,
             summary           = summary,
             now_iso           = now_iso,
+            pipeline_id       = PIPELINE_ID,
+            board             = board,
+            level             = level,
+            subject           = subject,
+            syllabus_code     = syllabus_code,
         )
         manifest = build_manifest_md(report)
 
@@ -370,8 +408,13 @@ def main() -> None:
     # ── Source pipeline: Gates 19-25 ───────────────────────────────────────
     print(f"{'='*62}")
     print(f"Quanta Aptus Full MVP Pipeline v1")
-    print(f"Pipeline ID : {PIPELINE_ID}")
     print(f"Raw folder  : {raw_folder}")
+    print(f"Subject slug: {subject_slug}")
+    print(f"Subject     : {subject}")
+    print(f"Syllabus    : {syllabus_code}")
+    print(f"Dataset slug: {dataset_slug}")
+    print(f"Pipeline ID : {PIPELINE_ID}")
+    print(f"Intake pairs: {PAIRS_JSON}")
     print(f"Batch ID    : {batch_id}")
     print(f"{'='*62}\n")
 
@@ -410,6 +453,20 @@ def main() -> None:
     ):
         finalize("failed")
         return
+
+    # ── Subject adapter info ───────────────────────────────────────────────
+    try:
+        _tools_str = str(TOOLS)
+        if _tools_str not in sys.path:
+            sys.path.insert(0, _tools_str)
+        from subject_adapters.registry import get_adapter as _get_adapter
+        _meta = _get_adapter(subject_slug).get_adapter_metadata()
+        print(f"  adapter        : {_meta['adapter_name']} ({_meta['adapter_status']})")
+        if _meta.get("adapter_status") == "generic_adapter":
+            print(f"  NOTE: no subject adapter for '{subject_slug}' — using generic fallback.")
+            print(f"        Low-confidence classification. All items flagged needs_human_review.")
+    except Exception:
+        print(f"  adapter        : subject_adapters not available")
 
     if not run_gate(
         23, "unified_skill_map",

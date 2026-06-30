@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "batch_id": "cambridge_igcse_biology_0610_authoring_batch_v1_001",
+  "source_target_set_id": "cambridge_igcse_biology_0610_unified_generation_targets_v0",
+  "selected_target_count": 21,
+  "planned_item_count": 49,
+  "priority_distribution": {
+    "1": 6,
+    "2": 2,
+    "3": 13
+  },
+  "resource_types": {
+    "graph_marking_checklist": 2,
+    "graphing_drill": 2,
+    "experiment_planning_task": 1,
+    "planning_marking_checklist": 1,
+    "original_mcq": 8,
+    "worked_explanation": 7
+  },
+  "component_types": {
+    "practical_structured": 6,
+    "mcq": 15
+  },
+  "excluded_review_before_generation_count": 11,
+  "output_files": {
+    "authoring_batch": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\authoring_batches\\authoring_batch_v1_001.json",
+    "authoring_prompt": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\authoring_batches\\authoring_prompt_v1_001.md",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\authoring_batches\\authoring_batch_v1_001_report.json"
+  }
+}

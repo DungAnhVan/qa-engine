@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "batch_id": "cambridge_igcse_mathematics_0580_authoring_batch_v1_001",
+  "source_target_set_id": "cambridge_igcse_mathematics_0580_unified_generation_targets_v0",
+  "selected_target_count": 15,
+  "planned_item_count": 50,
+  "priority_distribution": {
+    "1": 15
+  },
+  "resource_types": {
+    "calculation_drill": 5,
+    "short_answer_calculation": 5,
+    "worked_example": 5
+  },
+  "component_types": {
+    "theory_structured": 15
+  },
+  "excluded_review_before_generation_count": 2,
+  "output_files": {
+    "authoring_batch": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\authoring_batches\\authoring_batch_v1_001.json",
+    "authoring_prompt": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\authoring_batches\\authoring_prompt_v1_001.md",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\mathematics_0580\\authoring_batches\\authoring_batch_v1_001_report.json"
+  }
+}

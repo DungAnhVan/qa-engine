@@ -2,32 +2,30 @@
   "status": "passed",
   "batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
   "source_target_set_id": "cambridge_igcse_physics_0625_unified_generation_targets_v0",
-  "selected_target_count": 19,
+  "selected_target_count": 20,
   "planned_item_count": 50,
   "priority_distribution": {
-    "1": 17,
-    "2": 2
+    "1": 20
   },
   "resource_types": {
-    "calculation_drill": 3,
-    "short_answer_calculation": 3,
-    "worked_example": 4,
-    "diagram_or_graph_drill": 1,
-    "marking_checklist": 1,
-    "graph_marking_checklist": 2,
-    "graphing_drill": 2,
+    "graph_marking_checklist": 4,
+    "graphing_drill": 3,
     "experiment_planning_task": 1,
     "planning_marking_checklist": 1,
-    "data_interpretation_drill": 1
+    "calculation_drill": 3,
+    "short_answer_calculation": 3,
+    "worked_example": 3,
+    "diagram_or_graph_drill": 1,
+    "marking_checklist": 1
   },
   "component_types": {
-    "theory_structured": 13,
-    "practical_structured": 6
+    "practical_structured": 9,
+    "theory_structured": 11
   },
-  "excluded_review_before_generation_count": 4,
+  "excluded_review_before_generation_count": 14,
   "output_files": {
-    "authoring_batch": "data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001.json",
-    "authoring_prompt": "data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_prompt_v1_001.md",
-    "report": "data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001_report.json"
+    "authoring_batch": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001.json",
+    "authoring_prompt": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_prompt_v1_001.md",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\authoring_batches\\authoring_batch_v1_001_report.json"
   }
 }

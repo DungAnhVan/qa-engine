@@ -1,20 +1,25 @@
 {
   "status": "passed",
   "target_set_id": "cambridge_igcse_physics_0625_unified_generation_targets_v0",
-  "source_skill_units": 54,
-  "target_count": 107,
-  "ready_for_authoring_count": 103,
-  "review_before_generation_count": 4,
-  "planned_total_items": 262,
+  "source_skill_units": 68,
+  "target_count": 124,
+  "ready_for_authoring_count": 110,
+  "review_before_generation_count": 14,
+  "planned_total_items": 276,
   "component_types": {
-    "mcq": 80,
-    "theory_structured": 20,
-    "practical_structured": 7
+    "theory_structured": 30,
+    "practical_structured": 14,
+    "mcq": 80
   },
   "resource_types": {
+    "review_before_generation": 14,
+    "graphing_drill": 4,
+    "graph_marking_checklist": 4,
+    "evaluation_improvement_drill": 1,
+    "experiment_planning_task": 2,
+    "planning_marking_checklist": 2,
     "original_mcq": 40,
     "worked_explanation": 40,
-    "review_before_generation": 4,
     "worked_example": 4,
     "calculation_drill": 3,
     "short_answer_calculation": 3,
@@ -22,24 +27,20 @@
     "diagram_or_graph_drill": 1,
     "marking_checklist": 1,
     "short_answer_recall": 2,
-    "definition_flashcard": 2,
-    "graphing_drill": 2,
-    "graph_marking_checklist": 2,
-    "experiment_planning_task": 1,
-    "planning_marking_checklist": 1
+    "definition_flashcard": 2
   },
   "priorities": {
-    "3": 84,
-    "9": 4,
-    "1": 17,
-    "2": 2
+    "9": 14,
+    "1": 23,
+    "2": 3,
+    "3": 84
   },
   "warnings": [
-    "total_marks_indexed (162) differs from source corpus total_marks (160); review mark aggregation later."
+    "total_marks_indexed (202) differs from source corpus total_marks (280); review mark aggregation later."
   ],
   "output_files": {
-    "targets": "data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_v0.json",
-    "report": "data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_report.json",
-    "manifest": "data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_manifest.md"
+    "targets": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_v0.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_report.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\physics_0625\\generation_targets\\unified_generation_targets_manifest.md"
   }
 }

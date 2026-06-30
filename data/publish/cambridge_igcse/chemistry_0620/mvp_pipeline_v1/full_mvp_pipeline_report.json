@@ -1,0 +1,64 @@
+{
+  "status": "failed",
+  "pipeline_id": "cambridge_igcse_chemistry_0620_full_mvp_pipeline_v1",
+  "created_at": "2026-06-29T16:36:21.851341+00:00",
+  "raw_folder": "D:\\qa-engine\\data\\raw\\cambridge_igcse\\chemistry_0620",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "chemistry",
+  "syllabus_code": "0620",
+  "stages": [
+    {
+      "gate": 19,
+      "name": "raw_document_intake",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_raw_document_intake.py D:\\qa-engine\\data\\raw\\cambridge_igcse\\chemistry_0620",
+      "output": "D:\\qa-engine\\data\\intake\\cambridge_igcse\\chemistry_0620\\raw_document_pairs_v0.json"
+    },
+    {
+      "gate": 20,
+      "name": "markitdown_ingest",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\run_batch_markitdown_ingest.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\chemistry_0620\\raw_document_pairs_v0.json",
+      "output": ""
+    },
+    {
+      "gate": 21,
+      "name": "batch_paper_pipeline",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\run_batch_paper_pipeline.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\chemistry_0620\\raw_document_pairs_v0.json",
+      "output": "D:\\qa-engine\\data\\intake\\cambridge_igcse\\chemistry_0620\\batch_paper_pipeline_report.json"
+    },
+    {
+      "gate": 22,
+      "name": "unified_source_corpus",
+      "status": "passed",
+      "command": "D:\\qa-engine\\.venv-ingest\\Scripts\\python.exe D:\\qa-engine\\tools\\ingest\\build_unified_source_corpus.py D:\\qa-engine\\data\\intake\\cambridge_igcse\\chemistry_0620\\batch_paper_pipeline_report.json",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\chemistry_0620\\source_corpus\\unified_source_corpus_v0.json"
+    },
+    {
+      "gate": 23,
+      "name": "unified_skill_map",
+      "status": "failed",
+      "command": "guard: subject not supported",
+      "output": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\chemistry_0620\\skill_map\\unified_skill_map_v0.json"
+    }
+  ],
+  "current_stop": null,
+  "authoring_prompt": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\chemistry_0620\\authoring_batches\\authoring_prompt_v1_001.md",
+  "expected_generated_batch": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\chemistry_0620\\generated_batches\\generated_resource_batch_v1_001.json",
+  "publish_package": null,
+  "student_preview": null,
+  "teacher_preview": null,
+  "summary": {
+    "source_pairs": 3,
+    "source_count": 2,
+    "skill_units": null,
+    "generation_targets": null,
+    "authoring_planned_items": null,
+    "generated_resources": null,
+    "publish_ready_resources": null,
+    "teacher_review_resources": null,
+    "published_resources": null
+  }
+}

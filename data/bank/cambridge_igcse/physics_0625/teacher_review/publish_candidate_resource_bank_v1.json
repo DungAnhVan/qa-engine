@@ -2,9 +2,9 @@
   "candidate_bank_id": "cambridge_igcse_physics_0625_publish_candidate_resource_bank_v1",
   "version": "0.1.0",
   "status": "publish_candidates",
-  "created_at": "2026-06-29T02:07:31.148731+00:00",
+  "created_at": "2026-06-29T16:25:31.857115+00:00",
   "source_bank_id": "cambridge_igcse_physics_0625_original_resource_bank_v1",
-  "candidate_count": 26,
+  "candidate_count": 16,
   "items": [
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0001",
@@ -38,7 +38,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0010",
@@ -72,7 +72,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0014",
@@ -106,7 +106,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0018",
@@ -140,7 +140,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0019",
@@ -174,7 +174,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0022",
@@ -208,7 +208,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0029",
@@ -242,7 +242,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0031",
@@ -276,7 +276,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0032",
@@ -310,7 +310,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0033",
@@ -344,7 +344,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0034",
@@ -378,7 +378,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0035",
@@ -412,7 +412,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0036",
@@ -446,7 +446,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0037",
@@ -480,7 +480,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0038",
@@ -514,7 +514,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     },
     {
       "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0039",
@@ -548,347 +548,7 @@
       "content_origin": "quanta_aptus_original_generated",
       "copyright_status": "original_quanta_aptus_content",
       "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0040",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill_01",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill",
-      "resource_type": "graphing_drill",
-      "component_type": "practical_structured",
-      "topic": "Waves",
-      "skill_name": "(c) The student measures the mass m of a dish",
-      "skill_type": "graphing",
-      "difficulty": "easy",
-      "student_prompt": "Ripple-tank data are collected. Frequency / Hz: 5, 10, 15, 20, 25. Wavelength / cm: 6.0, 3.0, 2.0, 1.5, 1.2. Plot wavelength against frequency and describe the trend.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "The graph should show wavelength decreasing as frequency increases. The trend is non-linear. This is consistent with a roughly constant wave speed because wavelength is inversely related to frequency.",
-      "marking_guidance": "Axes labelled frequency / Hz and wavelength / cm; accurate plotting; smooth decreasing curve; trend stated correctly.",
-      "common_misconception": "Students may say the relationship is directly proportional because both variables are wave quantities. The data show the opposite trend.",
-      "teacher_note": "Use this to discuss inverse relationships without heavy algebra.",
-      "estimated_time_minutes": 8,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0041",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill_02",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill",
-      "resource_type": "graphing_drill",
-      "component_type": "practical_structured",
-      "topic": "Waves",
-      "skill_name": "(c) The student measures the mass m of a dish",
-      "skill_type": "graphing",
-      "difficulty": "medium",
-      "student_prompt": "Data for water waves are shown. Frequency / Hz: 4, 6, 8, 10, 12. Wavelength / m: 0.50, 0.33, 0.25, 0.20, 0.17. Calculate the wave speed for each row, then plot wave speed against frequency.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "Use v = fλ. Speeds are 2.00, 1.98, 2.00, 2.00, 2.04 m/s. The graph of speed against frequency should be almost horizontal at about 2.0 m/s, showing nearly constant wave speed.",
-      "marking_guidance": "Correct speed calculations; axes labelled; points plotted near 2.0 m/s; best-fit line approximately horizontal; conclusion states speed is nearly constant.",
-      "common_misconception": "A common error is to plot wavelength again instead of calculated speed. The task asks for a processed variable.",
-      "teacher_note": "Good for introducing calculated columns in practical tables.",
-      "estimated_time_minutes": 10,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0042",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill_03",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q03_graphing_drill",
-      "resource_type": "graphing_drill",
-      "component_type": "practical_structured",
-      "topic": "Waves",
-      "skill_name": "(c) The student measures the mass m of a dish",
-      "skill_type": "graphing",
-      "difficulty": "hard",
-      "student_prompt": "A vibrating string is tested. Tension / N: 10, 20, 30, 40, 50. Wave speed / m/s: 18, 25, 31, 36, 40. Plot wave speed against tension. Decide whether speed is directly proportional to tension.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "The graph increases but is not a straight line through the origin. If speed were directly proportional to tension, doubling tension from 10 N to 20 N would double speed from 18 m/s to 36 m/s. It only increases to 25 m/s. Therefore speed is not directly proportional to tension.",
-      "marking_guidance": "Accurate plot; suitable scale; smooth increasing curve; comparison with direct proportionality; justified conclusion using data.",
-      "common_misconception": "Students often think any increasing graph means direct proportionality. Direct proportionality requires a straight line through the origin.",
-      "teacher_note": "Use this for high-quality conclusion writing from graphs.",
-      "estimated_time_minutes": 10,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0043",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task_01",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task",
-      "resource_type": "experiment_planning_task",
-      "component_type": "practical_structured",
-      "topic": "Electricity and magnetism",
-      "skill_name": "4 eye Fig. 3.1",
-      "skill_type": "extended_planning",
-      "difficulty": "medium",
-      "student_prompt": "Plan an experiment to investigate how the length of a resistance wire affects the current in a circuit. You may use a low-voltage power supply, switch, ammeter, voltmeter, metre ruler, crocodile clips and resistance wire. Include the variables, method, table and graph.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "Set up a series circuit with the power supply, switch, ammeter and a measured length of resistance wire. Place a voltmeter across the wire and keep the supply voltage constant. Choose lengths such as 20, 40, 60, 80 and 100 cm. For each length, close the switch briefly, record current and voltage, then open the switch to reduce heating. Repeat readings and calculate mean current. Independent variable: length of wire. Dependent variable: current. Control variables: wire material, wire diameter, supply voltage and temperature as far as possible. Table columns: length / cm, current 1 / A, current 2 / A, mean current / A, voltage / V. Plot mean current against length or resistance against length if resistance is calculated.",
-      "marking_guidance": "MP1 suitable circuit with ammeter in series; MP2 voltmeter across wire or voltage kept constant; MP3 length varied over at least five values; MP4 current measured for each length; MP5 controls stated; MP6 repeats and mean; MP7 suitable table with units; MP8 graph named.",
-      "common_misconception": "Students may put the ammeter in parallel. An ammeter must be in series to measure current through the wire.",
-      "teacher_note": "Keep currents low and switch off between readings to reduce heating effects.",
-      "estimated_time_minutes": 10,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0044",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task_02",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q04_experiment_planning_task",
-      "resource_type": "experiment_planning_task",
-      "component_type": "practical_structured",
-      "topic": "Electricity and magnetism",
-      "skill_name": "4 eye Fig. 3.1",
-      "skill_type": "extended_planning",
-      "difficulty": "hard",
-      "student_prompt": "Plan an experiment to investigate how the number of turns on a coil affects the strength of an electromagnet. You may use insulated copper wire, an iron nail, a low-voltage d.c. supply, switch, paper clips, ammeter and connecting leads. Include safety and reliability details.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "Wind insulated wire around an iron nail to make a coil. Connect the coil, switch, ammeter and low-voltage d.c. supply in series. Test numbers of turns such as 10, 20, 30, 40 and 50. For each trial, close the switch for the same short time and count the number of paper clips lifted. Open the switch after each trial to prevent heating. Keep the current as constant as possible by checking the ammeter and adjusting the supply if needed. Control variables include nail size/material, paper clip type, contact time, current and lifting method. Repeat each number of turns three times and calculate the mean number of clips. Table: turns, current / A, clips trial 1, clips trial 2, clips trial 3, mean clips. Plot mean number of clips against number of turns.",
-      "marking_guidance": "MP1 clear electromagnet setup; MP2 independent variable is number of turns; MP3 dependent variable measures strength; MP4 current controlled or monitored; MP5 other control variables; MP6 repeat readings; MP7 suitable table with units where needed; MP8 appropriate graph; MP9 safe low-voltage use and switch-off.",
-      "common_misconception": "A common weak plan changes both current and number of turns at the same time. Only one independent variable should be changed.",
-      "teacher_note": "Good extended planning item because students must operationalise 'strength'.",
-      "estimated_time_minutes": 12,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0045",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p61_q04_planning_marking_checklist_01",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p61_q04_planning_marking_checklist",
-      "resource_type": "planning_marking_checklist",
-      "component_type": "practical_structured",
-      "topic": "Electricity and magnetism",
-      "skill_name": "4 eye Fig. 3.1",
-      "skill_type": "extended_planning",
-      "difficulty": "medium",
-      "student_prompt": null,
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "A strong practical plan should define a testable question, identify variables, describe apparatus setup, give a repeatable method, include controls, plan data recording, propose graphing/analysis and mention safety/reliability.",
-      "marking_guidance": "MP1 states a clear independent variable; MP2 states a measurable dependent variable; MP3 lists suitable apparatus and setup; MP4 gives a step-by-step method with at least five values of the independent variable; MP5 states key control variables; MP6 includes repeat readings and mean; MP7 gives a results table with headings and units; MP8 states an appropriate graph; MP9 includes safe low-voltage use, avoiding overheating, or other relevant safety detail; MP10 conclusion method links graph trend to the question.",
-      "common_misconception": "Plans often lose marks because they are descriptive but not measurable. Every plan needs variables, measurements and a clear table.",
-      "teacher_note": "Use MP labels to train students to self-check before writing the final answer.",
-      "estimated_time_minutes": 8,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0046",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill_01",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill",
-      "resource_type": "data_interpretation_drill",
-      "component_type": "theory_structured",
-      "topic": "Electricity and magnetism",
-      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
-      "skill_type": "data_interpretation",
-      "difficulty": "easy",
-      "student_prompt": "An electrical component has the following data. Potential difference / V: 0, 1, 2, 3, 4. Current / A: 0, 0.20, 0.40, 0.60, 0.80. Describe the relationship between current and potential difference and calculate the resistance.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "The current increases in direct proportion to the potential difference because the ratio V/I is constant. Using V = 4 V and I = 0.80 A, R = V/I = 4/0.80 = 5.0 Ω.",
-      "marking_guidance": "Credit direct proportionality, constant resistance, correct calculation and unit ohm.",
-      "common_misconception": "Students may calculate I/V instead of V/I. Resistance is potential difference divided by current.",
-      "teacher_note": "Use as a simple ohmic conductor interpretation.",
-      "estimated_time_minutes": 4,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0047",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill_02",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill",
-      "resource_type": "data_interpretation_drill",
-      "component_type": "theory_structured",
-      "topic": "Electricity and magnetism",
-      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
-      "skill_type": "data_interpretation",
-      "difficulty": "medium",
-      "student_prompt": "A lamp is tested. Potential difference / V: 0, 1, 2, 3, 4, 5. Current / A: 0, 0.18, 0.31, 0.41, 0.49, 0.55. Explain what happens to the resistance as potential difference increases.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "Calculate R = V/I at selected points. At 1 V, R = 1/0.18 = 5.6 Ω. At 5 V, R = 5/0.55 = 9.1 Ω. The resistance increases as potential difference increases. This is because the filament becomes hotter, making it harder for charge to flow.",
-      "marking_guidance": "Marks for calculating or comparing V/I, stating resistance increases, and giving heating explanation.",
-      "common_misconception": "A common error is to say resistance decreases because current still increases. Resistance depends on the ratio V/I, not just current.",
-      "teacher_note": "Good for identifying non-ohmic behaviour from data.",
-      "estimated_time_minutes": 5,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0048",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill_03",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p41_q07_data_interpretation_drill",
-      "resource_type": "data_interpretation_drill",
-      "component_type": "theory_structured",
-      "topic": "Electricity and magnetism",
-      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
-      "skill_type": "data_interpretation",
-      "difficulty": "hard",
-      "student_prompt": "Two components are tested. At 2.0 V, component A has current 0.40 A and component B has current 0.10 A. At 6.0 V, A has current 1.20 A and B has current 0.20 A. Identify which component is ohmic and justify your answer.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "For component A, V/I = 2.0/0.40 = 5.0 Ω and 6.0/1.20 = 5.0 Ω, so resistance is constant and A is ohmic. For component B, V/I = 2.0/0.10 = 20 Ω and 6.0/0.20 = 30 Ω, so resistance changes and B is non-ohmic.",
-      "marking_guidance": "Credit resistance calculations for both voltages, identification of A as ohmic, and justification using constant resistance.",
-      "common_misconception": "Students may choose the component with smaller current as ohmic. Ohmic behaviour means constant resistance, not low current.",
-      "teacher_note": "Strong comparison item for evidence-based explanation.",
-      "estimated_time_minutes": 5,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
-    },
-    {
-      "bank_item_id": "cambridge_igcse_physics_0625_orb_v1_0049",
-      "resource_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example_01",
-      "source_batch_id": "cambridge_igcse_physics_0625_authoring_batch_v1_001",
-      "target_id": "cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example",
-      "resource_type": "worked_example",
-      "component_type": "theory_structured",
-      "topic": "Electricity and magnetism",
-      "skill_name": "7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com",
-      "skill_type": "data_interpretation",
-      "difficulty": "medium",
-      "student_prompt": "Worked example: A resistor is tested. Potential difference / V: 1.5, 3.0, 4.5, 6.0. Current / A: 0.30, 0.60, 0.90, 1.20. Decide whether the resistor is ohmic and find its resistance.",
-      "options": {
-        "A": null,
-        "B": null,
-        "C": null,
-        "D": null
-      },
-      "correct_answer": null,
-      "worked_solution": "Step 1: For an ohmic resistor, V is directly proportional to I and resistance is constant. Step 2: Calculate R = V/I using one pair: R = 3.0/0.60 = 5.0 Ω. Step 3: Check another pair: R = 6.0/1.20 = 5.0 Ω. Step 4: Since resistance is constant, the resistor is ohmic.",
-      "marking_guidance": "Award marks for two V/I checks, constant resistance conclusion, and correct unit.",
-      "common_misconception": "Only checking that current increases is not enough. Many non-ohmic components also have increasing current.",
-      "teacher_note": "Model how to justify a conclusion using more than one data point.",
-      "estimated_time_minutes": 5,
-      "originality_statement": "Original Quanta Aptus content generated from derived skill metadata only.",
-      "validation_status": "passed",
-      "validation_errors": [],
-      "validation_warnings": [],
-      "bank_status": "publish_ready",
-      "content_origin": "quanta_aptus_original_generated",
-      "copyright_status": "original_quanta_aptus_content",
-      "source_use_policy": "generated_from_derived_skill_metadata_only",
-      "created_at": "2026-06-29T02:07:30.942882+00:00"
+      "created_at": "2026-06-29T16:25:31.599629+00:00"
     }
   ]
 }

@@ -1,8 +1,8 @@
 # Quanta Aptus Teacher Review Queue v1
 
 - **Queue ID:** `cambridge_igcse_physics_0625_teacher_review_queue_v1`
-- **Created:** 2026-06-29T02:07:31.148731+00:00
-- **Items requiring review:** 24
+- **Created:** 2026-06-29T16:25:31.857115+00:00
+- **Items requiring review:** 23
 
 ---
 
@@ -1168,57 +1168,6 @@ Students may change the frequency when light enters the medium. Frequency stays 
 **Teacher Note:**
 
 Combines two equations without requiring a copied optical setup.
-
-### Teacher Checklist
-
-- [ ] Scientifically correct
-- [ ] Wording clear for IGCSE student
-- [ ] Marking guidance complete
-- [ ] Units / significant figures handled
-- [ ] No Cambridge wording or context copied
-- [ ] Approve
-- [ ] Revise
-- [ ] Reject
-
----
-
-## Review Item 24
-
-- **Review ID:** `rev_cambridge_igcse_physics_0625_orb_v1_0050`
-- **Bank Item ID:** `cambridge_igcse_physics_0625_orb_v1_0050`
-- **Resource ID:** `cambridge_igcse_physics_0625_authoring_batch_v1_001_cambridge_igcse_physics_0625_2025_s_p41_q07_worked_example_02`
-- **Resource type:** worked_example
-- **Component:** theory_structured
-- **Topic:** Electricity and magnetism
-- **Skill:** 7 (a) Fig. 7.1 shows a sketch of the current–voltage graph for an electrical com
-- **Difficulty:** hard
-- **Suggested action:** add_unit_criteria_to_marking_guidance
-
-### Validation Warnings
-
-- calculation resource: marking_guidance does not mention 'unit' or 'units' — consider adding unit award criteria
-
-### Content
-
-**Student Prompt:**
-
-Worked example: A component has data: Potential difference / V: 1, 2, 3, 4, 5. Current / A: 0.12, 0.20, 0.26, 0.31, 0.35. Explain whether its resistance stays constant.
-
-**Worked Solution:**
-
-Step 1: Calculate resistance at low voltage: R = V/I = 1/0.12 = 8.3 Ω. Step 2: Calculate resistance at high voltage: R = 5/0.35 = 14.3 Ω. Step 3: Compare the values. The resistance increases as voltage increases. Step 4: Therefore the component is not ohmic over this range.
-
-**Marking Guidance:**
-
-Credit use of V/I at two or more points, comparison, and correct non-ohmic conclusion.
-
-**Common Misconception:**
-
-Students may confuse a curved I-V graph with experimental error. A systematic change in V/I shows changing resistance.
-
-**Teacher Note:**
-
-Use to teach concise written explanations from numerical data.
 
 ### Teacher Checklist
 

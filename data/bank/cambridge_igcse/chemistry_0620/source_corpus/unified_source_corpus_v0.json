@@ -1,0 +1,55 @@
+{
+  "corpus_id": "cambridge_igcse_chemistry_0620_unified_source_corpus_v0",
+  "version": "0.1.0",
+  "status": "internal_source_only",
+  "created_at": "2026-06-29T16:36:59.122369+00:00",
+  "copyright_status": "internal_reference_only_not_publishable",
+  "board": "cambridge",
+  "level": "igcse",
+  "subject": "chemistry",
+  "syllabus_code": "0620",
+  "source_count": 2,
+  "sources": [
+    {
+      "source_id": "cambridge_igcse_chemistry_0620_2025_s_p41",
+      "pair_id": "cambridge_igcse_chemistry_0620_2025_s_p41",
+      "component_type": "theory_structured",
+      "paper_code": "41",
+      "year": 2025,
+      "series_code": "s",
+      "route": "structured_theory_pipeline",
+      "source_type": "theory_source",
+      "source_file": "D:\\qa-engine\\data\\ingested\\markitdown\\cambridge_igcse_chemistry_0620_2025_s_p41_qp\\structured_paper_dataset.json",
+      "question_count": 10,
+      "total_marks": 80,
+      "status": "indexed"
+    },
+    {
+      "source_id": "cambridge_igcse_chemistry_0620_2025_s_p61",
+      "pair_id": "cambridge_igcse_chemistry_0620_2025_s_p61",
+      "component_type": "practical_structured",
+      "paper_code": "61",
+      "year": 2025,
+      "series_code": "s",
+      "route": "practical_pipeline",
+      "source_type": "practical_source",
+      "source_file": "D:\\qa-engine\\data\\ingested\\markitdown\\cambridge_igcse_chemistry_0620_2025_s_p61_qp\\structured_paper_dataset.json",
+      "question_count": 4,
+      "total_marks": 40,
+      "status": "indexed"
+    }
+  ],
+  "summary": {
+    "component_types": {
+      "theory_structured": 1,
+      "practical_structured": 1
+    },
+    "routes": {
+      "structured_theory_pipeline": 1,
+      "practical_pipeline": 1
+    },
+    "total_sources": 2,
+    "total_questions": 14,
+    "total_marks": 120
+  }
+}

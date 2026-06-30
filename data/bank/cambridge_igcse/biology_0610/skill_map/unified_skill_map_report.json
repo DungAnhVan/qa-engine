@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "skill_map_id": "cambridge_igcse_biology_0610_unified_skill_map_v0",
+  "subject_slug": "biology_0610",
+  "adapter_name": "biology_0610",
+  "adapter_status": "basic_adapter",
+  "total_skill_units": 54,
+  "classified_count": 44,
+  "needs_human_review_count": 8,
+  "low_confidence_count": 8,
+  "unknown_skill_count": 10,
+  "unknown_pct": 18.5,
+  "topics": {
+    "Needs manual classification": 28,
+    "Electricity and magnetism": 5,
+    "Space physics": 2,
+    "Motion, forces and energy": 4,
+    "General measurement / practical skills": 1,
+    "Unknown": 8,
+    "Cells": 4,
+    "Reproduction": 1,
+    "Transport in plants": 1
+  },
+  "skill_types": {
+    "multiple_choice_concept": 35,
+    "recall_definition": 4,
+    "conceptual_explanation": 2,
+    "unknown": 10,
+    "graphing": 2,
+    "extended_planning": 1
+  },
+  "resource_types": {
+    "worked_example": 41,
+    "short_answer_calculation": 10,
+    "graphing_drill": 2,
+    "experiment_planning_task": 1
+  },
+  "summary": {
+    "total_skill_units": 54,
+    "component_types": {
+      "mcq": 40,
+      "theory_structured": 10,
+      "practical_structured": 4
+    },
+    "topics": {
+      "Needs manual classification": 28,
+      "Electricity and magnetism": 5,
+      "Space physics": 2,
+      "Motion, forces and energy": 4,
+      "General measurement / practical skills": 1,
+      "Unknown": 8,
+      "Cells": 4,
+      "Reproduction": 1,
+      "Transport in plants": 1
+    },
+    "skill_types": {
+      "multiple_choice_concept": 35,
+      "recall_definition": 4,
+      "conceptual_explanation": 2,
+      "unknown": 10,
+      "graphing": 2,
+      "extended_planning": 1
+    },
+    "resource_types": {
+      "worked_example": 41,
+      "short_answer_calculation": 10,
+      "graphing_drill": 2,
+      "experiment_planning_task": 1
+    },
+    "assessment_modes": {
+      "mcq": 40,
+      "theory_written": 10,
+      "practical": 4
+    },
+    "total_marks_indexed": 125,
+    "needs_human_review_count": 8,
+    "low_confidence_count": 8
+  },
+  "output_files": {
+    "skill_map": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\skill_map\\unified_skill_map_v0.json",
+    "report": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\skill_map\\unified_skill_map_report.json",
+    "manifest": "D:\\qa-engine\\data\\bank\\cambridge_igcse\\biology_0610\\skill_map\\unified_skill_map_manifest.md"
+  }
+}

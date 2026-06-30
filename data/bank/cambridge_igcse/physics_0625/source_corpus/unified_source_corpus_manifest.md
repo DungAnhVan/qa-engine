@@ -7,19 +7,21 @@
 - **Corpus ID:** `cambridge_igcse_physics_0625_unified_source_corpus_v0`
 - **Status:** internal_source_only
 - **Copyright:** internal_reference_only_not_publishable
-- **Created:** 2026-06-28T16:01:13.203783+00:00
+- **Created:** 2026-06-29T16:25:30.320485+00:00
 
-- **Source count:** 3
-- **Indexed:** 3
+- **Source count:** 5
+- **Indexed:** 5
 
 ## Component Routes
 
+- **Theory Paper (Paper 3/4)** - paper `41` (10 questions, 80 marks) [indexed]
+- **Practical Paper (Paper 5/6)** - paper `61` (4 questions, 40 marks) [indexed]
 - **MCQ Paper (Paper 1/2)** - paper `21` (40 questions, 40 marks) [indexed]
 - **Theory Paper (Paper 3/4)** - paper `41` (10 questions, 80 marks) [indexed]
 - **Practical Paper (Paper 5/6)** - paper `61` (4 questions, 40 marks) [indexed]
 
-- **Total questions:** 54
-- **Total marks:** 160
+- **Total questions:** 68
+- **Total marks:** 280
 
 ## Output Paths
 
