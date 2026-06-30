@@ -1,0 +1,442 @@
+{
+  "gate": "62",
+  "title": "RLS Hardening + Role-Based App Access Report v1",
+  "generated_at": "2026-06-30T14:04:28.939497Z",
+  "overall_status": "PASS_WITH_SKIPS",
+  "pass_count": 85,
+  "fail_count": 0,
+  "skip_count": 1,
+  "total_checks": 86,
+  "checks": [
+    {
+      "label": "migration file 000004_rls_role_hardening.sql",
+      "status": "PASS",
+      "detail": "supabase\\migrations\\000004_rls_role_hardening.sql"
+    },
+    {
+      "label": "migration: SECURITY DEFINER keyword",
+      "status": "PASS",
+      "detail": "found 'SECURITY DEFINER'"
+    },
+    {
+      "label": "migration: ENABLE ROW LEVEL SECURITY",
+      "status": "PASS",
+      "detail": "found 'ENABLE ROW LEVEL SECURITY'"
+    },
+    {
+      "label": "migration: DROP POLICY IF EXISTS (idempotent)",
+      "status": "PASS",
+      "detail": "found 'DROP POLICY IF EXISTS'"
+    },
+    {
+      "label": "migration: CREATE POLICY",
+      "status": "PASS",
+      "detail": "found 'CREATE POLICY'"
+    },
+    {
+      "label": "migration: helper fn current_profile_id",
+      "status": "PASS",
+      "detail": "found 'current_profile_id'"
+    },
+    {
+      "label": "migration: helper fn current_profile_role",
+      "status": "PASS",
+      "detail": "found 'current_profile_role'"
+    },
+    {
+      "label": "migration: helper fn current_organization_id",
+      "status": "PASS",
+      "detail": "found 'current_organization_id'"
+    },
+    {
+      "label": "migration: helper fn is_admin",
+      "status": "PASS",
+      "detail": "found 'is_admin'"
+    },
+    {
+      "label": "migration: helper fn is_teacher",
+      "status": "PASS",
+      "detail": "found 'is_teacher'"
+    },
+    {
+      "label": "migration: helper fn is_student",
+      "status": "PASS",
+      "detail": "found 'is_student'"
+    },
+    {
+      "label": "migration: helper fn is_parent",
+      "status": "PASS",
+      "detail": "found 'is_parent'"
+    },
+    {
+      "label": "migration: helper fn is_admin_or_teacher",
+      "status": "PASS",
+      "detail": "found 'is_admin_or_teacher'"
+    },
+    {
+      "label": "migration: helper fn my_student_id",
+      "status": "PASS",
+      "detail": "found 'my_student_id'"
+    },
+    {
+      "label": "migration: helper fn student_ids_in_my_org",
+      "status": "PASS",
+      "detail": "found 'student_ids_in_my_org'"
+    },
+    {
+      "label": "migration: helper fn linked_student_ids_for_parent",
+      "status": "PASS",
+      "detail": "found 'linked_student_ids_for_parent'"
+    },
+    {
+      "label": "migration: helper fn my_attempt_ids",
+      "status": "PASS",
+      "detail": "found 'my_attempt_ids'"
+    },
+    {
+      "label": "migration: helper fn attempt_ids_in_my_org",
+      "status": "PASS",
+      "detail": "found 'attempt_ids_in_my_org'"
+    },
+    {
+      "label": "migration: helper fn linked_attempt_ids_for_parent",
+      "status": "PASS",
+      "detail": "found 'linked_attempt_ids_for_parent'"
+    },
+    {
+      "label": "migration: no DROP TABLE",
+      "status": "PASS",
+      "detail": "clean \u2014 no 'DROP TABLE'"
+    },
+    {
+      "label": "migration: no DROP SCHEMA",
+      "status": "PASS",
+      "detail": "clean \u2014 no 'DROP SCHEMA'"
+    },
+    {
+      "label": "migration: no TRUNCATE",
+      "status": "PASS",
+      "detail": "clean \u2014 no 'TRUNCATE'"
+    },
+    {
+      "label": "roleAccess.ts exists",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\lib\\roleAccess.ts"
+    },
+    {
+      "label": "roleAccess: import server-only",
+      "status": "PASS",
+      "detail": "found 'import 'server-only''"
+    },
+    {
+      "label": "roleAccess: ROUTE_ACCESS_MATRIX",
+      "status": "PASS",
+      "detail": "found 'ROUTE_ACCESS_MATRIX'"
+    },
+    {
+      "label": "roleAccess: requireAppRole",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "roleAccess: canAccessRoute",
+      "status": "PASS",
+      "detail": "found 'canAccessRoute'"
+    },
+    {
+      "label": "roleAccess: getRoleHomePath",
+      "status": "PASS",
+      "detail": "found 'getRoleHomePath'"
+    },
+    {
+      "label": "RoleGate.tsx server component",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\components\\RoleGate.tsx"
+    },
+    {
+      "label": "RoleGate: allowedRoles prop",
+      "status": "PASS",
+      "detail": "found 'allowedRoles'"
+    },
+    {
+      "label": "RoleGate: no 'use client' (must be server component)",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "system/role-access/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\system\\role-access\\page.tsx"
+    },
+    {
+      "label": "role-access: ROUTE_ACCESS_MATRIX",
+      "status": "PASS",
+      "detail": "found 'ROUTE_ACCESS_MATRIX'"
+    },
+    {
+      "label": "role-access: force-dynamic",
+      "status": "PASS",
+      "detail": "found 'force-dynamic'"
+    },
+    {
+      "label": "page exists: content/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\content\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: content/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: content/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: content/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: content/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page exists: content/active/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\content\\active\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: content/active/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: content/active/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: content/active/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: content/active/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page exists: content/review/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\content\\review\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: content/review/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: content/review/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: content/review/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: content/review/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page exists: learn/supabase-attempt-review/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\learn\\supabase-attempt-review\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: learn/supabase-attempt-review/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: learn/supabase-attempt-review/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: learn/supabase-attempt-review/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: learn/supabase-attempt-review/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page exists: learn/supabase-results/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\learn\\supabase-results\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: learn/supabase-results/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: learn/supabase-results/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: learn/supabase-results/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: learn/supabase-results/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page role 'student' in guard: learn/supabase-results/page.tsx",
+      "status": "PASS",
+      "detail": "found ''student''"
+    },
+    {
+      "label": "page role 'parent' in guard: learn/supabase-results/page.tsx",
+      "status": "PASS",
+      "detail": "found ''parent''"
+    },
+    {
+      "label": "page exists: system/student-results/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\system\\student-results\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: system/student-results/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: system/student-results/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: system/student-results/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: system/student-results/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page exists: system/teacher-review/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\system\\teacher-review\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: system/teacher-review/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: system/teacher-review/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: system/teacher-review/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: system/teacher-review/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page exists: system/marking/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\system\\marking\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: system/marking/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: system/marking/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: system/marking/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: system/marking/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "page exists: system/auth-roles/page.tsx",
+      "status": "PASS",
+      "detail": "apps\\admin\\src\\app\\system\\auth-roles\\page.tsx"
+    },
+    {
+      "label": "page requireAppRole import: system/auth-roles/page.tsx",
+      "status": "PASS",
+      "detail": "found 'requireAppRole'"
+    },
+    {
+      "label": "page requireAppRole call: system/auth-roles/page.tsx",
+      "status": "PASS",
+      "detail": "found 'await requireAppRole('"
+    },
+    {
+      "label": "page role 'admin' in guard: system/auth-roles/page.tsx",
+      "status": "PASS",
+      "detail": "found ''admin''"
+    },
+    {
+      "label": "page role 'teacher' in guard: system/auth-roles/page.tsx",
+      "status": "PASS",
+      "detail": "found ''teacher''"
+    },
+    {
+      "label": "migration checklist markdown",
+      "status": "PASS",
+      "detail": "tools\\supabase\\apply_gate62_rls_migration_checklist_v1.md"
+    },
+    {
+      "label": "test_gate62_role_permissions_v1.py",
+      "status": "PASS",
+      "detail": "tools\\supabase\\test_gate62_role_permissions_v1.py"
+    },
+    {
+      "label": "Security scan: process.env.SUPABASE_SERVICE_ROLE_KEY not in client files",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "Security scan: process.env.SUPABASE_SERVICE_ROLE_KEY not in client files",
+      "status": "PASS",
+      "detail": "clean"
+    },
+    {
+      "label": "gate62 permission test report (not yet run)",
+      "status": "SKIP",
+      "detail": "Run test_gate62_role_permissions_v1.py first: gate62_rls_role_permission_test_report_v1.json"
+    }
+  ]
+}

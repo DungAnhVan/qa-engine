@@ -1,6 +1,7 @@
 
 import type { Metadata } from 'next'
 import { getContentRegistry, fileApiUrl, type RegistryPackage } from '@/lib/contentRegistry'
+import { requireAppRole } from '@/lib/roleAccess'
 
 export const metadata: Metadata = { title: 'Content Registry' }
 
@@ -105,6 +106,16 @@ function PackageRow({ pkg }: { pkg: RegistryPackage }) {
 // ---------------------------------------------------------------------------
 
 export default async function ContentPage() {
+  const { allowed, currentRole } = await requireAppRole(['admin', 'teacher'])
+  if (!allowed) return (
+    <main style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
+      <h1 style={{ fontSize: 20, fontWeight: 700, marginBottom: 8 }}>Access denied</h1>
+      <p style={{ color: '#6b7280', fontSize: 14, marginBottom: 12 }}>
+        Required: admin or teacher. Your role: <code>{currentRole ?? 'none'}</code>
+      </p>
+      <a href="/login" style={{ color: '#3b82f6' }}>Sign in →</a>
+    </main>
+  )
   const { registry } = await getContentRegistry()
   const sm = registry.summary
 

@@ -10,6 +10,7 @@ import { getContentSourceMode } from '@/lib/contentSource'
 import { isLiveSupabaseConfigured, getLiveSupabaseTeacherReviewQueue } from '@/lib/liveSupabaseTeacherReview'
 import { getLiveSupabaseEnvPresence } from '@/lib/liveSupabaseContent'
 import { TeacherReviewForm } from './TeacherReviewForm'
+import { requireAppRole } from '@/lib/roleAccess'
 
 export const dynamic = 'force-dynamic'
 
@@ -56,6 +57,16 @@ function Tag({ label }: { label: string }) {
 }
 
 export default async function SupabaseAttemptReviewPage() {
+  const { allowed, currentRole } = await requireAppRole(['admin', 'teacher'])
+  if (!allowed) return (
+    <main style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
+      <h1 style={{ fontSize: 20, fontWeight: 700, marginBottom: 8 }}>Access denied</h1>
+      <p style={{ color: '#6b7280', fontSize: 14, marginBottom: 12 }}>
+        Required: admin or teacher. Your role: <code>{currentRole ?? 'none'}</code>
+      </p>
+      <a href="/login" style={{ color: '#3b82f6' }}>Sign in →</a>
+    </main>
+  )
   const mode  = getContentSourceMode()
   const envOk = isLiveSupabaseConfigured()
   const isLive = mode === 'live_supabase'
