@@ -1,7 +1,4 @@
 {
   "version": 2,
-  "buildCommand": "pnpm --filter @qa-engine/admin build",
-  "outputDirectory": "apps/admin/.next",
-  "installCommand": "pnpm install",
   "framework": "nextjs"
 }
