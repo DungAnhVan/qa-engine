@@ -1,0 +1,28 @@
+{
+  "report_id": "quanta_aptus_supabase_active_package_read_v1",
+  "gate": "53F",
+  "created_at": "2026-06-30T06:25:23.328171+00:00",
+  "status": "passed",
+  "subject_slug": "physics_0625",
+  "active_package_found": true,
+  "package_key": "cambridge_igcse_physics_0625_resource_package_v2",
+  "version": 2,
+  "resources_read": 27,
+  "student_resources_exported": 23,
+  "teacher_resources_exported": 27,
+  "teacher_only_count": 4,
+  "needs_human_review_count": 1,
+  "matches_expected_active_package": true,
+  "expected_package_key": "cambridge_igcse_physics_0625_resource_package_v2",
+  "export_files": {
+    "active_package": "D:\\qa-engine\\data\\supabase_exports\\active_package_from_supabase_v1.json",
+    "student_payload": "D:\\qa-engine\\data\\supabase_exports\\student_resource_payload_from_supabase_v1.json",
+    "teacher_payload": "D:\\qa-engine\\data\\supabase_exports\\teacher_resource_payload_from_supabase_v1.json"
+  },
+  "copyright_safety": {
+    "raw_cambridge_pdf_read": false,
+    "extracted_source_text_read": false,
+    "generated_resources_only": true
+  },
+  "next_gate": "Gate 54 - App Supabase Read Mode"
+}
