@@ -1,0 +1,50 @@
+{
+  "report_id": "quanta_aptus_supabase_gate52_migration_report_v1",
+  "gate": "52",
+  "version": "v1",
+  "created_at": "2026-06-30T00:00:00Z",
+  "status": "ready_for_manual_migration",
+  "phase": "Phase 2 - Supabase Integration",
+  "summary": {
+    "helper_scripts_created": true,
+    "env_example_created": true,
+    "schema_files_present": true,
+    "rls_files_present": true,
+    "seed_files_present": true,
+    "checklist_created": true,
+    "gitignore_updated": true,
+    "requires_live_supabase_project": true,
+    "do_not_upload_raw_cambridge_pdfs": true,
+    "network_not_called": true,
+    "production_ready": false
+  },
+  "files_created": [
+    ".env.example",
+    "tools/supabase/verify_supabase_env_v1.py",
+    "tools/supabase/verify_supabase_schema_v1.py",
+    "tools/supabase/gate52_supabase_migration_checklist_v1.md",
+    "data/diagnostics/supabase_gate52_migration_report_v1.json",
+    "data/diagnostics/SUPABASE_GATE_52_READY.md"
+  ],
+  "files_modified": [
+    ".gitignore (added !.env.example exception)"
+  ],
+  "schema_files": [
+    "supabase/migrations/000001_init_quanta_aptus_schema.sql",
+    "supabase/migrations/000002_rls_policies.sql",
+    "supabase/seed/seed_local_mvp_demo.sql"
+  ],
+  "next_manual_step": "Create Supabase project and fill .env.local",
+  "next_gate": "Gate 53 - Connect Pipeline to Supabase",
+  "security_notes": [
+    "Service role key must never be committed to git.",
+    ".env.local is gitignored — do not remove from .gitignore.",
+    "Cambridge source PDFs must remain local (internal_reference_only).",
+    "source_documents and source_items tables are RLS-protected from students/parents.",
+    "verify_supabase_env_v1.py masks key values — never prints full keys."
+  ],
+  "verification_commands": {
+    "check_env": ".venv-ingest\\Scripts\\python.exe tools\\supabase\\verify_supabase_env_v1.py",
+    "check_schema": ".venv-ingest\\Scripts\\python.exe tools\\supabase\\verify_supabase_schema_v1.py"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "report_id": "quanta_aptus_supabase_schema_verify_v1",
+  "gate": "52",
+  "created_at": "2026-06-30T04:57:05.234093+00:00",
+  "status": "passed",
+  "url_present": true,
+  "key_present": true,
+  "tables_ok": true,
+  "missing_tables": [],
+  "table_results": [
+    {
+      "table": "organizations",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "profiles",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "students",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "parent_student_links",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "subjects",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "source_documents",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "source_pairs",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "source_items",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "skill_units",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "generation_targets",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "authoring_batches",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "resources",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "resource_packages",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "resource_package_items",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "attempts",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "marked_attempts",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "teacher_reviews",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "student_reports",
+      "exists": true,
+      "error": null
+    },
+    {
+      "table": "audit_events",
+      "exists": true,
+      "error": null
+    }
+  ],
+  "seed_checks": {
+    "subjects": {
+      "count": 22,
+      "ok": true,
+      "min": 22
+    },
+    "organizations": {
+      "count": 1,
+      "ok": true,
+      "min": 1
+    },
+    "students": {
+      "count": 1,
+      "ok": true,
+      "min": 1
+    },
+    "active_physics_package": {
+      "package_key": "cambridge_igcse_physics_0625_resource_package_v2",
+      "found": true,
+      "active": true,
+      "ok": true
+    }
+  },
+  "error": null
+}

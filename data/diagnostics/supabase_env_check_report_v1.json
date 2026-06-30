@@ -1,0 +1,46 @@
+{
+  "report_id": "quanta_aptus_supabase_env_check_v1",
+  "gate": "52",
+  "created_at": "2026-06-30T04:49:14.579995+00:00",
+  "status": "env_ok",
+  "env_local_found": true,
+  "all_required_present": true,
+  "vars": [
+    {
+      "name": "SUPABASE_URL",
+      "present": true,
+      "masked": "https:...e.co",
+      "source": "env.local",
+      "required": true
+    },
+    {
+      "name": "SUPABASE_ANON_KEY",
+      "present": true,
+      "masked": "sb_pub...yxu2",
+      "source": "env.local",
+      "required": true
+    },
+    {
+      "name": "SUPABASE_SERVICE_ROLE_KEY",
+      "present": true,
+      "masked": "sb_sec...y3it",
+      "source": "env.local",
+      "required": true
+    },
+    {
+      "name": "SUPABASE_DB_PASSWORD",
+      "present": true,
+      "masked": "8PRTyF...8:C!",
+      "source": "env.local",
+      "required": false
+    },
+    {
+      "name": "SUPABASE_PROJECT_REF",
+      "present": true,
+      "masked": "qsikfv...cxxr",
+      "source": "env.local",
+      "required": false
+    }
+  ],
+  "note": "Masked values shown only. Full keys never logged."
+}
