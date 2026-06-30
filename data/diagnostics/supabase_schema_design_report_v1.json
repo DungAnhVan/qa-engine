@@ -1,0 +1,136 @@
+{
+  "report_id": "quanta_aptus_supabase_schema_design_report_v1",
+  "gate": "51",
+  "version": "v1",
+  "status": "passed",
+  "created_at": "2026-06-30T00:00:00Z",
+  "phase": "Phase 2 — Supabase Integration",
+  "summary": {
+    "schema_design_complete": true,
+    "multi_subject_ready": true,
+    "adapter_fields_included": true,
+    "needs_human_review_first_class": true,
+    "rls_enabled": true,
+    "auth_design_included": true,
+    "seed_data_included": true,
+    "local_json_to_table_map_complete": true,
+    "production_ready": false,
+    "next_gate": "Gate 52 - Supabase Project + Migration"
+  },
+  "table_count": 19,
+  "tables": [
+    "organizations",
+    "profiles",
+    "students",
+    "parent_student_links",
+    "subjects",
+    "source_documents",
+    "source_pairs",
+    "source_items",
+    "skill_units",
+    "generation_targets",
+    "authoring_batches",
+    "resources",
+    "resource_packages",
+    "resource_package_items",
+    "attempts",
+    "marked_attempts",
+    "teacher_reviews",
+    "student_reports",
+    "audit_events"
+  ],
+  "migration_files": [
+    "supabase/migrations/000001_init_quanta_aptus_schema.sql",
+    "supabase/migrations/000002_rls_policies.sql"
+  ],
+  "seed_files": [
+    "supabase/seed/seed_local_mvp_demo.sql"
+  ],
+  "doc_files": [
+    "docs/database/supabase_schema_v1.md",
+    "docs/database/supabase_table_map_v1.md"
+  ],
+  "rls_enabled": true,
+  "rls_tables": [
+    "organizations",
+    "profiles",
+    "students",
+    "parent_student_links",
+    "subjects",
+    "source_documents",
+    "source_pairs",
+    "source_items",
+    "skill_units",
+    "generation_targets",
+    "authoring_batches",
+    "resources",
+    "resource_packages",
+    "resource_package_items",
+    "attempts",
+    "marked_attempts",
+    "teacher_reviews",
+    "student_reports",
+    "audit_events"
+  ],
+  "rls_roles": ["admin", "teacher", "student", "parent"],
+  "multi_subject_ready": true,
+  "adapter_fields_included": true,
+  "adapter_field_columns": [
+    "subjects.adapter_name",
+    "subjects.adapter_status",
+    "subjects.adapter_version",
+    "skill_units.adapter_name",
+    "skill_units.adapter_status",
+    "skill_units.adapter_version",
+    "skill_units.confidence",
+    "skill_units.needs_human_review",
+    "resources.adapter_status",
+    "resources.confidence",
+    "resources.needs_human_review"
+  ],
+  "needs_human_review_first_class": true,
+  "seed_subjects_count": 22,
+  "seed_organizations_count": 1,
+  "seed_demo_students_count": 1,
+  "seed_packages": [
+    {
+      "package_key": "cambridge_igcse_physics_0625_resource_package_v2",
+      "subject_slug": "physics_0625",
+      "version": 2,
+      "status": "active",
+      "resource_count": 27,
+      "student_resource_count": 23,
+      "teacher_resource_count": 27
+    }
+  ],
+  "indexes": [
+    "subjects(subject_slug)",
+    "source_documents(subject_slug, syllabus_code, year, component)",
+    "skill_units(subject_id, topic, skill_type)",
+    "resources(subject_id, topic, skill_type, publish_status)",
+    "attempts(student_id, subject_id, submitted_at)",
+    "marked_attempts(student_id, subject_id, result)",
+    "teacher_reviews(review_type, created_at)",
+    "resource_packages(subject_id, status)"
+  ],
+  "local_json_to_table_mappings": 21,
+  "known_limitations": [
+    "Schema is design-only — not yet applied to a live Supabase project.",
+    "RLS policies are conservative approximations; exact policies require product decisions.",
+    "No Supabase Edge Functions yet for audit event writes.",
+    "Cambridge source PDFs must remain local; never upload to Supabase Storage.",
+    "Seed uses fixed UUIDs for local demo only; production seeds should use gen_random_uuid().",
+    "No storage bucket policy or signed URL design yet (Gate 53+).",
+    "profiles.id = auth.uid() link requires an auth trigger not yet written."
+  ],
+  "next_phase_requirements": [
+    "Create Supabase project (dashboard or CLI).",
+    "Set SUPABASE_URL and SUPABASE_SERVICE_KEY in .env.local.",
+    "Apply 000001_init_quanta_aptus_schema.sql via supabase db push or SQL editor.",
+    "Apply 000002_rls_policies.sql.",
+    "Run seed_local_mvp_demo.sql with service-role connection.",
+    "Write auth trigger: on new auth.users row -> insert into profiles.",
+    "Verify 22 subjects, 1 active package, 1 demo student present.",
+    "Connect tools/ingest pipeline scripts to Supabase Python client (Gate 53+)."
+  ]
+}

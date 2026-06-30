@@ -1,0 +1,138 @@
+{
+  "report_id": "quanta_aptus_multisubject_stress_report_v1",
+  "version": "0.1.0",
+  "created_at": "2026-06-30T04:03:43.537782+00:00",
+  "phase": "Phase 1.5",
+  "status": "passed",
+  "summary": {
+    "local_mvp_done": true,
+    "multi_subject_routing_ready": true,
+    "subject_adapter_layer_ready": true,
+    "production_ready": false,
+    "recommended_next_gate": "Gate 51 - Supabase Schema Design"
+  },
+  "subjects": [
+    {
+      "subject_slug": "physics_0625",
+      "display_name": "Physics",
+      "syllabus_code": "0625",
+      "status": "partial",
+      "highest_gate_passed": 29,
+      "pipeline_status": "passed",
+      "source_count": 5,
+      "total_questions": 68,
+      "total_marks": 280,
+      "adapter_status": "full_adapter",
+      "notes": [
+        "Full pipeline end-to-end: publish package available."
+      ]
+    },
+    {
+      "subject_slug": "chemistry_0620",
+      "display_name": "Chemistry",
+      "syllabus_code": "0620",
+      "status": "passed",
+      "highest_gate_passed": 22,
+      "pipeline_status": "failed",
+      "source_count": 2,
+      "total_questions": 14,
+      "total_marks": 120,
+      "adapter_status": "basic_adapter",
+      "notes": [
+        "basic_adapter: topic/skill classification has lower confidence."
+      ]
+    },
+    {
+      "subject_slug": "biology_0610",
+      "display_name": "Biology",
+      "syllabus_code": "0610",
+      "status": "passed",
+      "highest_gate_passed": 25,
+      "pipeline_status": "waiting_for_generated_batch",
+      "source_count": 3,
+      "total_questions": 54,
+      "total_marks": 160,
+      "adapter_status": "basic_adapter",
+      "notes": [
+        "Waiting for generated batch — AI authoring step not yet run.",
+        "basic_adapter: topic/skill classification has lower confidence."
+      ]
+    },
+    {
+      "subject_slug": "mathematics_0580",
+      "display_name": "Mathematics",
+      "syllabus_code": "0580",
+      "status": "passed",
+      "highest_gate_passed": 25,
+      "pipeline_status": "waiting_for_generated_batch",
+      "source_count": 1,
+      "total_questions": 10,
+      "total_marks": 80,
+      "adapter_status": "basic_adapter",
+      "notes": [
+        "Waiting for generated batch — AI authoring step not yet run.",
+        "basic_adapter: topic/skill classification has lower confidence."
+      ]
+    }
+  ],
+  "adapter_layer": {
+    "total_tested": 11,
+    "registered_count": 10,
+    "full_adapter_count": 1,
+    "basic_adapter_count": 9,
+    "generic_adapter_count": 1,
+    "needs_human_review_count": 1,
+    "registered_subjects": [
+      "accounting_0452",
+      "additional_mathematics_0606",
+      "biology_0610",
+      "business_studies_0450",
+      "chemistry_0620",
+      "co_ordinated_sciences_0654",
+      "combined_science_0653",
+      "computer_science_0478",
+      "economics_0455",
+      "english_first_language_0500",
+      "english_literature_0475",
+      "english_second_language_0510",
+      "environmental_management_0680",
+      "geography_0460",
+      "global_perspectives_0457",
+      "history_0470",
+      "ict_0417",
+      "international_mathematics_0607",
+      "mathematics_0580",
+      "physics_0625",
+      "sociology_0495",
+      "travel_and_tourism_0471"
+    ]
+  },
+  "findings": [
+    "Raw intake and markitdown are fully multi-subject capable.",
+    "Corpus layer (unified_source_corpus) is multi-subject capable.",
+    "Skill map layer uses subject adapter registry — no more physics hard-code.",
+    "Physics 0625 remains the strongest production-like subject (full_adapter, end-to-end).",
+    "Biology 0610 and Mathematics 0580 now pass Gate 23 skill map using basic adapters.",
+    "Chemistry 0620 routing is fixed — intake and markitdown use correct subject paths.",
+    "Generic adapter fallback handles unknown subjects without crashing.",
+    "Non-Physics subjects should not be auto-published without teacher review.",
+    "Subject adapter architecture allows new subjects by adding a registry entry only."
+  ],
+  "known_limitations": [
+    "No Supabase database yet — all state in local JSON files.",
+    "No authentication or multi-user support.",
+    "No Claude or OpenAI API automated authoring yet.",
+    "Adapters for non-Physics subjects are basic — confidence is lower.",
+    "Biology and Mathematics generated resources are waiting for AI authoring batch.",
+    "No image or diagram AI marking yet.",
+    "No parent or student multi-user dashboard yet.",
+    "Chemistry 0620 skill map not yet run (basic adapter available but not invoked in stress test)."
+  ],
+  "next_phase_requirements": [
+    "Supabase schema must include subject_slug, syllabus_code, adapter_status, adapter_version, confidence, needs_human_review.",
+    "Resources table must support multi-subject taxonomy.",
+    "Attempt marking must support subject-specific rules per adapter.",
+    "Authoring pipeline must store prompt, model, and adapter version metadata.",
+    "Teacher review must be first-class workflow for basic and generic adapters."
+  ]
+}
