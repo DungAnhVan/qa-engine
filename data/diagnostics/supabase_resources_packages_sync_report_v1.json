@@ -1,0 +1,42 @@
+{
+  "report_id": "quanta_aptus_supabase_resources_packages_sync_v1",
+  "gate": "53E",
+  "created_at": "2026-06-30T06:12:31.531212+00:00",
+  "status": "passed",
+  "synced_subjects": [
+    "physics_0625"
+  ],
+  "packages_found": 2,
+  "packages_upserted": 2,
+  "resources_found": 27,
+  "resources_upserted": 27,
+  "package_items_upserted": 27,
+  "teacher_only_resource_count": 4,
+  "needs_human_review_count": 1,
+  "failed_count": 0,
+  "warnings": [],
+  "errors": [],
+  "copyright_safety": {
+    "uploaded_raw_pdfs": false,
+    "uploaded_extracted_text": false,
+    "synced_generated_resources_only": true,
+    "source_text_copied_to_resources": false
+  },
+  "subjects": [
+    {
+      "subject_slug": "physics_0625",
+      "packages_found": 2,
+      "packages_upserted": 2,
+      "resources_found": 27,
+      "resources_upserted": 27,
+      "package_items_upserted": 27,
+      "teacher_only_count": 4,
+      "needs_human_review_count": 1,
+      "failed_packages": 0,
+      "failed_resources": 0,
+      "failed_items": 0,
+      "errors": []
+    }
+  ],
+  "next_gate": "Gate 53F - Read Active Package from Supabase"
+}
