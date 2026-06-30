@@ -1,0 +1,243 @@
+{
+  "report_id": "quanta_aptus_gate55_live_supabase_read_report_v1",
+  "gate": "55",
+  "created_at": "2026-06-30T09:05:27.464426+00:00",
+  "status": "passed",
+  "mode_supported": [
+    "local",
+    "supabase_export",
+    "live_supabase"
+  ],
+  "default_mode": "local",
+  "server_only_live_read": true,
+  "service_role_exposed_to_client": false,
+  "service_role_leak_files": [],
+  "local_fallback_available": true,
+  "supabase_export_fallback_available": true,
+  "diagnostic_pages": [
+    "/system/content-source",
+    "/system/supabase-live"
+  ],
+  "checks_total": 28,
+  "file_checks_passed": 5,
+  "content_checks_passed": 23,
+  "content_checks_total": 23,
+  "issues": [],
+  "checks": [
+    {
+      "label": "liveSupabaseContent.ts (new)",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250
+    },
+    {
+      "label": "liveSupabaseContent.ts: import server-only",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "import 'server-only'"
+    },
+    {
+      "label": "liveSupabaseContent.ts: exports getLiveSupabaseStudentResources",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "getLiveSupabaseStudentResources"
+    },
+    {
+      "label": "liveSupabaseContent.ts: exports getLiveSupabaseActiveContentIndex",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "getLiveSupabaseActiveContentIndex"
+    },
+    {
+      "label": "liveSupabaseContent.ts: exports getLiveSupabaseActivePackage",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "getLiveSupabaseActivePackage"
+    },
+    {
+      "label": "liveSupabaseContent.ts: exports getLiveSupabaseTeacherResources",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "getLiveSupabaseTeacherResources"
+    },
+    {
+      "label": "liveSupabaseContent.ts: exports getLiveSupabaseEnvPresence",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "getLiveSupabaseEnvPresence"
+    },
+    {
+      "label": "liveSupabaseContent.ts: uses @supabase/supabase-js",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "@supabase/supabase-js"
+    },
+    {
+      "label": "liveSupabaseContent.ts: reads process.env.SUPABASE_SERVICE_ROLE_KEY (allowed here)",
+      "path": "apps\\admin\\src\\lib\\liveSupabaseContent.ts",
+      "present": true,
+      "size_bytes": 15250,
+      "contains": true,
+      "needle": "process.env.SUPABASE_SERVICE_ROLE_KEY"
+    },
+    {
+      "label": "contentSource.ts: supports live_supabase mode",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 957,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "contentSource.ts: exports isLiveSupabaseMode",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 957,
+      "contains": true,
+      "needle": "isLiveSupabaseMode"
+    },
+    {
+      "label": "activeContent.ts: imports getLiveSupabaseActiveContentIndex",
+      "path": "apps\\admin\\src\\lib\\activeContent.ts",
+      "present": true,
+      "size_bytes": 3429,
+      "contains": true,
+      "needle": "getLiveSupabaseActiveContentIndex"
+    },
+    {
+      "label": "activeContent.ts: branches on live_supabase",
+      "path": "apps\\admin\\src\\lib\\activeContent.ts",
+      "present": true,
+      "size_bytes": 3429,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "studentResources.ts: imports getLiveSupabaseStudentResources",
+      "path": "apps\\admin\\src\\lib\\studentResources.ts",
+      "present": true,
+      "size_bytes": 2515,
+      "contains": true,
+      "needle": "getLiveSupabaseStudentResources"
+    },
+    {
+      "label": "studentResources.ts: branches on live_supabase",
+      "path": "apps\\admin\\src\\lib\\studentResources.ts",
+      "present": true,
+      "size_bytes": 2515,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "Diagnostic page: /system/content-source",
+      "path": "apps\\admin\\src\\app\\system\\content-source\\page.tsx",
+      "present": true,
+      "size_bytes": 11294
+    },
+    {
+      "label": "Diagnostic page: shows live_supabase env",
+      "path": "apps\\admin\\src\\app\\system\\content-source\\page.tsx",
+      "present": true,
+      "size_bytes": 11294,
+      "contains": true,
+      "needle": "getLiveSupabaseEnvPresence"
+    },
+    {
+      "label": "Diagnostic page: covers all 3 modes",
+      "path": "apps\\admin\\src\\app\\system\\content-source\\page.tsx",
+      "present": true,
+      "size_bytes": 11294,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "Supabase-live page: /system/supabase-live",
+      "path": "apps\\admin\\src\\app\\system\\supabase-live\\page.tsx",
+      "present": true,
+      "size_bytes": 8321
+    },
+    {
+      "label": "Supabase-live page: force-dynamic",
+      "path": "apps\\admin\\src\\app\\system\\supabase-live\\page.tsx",
+      "present": true,
+      "size_bytes": 8321,
+      "contains": true,
+      "needle": "force-dynamic"
+    },
+    {
+      "label": "Supabase-live page: imports getLiveSupabaseActivePackage",
+      "path": "apps\\admin\\src\\app\\system\\supabase-live\\page.tsx",
+      "present": true,
+      "size_bytes": 8321,
+      "contains": true,
+      "needle": "getLiveSupabaseActivePackage"
+    },
+    {
+      "label": ".env.example: documents live_supabase mode",
+      "path": ".env.example",
+      "present": true,
+      "size_bytes": 1807,
+      "contains": true,
+      "needle": "live_supabase"
+    },
+    {
+      "label": "supabaseExportContent.ts: still present (supabase_export fallback)",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521,
+      "contains": true,
+      "needle": "getSupabaseExportStudentResources"
+    },
+    {
+      "label": "activeContent.ts: supabase_export fallback still present",
+      "path": "apps\\admin\\src\\lib\\activeContent.ts",
+      "present": true,
+      "size_bytes": 3429,
+      "contains": true,
+      "needle": "supabase_export"
+    },
+    {
+      "label": "contentSource.ts from Gate 54 still present",
+      "path": "apps\\admin\\src\\lib\\contentSource.ts",
+      "present": true,
+      "size_bytes": 957
+    },
+    {
+      "label": "supabaseExportContent.ts from Gate 54 still present",
+      "path": "apps\\admin\\src\\lib\\supabaseExportContent.ts",
+      "present": true,
+      "size_bytes": 7521
+    },
+    {
+      "label": "package.json: @supabase/supabase-js installed",
+      "path": "apps\\admin\\package.json",
+      "present": true,
+      "size_bytes": 499,
+      "contains": true,
+      "needle": "@supabase/supabase-js"
+    },
+    {
+      "label": "package.json: server-only installed",
+      "path": "apps\\admin\\package.json",
+      "present": true,
+      "size_bytes": 499,
+      "contains": true,
+      "needle": "server-only"
+    }
+  ],
+  "next_gate": "Gate 56 - App Supabase Student Attempt Write"
+}

@@ -2,6 +2,7 @@ import { readFile } from 'fs/promises'
 import { getActiveContentIndex, type ActivePackage } from './activeContent'
 import { getContentSourceMode } from './contentSource'
 import { getSupabaseExportStudentResources } from './supabaseExportContent'
+import { getLiveSupabaseStudentResources } from './liveSupabaseContent'
 
 // ---------------------------------------------------------------------------
 // Types
@@ -43,9 +44,9 @@ export async function getActiveStudentResources(): Promise<{
   payload: StudentPayload | null
   resources: StudentResource[]
 }> {
-  if (getContentSourceMode() === 'supabase_export') {
-    return getSupabaseExportStudentResources()
-  }
+  const mode = getContentSourceMode()
+  if (mode === 'live_supabase') return getLiveSupabaseStudentResources()
+  if (mode === 'supabase_export') return getSupabaseExportStudentResources()
 
   const pkg = await getDefaultActivePackage()
   if (!pkg) return { pkg: null, payload: null, resources: [] }

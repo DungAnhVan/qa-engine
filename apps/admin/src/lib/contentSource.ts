@@ -10,12 +10,19 @@
  * Set QA_CONTENT_SOURCE=supabase_export in .env.local to enable.
  */
 
-export type ContentSourceMode = 'local' | 'supabase_export'
+export type ContentSourceMode = 'local' | 'supabase_export' | 'live_supabase'
 
 export function getContentSourceMode(): ContentSourceMode {
-  return process.env.QA_CONTENT_SOURCE === 'supabase_export' ? 'supabase_export' : 'local'
+  const raw = process.env.QA_CONTENT_SOURCE
+  if (raw === 'supabase_export') return 'supabase_export'
+  if (raw === 'live_supabase') return 'live_supabase'
+  return 'local'
 }
 
 export function isSupabaseExportMode(): boolean {
   return getContentSourceMode() === 'supabase_export'
+}
+
+export function isLiveSupabaseMode(): boolean {
+  return getContentSourceMode() === 'live_supabase'
 }
