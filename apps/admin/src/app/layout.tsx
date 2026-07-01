@@ -26,6 +26,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <a href="/system/ai-authoring"      className="nav-link">AI Authoring</a>
           <a href="/ai-review"                className="nav-link">AI Review</a>
           <a href="/system/ai-review"         className="nav-link">AI Review Diag</a>
+          <a href="/ai-package"               className="nav-link">AI Package</a>
+          <a href="/system/ai-package"        className="nav-link">AI Package Diag</a>
         </nav>
         {children}
       </body>

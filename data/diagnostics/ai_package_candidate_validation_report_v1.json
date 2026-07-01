@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "status": "passed",
+  "package_candidate_id": "quanta_aptus_ai_resource_package_candidate_v1",
+  "package_status": "draft_package_candidate",
+  "auto_publish_enabled": false,
+  "teacher_final_publish_required": true,
+  "supabase_write_performed": false,
+  "resource_count": 1,
+  "resources_valid": 1,
+  "resources_failed": 0,
+  "resource_issues": [],
+  "issues": [],
+  "generated_at": "2026-07-01T14:02:14.521219+00:00"
+}

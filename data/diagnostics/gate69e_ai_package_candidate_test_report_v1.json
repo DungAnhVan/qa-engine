@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "tests_passed": 19,
+  "tests_total": 19,
+  "tests": [
+    {
+      "name": "T01_approved_candidates_exist",
+      "passed": true,
+      "detail": "ai_approved_resource_candidates_v1.json"
+    },
+    {
+      "name": "T02_package_candidate_built",
+      "passed": true,
+      "detail": "1 resources"
+    },
+    {
+      "name": "T03_resource_count_ge_1",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "name": "T04_status_draft",
+      "passed": true,
+      "detail": "draft_package_candidate"
+    },
+    {
+      "name": "T05_auto_publish_disabled",
+      "passed": true,
+      "detail": "False"
+    },
+    {
+      "name": "T06_teacher_final_required",
+      "passed": true,
+      "detail": "True"
+    },
+    {
+      "name": "T07_no_supabase_write",
+      "passed": true,
+      "detail": "False"
+    },
+    {
+      "name": "T08_validation_passed",
+      "passed": true,
+      "detail": "1/1 valid"
+    },
+    {
+      "name": "T09_all_approved_by_teacher",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T10_payloads_exported",
+      "passed": true,
+      "detail": "student=1, teacher=1"
+    },
+    {
+      "name": "T11_student_payload_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T12_teacher_payload_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T13_student_payload_no_answers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T14_teacher_payload_has_answers",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T15_previews_rendered",
+      "passed": true,
+      "detail": "OK"
+    },
+    {
+      "name": "T16_student_preview_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T17_teacher_preview_exists",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T18_no_raw_cambridge_text",
+      "passed": true,
+      "detail": "clean"
+    },
+    {
+      "name": "T19_no_api_keys",
+      "passed": true,
+      "detail": "all output files clean"
+    }
+  ],
+  "resource_count": 1,
+  "validation_passed": true,
+  "student_payload_exists": true,
+  "teacher_payload_exists": true,
+  "student_preview_exists": true,
+  "teacher_preview_exists": true,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "teacher_final_publish_required": true,
+  "raw_cambridge_text_issues": [],
+  "generated_at": "2026-07-01T14:02:14.519229+00:00"
+}

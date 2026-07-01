@@ -1,6 +1,6 @@
 {
   "batch_id": "gate69c_sample_generated_batch_v1",
-  "generated_at": "2026-07-01T13:41:23.848038+00:00",
+  "generated_at": "2026-07-01T13:44:54.910585+00:00",
   "provider": "mock",
   "dry_run": true,
   "copyright_strict": true,
@@ -117,7 +117,7 @@
       "status": "draft",
       "ai_provider": "mock",
       "dry_run": true,
-      "created_at": "2026-07-01T13:41:23.849042+00:00",
+      "created_at": "2026-07-01T13:44:54.911584+00:00",
       "issues": []
     },
     {
@@ -127,7 +127,7 @@
       "status": "draft",
       "ai_provider": "mock",
       "dry_run": true,
-      "created_at": "2026-07-01T13:41:23.851000+00:00",
+      "created_at": "2026-07-01T13:44:54.914584+00:00",
       "issues": []
     },
     {
@@ -137,7 +137,7 @@
       "status": "draft",
       "ai_provider": "mock",
       "dry_run": true,
-      "created_at": "2026-07-01T13:41:23.853039+00:00",
+      "created_at": "2026-07-01T13:44:54.917584+00:00",
       "issues": []
     }
   ]
