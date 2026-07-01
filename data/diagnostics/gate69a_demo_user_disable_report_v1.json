@@ -1,0 +1,16 @@
+{
+  "gate": "69A",
+  "title": "Disable Demo Users v1",
+  "status": "needs_review",
+  "dry_run": true,
+  "demo_users_targeted": [
+    "admin@quantaaptus.local",
+    "teacher@quantaaptus.local",
+    "student@quantaaptus.local",
+    "parent@quantaaptus.local"
+  ],
+  "demo_users_disabled": [],
+  "manual_action_required": false,
+  "issues": [],
+  "generated_at": "2026-07-01T07:48:15.177050+00:00"
+}
