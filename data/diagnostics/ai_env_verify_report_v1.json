@@ -1,0 +1,21 @@
+{
+  "gate": "69B",
+  "title": "AI Environment Verify v1",
+  "status": "passed",
+  "generated_at": "2026-07-01T08:05:58.300511+00:00",
+  "provider": "mock",
+  "dry_run": true,
+  "copyright_strict": true,
+  "openai_key_present": false,
+  "anthropic_key_present": false,
+  "selected_provider_ready": true,
+  "env_local_not_tracked": true,
+  "repo_secret_scan_clean": true,
+  "repo_secret_violations": [],
+  "client_files_clean": true,
+  "client_violations": [],
+  "env_examples_updated": true,
+  "env_examples_issues": [],
+  "api_keys_exposed_to_client": false,
+  "issues": []
+}

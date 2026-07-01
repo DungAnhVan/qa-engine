@@ -1,0 +1,78 @@
+{
+  "gate": "69B",
+  "title": "AI Safety Guard Tests v1",
+  "status": "passed",
+  "generated_at": "2026-07-01T08:06:50.697075+00:00",
+  "tests_passed": 13,
+  "tests_total": 13,
+  "tests": [
+    {
+      "name": "safe_metadata_payload_passes",
+      "passed": true,
+      "detail": "risk_level=low"
+    },
+    {
+      "name": "payload_with_original_raw_block_fails",
+      "passed": true,
+      "detail": "issues=[\"Disallowed field 'original_raw_block' present in AI payload\"]"
+    },
+    {
+      "name": "payload_with_normalized_raw_block_fails",
+      "passed": true,
+      "detail": "issues=[\"Disallowed field 'normalized_raw_block' present in AI payload\"]"
+    },
+    {
+      "name": "payload_with_raw_mark_scheme_fails",
+      "passed": true,
+      "detail": "issues=[\"Disallowed field 'raw_mark_scheme' present in AI payload\"]"
+    },
+    {
+      "name": "prompt_with_cambridge_long_block_fails",
+      "passed": true,
+      "detail": "risk_level=high issues_count=4"
+    },
+    {
+      "name": "prompt_with_raw_data_path_fails",
+      "passed": true,
+      "detail": "issues=['data/raw/ path in prompt', '.pdf file reference in prompt']"
+    },
+    {
+      "name": "generated_content_copyright_phrase_fails",
+      "passed": true,
+      "detail": "risk_level=high issues=['Cambridge entity name in output', 'Cambridge paper code in output']"
+    },
+    {
+      "name": "mock_provider_deterministic_response",
+      "passed": true,
+      "detail": "text[:60]='A student claims that increasing the tension of a string alw'"
+    },
+    {
+      "name": "authoring_contract_rejects_raw_fields",
+      "passed": true,
+      "detail": "disallowed=['original_raw_block'] issues_count=2"
+    },
+    {
+      "name": "authoring_contract_accepts_valid_request",
+      "passed": true,
+      "detail": "summary=AuthoringRequest(physics, topic='Electromagnetic Induction', subtopic=\"Faraday's Law\", difficulty=hard, type=question)"
+    },
+    {
+      "name": "build_safe_payload_drops_disallowed",
+      "passed": true,
+      "detail": "dropped=['original_raw_block', 'normalized_raw_block']"
+    },
+    {
+      "name": "safe_prompt_passes",
+      "passed": true,
+      "detail": "risk_level=low"
+    },
+    {
+      "name": "mock_copyright_guard_allows_metadata",
+      "passed": true,
+      "detail": "Mock passed with metadata-only prompt"
+    }
+  ],
+  "raw_cambridge_text_blocked": true,
+  "mock_provider_works": true,
+  "authoring_contract_works": true
+}
