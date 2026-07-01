@@ -1,0 +1,35 @@
+{
+  "decision_file_id": "quanta_aptus_gate70b_ai_bank_review_decisions_v1",
+  "version": "0.1.0",
+  "source_queue": "data/ai/teacher_review/ai_teacher_review_queue_v1.json",
+  "updated_at": "2026-07-01T17:05:36.569053+00:00",
+  "decisions": [
+    {
+      "review_item_id": "review_bank_gate70a_live_ai_batch_v1_0001",
+      "bank_item_id": "bank_gate70a_live_ai_batch_v1_0001",
+      "resource_id": "ai_res_70b_9c908564",
+      "decision": "approve",
+      "reviewer_id": "local_demo_teacher",
+      "review_notes": "Content is original and educationally sound. Approved for Gate 70C.",
+      "created_at": "2026-07-01T17:05:36.569053+00:00"
+    },
+    {
+      "review_item_id": "review_bank_gate70a_live_ai_batch_v1_0002",
+      "bank_item_id": "bank_gate70a_live_ai_batch_v1_0002",
+      "resource_id": "ai_res_70b_5410e92b",
+      "decision": "needs_revision",
+      "reviewer_id": "local_demo_teacher",
+      "review_notes": "Correct topic but needs clearer worked steps. Please revise.",
+      "created_at": "2026-07-01T17:05:36.569053+00:00"
+    },
+    {
+      "review_item_id": "review_bank_gate70a_live_ai_batch_v1_0003",
+      "bank_item_id": "bank_gate70a_live_ai_batch_v1_0003",
+      "resource_id": "ai_res_70b_6c0f6e35",
+      "decision": "reject",
+      "reviewer_id": "local_demo_teacher",
+      "review_notes": "Not suitable for this difficulty level. Reject.",
+      "created_at": "2026-07-01T17:05:36.569053+00:00"
+    }
+  ]
+}

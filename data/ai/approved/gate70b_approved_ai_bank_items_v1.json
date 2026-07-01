@@ -1,0 +1,69 @@
+{
+  "approved_file_id": "quanta_aptus_gate70b_approved_ai_bank_items_v1",
+  "version": "0.1.0",
+  "created_at": "2026-07-01T17:05:36.735838+00:00",
+  "status": "approved_for_package_candidate",
+  "item_count": 1,
+  "teacher_review_required": true,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "ai_api_called": false,
+  "items": [
+    {
+      "bank_id": "bank_gate70a_live_ai_batch_v1_0001",
+      "resource_id": "ai_res_70b_9c908564",
+      "review_item_id": "review_bank_gate70a_live_ai_batch_v1_0001",
+      "request_id": "cambridge_igcse_physics_0625_2025_s_p41_q03_worked_example",
+      "batch_id": "gate70a_live_ai_batch_v1",
+      "origin_batch_id": "gate70a_live_ai_batch_v1",
+      "subject_slug": "physics_0625",
+      "syllabus_code": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "subtopic": "",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "medium",
+      "resource_type": "worked_example",
+      "learning_objective": "Create a fully worked example with annotated solution steps for this skill.",
+      "student_prompt": "Calculate the de Broglie wavelength of an electron accelerated through a potential difference of 150 V. Show your working. [3 marks]",
+      "answer_key": "[Teacher review required] Worked answer for topic: Motion, forces and energy. Skill: (iii) Calculate the distance between station A and station B. AI-generated content \u2014 teacher must verify correctness and originality before use.",
+      "marking_rubric": [
+        {
+          "criterion": "Correct method demonstrated",
+          "marks": 1,
+          "guidance": "Award for correct approach. Teacher to verify."
+        },
+        {
+          "criterion": "Clear working shown",
+          "marks": 1,
+          "guidance": "Award for clear working. Teacher to verify."
+        },
+        {
+          "criterion": "Correct answer with appropriate units/form",
+          "marks": 1,
+          "guidance": "Award for correct final answer. Teacher to verify."
+        }
+      ],
+      "safety_declaration": {
+        "no_raw_source_text": true,
+        "no_cambridge_pdf_text": true,
+        "no_mark_scheme_text": true,
+        "metadata_only_prompt": true,
+        "original_content": true,
+        "teacher_review_required": true
+      },
+      "provider": "mock",
+      "model": "mock",
+      "dry_run": true,
+      "generated_at": "2026-07-01T15:44:46.449181+00:00",
+      "teacher_review_required": true,
+      "auto_publish_enabled": false,
+      "supabase_write_performed": false,
+      "decision": "approve",
+      "reviewer_id": "local_demo_teacher",
+      "review_notes": "Content is original and educationally sound. Approved for Gate 70C.",
+      "decided_at": "2026-07-01T17:05:36.569053+00:00",
+      "status": "approved_pending_package"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "gate": "70B",
+  "test_suite": "test_gate70b_ai_bank_review_v1",
+  "total": 35,
+  "passed": 35,
+  "failed": 0,
+  "status": "passed",
+  "results": [
+    {
+      "test": "T01: Gate 70A bank file exists",
+      "status": "PASS",
+      "detail": "data\\ai\\question_bank\\ai_generated_question_bank_v1.json"
+    },
+    {
+      "test": "T02: Gate 70A queue file exists",
+      "status": "PASS",
+      "detail": "data\\ai\\teacher_review\\ai_teacher_review_queue_v1.json"
+    },
+    {
+      "test": "T03: gate70b decisions file exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T04: apply_ai_bank_review_decisions_v1.py exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T05: validate_approved_ai_bank_items_v1.py exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T06: apps/admin/src/lib/aiBankReview.ts exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T07: apps/admin/src/app/ai-bank-review/page.tsx exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T08: apps/admin/src/app/api/ai-bank-review/decision/route.ts exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T09: apps/admin/src/app/system/ai-bank-review/page.tsx exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T10: sample decisions written",
+      "status": "PASS",
+      "detail": "decisions written: 3"
+    },
+    {
+      "test": "T11: at least one approve decision",
+      "status": "PASS",
+      "detail": "decisions: ['approve', 'needs_revision', 'reject']"
+    },
+    {
+      "test": "T12: apply_ai_bank_review_decisions exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T13: approved file exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T14: apply report approved_count >= 1",
+      "status": "PASS",
+      "detail": "approved_count=1"
+    },
+    {
+      "test": "T15: apply report auto_publish_enabled=False",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T16: apply report supabase_write_performed=False",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T17: apply report ai_api_called=False",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T18: approved items count >= 1",
+      "status": "PASS",
+      "detail": "count=1"
+    },
+    {
+      "test": "T19: approved item has resource_id",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T20: approved item has student_prompt",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T21: approved item has answer_key",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T22: approved item has marking_rubric",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T23: approved item has safety_declaration",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T24: approved item teacher_review_required=True",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T25: approved item auto_publish_enabled=False",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T26: approved item supabase_write_performed=False",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T27: approved item status=approved_pending_package",
+      "status": "PASS",
+      "detail": "got: approved_pending_package"
+    },
+    {
+      "test": "T28: validate_approved exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T29: validation report valid=True",
+      "status": "PASS",
+      "detail": "valid=True"
+    },
+    {
+      "test": "T30: validation secrets_clean=True",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T31: No secrets in approved file",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T32: No Cambridge copyright in approved file",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T33: revision items file exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T34: layout has /ai-bank-review link",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T35: layout has /system/ai-bank-review link",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}
