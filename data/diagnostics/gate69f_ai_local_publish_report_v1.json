@@ -1,0 +1,189 @@
+{
+  "gate": "69F",
+  "name": "AI Package Final Approval + Local Publish v1",
+  "status": "passed",
+  "generated_at": "2026-07-01T14:28:10.625872+00:00",
+  "deliverables": [
+    {
+      "id": "D01",
+      "label": "Final approval seed file",
+      "exists": true,
+      "path": "data\\ai\\package_candidates\\ai_final_publish_approval_v1.json"
+    },
+    {
+      "id": "D02",
+      "label": "approve_ai_package_candidate_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\approve_ai_package_candidate_v1.py"
+    },
+    {
+      "id": "D03",
+      "label": "build_ai_local_published_package_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_ai_local_published_package_v1.py"
+    },
+    {
+      "id": "D04",
+      "label": "validate_ai_local_published_package_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\validate_ai_local_published_package_v1.py"
+    },
+    {
+      "id": "D05",
+      "label": "render_ai_local_published_package_preview_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\render_ai_local_published_package_preview_v1.py"
+    },
+    {
+      "id": "D06",
+      "label": "build_ai_local_registry_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_ai_local_registry_v1.py"
+    },
+    {
+      "id": "D07",
+      "label": "aiPublishedPackage.ts (server lib)",
+      "exists": true,
+      "path": "apps\\admin\\src\\lib\\aiPublishedPackage.ts"
+    },
+    {
+      "id": "D08",
+      "label": "ai-published/page.tsx (UI page)",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\ai-published\\page.tsx"
+    },
+    {
+      "id": "D09",
+      "label": "system/ai-published/page.tsx (diagnostic page)",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\system\\ai-published\\page.tsx"
+    },
+    {
+      "id": "D10",
+      "label": "api/system/ai-published/route.ts (diagnostic API)",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\api\\system\\ai-published\\route.ts"
+    },
+    {
+      "id": "D11",
+      "label": "test_gate69f_ai_local_publish_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\test_gate69f_ai_local_publish_v1.py"
+    },
+    {
+      "id": "D12",
+      "label": "build_gate69f_ai_local_publish_report_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_gate69f_ai_local_publish_report_v1.py"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "O01",
+      "label": "publish_package_v1.json (published_local_not_active)",
+      "exists": true,
+      "path": "data\\ai\\published\\ai_resource_package_v1\\publish_package_v1.json"
+    },
+    {
+      "id": "O02",
+      "label": "student_resource_payload_v1.json",
+      "exists": true,
+      "path": "data\\ai\\published\\ai_resource_package_v1\\student_resource_payload_v1.json"
+    },
+    {
+      "id": "O03",
+      "label": "teacher_resource_payload_v1.json",
+      "exists": true,
+      "path": "data\\ai\\published\\ai_resource_package_v1\\teacher_resource_payload_v1.json"
+    },
+    {
+      "id": "O04",
+      "label": "ai_publish_manifest_v1.md",
+      "exists": true,
+      "path": "data\\ai\\published\\ai_resource_package_v1\\ai_publish_manifest_v1.md"
+    },
+    {
+      "id": "O05",
+      "label": "student HTML preview",
+      "exists": true,
+      "path": "data\\ai\\published\\ai_resource_package_v1\\static_preview\\student_ai_published_package_preview_v1.html"
+    },
+    {
+      "id": "O06",
+      "label": "teacher HTML preview",
+      "exists": true,
+      "path": "data\\ai\\published\\ai_resource_package_v1\\static_preview\\teacher_ai_published_package_preview_v1.html"
+    },
+    {
+      "id": "O07",
+      "label": "ai_content_registry_v1.json",
+      "exists": true,
+      "path": "data\\ai\\registry\\ai_content_registry_v1.json"
+    },
+    {
+      "id": "O08",
+      "label": "ai_local_published_package_validation_report_v1.json",
+      "exists": true,
+      "path": "data\\diagnostics\\ai_local_published_package_validation_report_v1.json"
+    },
+    {
+      "id": "O09",
+      "label": "test_gate69f_results_v1.json",
+      "exists": true,
+      "path": "data\\diagnostics\\test_gate69f_results_v1.json"
+    }
+  ],
+  "policy": [
+    {
+      "check": "active_content == false",
+      "file": "publish_package_v1.json",
+      "key": "active_content",
+      "expected": false,
+      "actual": false,
+      "ok": true
+    },
+    {
+      "check": "supabase_write_performed == false",
+      "file": "publish_package_v1.json",
+      "key": "supabase_write_performed",
+      "expected": false,
+      "actual": false,
+      "ok": true
+    },
+    {
+      "check": "teacher_final_approval == true",
+      "file": "publish_package_v1.json",
+      "key": "teacher_final_approval",
+      "expected": true,
+      "actual": true,
+      "ok": true
+    },
+    {
+      "check": "allow_active_switch == false",
+      "file": "ai_final_publish_approval_v1.json",
+      "key": "allow_active_switch",
+      "expected": false,
+      "actual": false,
+      "ok": true
+    },
+    {
+      "check": "allow_supabase_sync == false",
+      "file": "ai_final_publish_approval_v1.json",
+      "key": "allow_supabase_sync",
+      "expected": false,
+      "actual": false,
+      "ok": true
+    }
+  ],
+  "test_results": {
+    "status": "passed",
+    "passed": 26,
+    "total": 26
+  },
+  "summary": {
+    "deliverables": "12/12",
+    "outputs": "9/9",
+    "policy": "5/5",
+    "tests": "26/26"
+  }
+}

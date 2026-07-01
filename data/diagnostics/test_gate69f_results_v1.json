@@ -1,0 +1,140 @@
+{
+  "gate": "69F",
+  "test_suite": "test_gate69f_ai_local_publish_v1",
+  "total": 26,
+  "passed": 26,
+  "failed": 0,
+  "status": "passed",
+  "results": [
+    {
+      "test": "T01: Gate 69E package candidate exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T02: Gate 69E candidate has >=1 resource",
+      "status": "PASS",
+      "detail": "resource_count=1"
+    },
+    {
+      "test": "T03: Final approval seed file exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T04: Approval file has required fields",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T05: approve_ai_package_candidate_v1.py exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T06: approval_status='approved'",
+      "status": "PASS",
+      "detail": "got: approved"
+    },
+    {
+      "test": "T07: allow_local_publish=True, allow_active_switch=False, allow_supabase_sync=False",
+      "status": "PASS",
+      "detail": "{'allow_local_publish': True, 'allow_active_switch': False, 'allow_supabase_sync': False}"
+    },
+    {
+      "test": "T08: build_ai_local_published_package_v1.py exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T09: publish_package_v1.json exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T10: status='published_local_not_active'",
+      "status": "PASS",
+      "detail": "got: published_local_not_active"
+    },
+    {
+      "test": "T11: active_content=False, supabase_write_performed=False, teacher_final_approval=True",
+      "status": "PASS",
+      "detail": "{'active_content': False, 'supabase_write_performed': False, 'teacher_final_approval': True}"
+    },
+    {
+      "test": "T12: student_resource_payload_v1.json exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T13: teacher_resource_payload_v1.json exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T14: Student payload excludes answer_key",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T15: Teacher payload includes answer_key",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T16: validate_ai_local_published_package_v1.py exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T17: Validation report valid=True",
+      "status": "PASS",
+      "detail": "valid=True"
+    },
+    {
+      "test": "T18: render_ai_local_published_package_preview_v1.py exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T19: Student HTML preview exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T20: Teacher HTML preview exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T21: Student HTML contains 'published_local_not_active'",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T22: build_ai_local_registry_v1.py exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T23: ai_content_registry_v1.json exists and has >=1 package",
+      "status": "PASS",
+      "detail": "packages=1 found"
+    },
+    {
+      "test": "T24: Registry does not reference active_content_index",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T25: No API secrets in published output files",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T26: No Cambridge copyright in published files",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

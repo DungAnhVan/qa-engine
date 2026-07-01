@@ -1,0 +1,12 @@
+{
+  "approval_file_id": "quanta_aptus_ai_final_publish_approval_v1",
+  "version": "0.1.0",
+  "package_candidate_id": "quanta_aptus_ai_resource_package_candidate_v1",
+  "approval_status": "approved",
+  "approved_by": "gate69f_test_suite",
+  "approval_notes": "automated test approval",
+  "approved_at": "2026-07-01T14:27:58.856939+00:00",
+  "allow_local_publish": true,
+  "allow_active_switch": false,
+  "allow_supabase_sync": false
+}

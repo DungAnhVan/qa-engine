@@ -1,0 +1,60 @@
+{
+  "package_id": "quanta_aptus_ai_resource_package_v1",
+  "version": "0.1.0",
+  "status": "published_local_not_active",
+  "published_at": "2026-07-01T14:27:59.021790+00:00",
+  "source": "ai_final_approved_package_candidate",
+  "package_candidate_id": "quanta_aptus_ai_resource_package_candidate_v1",
+  "approved_by": "gate69f_test_suite",
+  "approval_notes": "automated test approval",
+  "approved_at": "2026-07-01T14:27:58.856939+00:00",
+  "active_content": false,
+  "supabase_write_performed": false,
+  "teacher_final_approval": true,
+  "allow_active_switch": false,
+  "allow_supabase_sync": false,
+  "resource_count": 1,
+  "resources": [
+    {
+      "resource_id": "qa_physics_0625_1a2834f2",
+      "resource_type": "question",
+      "title": "Molar Concentration Calculation",
+      "topic": "Motion, forces and energy",
+      "subtopic": "",
+      "skill_name": "calculation_drill",
+      "skill_type": "application",
+      "difficulty": "medium",
+      "estimated_time_minutes": 0,
+      "student_prompt": "A solution contains 0.25 mol of sodium chloride dissolved in 500 cm\u00b3 of water. Calculate the molar concentration of the solution. State the unit of your answer.",
+      "student_instructions": "Show all working.",
+      "answer_key": "Concentration = moles / volume = 0.25 / 0.500 = 0.50 mol dm\u207b\u00b3",
+      "marking_rubric": [
+        {
+          "criterion": "Uses concentration = n/V",
+          "marks": 1,
+          "guidance": "Formula stated or implied"
+        },
+        {
+          "criterion": "Correct calculation and unit",
+          "marks": 2,
+          "guidance": "0.50 mol dm\u207b\u00b3"
+        }
+      ],
+      "teacher_notes": "Ensure students convert cm\u00b3 to dm\u00b3 (divide by 1000). Unit must be stated.",
+      "safety_declaration": {
+        "original_content": true,
+        "no_raw_source_text_used": true,
+        "no_mark_scheme_copied": true
+      },
+      "provenance": {
+        "origin": "ai_generated",
+        "approved_by_teacher_review": true,
+        "reviewer_id": "local_demo_teacher",
+        "review_decision": "approve",
+        "decision_at": "2026-07-01T14:05:51.046660+00:00",
+        "source_queue": "data\\ai\\review\\ai_teacher_review_queue_v1.json",
+        "no_raw_source_text_used": true
+      }
+    }
+  ]
+}

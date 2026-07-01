@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "decision": "approve",
+  "approval_status": "approved",
+  "allow_local_publish": true,
+  "allow_active_switch": false,
+  "allow_supabase_sync": false,
+  "validation_passed": true,
+  "approved_by": "gate69f_test_suite",
+  "generated_at": "2026-07-01T14:27:58.856939+00:00"
+}

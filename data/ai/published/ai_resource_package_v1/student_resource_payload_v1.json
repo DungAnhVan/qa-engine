@@ -1,0 +1,23 @@
+{
+  "payload_id": "quanta_aptus_ai_published_student_payload_v1",
+  "payload_type": "student",
+  "package_id": "quanta_aptus_ai_resource_package_v1",
+  "status": "published_local_not_active",
+  "generated_at": "2026-07-01T14:27:59.021790+00:00",
+  "active_content": false,
+  "supabase_write_performed": false,
+  "resource_count": 1,
+  "resources": [
+    {
+      "resource_id": "qa_physics_0625_1a2834f2",
+      "resource_type": "question",
+      "title": "Molar Concentration Calculation",
+      "topic": "Motion, forces and energy",
+      "skill_name": "calculation_drill",
+      "difficulty": "medium",
+      "estimated_time_minutes": 0,
+      "student_prompt": "A solution contains 0.25 mol of sodium chloride dissolved in 500 cm\u00b3 of water. Calculate the molar concentration of the solution. State the unit of your answer.",
+      "student_instructions": "Show all working."
+    }
+  ]
+}

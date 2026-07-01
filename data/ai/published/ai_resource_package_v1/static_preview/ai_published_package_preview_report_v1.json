@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "student_html": "data\\ai\\published\\ai_resource_package_v1\\static_preview\\student_ai_published_package_preview_v1.html",
+  "teacher_html": "data\\ai\\published\\ai_resource_package_v1\\static_preview\\teacher_ai_published_package_preview_v1.html",
+  "resource_count": 1,
+  "active_content": false,
+  "supabase_write_performed": false,
+  "teacher_final_approval": true,
+  "generated_at": "2026-07-01T14:27:59.406377+00:00"
+}
