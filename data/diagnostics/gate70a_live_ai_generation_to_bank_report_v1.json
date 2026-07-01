@@ -1,0 +1,218 @@
+{
+  "gate": "70A",
+  "name": "Live AI Question Generation to Bank v1",
+  "status": "passed",
+  "generated_at": "2026-07-01T15:45:34.524405+00:00",
+  "deliverables": [
+    {
+      "id": "D01",
+      "label": "ai_client_v1.py (updated)",
+      "exists": true,
+      "path": "tools\\ai\\ai_client_v1.py"
+    },
+    {
+      "id": "D02",
+      "label": ".env.example (updated)",
+      "exists": true,
+      "path": ".env.example"
+    },
+    {
+      "id": "D03",
+      "label": ".env.production.example (updated)",
+      "exists": true,
+      "path": ".env.production.example"
+    },
+    {
+      "id": "D04",
+      "label": "build_safe_generation_requests_from_targets_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_safe_generation_requests_from_targets_v1.py"
+    },
+    {
+      "id": "D05",
+      "label": "run_live_ai_generation_to_bank_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\run_live_ai_generation_to_bank_v1.py"
+    },
+    {
+      "id": "D06",
+      "label": "validate_ai_question_bank_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\validate_ai_question_bank_v1.py"
+    },
+    {
+      "id": "D07",
+      "label": "build_teacher_review_queue_from_ai_bank_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_teacher_review_queue_from_ai_bank_v1.py"
+    },
+    {
+      "id": "D08",
+      "label": "aiQuestionBank.ts",
+      "exists": true,
+      "path": "apps\\admin\\src\\lib\\aiQuestionBank.ts"
+    },
+    {
+      "id": "D09",
+      "label": "ai-bank/page.tsx",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\ai-bank\\page.tsx"
+    },
+    {
+      "id": "D10",
+      "label": "system/ai-bank/page.tsx",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\system\\ai-bank\\page.tsx"
+    },
+    {
+      "id": "D11",
+      "label": "api/system/ai-bank/route.ts",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\api\\system\\ai-bank\\route.ts"
+    },
+    {
+      "id": "D12",
+      "label": "test_gate70a_live_ai_generation_to_bank_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\test_gate70a_live_ai_generation_to_bank_v1.py"
+    },
+    {
+      "id": "D13",
+      "label": "build_gate70a_live_ai_generation_to_bank_report_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_gate70a_live_ai_generation_to_bank_report_v1.py"
+    },
+    {
+      "id": "D14",
+      "label": "layout.tsx (updated)",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\layout.tsx"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "O01",
+      "label": "ai_safe_generation_requests_v1.json",
+      "exists": true,
+      "path": "data\\ai\\generation_requests\\ai_safe_generation_requests_v1.json"
+    },
+    {
+      "id": "O02",
+      "label": "ai_generated_question_bank_v1.json",
+      "exists": true,
+      "path": "data\\ai\\question_bank\\ai_generated_question_bank_v1.json"
+    },
+    {
+      "id": "O03",
+      "label": "ai_teacher_review_queue_v1.json",
+      "exists": true,
+      "path": "data\\ai\\teacher_review\\ai_teacher_review_queue_v1.json"
+    },
+    {
+      "id": "O04",
+      "label": "ai_question_bank_validation_v1.json",
+      "exists": true,
+      "path": "data\\diagnostics\\ai_question_bank_validation_v1.json"
+    },
+    {
+      "id": "O05",
+      "label": "gate70a test report",
+      "exists": true,
+      "path": "data\\diagnostics\\gate70a_live_ai_generation_to_bank_test_report_v1.json"
+    }
+  ],
+  "policy": [
+    {
+      "check": "requests_built",
+      "ok": true,
+      "detail": "count=3"
+    },
+    {
+      "check": "requests_metadata_only",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "requests_no_raw_cambridge",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "bank_teacher_review_required=True",
+      "ok": true,
+      "detail": "got=True"
+    },
+    {
+      "check": "bank_auto_publish_enabled=False",
+      "ok": true,
+      "detail": "got=False"
+    },
+    {
+      "check": "bank_supabase_write_performed=False",
+      "ok": true,
+      "detail": "got=False"
+    },
+    {
+      "check": "queue_teacher_review_required=True",
+      "ok": true,
+      "detail": "got=True"
+    },
+    {
+      "check": "validation_secrets_clean",
+      "ok": true,
+      "detail": "got=True"
+    },
+    {
+      "check": "ai_client_has_model_env_vars",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "ai_client_has_urllib_fallback",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "env_example_has_model_vars",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "layout_has_ai_bank_links",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "api_keys_not_in_generated_files",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "service_role_not_in_client_files",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "env_local_not_tracked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "tests_passed",
+      "ok": true,
+      "detail": "passed=43/43 status=passed"
+    }
+  ],
+  "test_results": {
+    "status": "passed",
+    "passed": 43,
+    "total": 43
+  },
+  "summary": {
+    "deliverables": "14/14",
+    "outputs": "5/5",
+    "policy": "16/16",
+    "tests": "43/43 (passed)"
+  },
+  "next_gate": "Gate 70B"
+}

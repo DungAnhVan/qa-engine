@@ -1,0 +1,226 @@
+{
+  "gate": "70A",
+  "test_suite": "test_gate70a_live_ai_generation_to_bank_v1",
+  "execute_mode": false,
+  "total": 43,
+  "passed": 43,
+  "failed": 0,
+  "status": "passed",
+  "results": [
+    {
+      "test": "T01: build_safe_generation_requests_from_targets_v1.py exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T02: run_live_ai_generation_to_bank_v1.py exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T03: validate_ai_question_bank_v1.py exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T04: build_teacher_review_queue_from_ai_bank_v1.py exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T05: apps/admin/src/lib/aiQuestionBank.ts exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T06: apps/admin/src/app/ai-bank/page.tsx exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T07: apps/admin/src/app/system/ai-bank/page.tsx exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T08: apps/admin/src/app/api/system/ai-bank/route.ts exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T09: build_safe_generation_requests exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T10: ai_safe_generation_requests_v1.json exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T11: requests doc has request_count >= 1",
+      "status": "PASS",
+      "detail": "count=3"
+    },
+    {
+      "test": "T12: requests safety.metadata_only=True",
+      "status": "PASS",
+      "detail": "safety={'no_raw_source_text': True, 'no_cambridge_pdf_text': True, 'no_mark_scheme_text': True, 'metadata_only': True, 'authoring_contract': 'ai_authoring_contract_v1'}"
+    },
+    {
+      "test": "T13: No Cambridge copyright in requests",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T14: No secrets in requests",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T15: No raw source text keys in requests",
+      "status": "PASS",
+      "detail": "found: []"
+    },
+    {
+      "test": "T16: dry-run generation exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T17: bank file exists after dry-run",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T18: bank teacher_review_required=True",
+      "status": "PASS",
+      "detail": "got: True"
+    },
+    {
+      "test": "T19: bank auto_publish_enabled=False",
+      "status": "PASS",
+      "detail": "got: False"
+    },
+    {
+      "test": "T20: bank supabase_write_performed=False",
+      "status": "PASS",
+      "detail": "got: False"
+    },
+    {
+      "test": "T21: bank has >= 1 item",
+      "status": "PASS",
+      "detail": "count=5"
+    },
+    {
+      "test": "T22: item.status=generated_needs_teacher_review",
+      "status": "PASS",
+      "detail": "got: generated_needs_teacher_review"
+    },
+    {
+      "test": "T23: item.teacher_review_required=True",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T24: item.auto_publish_enabled=False",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T25: item.supabase_write_performed=False",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T26: No secrets in bank item",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T27: validate_ai_question_bank exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T28: validation report exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T29: validation.safety_summary.secrets_clean=True",
+      "status": "PASS",
+      "detail": "got: True"
+    },
+    {
+      "test": "T30: build_teacher_review_queue exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T31: review queue file exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T32: queue teacher_review_required=True",
+      "status": "PASS",
+      "detail": "got: True"
+    },
+    {
+      "test": "T33: queue auto_publish_enabled=False",
+      "status": "PASS",
+      "detail": "got: False"
+    },
+    {
+      "test": "T34: ai_client_v1 has QA_OPENAI_MODEL support",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T35: ai_client_v1 has QA_ANTHROPIC_MODEL support",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T36: ai_client_v1 has urllib fallback",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T37: .env.example has QA_OPENAI_MODEL",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T38: .env.example has QA_ANTHROPIC_MODEL",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T39: layout.tsx has /ai-bank link",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T40: layout.tsx has /system/ai-bank link",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T41: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE70A_EXECUTE=true"
+    },
+    {
+      "test": "T42: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE70A_EXECUTE=true"
+    },
+    {
+      "test": "T43: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE70A_EXECUTE=true"
+    }
+  ]
+}

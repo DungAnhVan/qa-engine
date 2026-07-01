@@ -1,0 +1,101 @@
+{
+  "schema_version": "gate70a_v1",
+  "generated_at": "2026-07-01T15:45:24.636237+00:00",
+  "subject": "physics_0625",
+  "limit": 3,
+  "source": "generation_targets",
+  "targets_loaded": 124,
+  "targets_skipped": 120,
+  "request_count": 3,
+  "validation_issues": [],
+  "safety": {
+    "no_raw_source_text": true,
+    "no_cambridge_pdf_text": true,
+    "no_mark_scheme_text": true,
+    "metadata_only": true,
+    "authoring_contract": "ai_authoring_contract_v1"
+  },
+  "requests": [
+    {
+      "subject_slug": "physics_0625",
+      "syllabus_code": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "subtopic": "",
+      "skill_name": "(iii) Calculate the distance between station A and station B",
+      "skill_type": "calculation",
+      "difficulty": "medium",
+      "resource_type": "worked_example",
+      "learning_objective": "Create a fully worked example with annotated solution steps for this skill.",
+      "constraints": {
+        "must_be_original": true,
+        "no_source_copying": true,
+        "cambridge_style_but_original": true,
+        "student_level": "IGCSE",
+        "estimated_time_minutes": 8
+      },
+      "source_metadata": {
+        "source_ids": [
+          "cambridge_igcse_physics_0625_2025_s_p41_q03"
+        ],
+        "paper_refs": [],
+        "no_raw_text_included": true
+      },
+      "_request_id": "cambridge_igcse_physics_0625_2025_s_p41_q03_worked_example",
+      "_source": "generation_targets"
+    },
+    {
+      "subject_slug": "physics_0625",
+      "syllabus_code": "theory_structured",
+      "topic": "Motion, forces and energy",
+      "subtopic": "",
+      "skill_name": "4 Fig. 4.1 shows a heater used to warm the air in a room. Fig. 4.1",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "resource_type": "worked_example",
+      "learning_objective": "Create a fully worked example with annotated solution steps for this skill.",
+      "constraints": {
+        "must_be_original": true,
+        "no_source_copying": true,
+        "cambridge_style_but_original": true,
+        "student_level": "IGCSE",
+        "estimated_time_minutes": 8
+      },
+      "source_metadata": {
+        "source_ids": [
+          "cambridge_igcse_physics_0625_2025_s_p41_q04"
+        ],
+        "paper_refs": [],
+        "no_raw_text_included": true
+      },
+      "_request_id": "cambridge_igcse_physics_0625_2025_s_p41_q04_worked_example",
+      "_source": "generation_targets"
+    },
+    {
+      "subject_slug": "physics_0625",
+      "syllabus_code": "theory_structured",
+      "topic": "Waves",
+      "subtopic": "",
+      "skill_name": "5 A ray of light is incident on a soap film",
+      "skill_type": "equation_manipulation",
+      "difficulty": "medium",
+      "resource_type": "worked_example",
+      "learning_objective": "Create a fully worked example with annotated solution steps for this skill.",
+      "constraints": {
+        "must_be_original": true,
+        "no_source_copying": true,
+        "cambridge_style_but_original": true,
+        "student_level": "IGCSE",
+        "estimated_time_minutes": 8
+      },
+      "source_metadata": {
+        "source_ids": [
+          "cambridge_igcse_physics_0625_2025_s_p41_q05"
+        ],
+        "paper_refs": [],
+        "no_raw_text_included": true
+      },
+      "_request_id": "cambridge_igcse_physics_0625_2025_s_p41_q05_worked_example",
+      "_source": "generation_targets"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "valid": true,
+  "bank_exists": true,
+  "total_items": 5,
+  "items_ok": 5,
+  "items_fail": 0,
+  "issues": [],
+  "item_results": [
+    {
+      "bank_id": "bank_gate70a_live_ai_batch_v1_0001",
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "bank_id": "bank_gate70a_live_ai_batch_v1_0002",
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "bank_id": "bank_gate70a_live_ai_batch_v1_0003",
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "bank_id": "bank_gate70a_test_dry_batch_0001",
+      "status": "ok",
+      "issues": []
+    },
+    {
+      "bank_id": "bank_gate70a_test_dry_batch_0002",
+      "status": "ok",
+      "issues": []
+    }
+  ],
+  "safety_summary": {
+    "teacher_review_required_all": true,
+    "auto_publish_disabled_all": true,
+    "supabase_write_blocked_all": true,
+    "secrets_clean": true,
+    "copyright_clean": true
+  }
+}

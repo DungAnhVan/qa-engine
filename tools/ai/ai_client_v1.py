@@ -1,13 +1,17 @@
 """
-Gate 69B -- AI Client v1
+Gate 69B / Gate 70A -- AI Client v1
 
 Safe abstraction layer for AI text generation.
 
 - Default: mock provider (no API calls, no keys required).
 - dry_run=true: always returns mock response regardless of provider.
 - Real API calls: only when QA_AI_DRY_RUN=false and a provider key exists.
-- If an SDK package is missing, returns needs_review (not a hard failure).
+- If an SDK package is missing, falls back to urllib (standard library only).
 - Keys are NEVER printed or returned in responses.
+
+Model selection (Gate 70A):
+  QA_OPENAI_MODEL   — overrides default OpenAI model  (default: gpt-4o-mini)
+  QA_ANTHROPIC_MODEL — overrides default Anthropic model (default: claude-haiku-4-5-20251001)
 
 Usage:
   from tools.ai.ai_client_v1 import generate_text
@@ -20,9 +24,15 @@ Usage:
 """
 
 import hashlib
-import datetime
+import json
+import urllib.error
+import urllib.request
 from tools.ai.ai_provider_config_v1 import load_ai_provider_config, load_env_local, resolve_env
 from tools.ai.copyright_safety_guard_v1 import scan_prompt_for_disallowed_source_text
+
+_OPENAI_DEFAULT_MODEL    = "gpt-4o-mini"
+_ANTHROPIC_DEFAULT_MODEL = "claude-haiku-4-5-20251001"
+_API_TIMEOUT = 60
 
 # ---------------------------------------------------------------------------
 # Mock responses (deterministic, keyed by first 8 chars of prompt hash)
@@ -117,6 +127,7 @@ def generate_text(
         text = _mock_response(prompt)
         return {
             "provider":       "mock" if resolved_dry_run else resolved_provider,
+            "model":          "mock",
             "dry_run":        resolved_dry_run,
             "status":         "passed",
             "text":           text,
@@ -135,14 +146,12 @@ def generate_text(
         openai_key = resolve_env("OPENAI_API_KEY", env_local)
         if not openai_key:
             return _missing_key_response("openai", safety, issues)
+        model = resolve_env("QA_OPENAI_MODEL", env_local) or _OPENAI_DEFAULT_MODEL
         try:
             import openai  # type: ignore[import]
-        except ImportError:
-            return _missing_package_response("openai", "openai", safety, issues)
-        try:
             client = openai.OpenAI(api_key=openai_key)
             resp = client.chat.completions.create(
-                model="gpt-4o-mini",
+                model=model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=800,
                 temperature=0.7,
@@ -151,6 +160,7 @@ def generate_text(
             usage = resp.usage
             return {
                 "provider":       "openai",
+                "model":          model,
                 "dry_run":        False,
                 "status":         "passed",
                 "text":           text,
@@ -158,11 +168,18 @@ def generate_text(
                     "prompt_tokens":     usage.prompt_tokens if usage else None,
                     "completion_tokens": usage.completion_tokens if usage else None,
                     "cost_usd_estimate": None,
-                    "note":              "real API call",
+                    "note":              "real API call (SDK)",
                 },
                 "safety":  safety,
                 "issues":  issues,
             }
+        except ImportError:
+            pass  # fall through to urllib
+        except Exception as exc:
+            return _api_error_response("openai", exc, safety, issues)
+        # urllib fallback (no openai SDK)
+        try:
+            return _openai_urllib(openai_key, model, prompt, safety, issues)
         except Exception as exc:
             return _api_error_response("openai", exc, safety, issues)
 
@@ -171,14 +188,12 @@ def generate_text(
         anthropic_key = resolve_env("ANTHROPIC_API_KEY", env_local)
         if not anthropic_key:
             return _missing_key_response("anthropic", safety, issues)
+        model = resolve_env("QA_ANTHROPIC_MODEL", env_local) or _ANTHROPIC_DEFAULT_MODEL
         try:
             import anthropic  # type: ignore[import]
-        except ImportError:
-            return _missing_package_response("anthropic", "anthropic", safety, issues)
-        try:
             client = anthropic.Anthropic(api_key=anthropic_key)
             resp = client.messages.create(
-                model="claude-haiku-4-5-20251001",
+                model=model,
                 max_tokens=800,
                 messages=[{"role": "user", "content": prompt}],
             )
@@ -186,6 +201,7 @@ def generate_text(
             usage = resp.usage
             return {
                 "provider":       "anthropic",
+                "model":          model,
                 "dry_run":        False,
                 "status":         "passed",
                 "text":           text,
@@ -193,11 +209,18 @@ def generate_text(
                     "prompt_tokens":     usage.input_tokens if usage else None,
                     "completion_tokens": usage.output_tokens if usage else None,
                     "cost_usd_estimate": None,
-                    "note":              "real API call",
+                    "note":              "real API call (SDK)",
                 },
                 "safety":  safety,
                 "issues":  issues,
             }
+        except ImportError:
+            pass  # fall through to urllib
+        except Exception as exc:
+            return _api_error_response("anthropic", exc, safety, issues)
+        # urllib fallback (no anthropic SDK)
+        try:
+            return _anthropic_urllib(anthropic_key, model, prompt, safety, issues)
         except Exception as exc:
             return _api_error_response("anthropic", exc, safety, issues)
 
@@ -211,6 +234,84 @@ def generate_text(
         "safety":         safety,
         "issues":         [f"Unknown provider: {resolved_provider!r}"],
     }
+
+# ---------------------------------------------------------------------------
+# urllib fallback helpers (used when SDK not installed)
+# ---------------------------------------------------------------------------
+
+def _openai_urllib(key: str, model: str, prompt: str, safety: dict, issues: list[str]) -> dict:
+    payload = json.dumps({
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": 800,
+        "temperature": 0.7,
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        "https://api.openai.com/v1/chat/completions",
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {key}",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=_API_TIMEOUT) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    text  = data["choices"][0]["message"]["content"]
+    usage = data.get("usage", {})
+    return {
+        "provider":       "openai",
+        "model":          model,
+        "dry_run":        False,
+        "status":         "passed",
+        "text":           text,
+        "usage_estimate": {
+            "prompt_tokens":     usage.get("prompt_tokens"),
+            "completion_tokens": usage.get("completion_tokens"),
+            "cost_usd_estimate": None,
+            "note":              "real API call (urllib fallback)",
+        },
+        "safety":  safety,
+        "issues":  issues,
+    }
+
+
+def _anthropic_urllib(key: str, model: str, prompt: str, safety: dict, issues: list[str]) -> dict:
+    payload = json.dumps({
+        "model": model,
+        "max_tokens": 800,
+        "messages": [{"role": "user", "content": prompt}],
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=payload,
+        headers={
+            "Content-Type":      "application/json",
+            "x-api-key":         key,
+            "anthropic-version": "2023-06-01",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=_API_TIMEOUT) as resp:
+        data = json.loads(resp.read().decode("utf-8"))
+    text  = data["content"][0]["text"]
+    usage = data.get("usage", {})
+    return {
+        "provider":       "anthropic",
+        "model":          model,
+        "dry_run":        False,
+        "status":         "passed",
+        "text":           text,
+        "usage_estimate": {
+            "prompt_tokens":     usage.get("input_tokens"),
+            "completion_tokens": usage.get("output_tokens"),
+            "cost_usd_estimate": None,
+            "note":              "real API call (urllib fallback)",
+        },
+        "safety":  safety,
+        "issues":  issues,
+    }
+
 
 # ---------------------------------------------------------------------------
 # Error response helpers
