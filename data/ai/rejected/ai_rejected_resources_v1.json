@@ -1,0 +1,46 @@
+{
+  "store_id": "quanta_aptus_ai_rejected_resources_v1",
+  "version": "0.1.0",
+  "generated_at": "2026-07-01T13:41:41.047696+00:00",
+  "source_queue": "data\\ai\\review\\ai_teacher_review_queue_v1.json",
+  "rejected_count": 1,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "resources": [
+    {
+      "review_item_id": "review_qa_biology_0610_55eea14a",
+      "resource_id": "qa_biology_0610_55eea14a",
+      "resource_type": "question",
+      "title": "Moments and Equilibrium \u2014 Rod Pivoted at One End",
+      "topic": "Animal nutrition",
+      "skill_name": "conceptual_explanation",
+      "skill_type": "recall",
+      "difficulty": "easy",
+      "student_prompt": "A uniform rod of length 1.2 m and mass 0.8 kg is pivoted at one end. A vertical force F is applied at the other end to hold the rod at 30\u00b0 to the horizontal. Calculate the magnitude of F. Show your working.",
+      "answer_key": "F = mg cos(\u03b8) / 2 = (0.8 \u00d7 10 \u00d7 cos30\u00b0) / 2 \u2248 3.46 N [accept 3.5 N with working shown]",
+      "marking_rubric": [
+        {
+          "criterion": "Correct moment equation",
+          "marks": 1,
+          "guidance": "Accepts Fl = mg(l/2)cos \u03b8"
+        },
+        {
+          "criterion": "Correct value of F",
+          "marks": 2,
+          "guidance": "3.4\u20133.5 N, with valid working shown"
+        }
+      ],
+      "teacher_notes": "Common error: students forget to include cos(\u03b8) factor. Check moment equation carefully.",
+      "safety_declaration": {
+        "original_content": true,
+        "no_raw_source_text_used": true,
+        "no_mark_scheme_copied": true
+      },
+      "review_status": "reject",
+      "review_decision": "reject",
+      "review_notes": "Test decision 3: reject",
+      "reviewer_id": "local_demo_teacher",
+      "decision_at": "2026-07-01T13:41:41.044699+00:00"
+    }
+  ]
+}

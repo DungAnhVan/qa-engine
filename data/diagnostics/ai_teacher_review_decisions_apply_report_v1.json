@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "queue_item_count": 3,
+  "decision_count": 3,
+  "approved_count": 1,
+  "needs_revision_count": 1,
+  "rejected_count": 1,
+  "pending_count": 0,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "teacher_approval_required": true,
+  "issues": [],
+  "generated_at": "2026-07-01T13:41:41.047696+00:00"
+}

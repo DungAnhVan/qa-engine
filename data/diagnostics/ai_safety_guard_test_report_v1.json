@@ -2,7 +2,7 @@
   "gate": "69B",
   "title": "AI Safety Guard Tests v1",
   "status": "passed",
-  "generated_at": "2026-07-01T08:26:42.406910+00:00",
+  "generated_at": "2026-07-01T13:22:32.042973+00:00",
   "tests_passed": 13,
   "tests_total": 13,
   "tests": [

@@ -1,0 +1,46 @@
+{
+  "queue_id": "quanta_aptus_ai_revision_queue_v1",
+  "version": "0.1.0",
+  "generated_at": "2026-07-01T13:41:41.047696+00:00",
+  "source_queue": "data\\ai\\review\\ai_teacher_review_queue_v1.json",
+  "needs_revision_count": 1,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "items": [
+    {
+      "review_item_id": "review_qa_mathematics_0580_9a47f99e",
+      "resource_id": "qa_mathematics_0580_9a47f99e",
+      "resource_type": "question",
+      "title": "Quadratic Factorisation and Equation Solving",
+      "topic": "Algebra",
+      "skill_name": "calculation_drill",
+      "skill_type": "application",
+      "difficulty": "medium",
+      "student_prompt": "Factorise fully: 6x\u00b2 \u2212 11x \u2212 10. Hence, or otherwise, solve 6x\u00b2 \u2212 11x \u2212 10 = 0, giving your answers as fractions in their simplest form.",
+      "answer_key": "6x\u00b2 \u2212 11x \u2212 10 = (2x \u2212 5)(3x + 2). Solutions: x = 5/2 or x = \u22122/3",
+      "marking_rubric": [
+        {
+          "criterion": "Correct factorisation",
+          "marks": 2,
+          "guidance": "(2x\u22125)(3x+2)"
+        },
+        {
+          "criterion": "Both solutions correct",
+          "marks": 2,
+          "guidance": "x = 5/2 and x = \u22122/3"
+        }
+      ],
+      "teacher_notes": "Watch for sign errors when factorising. Both solutions must be expressed as fractions.",
+      "safety_declaration": {
+        "original_content": true,
+        "no_raw_source_text_used": true,
+        "no_mark_scheme_copied": true
+      },
+      "review_status": "needs_revision",
+      "review_decision": "needs_revision",
+      "review_notes": "Test decision 2: needs_revision",
+      "reviewer_id": "local_demo_teacher",
+      "decision_at": "2026-07-01T13:41:41.044699+00:00"
+    }
+  ]
+}

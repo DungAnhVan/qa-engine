@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "tests_passed": 15,
+  "tests_total": 15,
+  "tests": [
+    {
+      "name": "T01_gate69c_batch_exists",
+      "passed": true,
+      "detail": "gate69c_sample_generated_batch_v1.json"
+    },
+    {
+      "name": "T02_review_queue_built",
+      "passed": true,
+      "detail": "3 items"
+    },
+    {
+      "name": "T03_queue_has_items",
+      "passed": true,
+      "detail": "3 items"
+    },
+    {
+      "name": "T04_all_items_pending",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "T05_decisions_written",
+      "passed": true,
+      "detail": "3 decisions"
+    },
+    {
+      "name": "T06_decisions_applied",
+      "passed": true,
+      "detail": "passed"
+    },
+    {
+      "name": "T07_approved_count_ge_1",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "name": "T08_needs_revision_count_ge_1",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "name": "T09_rejected_count_ge_1",
+      "passed": true,
+      "detail": "1"
+    },
+    {
+      "name": "T10_pending_count_zero",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "name": "T11_auto_publish_disabled",
+      "passed": true,
+      "detail": "False"
+    },
+    {
+      "name": "T12_no_supabase_write",
+      "passed": true,
+      "detail": "False"
+    },
+    {
+      "name": "T13_approved_bank_valid",
+      "passed": true,
+      "detail": "1 resources, auto_publish=False"
+    },
+    {
+      "name": "T14_no_raw_cambridge_text",
+      "passed": true,
+      "detail": "clean"
+    },
+    {
+      "name": "T15_no_api_keys",
+      "passed": true,
+      "detail": "all output files clean"
+    }
+  ],
+  "approved_count": 1,
+  "needs_revision_count": 1,
+  "rejected_count": 1,
+  "pending_count": 0,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "teacher_approval_required": true,
+  "raw_cambridge_text_issues": [],
+  "generated_at": "2026-07-01T13:41:41.044699+00:00"
+}

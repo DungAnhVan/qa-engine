@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "queue_id": "quanta_aptus_ai_teacher_review_queue_v1",
+  "source_batch": "data\\ai\\generated_batches\\gate69c_sample_generated_batch_v1.json",
+  "item_count": 3,
+  "batch_valid": true,
+  "resources_valid": 3,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "teacher_approval_required": true,
+  "generated_at": "2026-07-01T13:41:32.321874+00:00"
+}
