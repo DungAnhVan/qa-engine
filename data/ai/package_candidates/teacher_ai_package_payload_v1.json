@@ -2,7 +2,7 @@
   "payload_id": "quanta_aptus_teacher_ai_package_payload_v1",
   "version": "0.1.0",
   "payload_type": "teacher",
-  "generated_at": "2026-07-01T14:02:14.538231+00:00",
+  "generated_at": "2026-07-01T14:05:51.327843+00:00",
   "source_package": "quanta_aptus_ai_resource_package_candidate_v1",
   "package_status": "draft_package_candidate",
   "auto_publish_enabled": false,
@@ -46,7 +46,7 @@
         "approved_by_teacher_review": true,
         "reviewer_id": "local_demo_teacher",
         "review_decision": "approve",
-        "decision_at": "2026-07-01T14:02:05.234098+00:00",
+        "decision_at": "2026-07-01T14:05:51.046660+00:00",
         "source_queue": "data\\ai\\review\\ai_teacher_review_queue_v1.json",
         "no_raw_source_text_used": true
       }

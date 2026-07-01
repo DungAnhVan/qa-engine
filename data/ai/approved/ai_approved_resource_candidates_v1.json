@@ -1,7 +1,7 @@
 {
   "bank_id": "quanta_aptus_ai_approved_resource_candidates_v1",
   "version": "0.1.0",
-  "generated_at": "2026-07-01T14:02:05.238100+00:00",
+  "generated_at": "2026-07-01T14:05:51.051631+00:00",
   "source_queue": "data\\ai\\review\\ai_teacher_review_queue_v1.json",
   "approved_count": 1,
   "auto_publish_enabled": false,
@@ -41,7 +41,7 @@
       "review_decision": "approve",
       "review_notes": "Test decision 1: approve",
       "reviewer_id": "local_demo_teacher",
-      "decision_at": "2026-07-01T14:02:05.234098+00:00"
+      "decision_at": "2026-07-01T14:05:51.046660+00:00"
     }
   ]
 }
