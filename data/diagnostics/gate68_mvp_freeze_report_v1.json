@@ -1,7 +1,7 @@
 {
   "gate": "68",
   "status": "passed",
-  "generated_at": "2026-07-01T06:50:04.947491+00:00",
+  "generated_at": "2026-07-01T06:55:26.880786+00:00",
   "mvp_name": "Quanta Aptus Learn Online MVP v1",
   "production_url": "https://qa-engine-admin.vercel.app",
   "custom_domain": "https://admin.quantaaptus.com",
