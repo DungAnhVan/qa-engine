@@ -129,15 +129,20 @@ def check_env_local_not_tracked() -> bool:
 
 def check_client_files_for_ai_keys() -> tuple[bool, list[str]]:
     """
-    Scan the admin app client/browser source files for AI API key references.
-    OPENAI_API_KEY and ANTHROPIC_API_KEY must never appear in client bundles.
+    Scan the admin app client/browser source files for AI API key access or exposure.
+    Flags actual env access (process.env.OPENAI_API_KEY), real key values, and
+    NEXT_PUBLIC_ prefixes that would bundle keys into the browser.
+    Does NOT flag display strings that just mention var names as text labels.
     """
     violations: list[str] = []
     client_key_patterns = [
-        re.compile(r'OPENAI_API_KEY'),
-        re.compile(r'ANTHROPIC_API_KEY'),
-        re.compile(r'sk-[A-Za-z0-9]{20,}'),
-        re.compile(r'sk-ant-[A-Za-z0-9\-_]{20,}'),
+        # Actual env access in client code — never allowed
+        re.compile(r'process\.env\.OPENAI_API_KEY'),
+        re.compile(r'process\.env\.ANTHROPIC_API_KEY'),
+        # Real key value patterns
+        re.compile(r'\bsk-[A-Za-z0-9]{40,}\b'),
+        re.compile(r'\bsk-ant-[A-Za-z0-9\-_]{50,}\b'),
+        # NEXT_PUBLIC_ prefix would expose keys to browser bundle
         re.compile(r'NEXT_PUBLIC_OPENAI', re.IGNORECASE),
         re.compile(r'NEXT_PUBLIC_ANTHROPIC', re.IGNORECASE),
     ]

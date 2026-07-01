@@ -1,0 +1,144 @@
+{
+  "batch_id": "gate69c_sample_generated_batch_v1",
+  "generated_at": "2026-07-01T13:11:15.693645+00:00",
+  "provider": "mock",
+  "dry_run": true,
+  "copyright_strict": true,
+  "total": 3,
+  "draft_count": 3,
+  "needs_review_count": 0,
+  "failed_count": 0,
+  "status": "draft",
+  "teacher_approval_required": true,
+  "auto_publish_enabled": false,
+  "resources": [
+    {
+      "resource_id": "qa_physics_0625_1a2834f2",
+      "resource_type": "question",
+      "title": "Molar Concentration Calculation",
+      "topic": "Motion, forces and energy",
+      "subtopic": "Dynamics \u2014 Newton's laws",
+      "skill_name": "calculation_drill",
+      "skill_type": "application",
+      "difficulty": "medium",
+      "estimated_time_minutes": 12,
+      "student_prompt": "A solution contains 0.25 mol of sodium chloride dissolved in 500 cm\u00b3 of water. Calculate the molar concentration of the solution. State the unit of your answer.",
+      "student_instructions": "Show all working. Give your answer to 3 significant figures unless stated otherwise.",
+      "answer_key": "Concentration = moles / volume = 0.25 / 0.500 = 0.50 mol dm\u207b\u00b3",
+      "marking_rubric": [
+        {
+          "criterion": "Uses concentration = n/V",
+          "marks": 1,
+          "guidance": "Formula stated or implied"
+        },
+        {
+          "criterion": "Correct calculation and unit",
+          "marks": 2,
+          "guidance": "0.50 mol dm\u207b\u00b3"
+        }
+      ],
+      "teacher_notes": "Ensure students convert cm\u00b3 to dm\u00b3 (divide by 1000). Unit must be stated.",
+      "safety_declaration": {
+        "original_content": true,
+        "no_raw_source_text_used": true,
+        "no_mark_scheme_copied": true
+      }
+    },
+    {
+      "resource_id": "qa_mathematics_0580_9a47f99e",
+      "resource_type": "question",
+      "title": "Quadratic Factorisation and Equation Solving",
+      "topic": "Algebra",
+      "subtopic": "Simultaneous equations",
+      "skill_name": "calculation_drill",
+      "skill_type": "application",
+      "difficulty": "medium",
+      "estimated_time_minutes": 10,
+      "student_prompt": "Factorise fully: 6x\u00b2 \u2212 11x \u2212 10. Hence, or otherwise, solve 6x\u00b2 \u2212 11x \u2212 10 = 0, giving your answers as fractions in their simplest form.",
+      "student_instructions": "Show all working. Give your answer to 3 significant figures unless stated otherwise.",
+      "answer_key": "6x\u00b2 \u2212 11x \u2212 10 = (2x \u2212 5)(3x + 2). Solutions: x = 5/2 or x = \u22122/3",
+      "marking_rubric": [
+        {
+          "criterion": "Correct factorisation",
+          "marks": 2,
+          "guidance": "(2x\u22125)(3x+2)"
+        },
+        {
+          "criterion": "Both solutions correct",
+          "marks": 2,
+          "guidance": "x = 5/2 and x = \u22122/3"
+        }
+      ],
+      "teacher_notes": "Watch for sign errors when factorising. Both solutions must be expressed as fractions.",
+      "safety_declaration": {
+        "original_content": true,
+        "no_raw_source_text_used": true,
+        "no_mark_scheme_copied": true
+      }
+    },
+    {
+      "resource_id": "qa_biology_0610_55eea14a",
+      "resource_type": "question",
+      "title": "Moments and Equilibrium \u2014 Rod Pivoted at One End",
+      "topic": "Animal nutrition",
+      "subtopic": "Digestion and absorption",
+      "skill_name": "conceptual_explanation",
+      "skill_type": "recall",
+      "difficulty": "easy",
+      "estimated_time_minutes": 8,
+      "student_prompt": "A uniform rod of length 1.2 m and mass 0.8 kg is pivoted at one end. A vertical force F is applied at the other end to hold the rod at 30\u00b0 to the horizontal. Calculate the magnitude of F. Show your working.",
+      "student_instructions": "Show all working. Give your answer to 3 significant figures unless stated otherwise.",
+      "answer_key": "F = mg cos(\u03b8) / 2 = (0.8 \u00d7 10 \u00d7 cos30\u00b0) / 2 \u2248 3.46 N [accept 3.5 N with working shown]",
+      "marking_rubric": [
+        {
+          "criterion": "Correct moment equation",
+          "marks": 1,
+          "guidance": "Accepts Fl = mg(l/2)cos \u03b8"
+        },
+        {
+          "criterion": "Correct value of F",
+          "marks": 2,
+          "guidance": "3.4\u20133.5 N, with valid working shown"
+        }
+      ],
+      "teacher_notes": "Common error: students forget to include cos(\u03b8) factor. Check moment equation carefully.",
+      "safety_declaration": {
+        "original_content": true,
+        "no_raw_source_text_used": true,
+        "no_mark_scheme_copied": true
+      }
+    }
+  ],
+  "draft_metadata": [
+    {
+      "index": 0,
+      "subject": "physics_0625",
+      "topic": "Motion, forces and energy",
+      "status": "draft",
+      "ai_provider": "mock",
+      "dry_run": true,
+      "created_at": "2026-07-01T13:11:15.695688+00:00",
+      "issues": []
+    },
+    {
+      "index": 1,
+      "subject": "mathematics_0580",
+      "topic": "Algebra",
+      "status": "draft",
+      "ai_provider": "mock",
+      "dry_run": true,
+      "created_at": "2026-07-01T13:11:15.738637+00:00",
+      "issues": []
+    },
+    {
+      "index": 2,
+      "subject": "biology_0610",
+      "topic": "Animal nutrition",
+      "status": "draft",
+      "ai_provider": "mock",
+      "dry_run": true,
+      "created_at": "2026-07-01T13:11:15.744641+00:00",
+      "issues": []
+    }
+  ]
+}

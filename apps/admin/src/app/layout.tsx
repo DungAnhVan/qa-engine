@@ -23,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <a href="/system/auth-roles"  className="nav-link">Auth Roles</a>
           <a href="/system/demo-safety"         className="nav-link">Demo Safety</a>
           <a href="/system/credential-safety"  className="nav-link">Cred Safety</a>
+          <a href="/system/ai-authoring"      className="nav-link">AI Authoring</a>
         </nav>
         {children}
       </body>

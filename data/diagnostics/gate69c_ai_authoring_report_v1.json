@@ -1,0 +1,23 @@
+{
+  "gate": "69C",
+  "status": "passed",
+  "generated_at": "2026-07-01T13:11:28.595254+00:00",
+  "ai_prompt_builder_created": true,
+  "ai_authoring_service_created": true,
+  "batch_validator_created": true,
+  "sample_runner_created": true,
+  "ai_authoring_page_created": true,
+  "ai_authoring_api_created": true,
+  "all_deliverables_present": true,
+  "sample_batch_generated": true,
+  "batch_validation_passed": true,
+  "raw_cambridge_text_blocked": true,
+  "api_keys_exposed_to_client": false,
+  "env_local_tracked": false,
+  "dry_run_default": true,
+  "teacher_approval_required": true,
+  "auto_publish_enabled": false,
+  "authoring_report_status": "passed",
+  "validation_report_status": "passed",
+  "next_gate": "Gate 69D - AI Teacher Review Queue"
+}

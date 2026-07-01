@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "status": "passed",
+  "batch_file": "data\\ai\\generated_batches\\gate69c_sample_generated_batch_v1.json",
+  "batch_id": "gate69c_sample_generated_batch_v1",
+  "provider": "mock",
+  "dry_run": true,
+  "resource_count": 3,
+  "resources_valid": 3,
+  "resources_failed": 0,
+  "resource_issues": [],
+  "teacher_approval_required": true,
+  "auto_publish_enabled": false,
+  "issues": [],
+  "generated_at": "2026-07-01T13:11:25.600129+00:00"
+}
