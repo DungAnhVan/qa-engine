@@ -1,0 +1,22 @@
+{
+  "gate": "67",
+  "status": "needs_review",
+  "generated_at": "2026-07-01T06:17:02.169899+00:00",
+  "custom_domain_docs_created": true,
+  "dns_template_created": true,
+  "custom_domain_smoke_test_created": true,
+  "admin_subdomain_recommended": "admin.quantaaptus.com",
+  "landing_domain_preserved": true,
+  "env_local_not_tracked": true,
+  "service_role_not_in_client": true,
+  "custom_domain_smoke_tested": false,
+  "smoke_ran": false,
+  "smoke_status": "not_run",
+  "health_ok": false,
+  "readiness_ok": false,
+  "secrets_exposed": false,
+  "content_source_live_supabase": false,
+  "demo_fallback_off": false,
+  "issues": [],
+  "next_gate": "Gate 68 - Production MVP Freeze + Handoff"
+}
