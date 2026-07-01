@@ -2,7 +2,7 @@
   "gate": "69C",
   "title": "Sample AI Authoring Run v1",
   "status": "passed",
-  "generated_at": "2026-07-01T13:11:15.753636+00:00",
+  "generated_at": "2026-07-01T13:22:32.253176+00:00",
   "batch_id": "gate69c_sample_generated_batch_v1",
   "batch_file": "data\\ai\\generated_batches\\gate69c_sample_generated_batch_v1.json",
   "preview_file": "data\\ai\\generated_batches\\gate69c_sample_generated_batch_preview_v1.md",
