@@ -1,8 +1,8 @@
 # Gate 67 -- Custom Domain Prep DONE
 
-Generated: 2026-07-01T06:22:57.724470+00:00
+Generated: 2026-07-01T06:42:18.612094+00:00
 
-## Status: NEEDS_REVIEW
+## Status: PASSED
 
 ## Summary
 
@@ -15,8 +15,9 @@ Generated: 2026-07-01T06:22:57.724470+00:00
 
 ## DNS Status
 
-DNS not configured yet. Run after Vercel + DNS setup:
-.venv-ingest\Scripts\python.exe tools\deploy\test_gate67_custom_domain_smoke_v1.py https://admin.quantaaptus.com
+Tested at: https://admin.quantaaptus.com
+Smoke status: passed
+Custom domain verified: True
 
 ## Gate 67 Deliverables
 
