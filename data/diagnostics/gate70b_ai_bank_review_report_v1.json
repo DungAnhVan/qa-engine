@@ -2,7 +2,7 @@
   "gate": "70B",
   "name": "AI Bank Review and Approval v1",
   "status": "passed",
-  "generated_at": "2026-07-01T17:05:44.736804+00:00",
+  "generated_at": "2026-07-01T17:09:22.922401+00:00",
   "ai_bank_review_decisions_created": true,
   "ai_bank_review_apply_created": true,
   "approved_ai_bank_items_created": true,

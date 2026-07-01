@@ -1,7 +1,7 @@
 {
   "approved_file_id": "quanta_aptus_gate70b_approved_ai_bank_items_v1",
   "version": "0.1.0",
-  "created_at": "2026-07-01T17:05:36.735838+00:00",
+  "created_at": "2026-07-01T17:09:22.550206+00:00",
   "status": "approved_for_package_candidate",
   "item_count": 1,
   "teacher_review_required": true,
@@ -62,7 +62,7 @@
       "decision": "approve",
       "reviewer_id": "local_demo_teacher",
       "review_notes": "Content is original and educationally sound. Approved for Gate 70C.",
-      "decided_at": "2026-07-01T17:05:36.569053+00:00",
+      "decided_at": "2026-07-01T17:09:22.384528+00:00",
       "status": "approved_pending_package"
     }
   ]

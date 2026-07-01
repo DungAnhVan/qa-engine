@@ -1,7 +1,7 @@
 {
   "revision_file_id": "quanta_aptus_gate70b_ai_bank_revision_items_v1",
   "version": "0.1.0",
-  "created_at": "2026-07-01T17:05:36.735838+00:00",
+  "created_at": "2026-07-01T17:09:22.550206+00:00",
   "item_count": 1,
   "items": [
     {
@@ -57,7 +57,7 @@
       "decision": "needs_revision",
       "reviewer_id": "local_demo_teacher",
       "review_notes": "Correct topic but needs clearer worked steps. Please revise.",
-      "decided_at": "2026-07-01T17:05:36.569053+00:00",
+      "decided_at": "2026-07-01T17:09:22.384528+00:00",
       "status": "needs_revision"
     }
   ]
