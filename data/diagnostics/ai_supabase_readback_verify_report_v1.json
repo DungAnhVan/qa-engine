@@ -1,0 +1,16 @@
+{
+  "gate": "69G",
+  "status": "needs_review",
+  "sync_executed": false,
+  "package_exists": false,
+  "resources_verified": 0,
+  "resource_count_match": false,
+  "active_false": true,
+  "no_raw_source_text": true,
+  "no_api_keys": true,
+  "issues": [
+    "sync not yet executed \u2014 dry-run only"
+  ],
+  "message": "Run --execute --confirm SYNC_AI_PACKAGE first",
+  "generated_at": "2026-07-01T15:25:12.893120+00:00"
+}

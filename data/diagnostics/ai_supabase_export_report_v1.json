@@ -1,0 +1,11 @@
+{
+  "gate": "69G",
+  "status": "not_synced",
+  "sync_executed": false,
+  "export_ok": false,
+  "resource_count": 0,
+  "student_count": 0,
+  "teacher_count": 0,
+  "issues": "sync not yet executed",
+  "generated_at": "2026-07-01T15:25:13.173828+00:00"
+}

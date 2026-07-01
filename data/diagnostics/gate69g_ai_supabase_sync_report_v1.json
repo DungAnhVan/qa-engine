@@ -2,7 +2,7 @@
   "gate": "69G",
   "name": "AI Package Supabase Sync + Optional Active Switch v1",
   "status": "passed",
-  "generated_at": "2026-07-01T15:20:16.228312+00:00",
+  "generated_at": "2026-07-01T15:25:13.345675+00:00",
   "ai_supabase_sync_plan_created": true,
   "dry_run_default": true,
   "sync_execute_tool_created": true,
