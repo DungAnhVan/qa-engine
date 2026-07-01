@@ -5,7 +5,7 @@
   "approval_status": "approved",
   "approved_by": "gate69f_test_suite",
   "approval_notes": "automated test approval",
-  "approved_at": "2026-07-01T15:19:11.638079+00:00",
+  "approved_at": "2026-07-01T15:23:25.380356+00:00",
   "allow_local_publish": true,
   "allow_active_switch": false,
   "allow_supabase_sync": false

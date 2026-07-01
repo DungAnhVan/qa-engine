@@ -1,0 +1,38 @@
+{
+  "schema_version": "gate70a_v1",
+  "batch_id": "gate70a_live_ai_batch_live_v1",
+  "generated_at": "2026-07-01T16:28:00.600830+00:00",
+  "dry_run": false,
+  "requests_file": "data\\ai\\generation_requests\\ai_safe_generation_requests_v1.json",
+  "requests_total": 3,
+  "generated_count": 0,
+  "error_count": 3,
+  "status": "generated_needs_teacher_review",
+  "teacher_review_required": true,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "generated_items": [],
+  "errors": [
+    {
+      "request_id": "cambridge_igcse_physics_0625_2025_s_p41_q03_worked_example",
+      "status": "failed",
+      "issues": [
+        "API call failed (anthropic): HTTP Error 400: Bad Request"
+      ]
+    },
+    {
+      "request_id": "cambridge_igcse_physics_0625_2025_s_p41_q04_worked_example",
+      "status": "failed",
+      "issues": [
+        "API call failed (anthropic): HTTP Error 400: Bad Request"
+      ]
+    },
+    {
+      "request_id": "cambridge_igcse_physics_0625_2025_s_p41_q05_worked_example",
+      "status": "failed",
+      "issues": [
+        "API call failed (anthropic): HTTP Error 400: Bad Request"
+      ]
+    }
+  ]
+}
