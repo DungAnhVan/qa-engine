@@ -1,0 +1,47 @@
+{
+  "gate": "66",
+  "status": "passed",
+  "generated_at": "2026-07-01T02:23:40.002240+00:00",
+  "demo_safety_doc_created": true,
+  "demo_user_check_created": true,
+  "demo_safety_page_created": true,
+  "demo_safety_api_created": true,
+  "check_ran": true,
+  "demo_profiles_found": [
+    {
+      "email": "admin@quantaaptus.local",
+      "role": "admin"
+    },
+    {
+      "email": "teacher@quantaaptus.local",
+      "role": "teacher"
+    },
+    {
+      "email": "student@quantaaptus.local",
+      "role": "student"
+    },
+    {
+      "email": "parent@quantaaptus.local",
+      "role": "parent"
+    }
+  ],
+  "demo_auth_users_found": true,
+  "qa_auth_demo_fallback_false": true,
+  "secrets_exposed": false,
+  "demo_password_rotation_required": true,
+  "public_launch_safe": false,
+  "internal_testing_safe": true,
+  "issues": [
+    "QA_AUTH_DEMO_FALLBACK is 'None' in .env.local",
+    "4 demo profile(s) found in Supabase",
+    "4 demo auth user(s) found in Supabase Auth"
+  ],
+  "recommended_actions": [
+    "Rotate demo account passwords or disable/delete demo users",
+    "Create real admin@quantaaptus.com account before removing demo admin",
+    "Verify QA_AUTH_DEMO_FALLBACK=false in Vercel environment variables",
+    "Verify SUPABASE_SERVICE_ROLE_KEY is server-only in Vercel (no NEXT_PUBLIC_ prefix)",
+    "Do NOT point admin.quantaaptus.com until passwords are rotated"
+  ],
+  "next_gate": "Gate 67 - Custom Domain Prep"
+}
