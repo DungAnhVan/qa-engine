@@ -1,7 +1,7 @@
 {
   "store_id": "quanta_aptus_ai_rejected_resources_v1",
   "version": "0.1.0",
-  "generated_at": "2026-07-01T13:41:41.047696+00:00",
+  "generated_at": "2026-07-01T13:44:55.312511+00:00",
   "source_queue": "data\\ai\\review\\ai_teacher_review_queue_v1.json",
   "rejected_count": 1,
   "auto_publish_enabled": false,
@@ -40,7 +40,7 @@
       "review_decision": "reject",
       "review_notes": "Test decision 3: reject",
       "reviewer_id": "local_demo_teacher",
-      "decision_at": "2026-07-01T13:41:41.044699+00:00"
+      "decision_at": "2026-07-01T13:44:55.308510+00:00"
     }
   ]
 }
