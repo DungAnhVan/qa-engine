@@ -1,0 +1,14 @@
+{
+  "gate": "69G",
+  "status": "passed",
+  "sync_plan_created": true,
+  "valid": true,
+  "package_id": "quanta_aptus_ai_resource_package_v1",
+  "resource_count": 1,
+  "operation_count": 4,
+  "dry_run_default": true,
+  "active_switch_default": false,
+  "plan_file": "data\\ai\\supabase_sync\\ai_supabase_sync_plan_v1.json",
+  "generated_at": "2026-07-01T15:19:37.088585+00:00",
+  "issues": []
+}

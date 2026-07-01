@@ -1,0 +1,86 @@
+{
+  "sync_plan_id": "quanta_aptus_ai_supabase_sync_plan_v1",
+  "version": "0.1.0",
+  "created_at": "2026-07-01T15:19:37.088585+00:00",
+  "package_id": "quanta_aptus_ai_resource_package_v1",
+  "source_package_path": "data\\ai\\published\\ai_resource_package_v1\\publish_package_v1.json",
+  "subject_slug": "physics_0625",
+  "dry_run_default": true,
+  "active_switch_default": false,
+  "supabase_write_required": true,
+  "resource_count": 1,
+  "operation_count": 4,
+  "operations": [
+    {
+      "op": "upsert_subject_if_needed",
+      "table": "subjects",
+      "subject_slug": "physics_0625",
+      "fields": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject_slug": "physics_0625",
+        "subject_name": "Physics",
+        "syllabus_code": "0625",
+        "adapter_name": "physics_0625_adapter_v1",
+        "adapter_status": "full_adapter",
+        "is_active": true
+      },
+      "note": "Upsert physics_0625 subject if not present; skip if exists"
+    },
+    {
+      "op": "upsert_resource",
+      "table": "resources",
+      "resource_key": "qa_physics_0625_1a2834f2",
+      "fields": {
+        "resource_key": "qa_physics_0625_1a2834f2",
+        "title": "Molar Concentration Calculation",
+        "topic": "Motion, forces and energy",
+        "subtopic": "",
+        "skill_type": "calculation_drill",
+        "resource_type": "question",
+        "difficulty": "medium",
+        "estimated_time_minutes": 0,
+        "student_prompt": "A solution contains 0.25 mol of sodium chloride dissolved in 500 cm\u00b3 of water. Calculate the molar concentration of the solution. State the unit of your answer.",
+        "worked_solution": "Concentration = moles / volume = 0.25 / 0.500 = 0.50 mol dm\u207b\u00b3",
+        "marking_guidance": "[{\"criterion\": \"Uses concentration = n/V\", \"marks\": 1, \"guidance\": \"Formula stated or implied\"}, {\"criterion\": \"Correct calculation and unit\", \"marks\": 2, \"guidance\": \"0.50 mol dm\\u207b\\u00b3\"}]",
+        "teacher_notes": "Ensure students convert cm\u00b3 to dm\u00b3 (divide by 1000). Unit must be stated.",
+        "originality_statement": "AI generated original content \u2014 no Cambridge source text",
+        "copyright_status": "original_generated",
+        "publish_status": "approved",
+        "needs_human_review": false
+      },
+      "note": "Upsert resource by resource_key \u2014 no delete, no overwrite of other resources"
+    },
+    {
+      "op": "upsert_resource_package",
+      "table": "resource_packages",
+      "package_key": "quanta_aptus_ai_resource_package_v1",
+      "fields": {
+        "package_key": "quanta_aptus_ai_resource_package_v1",
+        "version": 1,
+        "title": "Quanta Aptus AI Resource Package v1",
+        "status": "draft",
+        "resource_count": 1
+      },
+      "note": "status=draft \u2014 NOT active. Do not set active without explicit --activate flag."
+    },
+    {
+      "op": "upsert_resource_package_item",
+      "table": "resource_package_items",
+      "resource_key": "qa_physics_0625_1a2834f2",
+      "package_key": "quanta_aptus_ai_resource_package_v1",
+      "fields": {
+        "sort_order": 0,
+        "visibility": "student"
+      },
+      "note": "Link resource to package \u2014 unique(package_id, resource_id)"
+    }
+  ],
+  "safety": {
+    "no_delete": true,
+    "no_active_switch": true,
+    "no_raw_source_text": true,
+    "no_api_keys": true,
+    "no_schema_change": true
+  }
+}

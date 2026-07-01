@@ -1,0 +1,172 @@
+{
+  "gate": "69G",
+  "test_suite": "test_gate69g_ai_supabase_sync_v1",
+  "execute_sync": false,
+  "do_activate": false,
+  "total": 32,
+  "passed": 32,
+  "failed": 0,
+  "status": "passed",
+  "results": [
+    {
+      "test": "T01: Gate 69F published package exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T02: Gate 69F status=published_local_not_active",
+      "status": "PASS",
+      "detail": "got: published_local_not_active"
+    },
+    {
+      "test": "T03: build_ai_supabase_sync_plan_v1.py exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T04: sync plan file exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T05: dry_run_default=True",
+      "status": "PASS",
+      "detail": "got: True"
+    },
+    {
+      "test": "T06: active_switch_default=False",
+      "status": "PASS",
+      "detail": "got: False"
+    },
+    {
+      "test": "T07: safety.no_delete=True",
+      "status": "PASS",
+      "detail": "got: {'no_delete': True, 'no_active_switch': True, 'no_raw_source_text': True, 'no_api_keys': True, 'no_schema_change': True}"
+    },
+    {
+      "test": "T08: safety.no_active_switch=True",
+      "status": "PASS",
+      "detail": "got: {'no_delete': True, 'no_active_switch': True, 'no_raw_source_text': True, 'no_api_keys': True, 'no_schema_change': True}"
+    },
+    {
+      "test": "T09: plan has >=1 operation",
+      "status": "PASS",
+      "detail": "op count=4"
+    },
+    {
+      "test": "T10: plan includes upsert_resource",
+      "status": "PASS",
+      "detail": "ops=['upsert_subject_if_needed', 'upsert_resource', 'upsert_resource_package', 'upsert_resource_package_item']"
+    },
+    {
+      "test": "T11: plan includes upsert_resource_package",
+      "status": "PASS",
+      "detail": "ops=['upsert_subject_if_needed', 'upsert_resource', 'upsert_resource_package', 'upsert_resource_package_item']"
+    },
+    {
+      "test": "T12: No secrets in sync plan",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T13: No Cambridge copyright in sync plan",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T14: dry-run sync exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T15: sync execute report exists",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T16: dry_run supabase_write_performed=False",
+      "status": "PASS",
+      "detail": "got: False"
+    },
+    {
+      "test": "T17: dry_run active_switch_performed=False",
+      "status": "PASS",
+      "detail": "got: False"
+    },
+    {
+      "test": "T18: existing_active_package_preserved=True",
+      "status": "PASS",
+      "detail": "got: True"
+    },
+    {
+      "test": "T19: secrets_exposed=False in sync report",
+      "status": "PASS",
+      "detail": "got: False"
+    },
+    {
+      "test": "T20: No secrets in sync report file",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T21: (skipped) execute sync",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T22: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T23: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T24: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T25: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T26: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T27: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T28: (skipped)",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_EXECUTE_SYNC=true to run"
+    },
+    {
+      "test": "T29: (skipped) activate",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_ACTIVATE=true (with execute_sync=true)"
+    },
+    {
+      "test": "T30: (skipped) active_switch",
+      "status": "PASS",
+      "detail": "set QA_GATE69G_ACTIVATE=true"
+    },
+    {
+      "test": "T31: activate dry-run exits 0",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "test": "T32: activate dry_run=True in report",
+      "status": "PASS",
+      "detail": ""
+    }
+  ]
+}

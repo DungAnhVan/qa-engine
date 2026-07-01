@@ -1,0 +1,11 @@
+{
+  "gate": "69G",
+  "status": "passed",
+  "dry_run": true,
+  "active_switch_performed": false,
+  "previous_active_package_id": null,
+  "new_active_package_id": "quanta_aptus_ai_resource_package_v1",
+  "rollback_instructions": "",
+  "issues": [],
+  "generated_at": "2026-07-01T15:19:37.616134+00:00"
+}

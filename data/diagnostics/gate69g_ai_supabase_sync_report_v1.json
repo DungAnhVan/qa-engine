@@ -1,0 +1,180 @@
+{
+  "gate": "69G",
+  "name": "AI Package Supabase Sync + Optional Active Switch v1",
+  "status": "passed",
+  "generated_at": "2026-07-01T15:20:16.228312+00:00",
+  "ai_supabase_sync_plan_created": true,
+  "dry_run_default": true,
+  "sync_execute_tool_created": true,
+  "readback_verify_tool_created": true,
+  "active_switch_tool_created": true,
+  "active_switch_default": false,
+  "supabase_write_performed": false,
+  "active_switch_performed": false,
+  "existing_active_package_preserved": true,
+  "raw_cambridge_text_blocked": true,
+  "api_keys_exposed_to_client": false,
+  "service_role_not_in_client": true,
+  "deliverables": [
+    {
+      "id": "D01",
+      "label": "build_ai_supabase_sync_plan_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_ai_supabase_sync_plan_v1.py"
+    },
+    {
+      "id": "D02",
+      "label": "sync_ai_package_to_supabase_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\sync_ai_package_to_supabase_v1.py"
+    },
+    {
+      "id": "D03",
+      "label": "verify_ai_package_from_supabase_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\verify_ai_package_from_supabase_v1.py"
+    },
+    {
+      "id": "D04",
+      "label": "activate_ai_package_supabase_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\activate_ai_package_supabase_v1.py"
+    },
+    {
+      "id": "D05",
+      "label": "build_ai_package_supabase_export_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_ai_package_supabase_export_v1.py"
+    },
+    {
+      "id": "D06",
+      "label": "aiSupabasePackage.ts",
+      "exists": true,
+      "path": "apps\\admin\\src\\lib\\aiSupabasePackage.ts"
+    },
+    {
+      "id": "D07",
+      "label": "system/ai-supabase/page.tsx",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\system\\ai-supabase\\page.tsx"
+    },
+    {
+      "id": "D08",
+      "label": "api/system/ai-supabase/route.ts",
+      "exists": true,
+      "path": "apps\\admin\\src\\app\\api\\system\\ai-supabase\\route.ts"
+    },
+    {
+      "id": "D09",
+      "label": "test_gate69g_ai_supabase_sync_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\test_gate69g_ai_supabase_sync_v1.py"
+    },
+    {
+      "id": "D10",
+      "label": "build_gate69g_ai_supabase_sync_report_v1.py",
+      "exists": true,
+      "path": "tools\\ai\\build_gate69g_ai_supabase_sync_report_v1.py"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "O01",
+      "label": "ai_supabase_sync_plan_v1.json",
+      "exists": true,
+      "path": "data\\ai\\supabase_sync\\ai_supabase_sync_plan_v1.json"
+    },
+    {
+      "id": "O02",
+      "label": "ai_supabase_sync_plan_report_v1.json",
+      "exists": true,
+      "path": "data\\diagnostics\\ai_supabase_sync_plan_report_v1.json"
+    },
+    {
+      "id": "O03",
+      "label": "ai_supabase_sync_execute_report_v1.json",
+      "exists": true,
+      "path": "data\\diagnostics\\ai_supabase_sync_execute_report_v1.json"
+    },
+    {
+      "id": "O04",
+      "label": "gate69g_ai_supabase_sync_test_report_v1.json",
+      "exists": true,
+      "path": "data\\diagnostics\\gate69g_ai_supabase_sync_test_report_v1.json"
+    }
+  ],
+  "policy": [
+    {
+      "check": "sync_plan_created",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "dry_run_default=True",
+      "ok": true,
+      "detail": "got=True"
+    },
+    {
+      "check": "active_switch_default=False",
+      "ok": true,
+      "detail": "got=False"
+    },
+    {
+      "check": "supabase_write_performed=False (dry-run mode)",
+      "ok": true,
+      "detail": "got=False"
+    },
+    {
+      "check": "active_switch_performed=False",
+      "ok": true,
+      "detail": "got=False"
+    },
+    {
+      "check": "existing_active_package_preserved=True",
+      "ok": true,
+      "detail": "got=True"
+    },
+    {
+      "check": "secrets_exposed=False",
+      "ok": true,
+      "detail": "got=False"
+    },
+    {
+      "check": "raw_cambridge_text_blocked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "api_keys_not_in_plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "service_role_not_in_client",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "env_local_not_tracked",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "check": "tests_passed",
+      "ok": true,
+      "detail": "passed=32/32 status=passed"
+    }
+  ],
+  "test_results": {
+    "status": "passed",
+    "passed": 32,
+    "total": 32
+  },
+  "summary": {
+    "deliverables": "10/10",
+    "outputs": "4/4",
+    "policy": "12/12",
+    "tests": "32/32 (passed)"
+  },
+  "next_gate": "Gate 69H - Student Practice on AI Package"
+}

@@ -1,0 +1,16 @@
+{
+  "gate": "69G",
+  "status": "passed",
+  "dry_run": true,
+  "execute": false,
+  "confirm_ok": false,
+  "supabase_write_performed": false,
+  "resources_upserted": 0,
+  "packages_upserted": 0,
+  "items_upserted": 0,
+  "active_switch_performed": false,
+  "existing_active_package_preserved": true,
+  "secrets_exposed": false,
+  "issues": [],
+  "generated_at": "2026-07-01T15:19:37.352648+00:00"
+}

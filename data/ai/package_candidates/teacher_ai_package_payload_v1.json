@@ -2,7 +2,7 @@
   "payload_id": "quanta_aptus_teacher_ai_package_payload_v1",
   "version": "0.1.0",
   "payload_type": "teacher",
-  "generated_at": "2026-07-01T14:05:51.327843+00:00",
+  "generated_at": "2026-07-01T14:33:54.610186+00:00",
   "source_package": "quanta_aptus_ai_resource_package_candidate_v1",
   "package_status": "draft_package_candidate",
   "auto_publish_enabled": false,

@@ -1,6 +1,6 @@
 # AI Resource Package v1 — Local Publish Manifest
 
-Published: 2026-07-01T14:27:59.021790+00:00
+Published: 2026-07-01T15:19:11.795225+00:00
 Status: published_local_not_active
 
 ## Package

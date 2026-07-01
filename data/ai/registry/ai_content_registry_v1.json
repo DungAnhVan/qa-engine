@@ -1,7 +1,7 @@
 {
   "registry_id": "quanta_aptus_ai_content_registry_v1",
   "version": "0.1.0",
-  "updated_at": "2026-07-01T14:27:59.574461+00:00",
+  "updated_at": "2026-07-01T15:19:12.348238+00:00",
   "note": "AI local registry only \u2014 does not affect the main content registry or the active content index",
   "package_count": 1,
   "packages": [
@@ -12,7 +12,7 @@
       "supabase_write_performed": false,
       "teacher_final_approval": true,
       "resource_count": 1,
-      "published_at": "2026-07-01T14:27:59.021790+00:00",
+      "published_at": "2026-07-01T15:19:11.795225+00:00",
       "path": "data\\ai\\published\\ai_resource_package_v1\\publish_package_v1.json"
     }
   ]
