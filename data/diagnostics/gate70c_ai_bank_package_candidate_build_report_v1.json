@@ -1,0 +1,13 @@
+{
+  "gate": "70C",
+  "status": "passed",
+  "generated_at": "2026-07-02T01:37:00.645725+00:00",
+  "approved_items_loaded": 1,
+  "resources_included": 1,
+  "resources_skipped": 0,
+  "teacher_final_publish_required": true,
+  "auto_publish_enabled": false,
+  "supabase_write_performed": false,
+  "ai_api_called": false,
+  "issues": []
+}

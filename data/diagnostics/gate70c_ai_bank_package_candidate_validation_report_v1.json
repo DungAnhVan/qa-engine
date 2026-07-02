@@ -1,0 +1,23 @@
+{
+  "valid": true,
+  "file_exists": true,
+  "resource_count": 1,
+  "resources_ok": 1,
+  "resources_fail": 0,
+  "issues": [],
+  "resource_results": [
+    {
+      "resource_id": "ai_res_70b_9c908564",
+      "status": "ok",
+      "issues": []
+    }
+  ],
+  "safety_summary": {
+    "teacher_final_publish_required": true,
+    "auto_publish_enabled": false,
+    "supabase_write_performed": false,
+    "ai_api_called": false,
+    "secrets_clean": true,
+    "copyright_clean": true
+  }
+}

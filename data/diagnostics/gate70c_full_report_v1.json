@@ -1,0 +1,28 @@
+{
+  "gate": "70C",
+  "gate_status": "passed",
+  "next_gate": "70D",
+  "file_checklist": {
+    "package_candidate": true,
+    "student_payload": true,
+    "teacher_payload": true,
+    "student_preview": true,
+    "teacher_preview": true,
+    "validation_report": true,
+    "build_report": true
+  },
+  "all_artefacts_present": true,
+  "resource_count": 1,
+  "student_payload_count": 1,
+  "teacher_payload_count": 1,
+  "validation_passed": true,
+  "build_status": "passed",
+  "issues": [],
+  "safety": {
+    "teacher_final_publish_required": true,
+    "auto_publish_enabled": false,
+    "supabase_write_performed": false,
+    "ai_api_called": false
+  },
+  "gate70d_ready": true
+}
