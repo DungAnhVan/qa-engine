@@ -1,0 +1,14 @@
+{
+  "gate": "70E",
+  "status": "passed",
+  "sync_plan_created": true,
+  "valid": true,
+  "source_package_id": "quanta_aptus_gate70d_ai_bank_package_v1",
+  "target_package_key": "quanta_aptus_gate70e_ai_bank_package_v1",
+  "resource_count": 1,
+  "operation_count": 4,
+  "dry_run_default": true,
+  "active_switch_allowed": false,
+  "plan_file": "data\\ai\\supabase_sync\\gate70e_ai_bank_supabase_sync_plan_v1.json",
+  "issues": []
+}

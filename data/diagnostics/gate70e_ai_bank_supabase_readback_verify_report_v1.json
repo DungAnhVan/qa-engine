@@ -1,0 +1,17 @@
+{
+  "gate": "70E",
+  "status": "needs_review",
+  "sync_executed": false,
+  "message": "Sync not executed yet. Dry-run plan exists. Run sync with --execute --confirm SYNC_GATE70E_AI_BANK_PACKAGE to write to Supabase.",
+  "package_verified": false,
+  "resource_count": 0,
+  "target_active": false,
+  "active_switch_performed": false,
+  "existing_active_package_preserved": true,
+  "ai_api_called": false,
+  "secrets_exposed": false,
+  "issues": [
+    "Sync not executed yet. Dry-run plan exists. Run sync with --execute --confirm SYNC_GATE70E_AI_BANK_PACKAGE to write to Supabase."
+  ],
+  "verified_at": "2026-07-02T02:52:00.186709+00:00"
+}

@@ -1,0 +1,90 @@
+{
+  "sync_plan_id": "quanta_aptus_gate70e_ai_bank_supabase_sync_plan_v1",
+  "version": "0.1.0",
+  "created_at": "2026-07-02T02:51:59.642033+00:00",
+  "source_package_id": "quanta_aptus_gate70d_ai_bank_package_v1",
+  "target_package_key": "quanta_aptus_gate70e_ai_bank_package_v1",
+  "source_package_path": "data\\ai\\published\\gate70d_ai_bank_package_v1\\publish_package_v1.json",
+  "dry_run_default": true,
+  "active_switch_allowed": false,
+  "target_active": false,
+  "supabase_write_required_for_execute": true,
+  "existing_active_package_preserve_required": true,
+  "resource_count": 1,
+  "operation_count": 4,
+  "operations": [
+    {
+      "op": "upsert_subject_if_needed",
+      "table": "subjects",
+      "subject_slug": "physics_0625",
+      "fields": {
+        "board": "cambridge",
+        "level": "igcse",
+        "subject_slug": "physics_0625",
+        "subject_name": "Physics",
+        "syllabus_code": "0625",
+        "adapter_name": "physics_0625_adapter_v1",
+        "adapter_status": "full_adapter",
+        "is_active": true
+      },
+      "note": "Upsert physics_0625 subject if not present; skip if exists"
+    },
+    {
+      "op": "upsert_resource",
+      "table": "resources",
+      "resource_key": "ai_res_70b_9c908564",
+      "fields": {
+        "resource_key": "ai_res_70b_9c908564",
+        "title": "Motion, forces and energy: (iii) Calculate the distance between station A and station B",
+        "topic": "Motion, forces and energy",
+        "subtopic": "",
+        "skill_type": "(iii) Calculate the distance between station A and station B",
+        "resource_type": "worked_example",
+        "difficulty": "medium",
+        "estimated_time_minutes": 8,
+        "student_prompt": "Calculate the de Broglie wavelength of an electron accelerated through a potential difference of 150 V. Show your working. [3 marks]",
+        "worked_solution": "[Teacher review required] Worked answer for topic: Motion, forces and energy. Skill: (iii) Calculate the distance between station A and station B. AI-generated content \u2014 teacher must verify correctness and originality before use.",
+        "marking_guidance": "[{\"criterion\": \"Correct method demonstrated\", \"marks\": 1, \"guidance\": \"Award for correct approach. Teacher to verify.\"}, {\"criterion\": \"Clear working shown\", \"marks\": 1, \"guidance\": \"Award for clear working. Teacher to verify.\"}, {\"criterion\": \"Correct answer with appropriate units/form\", \"marks\": 1, \"guidance\": \"Award for correct final answer. Teacher to verify.\"}]",
+        "teacher_notes": "AI-generated content. Approved by local_demo_teacher on 2026-07-02. Review notes: Content is original and educationally sound. Approved for Gate 70C.. Teacher must verify content accuracy before use with students.",
+        "originality_statement": "AI generated original content \u2014 no Cambridge source text",
+        "copyright_status": "original_generated",
+        "publish_status": "approved",
+        "needs_human_review": false
+      },
+      "note": "Upsert resource by resource_key \u2014 no delete, no overwrite of other resources"
+    },
+    {
+      "op": "upsert_resource_package",
+      "table": "resource_packages",
+      "package_key": "quanta_aptus_gate70e_ai_bank_package_v1",
+      "active": false,
+      "fields": {
+        "package_key": "quanta_aptus_gate70e_ai_bank_package_v1",
+        "version": 1,
+        "title": "Quanta Aptus Gate 70E AI Bank Package v1",
+        "status": "draft",
+        "resource_count": 1
+      },
+      "note": "status=draft \u2014 NOT active. active_switch_allowed=false in Gate 70E."
+    },
+    {
+      "op": "upsert_resource_package_item",
+      "table": "resource_package_items",
+      "resource_key": "ai_res_70b_9c908564",
+      "package_key": "quanta_aptus_gate70e_ai_bank_package_v1",
+      "fields": {
+        "sort_order": 0,
+        "visibility": "student"
+      },
+      "note": "Link resource to package"
+    }
+  ],
+  "safety": {
+    "no_delete": true,
+    "no_active_switch": true,
+    "no_raw_source_text": true,
+    "no_api_keys": true,
+    "no_service_role_in_outputs": true,
+    "no_schema_change": true
+  }
+}

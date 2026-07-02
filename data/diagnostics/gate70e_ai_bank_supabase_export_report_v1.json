@@ -1,0 +1,14 @@
+{
+  "gate": "70E",
+  "status": "passed",
+  "source": "dry_run_local_gate70d",
+  "exported_at": "2026-07-02T02:52:00.461707+00:00",
+  "resource_count": 1,
+  "sync_executed": false,
+  "active": false,
+  "ai_api_called": false,
+  "secrets_exposed": false,
+  "student_payload_exported": true,
+  "teacher_payload_exported": true,
+  "issues": []
+}

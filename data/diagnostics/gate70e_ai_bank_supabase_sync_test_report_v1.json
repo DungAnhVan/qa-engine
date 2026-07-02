@@ -1,0 +1,344 @@
+{
+  "gate": "70E",
+  "total": 67,
+  "passed": 67,
+  "failed": 0,
+  "status": "passed",
+  "results": [
+    {
+      "id": "T01_build_gate70e_ai_bank_supabase",
+      "ok": true,
+      "detail": "tools/ai/build_gate70e_ai_bank_supabase_sync_plan_v1.py"
+    },
+    {
+      "id": "T01_sync_gate70e_ai_bank_package_t",
+      "ok": true,
+      "detail": "tools/ai/sync_gate70e_ai_bank_package_to_supabase_v1.py"
+    },
+    {
+      "id": "T01_verify_gate70e_ai_bank_package",
+      "ok": true,
+      "detail": "tools/ai/verify_gate70e_ai_bank_package_from_supabase_v1.py"
+    },
+    {
+      "id": "T01_export_gate70e_ai_bank_package",
+      "ok": true,
+      "detail": "tools/ai/export_gate70e_ai_bank_package_from_supabase_v1.py"
+    },
+    {
+      "id": "T01_aiBankSupabasePackage.ts",
+      "ok": true,
+      "detail": "apps/admin/src/lib/aiBankSupabasePackage.ts"
+    },
+    {
+      "id": "T01_page.tsx",
+      "ok": true,
+      "detail": "apps/admin/src/app/system/ai-bank-supabase/page.tsx"
+    },
+    {
+      "id": "T01_route.ts",
+      "ok": true,
+      "detail": "apps/admin/src/app/api/system/ai-bank-supabase/route.ts"
+    },
+    {
+      "id": "T02_gate70d_pkg_exists",
+      "ok": true,
+      "detail": "data\\ai\\published\\gate70d_ai_bank_package_v1\\publish_package_v1.json"
+    },
+    {
+      "id": "T03_gate70d_status",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T04_gate70d_resources",
+      "ok": true,
+      "detail": "count=1"
+    },
+    {
+      "id": "T05_gate70d_not_active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T06_build_plan_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T07_plan_file_created",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T08_plan_report",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T09_plan_dry_run_default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T10_plan_no_active_switch",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T11_plan_target_active_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T12_plan_resource_count",
+      "ok": true,
+      "detail": "count=1"
+    },
+    {
+      "id": "T13_plan_has_operations",
+      "ok": true,
+      "detail": "ops=4"
+    },
+    {
+      "id": "T14_plan_safety_no_delete",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T15_plan_safety_no_switch",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T16_plan_safety_no_secrets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T17_plan_no_secrets",
+      "ok": true,
+      "detail": "found=[]"
+    },
+    {
+      "id": "T18_plan_no_raw_cambridge",
+      "ok": true,
+      "detail": "found=[]"
+    },
+    {
+      "id": "T19_dryrun_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T20_sync_report",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T21_dryrun_no_write",
+      "ok": true,
+      "detail": "dry-run: no write"
+    },
+    {
+      "id": "T22_dryrun_dry_run_true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T23_dryrun_no_active_switch",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T24_dryrun_target_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T25_dryrun_preserved",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T26_dryrun_no_ai_api",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T27_dryrun_no_secrets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T28_verify_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T29_verify_report",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T30_verify_needs_review",
+      "ok": true,
+      "detail": "status=needs_review"
+    },
+    {
+      "id": "T31_verify_not_active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T32_verify_no_switch",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T33_export_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T34_export_report",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T35_export_pkg_file",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T36_export_student",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T37_export_teacher",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T38_export_no_active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T39_export_no_ai_api",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T40_export_no_secrets",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T41_no_secrets_gate70e_ai_bank_package_f",
+      "ok": true,
+      "detail": "found=[]"
+    },
+    {
+      "id": "T41_no_secrets_gate70e_student_ai_bank_p",
+      "ok": true,
+      "detail": "found=[]"
+    },
+    {
+      "id": "T41_no_secrets_gate70e_teacher_ai_bank_p",
+      "ok": true,
+      "detail": "found=[]"
+    },
+    {
+      "id": "T42_ts_reads_sync_plan",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T43_ts_reads_sync_report",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T44_ts_reads_verify",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T45_ts_reads_export",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T46_ts_server_only",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T47_ts_no_use_client",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T48_ts_no_service_role_exposed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T49_syspage_requireRole",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T50_syspage_no_client",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T51_syspage_dry_run_default",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T52_syspage_ready_gate70f",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T53_syspage_no_active_switch",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T54_route_get_export",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T55_route_force_dynamic",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T56_route_no_active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T57_route_ready_gate70f",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T58_route_no_secrets_exposed",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T59_layout_supabase_link",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

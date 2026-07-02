@@ -1,0 +1,18 @@
+{
+  "gate": "70E",
+  "status": "passed",
+  "dry_run": true,
+  "execute": false,
+  "confirm_ok": false,
+  "supabase_write_performed": false,
+  "resources_upserted": 0,
+  "packages_upserted": 0,
+  "items_upserted": 0,
+  "target_active": false,
+  "active_switch_performed": false,
+  "existing_active_package_preserved": true,
+  "ai_api_called": false,
+  "secrets_exposed": false,
+  "issues": [],
+  "generated_at": "2026-07-02T02:51:59.916706+00:00"
+}
