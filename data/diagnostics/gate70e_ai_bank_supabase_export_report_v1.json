@@ -2,7 +2,7 @@
   "gate": "70E",
   "status": "passed",
   "source": "dry_run_local_gate70d",
-  "exported_at": "2026-07-02T02:52:00.461707+00:00",
+  "exported_at": "2026-07-02T02:59:37.042936+00:00",
   "resource_count": 1,
   "sync_executed": false,
   "active": false,
