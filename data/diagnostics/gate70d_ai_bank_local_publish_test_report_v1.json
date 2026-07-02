@@ -1,9 +1,9 @@
 {
   "gate": "70D",
   "total": 110,
-  "passed": 110,
-  "failed": 0,
-  "status": "passed",
+  "passed": 109,
+  "failed": 1,
+  "status": "needs_review",
   "results": [
     {
       "id": "T01_approve_gate70d_ai_bank_packag",
@@ -72,7 +72,7 @@
     },
     {
       "id": "T06_seed_allow_local_publish_false",
-      "ok": true,
+      "ok": false,
       "detail": "default=false"
     },
     {

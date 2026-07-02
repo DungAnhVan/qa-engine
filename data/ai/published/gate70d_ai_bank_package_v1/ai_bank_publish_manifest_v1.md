@@ -7,7 +7,7 @@
 - ai_api_called: false
 - teacher_final_approval: true
 - resource_count: 1
-- published_at: 2026-07-02T02:07:57
+- published_at: 2026-07-02T02:14:04
 - approved_by: local_demo_teacher
 - approval_notes: automated test approval for Gate 70D
 

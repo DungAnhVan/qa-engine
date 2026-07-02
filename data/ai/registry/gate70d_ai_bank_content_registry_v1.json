@@ -1,7 +1,7 @@
 {
   "registry_id": "quanta_aptus_gate70d_ai_bank_content_registry_v1",
   "version": "0.1.0",
-  "updated_at": "2026-07-02T02:07:58.306120+00:00",
+  "updated_at": "2026-07-02T02:14:04.683245+00:00",
   "note": "Gate 70D AI bank local registry \u2014 does not affect the main content registry or active_content_index. No Supabase write.",
   "package_count": 1,
   "packages": [
@@ -13,7 +13,7 @@
       "ai_api_called": false,
       "teacher_final_approval": true,
       "resource_count": 1,
-      "published_at": "2026-07-02T02:07:57.796072+00:00",
+      "published_at": "2026-07-02T02:14:04.201098+00:00",
       "path": "data\\ai\\published\\gate70d_ai_bank_package_v1\\publish_package_v1.json"
     }
   ]
