@@ -1,0 +1,11 @@
+{
+  "gate": "70D",
+  "status": "passed",
+  "package_id": "quanta_aptus_gate70d_ai_bank_package_v1",
+  "published_at": "2026-07-02T02:07:57.796072+00:00",
+  "resource_count": 1,
+  "active_content": false,
+  "supabase_write_performed": false,
+  "ai_api_called": false,
+  "teacher_final_approval": true
+}

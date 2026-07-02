@@ -1,0 +1,26 @@
+{
+  "valid": true,
+  "file_exists": true,
+  "resource_count": 1,
+  "resources_ok": 1,
+  "resources_fail": 0,
+  "issues": [],
+  "resource_results": [
+    {
+      "resource_id": "ai_res_70b_9c908564",
+      "status": "ok",
+      "issues": []
+    }
+  ],
+  "safety_summary": {
+    "status": "published_local_not_active",
+    "active_content": false,
+    "supabase_write_performed": false,
+    "ai_api_called": false,
+    "teacher_final_approval": true,
+    "secrets_clean": true,
+    "copyright_clean": true,
+    "student_payload_exists": true,
+    "teacher_payload_exists": true
+  }
+}

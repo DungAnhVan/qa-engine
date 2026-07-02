@@ -1,0 +1,11 @@
+{
+  "gate": "70D",
+  "status": "passed",
+  "registry_file": "data\\ai\\registry\\gate70d_ai_bank_content_registry_v1.json",
+  "package_count": 1,
+  "packages": [
+    "quanta_aptus_gate70d_ai_bank_package_v1"
+  ],
+  "active_content_touched": false,
+  "supabase_write_performed": false
+}

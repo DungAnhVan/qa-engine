@@ -37,6 +37,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <a href="/system/ai-bank-review"    className="nav-link">AI Bank Review Diag</a>
           <a href="/ai-bank-package"          className="nav-link">AI Bank Package</a>
           <a href="/system/ai-bank-package"   className="nav-link">AI Bank Pkg Diag</a>
+          <a href="/ai-bank-published"        className="nav-link">AI Bank Published</a>
+          <a href="/system/ai-bank-published" className="nav-link">AI Bank Pub Diag</a>
         </nav>
         {children}
       </body>

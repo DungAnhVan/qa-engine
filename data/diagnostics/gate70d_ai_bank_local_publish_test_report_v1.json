@@ -1,0 +1,559 @@
+{
+  "gate": "70D",
+  "total": 110,
+  "passed": 110,
+  "failed": 0,
+  "status": "passed",
+  "results": [
+    {
+      "id": "T01_approve_gate70d_ai_bank_packag",
+      "ok": true,
+      "detail": "tools/ai/approve_gate70d_ai_bank_package_candidate_v1.py"
+    },
+    {
+      "id": "T01_build_gate70d_ai_bank_local_pu",
+      "ok": true,
+      "detail": "tools/ai/build_gate70d_ai_bank_local_published_package_v1.py"
+    },
+    {
+      "id": "T01_validate_gate70d_ai_bank_local",
+      "ok": true,
+      "detail": "tools/ai/validate_gate70d_ai_bank_local_published_package_v1.py"
+    },
+    {
+      "id": "T01_render_gate70d_ai_bank_local_p",
+      "ok": true,
+      "detail": "tools/ai/render_gate70d_ai_bank_local_published_preview_v1.py"
+    },
+    {
+      "id": "T01_build_gate70d_ai_bank_local_re",
+      "ok": true,
+      "detail": "tools/ai/build_gate70d_ai_bank_local_registry_v1.py"
+    },
+    {
+      "id": "T01_aiBankPublishedPackage.ts",
+      "ok": true,
+      "detail": "apps/admin/src/lib/aiBankPublishedPackage.ts"
+    },
+    {
+      "id": "T01_page.tsx",
+      "ok": true,
+      "detail": "apps/admin/src/app/ai-bank-published/page.tsx"
+    },
+    {
+      "id": "T01_page.tsx",
+      "ok": true,
+      "detail": "apps/admin/src/app/system/ai-bank-published/page.tsx"
+    },
+    {
+      "id": "T01_route.ts",
+      "ok": true,
+      "detail": "apps/admin/src/app/api/system/ai-bank-published/route.ts"
+    },
+    {
+      "id": "T02_gate70c_pkg_exists",
+      "ok": true,
+      "detail": "data\\ai\\package_candidates\\gate70c_ai_bank_package_candidate_v1.json"
+    },
+    {
+      "id": "T03_gate70c_status",
+      "ok": true,
+      "detail": "status=draft_package_candidate"
+    },
+    {
+      "id": "T04_gate70c_resources",
+      "ok": true,
+      "detail": "count=1"
+    },
+    {
+      "id": "T05_approval_seed_exists",
+      "ok": true,
+      "detail": "data\\ai\\package_candidates\\gate70d_ai_bank_final_publish_approval_v1.json"
+    },
+    {
+      "id": "T06_seed_allow_local_publish_false",
+      "ok": true,
+      "detail": "default=false"
+    },
+    {
+      "id": "T07_seed_allow_supabase_sync_false",
+      "ok": true,
+      "detail": "always false"
+    },
+    {
+      "id": "T08_seed_allow_active_switch_false",
+      "ok": true,
+      "detail": "always false"
+    },
+    {
+      "id": "T09_approve_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T10_approval_file_updated",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T11_approval_report_created",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T12_approval_status_approved",
+      "ok": true,
+      "detail": "status=approved"
+    },
+    {
+      "id": "T13_allow_local_publish_true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T14_allow_supabase_sync_false",
+      "ok": true,
+      "detail": "always false"
+    },
+    {
+      "id": "T15_allow_active_switch_false",
+      "ok": true,
+      "detail": "always false"
+    },
+    {
+      "id": "T16_approved_by_set",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T17_approved_at_set",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T18_build_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T19_pub_pkg_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T20_student_p_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T21_teacher_p_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T22_manifest_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T23_pub_report_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T24_build_diag_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T25_pkg_id",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T26_status_local_not_active",
+      "ok": true,
+      "detail": "status=published_local_not_active"
+    },
+    {
+      "id": "T27_active_content_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T28_supabase_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T29_ai_api_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T30_teacher_approval_true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T31_resource_count_gte_1",
+      "ok": true,
+      "detail": "count=1"
+    },
+    {
+      "id": "T32_allow_active_switch_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T33_allow_supabase_sync_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T34_resources_non_empty",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T35_resource_has_resource_id",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T36_resource_has_student_prompt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T37_resource_has_answer_key",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T38_resource_has_rubric",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T39_resource_has_safety_decl",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T40_provenance_gate70b_approved",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T41_no_bad_decisions",
+      "ok": true,
+      "detail": "bad=0"
+    },
+    {
+      "id": "T42_no_raw_cambridge_text",
+      "ok": true,
+      "detail": "found=[]"
+    },
+    {
+      "id": "T43_no_secrets",
+      "ok": true,
+      "detail": "found=[]"
+    },
+    {
+      "id": "T44_student_no_answer_key",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T45_student_no_marking_rubric",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T46_student_no_teacher_notes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T47_student_has_prompt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T48_validate_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T49_val_report_created",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T50_val_valid_true",
+      "ok": true,
+      "detail": "issues=[]"
+    },
+    {
+      "id": "T51_val_secrets_clean",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T52_val_copyright_clean",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T53_val_active_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T54_val_supabase_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T55_val_ai_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T56_val_teacher_true",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T57_val_student_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T58_val_teacher_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T59_render_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T60_student_html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T61_teacher_html",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T62_preview_rpt",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T63_student_doctype",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T64_student_no_answer_key",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T65_student_has_banner",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T66_student_not_active",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T67_teacher_doctype",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T68_teacher_confidential",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T69_teacher_answer_key",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T70_teacher_rubric",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T71_registry_rc0",
+      "ok": true,
+      "detail": "rc=0"
+    },
+    {
+      "id": "T72_registry_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T73_reg_report_exists",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T74_registry_has_package",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T75_reg_pkg_id",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T76_reg_status_local",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T77_reg_active_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T78_reg_supabase_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T79_ts_reads_pub_pkg",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T80_ts_reads_student",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T81_ts_reads_teacher",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T82_ts_reads_registry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T83_ts_reads_validation",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T84_ts_server_only",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T85_ts_no_use_client",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T86_ts_no_service_role_in_client",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T87_page_requireRole",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T88_page_no_supabase_client",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T89_page_active_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T90_page_no_publish_btn",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T91_page_gate70e_warning",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T92_page_diag_link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T93_syspage_requireRole",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T94_syspage_no_client",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T95_syspage_ready_gate70e",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T96_route_get_export",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T97_route_force_dynamic",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T98_route_no_post",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T99_route_ready_gate70e",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T100_route_secrets_false",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T101_layout_published_link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "id": "T102_layout_pub_diag_link",
+      "ok": true,
+      "detail": ""
+    }
+  ]
+}

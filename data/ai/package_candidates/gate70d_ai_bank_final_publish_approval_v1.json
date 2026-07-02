@@ -1,0 +1,13 @@
+{
+  "approval_file_id": "quanta_aptus_gate70d_ai_bank_final_publish_approval_v1",
+  "version": "0.1.0",
+  "source_package_candidate": "data/ai/package_candidates/gate70c_ai_bank_package_candidate_v1.json",
+  "package_candidate_id": "quanta_aptus_gate70c_ai_bank_package_candidate_v1",
+  "approval_status": "approved",
+  "approved_by": "local_demo_teacher",
+  "approval_notes": "automated test approval for Gate 70D",
+  "approved_at": "2026-07-02T02:07:57.623823+00:00",
+  "allow_local_publish": true,
+  "allow_supabase_sync": false,
+  "allow_active_switch": false
+}
